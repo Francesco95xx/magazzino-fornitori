@@ -1,0 +1,13 @@
+{
+  "name": "magazzino-fornitori-scraper",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Scraper dei magazzini online dei fornitori Ca' D'Oro, genera data/fornitori.json",
+  "type": "commonjs",
+  "scripts": {
+    "scrape": "node run-all.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}

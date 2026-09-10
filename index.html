@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Cerca Materiale nei Magazzini Fornitori</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{
+    --bg:#f6f4f0; --bg-soft:#efebe4; --card:#ffffff; --text:#2b2620; --muted:#8c8276;
+    --muted-2:#a89e91;
+    --accent:#a8763e; --accent-2:#c99a52; --accent-dark:#7d5a2e; --accent-ink:#231a0e;
+    --border:#e6e0d6; --border-soft:#efe9df;
+    --shadow-color:220 20% 30%;
+    --badge-scraped:#3f7d4f; --badge-scraped-bg:#e7f2ea;
+    --badge-pending:#8a8175; --badge-pending-bg:#eeece7;
+    --badge-login:#b3452f; --badge-login-bg:#fbe9e5;
+    --badge-manuale:#8a6d2f; --badge-manuale-bg:#f5eddb;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#181613; --bg-soft:#201d19; --card:#242019; --text:#f1ece2; --muted:#a89d8d;
+      --muted-2:#7d7264;
+      --accent:#d9a05b; --accent-2:#e8b876; --accent-dark:#f0b878; --accent-ink:#20150a;
+      --border:#37312a; --border-soft:#2c2721;
+      --shadow-color:0 0% 0%;
+      --badge-scraped:#7bcf92; --badge-scraped-bg:#1c2c20;
+      --badge-pending:#b3a998; --badge-pending-bg:#26221c;
+      --badge-login:#ea9075; --badge-login-bg:#2f1c17;
+      --badge-manuale:#e0c47f; --badge-manuale-bg:#2c2717;
+    }
+  }
+  *{box-sizing:border-box}
+  html{scrollbar-gutter:stable}
+  body{
+    margin:0; font-family:"Segoe UI",-apple-system,Roboto,Arial,sans-serif;
+    background:
+      radial-gradient(1100px 420px at 50% -120px, color-mix(in srgb, var(--accent) 10%, transparent), transparent),
+      var(--bg);
+    color:var(--text); padding:0 20px 90px; -webkit-font-smoothing:antialiased;
+  }
+
+  /* ---------- Header ---------- */
+  header.top{
+    max-width:920px; margin:0 auto; padding:44px 0 30px; text-align:center;
+  }
+  .brand{
+    display:inline-flex; align-items:center; gap:10px; margin-bottom:14px;
+  }
+  .brand .mark{
+    width:38px; height:38px; border-radius:11px; display:grid; place-items:center;
+    background:linear-gradient(155deg, var(--accent-2), var(--accent-dark));
+    color:#fff; font-size:1.05rem; box-shadow:0 4px 14px color-mix(in srgb, var(--accent) 45%, transparent);
+  }
+  .brand .word{font-size:1rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--muted)}
+  h1{
+    font-size:1.9rem; margin:0 0 8px; font-weight:800; letter-spacing:-.02em; line-height:1.2;
+  }
+  .sub{color:var(--muted); font-size:.95rem; max-width:520px; margin:0 auto; line-height:1.5}
+
+  /* ---------- Controls panel ---------- */
+  .controls{
+    max-width:920px; margin:28px auto 0; background:var(--card); border:1px solid var(--border);
+    border-radius:20px; padding:20px 22px 18px;
+    box-shadow:0 1px 2px hsl(var(--shadow-color) / .04), 0 14px 32px -18px hsl(var(--shadow-color) / .25);
+  }
+  .searchbar{ position:relative; }
+  .searchbar input{
+    width:100%; padding:15px 44px; font-size:1.05rem; border-radius:13px;
+    border:1.5px solid var(--border); background:var(--bg-soft); color:var(--text);
+    transition:box-shadow .15s, border-color .15s, background .15s;
+  }
+  .searchbar input:focus{
+    outline:none; border-color:var(--accent); background:var(--card);
+    box-shadow:0 0 0 4px color-mix(in srgb, var(--accent) 16%, transparent);
+  }
+  .searchbar input::placeholder{color:var(--muted-2)}
+  .searchbar::before{
+    content:"⌕"; position:absolute; left:16px; top:50%; transform:translateY(-50%);
+    font-size:1.3rem; color:var(--muted); pointer-events:none; font-weight:700;
+  }
+  .clear-search{
+    position:absolute; right:8px; top:50%; transform:translateY(-50%);
+    width:28px; height:28px; border-radius:50%; border:none; cursor:pointer;
+    background:var(--border-soft); color:var(--muted); font-size:.85rem; display:none; line-height:1;
+    align-items:center; justify-content:center; transition:background .15s, color .15s;
+  }
+  .clear-search:hover{background:var(--accent); color:#fff}
+  .clear-search.show{display:flex}
+
+  .alias-row{ position:relative; margin-top:8px; }
+  .alias-row input{
+    width:100%; padding:10px 40px 10px 38px; font-size:.85rem; border-radius:10px;
+    border:1.3px dashed var(--border); background:transparent; color:var(--text);
+    transition:box-shadow .15s, border-color .15s, background .15s;
+  }
+  .alias-row input:focus{
+    outline:none; border-style:solid; border-color:var(--accent); background:var(--bg-soft);
+    box-shadow:0 0 0 4px color-mix(in srgb, var(--accent) 12%, transparent);
+  }
+  .alias-row input::placeholder{color:var(--muted-2)}
+  .alias-row::before{
+    content:"≈"; position:absolute; left:14px; top:50%; transform:translateY(-50%);
+    font-size:1rem; color:var(--muted-2); pointer-events:none; font-weight:700;
+  }
+  .alias-row .clear-search{width:24px; height:24px; right:6px}
+
+  .controls-row{
+    display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;
+    gap:12px; margin-top:16px; padding-top:16px; border-top:1px solid var(--border-soft);
+  }
+  .filterbar{display:flex; flex-wrap:wrap; gap:6px}
+  .toolbar{display:flex; flex-wrap:wrap; gap:8px}
+  .filterbar button, .toolbar button{
+    padding:7px 14px; border-radius:20px; border:1px solid var(--border);
+    background:var(--bg-soft); color:var(--text); cursor:pointer; font-size:.8rem; font-weight:500;
+    transition:border-color .15s, background .15s, color .15s, transform .08s;
+    white-space:nowrap;
+  }
+  .toolbar button{background:transparent}
+  .filterbar button:hover, .toolbar button:hover{border-color:var(--accent); color:var(--accent)}
+  .filterbar button:active, .toolbar button:active{transform:scale(.95)}
+  .filterbar button.active{
+    background:var(--accent); color:#fff; border-color:var(--accent); font-weight:600;
+    box-shadow:0 3px 10px color-mix(in srgb, var(--accent) 40%, transparent);
+  }
+  .filterbar button.active:hover{color:#fff}
+
+  /* ---------- Stats ---------- */
+  .stats{
+    max-width:920px; margin:18px auto 18px; text-align:center; color:var(--muted); font-size:.85rem;
+    display:flex; align-items:center; justify-content:center; gap:8px;
+  }
+  .stats strong{color:var(--text); font-weight:700}
+
+  /* ---------- Grid ---------- */
+  #grid{
+    max-width:1180px; margin:0 auto; display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(272px,1fr)); gap:16px;
+  }
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:16px;
+    padding:0; box-shadow:0 1px 2px hsl(var(--shadow-color) / .03), 0 10px 24px -18px hsl(var(--shadow-color) / .35);
+    transition:border-color .15s, box-shadow .18s, transform .18s;
+    overflow:hidden; display:flex; flex-direction:column;
+  }
+  .card:hover{box-shadow:0 1px 2px hsl(var(--shadow-color) / .04), 0 18px 34px -16px hsl(var(--shadow-color) / .38); transform:translateY(-2px)}
+  .card.match{
+    border-color:color-mix(in srgb, var(--accent) 55%, var(--border));
+    box-shadow:0 0 0 1px color-mix(in srgb, var(--accent) 35%, transparent), 0 18px 34px -16px hsl(var(--shadow-color) / .38);
+  }
+  .card-top{padding:16px 18px 14px}
+  .card-head{display:flex; align-items:flex-start; gap:10px}
+  .avatar{
+    flex-shrink:0; width:34px; height:34px; border-radius:10px; display:grid; place-items:center;
+    font-weight:700; font-size:.85rem; color:#fff;
+    background:linear-gradient(155deg, var(--accent-2), var(--accent-dark));
+  }
+  .card-titles{flex:1; min-width:0}
+  .card-head a{
+    color:var(--text); text-decoration:none; font-weight:700; font-size:.98rem; line-height:1.3;
+    display:block; overflow-wrap:anywhere;
+  }
+  .card-head a:hover{color:var(--accent)}
+  .card-actions{display:flex; gap:2px; flex-shrink:0}
+  .edit-btn, .remove-btn{
+    background:none; border:none; color:var(--muted-2); cursor:pointer; font-size:.95rem; padding:4px 6px;
+    border-radius:7px; transition:color .15s, background .15s; flex-shrink:0; line-height:1;
+  }
+  .edit-btn:hover{color:var(--accent); background:var(--bg-soft)}
+  .remove-btn:hover{color:var(--badge-login); background:var(--badge-login-bg)}
+  .hidden-row{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:8px 0; border-bottom:1px solid var(--border-soft); font-size:.88rem;
+  }
+  .hidden-row:last-child{border-bottom:none}
+  .hidden-row .restore-btn{
+    padding:5px 12px; border-radius:8px; border:1px solid var(--border); background:var(--bg-soft);
+    color:var(--text); cursor:pointer; font-size:.78rem; flex-shrink:0;
+  }
+  .hidden-row .restore-btn:hover{border-color:var(--accent); color:var(--accent)}
+  .hidden-empty{color:var(--muted); font-size:.85rem; padding:8px 0}
+  .badge{
+    display:inline-flex; align-items:center; gap:5px; font-size:.66rem; padding:3px 9px;
+    border-radius:99px; letter-spacing:.03em; font-weight:700; margin-top:9px;
+  }
+  .badge::before{content:""; width:6px; height:6px; border-radius:50%; background:currentColor}
+  .badge.scraped{color:var(--badge-scraped); background:var(--badge-scraped-bg)}
+  .badge.pending{color:var(--badge-pending); background:var(--badge-pending-bg)}
+  .badge.login{color:var(--badge-login); background:var(--badge-login-bg)}
+  .badge.manuale{color:var(--badge-manuale); background:var(--badge-manuale-bg)}
+
+  .card-body{padding:0 18px 16px; margin-top:auto}
+  .chips{display:flex; flex-wrap:wrap; gap:6px; margin-top:4px}
+  .chip{
+    font-size:.72rem; background:var(--bg-soft); border:1px solid var(--border); border-radius:8px;
+    padding:3px 8px; color:var(--muted);
+  }
+  .chip.hit{
+    background:color-mix(in srgb, var(--accent) 16%, var(--card)); color:var(--accent-dark);
+    border-color:color-mix(in srgb, var(--accent) 45%, var(--border)); font-weight:700;
+  }
+  @media (prefers-color-scheme: dark){ .chip.hit{ color:var(--accent-2) } }
+  .mat-count{
+    font-size:.78rem; color:var(--muted); display:flex; align-items:center; gap:6px; font-weight:500;
+  }
+  .mat-count::before{content:"📦"; font-size:.85rem}
+  .note{font-size:.74rem; color:var(--muted); margin-top:8px; line-height:1.45; font-style:italic}
+  .empty-materiali{font-size:.78rem; color:var(--muted-2)}
+
+  /* ---------- No-results / empty state ---------- */
+  .no-results{
+    max-width:520px; margin:50px auto; text-align:center; color:var(--muted);
+  }
+  .no-results .icon{font-size:2.4rem; margin-bottom:10px; opacity:.7}
+  .no-results h3{color:var(--text); font-size:1.1rem; margin:0 0 6px}
+  .no-results p{font-size:.88rem; margin:0; line-height:1.5}
+  .empty-state{
+    max-width:520px; margin:60px auto; text-align:center; color:var(--muted-2);
+  }
+  .empty-state .icon{font-size:2.6rem; margin-bottom:10px; opacity:.55}
+  .empty-state p{font-size:.92rem; margin:0; line-height:1.5}
+
+  /* ---------- Results list ---------- */
+  .results-list{
+    max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:8px;
+  }
+  .result-row{
+    background:var(--card); border:1px solid var(--border); border-radius:12px;
+    padding:12px 16px; display:flex; align-items:center; justify-content:space-between; gap:14px;
+    transition:border-color .15s;
+  }
+  .result-row:hover{border-color:var(--accent)}
+  .result-alias{font-weight:400; color:var(--muted-2); font-size:.82rem}
+  .result-supplier{display:flex; align-items:center; gap:8px; font-size:1rem}
+  .result-supplier a{color:var(--text); text-decoration:none; font-weight:700}
+  .result-supplier a:hover{color:var(--accent); text-decoration:underline}
+  .result-materials{display:flex; flex-wrap:wrap; gap:6px; margin-top:8px}
+  .result-material-chip{
+    font-size:.8rem; background:var(--bg-soft); border:1px solid var(--border); border-radius:8px;
+    padding:4px 10px; color:var(--muted); font-weight:500;
+  }
+
+  /* ---------- Manage link / dialog ---------- */
+  .manage-link-wrap{max-width:920px; margin:14px auto 0; text-align:right}
+  .manage-link{
+    background:none; border:none; color:var(--muted); font-size:.78rem; cursor:pointer;
+    padding:4px 6px; text-decoration:underline; text-underline-offset:2px;
+  }
+  .manage-link:hover{color:var(--accent)}
+  .manage-search{
+    width:100%; padding:9px 12px; border-radius:9px; border:1px solid var(--border);
+    background:var(--bg-soft); color:var(--text); font-size:.85rem; margin:12px 0 10px;
+  }
+  .manage-search:focus{outline:none; border-color:var(--accent)}
+  .manage-rows{max-height:340px; overflow-y:auto; margin-top:12px; border-top:1px solid var(--border-soft)}
+  .manage-row{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:9px 0; border-bottom:1px solid var(--border-soft);
+  }
+  .manage-row-main{display:flex; align-items:center; gap:10px; min-width:0}
+  .manage-row-name{font-size:.88rem; font-weight:600; display:flex; align-items:center; gap:6px; flex-wrap:wrap}
+  .manage-row-count{font-size:.75rem; color:var(--muted); margin-top:2px}
+
+  dialog{
+    border-radius:16px; border:1px solid var(--border); background:var(--card); color:var(--text);
+    max-width:440px; width:90%; padding:0; box-shadow:0 24px 60px -20px hsl(var(--shadow-color) / .45);
+  }
+  dialog.wide{max-width:640px}
+  dialog::backdrop{background:rgba(20,16,10,.55); backdrop-filter:blur(2px)}
+  .dlg-inner{padding:22px 24px}
+  .dlg-inner h3{margin:0 0 12px; font-size:1.1rem}
+  .mat-row{display:flex; gap:6px; margin-bottom:8px; align-items:center}
+  .mat-row input{flex:1; padding:8px 10px; border-radius:8px; border:1px solid var(--border); background:var(--bg-soft); color:var(--text); font-size:.85rem}
+  .mat-row input:focus{outline:none; border-color:var(--accent)}
+  .mat-row button{background:none; border:none; color:var(--badge-login); cursor:pointer; font-size:1rem}
+  .dlg-actions{display:flex; justify-content:space-between; margin-top:16px; gap:8px}
+  .dlg-actions button{padding:9px 16px; border-radius:9px; border:1px solid var(--border); background:var(--bg-soft); color:var(--text); cursor:pointer; font-weight:500}
+  .dlg-actions button:hover{border-color:var(--accent)}
+  .dlg-actions .primary{background:var(--accent); color:#fff; border-color:var(--accent); font-weight:700}
+  .dlg-actions .primary:hover{background:var(--accent-dark)}
+  .small{font-size:.75rem; color:var(--muted)}
+  .html-paste{
+    width:100%; padding:8px 10px; border-radius:8px; border:1px solid var(--border); background:var(--bg-soft);
+    color:var(--text); font-size:.75rem; font-family:monospace; resize:vertical; margin:8px 0; box-sizing:border-box;
+  }
+  .html-paste:focus{outline:none; border-color:var(--accent)}
+  .secondary-btn{
+    background:var(--bg-soft); border:1px solid var(--border); border-radius:8px; padding:7px 12px;
+    color:var(--text); cursor:pointer; font-size:.8rem; margin-bottom:8px;
+  }
+  .secondary-btn:hover{border-color:var(--accent); color:var(--accent)}
+  #fileImport{display:none}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="brand"><span class="mark">CD</span><span class="word">Ca' D'Oro · Magazzini Fornitori</span></div>
+  <h1>Cerca Materiale</h1>
+  <p class="sub">Digita il nome del materiale (o un suo alias): vedrai solo i fornitori che lo hanno in magazzino online.</p>
+</header>
+
+<div class="controls">
+  <div class="searchbar">
+    <input type="text" id="search" placeholder="Es. Calacatta, Statuario, Nero Marquina..." autofocus autocomplete="off">
+    <button class="clear-search" id="clearSearch" title="Cancella ricerca" type="button">✕</button>
+  </div>
+  <div class="alias-row">
+    <input type="text" id="searchAlias" placeholder="Varianti/alias dello stesso materiale, separati da virgola — es. Vitoria Regia, Victoria Regia" autocomplete="off">
+    <button class="clear-search" id="clearAlias" title="Cancella varianti" type="button">✕</button>
+  </div>
+</div>
+<div class="manage-link-wrap">
+  <button type="button" class="manage-link" id="manageBtn">⚙ Gestione fornitori</button>
+</div>
+
+<div class="stats" id="stats"></div>
+
+<div id="emptyState" class="empty-state">
+  <div class="icon">🔍</div>
+  <p id="emptyStateText">Inizia a digitare per cercare un materiale.</p>
+</div>
+
+<div id="resultsList" class="results-list" style="display:none"></div>
+
+<div id="noResults" class="no-results" style="display:none">
+  <div class="icon">🔍</div>
+  <h3>Nessun fornitore trovato</h3>
+  <p>Nessuno dei fornitori ha in magazzino un materiale che corrisponde a questa ricerca.</p>
+</div>
+
+<dialog id="editDialog" class="wide">
+  <div class="dlg-inner">
+    <h3 id="dlgTitle">Materiali</h3>
+    <p class="small" id="dlgUpdatedAt"></p>
+    <p class="small">Per rinfrescare l'elenco da zero: apri la pagina del magazzino, tasto destro → "Visualizza sorgente pagina" (Ctrl+U), copia tutto e incolla qui sotto. L'estrazione <strong>sostituisce</strong> l'elenco attuale.</p>
+    <textarea id="editHtmlPaste" class="html-paste" placeholder="Incolla qui il codice sorgente HTML della pagina (facoltativo)..." rows="4"></textarea>
+    <button type="button" id="editExtractMatBtn" class="secondary-btn">⚡ Estrai materiali dall'HTML (sostituisce l'elenco)</button>
+    <p class="small" id="editExtractResult"></p>
+    <p class="small">Un materiale per riga. Puoi aggiungere alias separati da virgola (es. "Calacatta Vagli, Calacatta Extra").</p>
+    <div id="matRows"></div>
+    <button type="button" id="addMatRow" style="margin-top:4px; background:none;border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text);cursor:pointer;">+ materiale</button>
+    <div class="dlg-actions">
+      <button type="button" id="dlgCancel">Annulla</button>
+      <button type="button" id="dlgSave" class="primary">Salva</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="manageDialog" class="wide">
+  <div class="dlg-inner">
+    <h3>Gestione fornitori</h3>
+    <p class="small">Aggiungi, modifica, nascondi o esporta i fornitori. Queste modifiche non compaiono nella ricerca principale finché non digiti un materiale.</p>
+    <input type="text" id="manageSearch" class="manage-search" placeholder="Cerca fornitore per nome..." autocomplete="off">
+    <div class="filterbar" id="filterbar"></div>
+    <div class="filterbar" id="sortbar" style="margin-top:8px"></div>
+    <p class="small" id="staleWarning"></p>
+    <div class="toolbar" style="margin-top:10px">
+      <button id="addFornitore">+ Aggiungi fornitore</button>
+      <button id="hiddenBtn">🗑 Rimossi <span id="hiddenCount"></span></button>
+      <button id="exportBtn">Esporta backup</button>
+      <button id="importBtn">Importa</button>
+      <input type="file" id="fileImport" accept="application/json">
+    </div>
+    <div id="manageRows" class="manage-rows"></div>
+    <div class="dlg-actions">
+      <button type="button" id="manageClose">Chiudi</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="hiddenDialog">
+  <div class="dlg-inner">
+    <h3>Fornitori rimossi</h3>
+    <p class="small">Non compaiono più nell'elenco né nella ricerca. Puoi ripristinarli in ogni momento.</p>
+    <div id="hiddenRows"></div>
+    <div class="dlg-actions">
+      <button type="button" id="hiddenClose">Chiudi</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="addDialog" class="wide">
+  <div class="dlg-inner">
+    <h3>Nuovo fornitore</h3>
+    <div class="mat-row"><input type="text" id="newNome" placeholder="Nome fornitore"></div>
+    <div class="mat-row"><input type="text" id="newUrl" placeholder="URL magazzino online"></div>
+    <p class="small">Per inserire subito i materiali senza scriverli a mano: apri la pagina del magazzino del fornitore, poi tasto destro sulla pagina → <strong>"Visualizza sorgente pagina"</strong> (o Ctrl+U), seleziona tutto (Ctrl+A) e copia (Ctrl+C). Incolla qui sotto e premi "Estrai materiali".</p>
+    <textarea id="newHtmlPaste" class="html-paste" placeholder="Incolla qui il codice sorgente HTML della pagina (facoltativo)..." rows="4"></textarea>
+    <button type="button" id="extractMatBtn" class="secondary-btn">⚡ Estrai materiali dall'HTML</button>
+    <p class="small" id="extractResult"></p>
+    <div id="newMatRows"></div>
+    <button type="button" id="addNewMatRow" class="secondary-btn">+ materiale</button>
+    <div class="dlg-actions">
+      <button type="button" id="addCancel">Annulla</button>
+      <button type="button" id="addSave" class="primary">Aggiungi</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+// ---------------------------------------------------------------------
+// Dati di base: fornitori estratti dai bookmark (bookmarks-2026-09-03).
+// stato: 'pending' (magazzino da scrapare) | 'scraped' (materiali noti)
+//        | 'login' (richiede credenziali) | 'manuale' (dropbox/pdf/no link diretto)
+// ---------------------------------------------------------------------
+function mat(names){ return names.map(n=>({nome:n, alias:[]})); }
+
+function buildLink(f, rawQuery){
+  if(rawQuery && f.searchUrl){
+    return f.searchUrl.replace("{q}", encodeURIComponent(rawQuery));
+  }
+  return f.url;
+}
+
+let FORNITORI_BASE = [];
+
+// ---------------------------------------------------------------------
+// State & storage
+// ---------------------------------------------------------------------
+const LS_OVERRIDES = "magazzino_materiali_overrides_v1";
+const LS_CUSTOM = "magazzino_materiali_custom_v1";
+const LS_HIDDEN = "magazzino_materiali_hidden_v1";
+
+function loadOverrides(){ try{ return JSON.parse(localStorage.getItem(LS_OVERRIDES)) || {}; }catch(e){ return {}; } }
+function saveOverrides(o){ localStorage.setItem(LS_OVERRIDES, JSON.stringify(o)); }
+function loadCustom(){ try{ return JSON.parse(localStorage.getItem(LS_CUSTOM)) || []; }catch(e){ return []; } }
+function saveCustom(c){ localStorage.setItem(LS_CUSTOM, JSON.stringify(c)); }
+function loadHidden(){ try{ return new Set(JSON.parse(localStorage.getItem(LS_HIDDEN)) || []); }catch(e){ return new Set(); } }
+function saveHidden(h){ localStorage.setItem(LS_HIDDEN, JSON.stringify([...h])); }
+
+let overrides = loadOverrides();
+let custom = loadCustom();
+let hidden = loadHidden();
+
+function getFornitori(){
+  const base = FORNITORI_BASE.map(f=>{
+    const o = overrides[f.id];
+    if(o){ return {...f, materiali:o.materiali, stato: o.materiali.length ? "scraped" : f.stato, updatedAt: o.updatedAt||null}; }
+    return f;
+  });
+  return base.concat(custom);
+}
+
+function formatUpdatedAt(iso){
+  if(!iso) return "mai aggiornato tramite il tool";
+  const d = new Date(iso);
+  return "aggiornato il " + d.toLocaleDateString("it-IT", {day:"2-digit", month:"2-digit", year:"numeric"});
+}
+
+function daysSince(iso){
+  if(!iso) return Infinity;
+  return (Date.now() - new Date(iso).getTime()) / 86400000;
+}
+
+function normalize(s){
+  return (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").trim();
+}
+
+// ---------------------------------------------------------------------
+// Rendering
+// ---------------------------------------------------------------------
+const resultsList = document.getElementById("resultsList");
+const emptyState = document.getElementById("emptyState");
+const noResultsEl = document.getElementById("noResults");
+const statsEl = document.getElementById("stats");
+const filterbar = document.getElementById("filterbar");
+let currentFilter = "tutti";
+
+const FILTERS = [
+  {key:"tutti", label:"Tutti"},
+  {key:"scraped", label:"Aggiornati"},
+  {key:"pending", label:"Da controllare"},
+  {key:"login", label:"Richiede login"},
+  {key:"manuale", label:"Manuale"}
+];
+
+function renderFilterbar(){
+  filterbar.innerHTML = "";
+  FILTERS.forEach(f=>{
+    const b = document.createElement("button");
+    b.textContent = f.label;
+    if(f.key===currentFilter) b.classList.add("active");
+    b.onclick = ()=>{ currentFilter = f.key; renderManageList(); };
+    filterbar.appendChild(b);
+  });
+}
+
+const badgeLabel = {scraped:"Aggiornato", pending:"Da controllare", login:"Richiede login", manuale:"Manuale"};
+
+function initials(nome){
+  const words = (nome||"").replace(/[^\p{L}\p{N} ]/gu," ").trim().split(/\s+/).filter(Boolean);
+  if(!words.length) return "?";
+  if(words.length===1) return words[0].slice(0,2).toUpperCase();
+  return (words[0][0]+words[1][0]).toUpperCase();
+}
+
+function updateHiddenCount(){
+  const el = document.getElementById("hiddenCount");
+  if(el) el.textContent = hidden.size ? `(${hidden.size})` : "";
+}
+
+function render(){
+  const rawQuery = document.getElementById("search").value.trim();
+  const query = normalize(rawQuery);
+  const aliasRaw = document.getElementById("searchAlias").value;
+  const aliasTerms = aliasRaw.split(",").map(normalize).filter(Boolean);
+  const terms = [...new Set([query, ...aliasTerms].filter(Boolean))];
+  const hasQuery = terms.length>0;
+  document.getElementById("clearSearch").classList.toggle("show", !!query);
+  document.getElementById("clearAlias").classList.toggle("show", !!aliasRaw);
+  const fornitori = getFornitori().filter(f=>!hidden.has(f.id));
+  resultsList.innerHTML = "";
+
+  if(!hasQuery){
+    resultsList.style.display = "none";
+    noResultsEl.style.display = "none";
+    emptyState.style.display = "block";
+    statsEl.innerHTML = "";
+    return;
+  }
+  emptyState.style.display = "none";
+
+  const groups = [];
+  fornitori.forEach(f=>{
+    const hits = (f.materiali||[]).filter(m=>{
+      const nomeN = normalize(m.nome);
+      const aliasN = (m.alias||[]).map(normalize);
+      return terms.some(t => nomeN.includes(t) || aliasN.some(a=>a.includes(t)));
+    });
+    if(hits.length) groups.push({f, hits});
+  });
+  groups.sort((a,b)=> a.f.nome.localeCompare(b.f.nome, "it"));
+
+  if(!groups.length){
+    resultsList.style.display = "none";
+    noResultsEl.style.display = "block";
+    statsEl.innerHTML = "";
+    return;
+  }
+  noResultsEl.style.display = "none";
+  resultsList.style.display = "flex";
+
+  resultsList.innerHTML = groups.map(({f, hits})=>{
+    const badge = `<span class="badge ${f.stato}">${badgeLabel[f.stato]||f.stato}</span>`;
+    const materialsHtml = hits.map(m=>{
+      const aliasStr = (m.alias&&m.alias.length) ? ` <span class="result-alias">(${escapeHtml(m.alias.join(", "))})</span>` : "";
+      return `<span class="result-material-chip">${escapeHtml(m.nome)}${aliasStr}</span>`;
+    }).join("");
+    return `
+      <div class="result-row">
+        <div class="result-supplier">
+          <a href="${escapeAttr(buildLink(f, rawQuery))}" target="_blank" rel="noopener">${escapeHtml(f.nome)}</a>
+          ${badge}
+        </div>
+        <div class="result-materials">${materialsHtml}</div>
+      </div>
+    `;
+  }).join("");
+
+  const totalMatches = groups.reduce((sum,g)=> sum+g.hits.length, 0);
+  statsEl.innerHTML = `<strong>${totalMatches}</strong> risultat${totalMatches===1?"o":"i"} da <strong>${groups.length}</strong> fornitor${groups.length===1?"e":"i"}`;
+}
+
+const SORTS = [
+  {key:"nome", label:"Ordina: Nome"},
+  {key:"data", label:"Ordina: Meno recenti"}
+];
+let currentSort = "nome";
+
+function renderSortbar(){
+  const bar = document.getElementById("sortbar");
+  bar.innerHTML = "";
+  SORTS.forEach(s=>{
+    const b = document.createElement("button");
+    b.textContent = s.label;
+    if(s.key===currentSort) b.classList.add("active");
+    b.onclick = ()=>{ currentSort = s.key; renderManageList(); };
+    bar.appendChild(b);
+  });
+}
+
+function renderManageList(){
+  renderFilterbar();
+  renderSortbar();
+  const filterText = normalize(document.getElementById("manageSearch").value);
+  const fornitori = getFornitori().filter(f=>!hidden.has(f.id));
+  let scoped = fornitori
+    .filter(f => currentFilter==="tutti" || f.stato===currentFilter)
+    .filter(f => !filterText || normalize(f.nome).includes(filterText));
+
+  if(currentSort==="data"){
+    scoped = scoped.slice().sort((a,b)=> daysSince(b.updatedAt) - daysSince(a.updatedAt));
+  } else {
+    scoped = scoped.slice().sort((a,b)=> a.nome.localeCompare(b.nome, "it"));
+  }
+
+  const staleCount = fornitori.filter(f=> daysSince(f.updatedAt) > 60).length;
+  document.getElementById("staleWarning").textContent = staleCount
+    ? `⚠ ${staleCount} fornitor${staleCount===1?"e":"i"} senza aggiornamento tramite il tool da oltre 60 giorni (o mai).`
+    : "";
+
+  const rows = document.getElementById("manageRows");
+  if(!scoped.length){
+    rows.innerHTML = `<div class="hidden-empty">Nessun fornitore trovato.</div>`;
+  } else {
+    rows.innerHTML = scoped.map(f=>{
+      const badge = `<span class="badge ${f.stato}">${badgeLabel[f.stato]||f.stato}</span>`;
+      const count = (f.materiali||[]).length;
+      const countLabel = count===1 ? "1 materiale" : `${count} materiali`;
+      return `
+        <div class="manage-row">
+          <div class="manage-row-main">
+            <span class="avatar">${escapeHtml(initials(f.nome))}</span>
+            <div>
+              <div class="manage-row-name">${escapeHtml(f.nome)} ${badge}</div>
+              <div class="manage-row-count">${countLabel} · ${formatUpdatedAt(f.updatedAt)}</div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <button class="edit-btn" title="Modifica materiali" data-id="${f.id}">✎</button>
+            <button class="remove-btn" title="Rimuovi fornitore" data-id="${f.id}">🗑</button>
+          </div>
+        </div>
+      `;
+    }).join("");
+  }
+
+  rows.querySelectorAll(".edit-btn").forEach(btn=>{
+    btn.onclick = ()=> openEditDialog(btn.dataset.id);
+  });
+  rows.querySelectorAll(".remove-btn").forEach(btn=>{
+    btn.onclick = ()=> removeFornitore(btn.dataset.id);
+  });
+
+  updateHiddenCount();
+}
+
+function removeFornitore(id){
+  const f = getFornitori().find(x=>x.id===id);
+  if(!f) return;
+  if(!confirm(`Rimuovere "${f.nome}" dall'elenco?\n\nNon comparirà più nella lista né nei risultati di ricerca. Potrai ripristinarlo in qualsiasi momento da "🗑 Rimossi".`)) return;
+  hidden.add(id);
+  saveHidden(hidden);
+  render();
+  renderManageList();
+}
+
+function restoreFornitore(id){
+  hidden.delete(id);
+  saveHidden(hidden);
+  renderHiddenDialog();
+  render();
+  renderManageList();
+}
+
+function renderHiddenDialog(){
+  const rows = document.getElementById("hiddenRows");
+  const list = getFornitori().filter(f=>hidden.has(f.id));
+  if(!list.length){
+    rows.innerHTML = `<div class="hidden-empty">Nessun fornitore rimosso.</div>`;
+    return;
+  }
+  rows.innerHTML = list.map(f=>`
+    <div class="hidden-row">
+      <span>${escapeHtml(f.nome)}</span>
+      <button class="restore-btn" data-id="${f.id}">↩ Ripristina</button>
+    </div>
+  `).join("");
+  rows.querySelectorAll(".restore-btn").forEach(btn=>{
+    btn.onclick = ()=> restoreFornitore(btn.dataset.id);
+  });
+}
+
+function escapeHtml(s){ return (s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function escapeAttr(s){ return escapeHtml(s); }
+
+// ---------------------------------------------------------------------
+// Edit dialog (materiali per fornitore)
+// ---------------------------------------------------------------------
+const editDialog = document.getElementById("editDialog");
+const matRows = document.getElementById("matRows");
+let editingId = null;
+
+function openEditDialog(id){
+  editingId = id;
+  const f = getFornitori().find(x=>x.id===id);
+  document.getElementById("dlgTitle").textContent = "Materiali — " + f.nome;
+  document.getElementById("dlgUpdatedAt").textContent = formatUpdatedAt(f.updatedAt);
+  document.getElementById("editHtmlPaste").value = "";
+  document.getElementById("editExtractResult").textContent = "";
+  matRows.innerHTML = "";
+  (f.materiali||[]).forEach(m=> addMatRow(m.nome, (m.alias||[]).join(", ")));
+  if(!f.materiali || !f.materiali.length) addMatRow("", "");
+  editDialog.showModal();
+}
+
+function addMatRow(nome, alias){
+  const row = document.createElement("div");
+  row.className = "mat-row";
+  row.innerHTML = `
+    <input type="text" placeholder="Nome materiale" class="mat-nome" value="${escapeAttr(nome||"")}">
+    <input type="text" placeholder="Alias (separati da virgola)" class="mat-alias" value="${escapeAttr(alias||"")}">
+    <button type="button" title="Rimuovi">✕</button>
+  `;
+  row.querySelector("button").onclick = ()=> row.remove();
+  matRows.appendChild(row);
+}
+
+document.getElementById("addMatRow").onclick = ()=> addMatRow("", "");
+document.getElementById("dlgCancel").onclick = ()=> editDialog.close();
+
+document.getElementById("editExtractMatBtn").onclick = ()=>{
+  const html = document.getElementById("editHtmlPaste").value;
+  const resultEl = document.getElementById("editExtractResult");
+  if(!html.trim()){ resultEl.textContent = "Incolla prima il codice sorgente HTML della pagina."; return; }
+  const found = extractMaterialsFromHtml(html);
+  if(!found.length){
+    resultEl.textContent = "Non ho trovato materiali riconoscibili in questo HTML. L'elenco attuale resta invariato.";
+    return;
+  }
+  matRows.innerHTML = "";
+  found.forEach(n=> addMatRow(n, ""));
+  resultEl.textContent = `Trovati ${found.length} possibili materiali: hanno sostituito l'elenco sotto. Controlla, correggi, poi premi "Salva".`;
+};
+
+document.getElementById("dlgSave").onclick = ()=>{
+  const rows = [...matRows.querySelectorAll(".mat-row")];
+  const materiali = rows.map(r=>{
+    const nome = r.querySelector(".mat-nome").value.trim();
+    const alias = r.querySelector(".mat-alias").value.split(",").map(s=>s.trim()).filter(Boolean);
+    return {nome, alias};
+  }).filter(m=>m.nome);
+  const updatedAt = new Date().toISOString();
+
+  if(FORNITORI_BASE.some(f=>f.id===editingId)){
+    overrides[editingId] = {materiali, updatedAt};
+    saveOverrides(overrides);
+  } else {
+    custom = custom.map(f=> f.id===editingId ? {...f, materiali, stato: materiali.length?"scraped":f.stato, updatedAt} : f);
+    saveCustom(custom);
+  }
+  editDialog.close();
+  render();
+  renderManageList();
+};
+
+// ---------------------------------------------------------------------
+// Aggiungi fornitore custom
+// ---------------------------------------------------------------------
+const addDialog = document.getElementById("addDialog");
+const newMatRows = document.getElementById("newMatRows");
+
+function addNewMatRow(nome, alias){
+  const row = document.createElement("div");
+  row.className = "mat-row";
+  row.innerHTML = `
+    <input type="text" placeholder="Nome materiale" class="mat-nome" value="${escapeAttr(nome||"")}">
+    <input type="text" placeholder="Alias (separati da virgola)" class="mat-alias" value="${escapeAttr(alias||"")}">
+    <button type="button" title="Rimuovi">✕</button>
+  `;
+  row.querySelector("button").onclick = ()=> row.remove();
+  newMatRows.appendChild(row);
+}
+document.getElementById("addNewMatRow").onclick = ()=> addNewMatRow("", "");
+
+function extractMaterialsFromHtml(html){
+  const doc = new DOMParser().parseFromString(html, "text/html");
+  const candidates = new Set();
+  const isPlausible = t => t && t.length>1 && t.length<60 && !/^\d+([.,]\d+)?$/.test(t);
+  const skipWord = /^(seleziona|tutti|all|scegli|select|filtra|filter|cerca|search|ricerca|home|contatti|contact|menu|login|accedi)$/i;
+
+  doc.querySelectorAll("select option").forEach(o=>{
+    const t = o.textContent.trim();
+    if(isPlausible(t) && !skipWord.test(t)) candidates.add(t);
+  });
+
+  if(candidates.size < 3){
+    const hintRe = /(material|materiale|prod(?:uct|otto)?[-_]?name|p-name|item[-_]?name|nome)/i;
+    doc.querySelectorAll("*").forEach(el=>{
+      if(el.children.length>0) return;
+      const cls = (el.className||"") + " " + (el.id||"");
+      if(typeof cls === "string" && hintRe.test(cls)){
+        const t = el.textContent.trim();
+        if(isPlausible(t) && !skipWord.test(t)) candidates.add(t);
+      }
+    });
+  }
+
+  if(candidates.size < 3){
+    doc.querySelectorAll("h1,h2,h3,h4,strong,b").forEach(el=>{
+      const t = el.textContent.trim();
+      if(isPlausible(t) && !skipWord.test(t)) candidates.add(t);
+    });
+  }
+
+  return [...candidates];
+}
+
+document.getElementById("extractMatBtn").onclick = ()=>{
+  const html = document.getElementById("newHtmlPaste").value;
+  const resultEl = document.getElementById("extractResult");
+  if(!html.trim()){ resultEl.textContent = "Incolla prima il codice sorgente HTML della pagina."; return; }
+  const found = extractMaterialsFromHtml(html);
+  if(!found.length){
+    resultEl.textContent = "Non ho trovato materiali riconoscibili in questo HTML. Aggiungili manualmente con \"+ materiale\".";
+    return;
+  }
+  newMatRows.innerHTML = "";
+  found.forEach(n=> addNewMatRow(n, ""));
+  resultEl.textContent = `Trovati ${found.length} possibili materiali: controlla l'elenco, cancella con ✕ quelli sbagliati, poi premi "Aggiungi".`;
+};
+
+document.getElementById("addFornitore").onclick = ()=>{
+  document.getElementById("newNome").value = "";
+  document.getElementById("newUrl").value = "";
+  document.getElementById("newHtmlPaste").value = "";
+  document.getElementById("extractResult").textContent = "";
+  newMatRows.innerHTML = "";
+  addDialog.showModal();
+};
+document.getElementById("addCancel").onclick = ()=> addDialog.close();
+document.getElementById("addSave").onclick = ()=>{
+  const nome = document.getElementById("newNome").value.trim();
+  const url = document.getElementById("newUrl").value.trim();
+  if(!nome) return;
+  const rows = [...newMatRows.querySelectorAll(".mat-row")];
+  const materiali = rows.map(r=>{
+    const mNome = r.querySelector(".mat-nome").value.trim();
+    const mAlias = r.querySelector(".mat-alias").value.split(",").map(s=>s.trim()).filter(Boolean);
+    return {nome: mNome, alias: mAlias};
+  }).filter(m=>m.nome);
+  custom.push({id:"custom-"+Date.now(), nome, url, stato: materiali.length ? "scraped" : "pending", materiali, updatedAt: materiali.length ? new Date().toISOString() : null});
+  saveCustom(custom);
+  addDialog.close();
+  render();
+  renderManageList();
+};
+
+// ---------------------------------------------------------------------
+// Fornitori rimossi
+// ---------------------------------------------------------------------
+const hiddenDialog = document.getElementById("hiddenDialog");
+document.getElementById("hiddenBtn").onclick = ()=>{
+  renderHiddenDialog();
+  hiddenDialog.showModal();
+};
+document.getElementById("hiddenClose").onclick = ()=> hiddenDialog.close();
+
+// ---------------------------------------------------------------------
+// Dialog di gestione fornitori
+// ---------------------------------------------------------------------
+const manageDialog = document.getElementById("manageDialog");
+document.getElementById("manageBtn").onclick = ()=>{
+  renderManageList();
+  manageDialog.showModal();
+};
+document.getElementById("manageClose").onclick = ()=> manageDialog.close();
+document.getElementById("manageSearch").addEventListener("input", renderManageList);
+
+// ---------------------------------------------------------------------
+// Import / Export
+// ---------------------------------------------------------------------
+document.getElementById("exportBtn").onclick = ()=>{
+  const data = {overrides, custom, exportedAt: new Date().toISOString()};
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "magazzino-materiali-backup.json";
+  a.click();
+};
+
+const fileImport = document.getElementById("fileImport");
+document.getElementById("importBtn").onclick = ()=> fileImport.click();
+fileImport.onchange = (e)=>{
+  const file = e.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = ()=>{
+    try{
+      const data = JSON.parse(reader.result);
+      if(data.overrides){ overrides = {...overrides, ...data.overrides}; saveOverrides(overrides); }
+      if(data.custom){ custom = custom.concat(data.custom.filter(c=>!custom.some(x=>x.id===c.id))); saveCustom(custom); }
+      render();
+      renderManageList();
+      alert("Importazione completata.");
+    }catch(err){
+      alert("File non valido: " + err.message);
+    }
+  };
+  reader.readAsText(file);
+  fileImport.value = "";
+};
+
+// ---------------------------------------------------------------------
+const searchInput = document.getElementById("search");
+const aliasInput = document.getElementById("searchAlias");
+searchInput.addEventListener("input", render);
+aliasInput.addEventListener("input", render);
+document.getElementById("clearSearch").onclick = ()=>{
+  searchInput.value = "";
+  searchInput.focus();
+  render();
+};
+document.getElementById("clearAlias").onclick = ()=>{
+  aliasInput.value = "";
+  aliasInput.focus();
+  render();
+};
+async function loadFornitoriBase(){
+  const resp = await fetch('data/fornitori.json', {cache:'no-store'});
+  if(!resp.ok) throw new Error('HTTP '+resp.status);
+  FORNITORI_BASE = await resp.json();
+}
+const emptyStateText = document.getElementById('emptyStateText');
+loadFornitoriBase().catch(err=>{
+  console.error('Errore caricamento dati fornitori:', err);
+  if(emptyStateText) emptyStateText.textContent = 'Errore nel caricamento dei dati (' + err.message + '). Ricarica la pagina.';
+}).finally(()=>{ render(); renderManageList(); });
+
+</script>
+</body>
+</html>
