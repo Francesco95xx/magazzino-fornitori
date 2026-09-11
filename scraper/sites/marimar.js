@@ -5,7 +5,7 @@
 // arrenderci (osservato durante lo sviluppo, sito a volte lento/instabile).
 
 const URL = "https://marimar.net/it/magazzino";
-const MOUNT_TIMEOUT_MS = 20000;
+const MOUNT_TIMEOUT_MS = 40000;
 const SCROLL_ROUNDS = 60;
 const STABLE_ROUNDS_TO_STOP = 8;
 
@@ -54,7 +54,7 @@ async function scrapeOnce(context) {
 
 async function scrape(context) {
   let lastErr;
-  for (let attempt = 1; attempt <= 2; attempt++) {
+  for (let attempt = 1; attempt <= 3; attempt++) {
     try {
       const unique = await scrapeOnce(context);
       return {
