@@ -22,12 +22,55 @@ async function waitForWidgetMount(page) {
   return false;
 }
 
+const BLOCK_SIGNATURES = [
+  "checking your browser",
+  "cloudflare",
+  "access denied",
+  "attention required",
+  "captcha",
+  "just a moment",
+  "403 forbidden",
+  "unusual traffic",
+];
+
+async function diagnose(page, mainResponse, failedResponses, consoleErrors) {
+  const title = await page.title().catch(() => "(n/d)");
+  const bodySnippet = await page
+    .evaluate(() => document.body.innerText.slice(0, 300))
+    .catch(() => "(n/d)");
+  const bodyLower = bodySnippet.toLowerCase();
+  const matchedSignatures = BLOCK_SIGNATURES.filter((s) => bodyLower.includes(s));
+
+  console.log("  [diagnostica marimar]");
+  console.log(`    status navigazione: ${mainResponse ? mainResponse.status() : "n/d"}`);
+  console.log(`    titolo pagina: ${title}`);
+  console.log(`    possibili segnali di blocco: ${matchedSignatures.length ? matchedSignatures.join(", ") : "nessuno"}`);
+  console.log(`    inizio testo pagina: ${JSON.stringify(bodySnippet.replace(/\s+/g, " ").trim())}`);
+  if (failedResponses.length) {
+    console.log(`    richieste con status >=400: ${failedResponses.slice(0, 10).join(" | ")}`);
+  }
+  if (consoleErrors && consoleErrors.length) {
+    console.log(`    errori console/pagina: ${consoleErrors.slice(0, 10).join(" | ")}`);
+  }
+}
+
 async function scrapeOnce(context) {
   const page = await context.newPage();
-  await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 30000 });
+  const failedResponses = [];
+  const consoleErrors = [];
+  page.on("response", (r) => {
+    if (r.status() >= 400) failedResponses.push(`${r.status()} ${r.url()}`);
+  });
+  page.on("console", (msg) => {
+    if (msg.type() === "error") consoleErrors.push(msg.text().slice(0, 200));
+  });
+  page.on("pageerror", (err) => consoleErrors.push("pageerror: " + err.message.slice(0, 200)));
+
+  const mainResponse = await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 30000 });
 
   const mounted = await waitForWidgetMount(page);
   if (!mounted) {
+    await diagnose(page, mainResponse, failedResponses, consoleErrors);
     await page.close();
     throw new Error("Il widget magazzino-online non si è montato entro il timeout");
   }
@@ -45,10 +88,19 @@ async function scrapeOnce(context) {
   const names = await page.$$eval(".mag-grid-title", (els) =>
     els.map((t) => t.children[0]?.textContent.trim()).filter(Boolean)
   );
-  await page.close();
 
   const unique = [...new Set(names)].sort();
-  if (unique.length === 0) throw new Error("Nessun materiale trovato dopo lo scroll");
+  if (unique.length === 0) {
+    await diagnose(page, mainResponse, failedResponses, consoleErrors);
+    const widgetHtml = await page
+      .evaluate(() => document.querySelector("magazzino-online")?.innerHTML.slice(0, 500))
+      .catch(() => "(n/d)");
+    console.log(`    contenuto widget magazzino-online: ${JSON.stringify((widgetHtml || "").replace(/\s+/g, " ").trim())}`);
+    await page.close();
+    throw new Error("Nessun materiale trovato dopo lo scroll (widget montato ma vuoto)");
+  }
+
+  await page.close();
   return unique;
 }
 
