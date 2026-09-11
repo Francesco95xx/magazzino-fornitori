@@ -57,7 +57,34 @@ rispedire file — tutti aprono lo stesso link, sempre aggiornato.
 Ogni sito ha una struttura diversa (paginazione classica, scroll infinito,
 autocomplete che carica tutto...) — non esiste un pattern unico, va
 ispezionato caso per caso (DevTools / `page.evaluate` per trovare il
-selettore giusto).
+selettore giusto). A volte il modo più affidabile **non è** guidare un
+browser: se il widget del sito chiama in AJAX un'API propria (tab Network
+degli strumenti sviluppatore), spesso conviene chiamare quell'API
+direttamente via `fetch()` in Node — niente browser, niente timing/scroll
+da gestire, molto più veloce e stabile in CI. È il caso di `marimar.js`:
+vedi sotto per come gestisce il token di quell'API.
+
+## Variabili d'ambiente / secret richiesti
+
+- `MARIMAR_API_TOKEN` — Bearer token usato da `scraper/sites/marimar.js`
+  per chiamare `marimar.interagisco.it/api/v3/material` direttamente
+  (bypassa lo scraping via browser, che falliva su GitHub Actions per un
+  problema di CORS/Storage-Access in ambiente headless — vedi commento in
+  cima al file). **Non è un segreto per-utente**: è lo stesso token che il
+  sito di Marimar spedisce in chiaro nel proprio bundle JS pubblico a
+  chiunque visiti `marimar.net/it/magazzino` — va tenuto come secret solo
+  per non lasciare stringhe che sembrano credenziali nel codice sorgente
+  pubblico. Va impostato in due posti:
+  - **GitHub Actions**: Settings del repo → Secrets and variables →
+    Actions → New repository secret → nome `MARIMAR_API_TOKEN`.
+  - **Locale**: `$env:MARIMAR_API_TOKEN = "..."` prima di lanciare
+    `node run-all.js` (PowerShell), altrimenti quello scraper fallisce con
+    un errore esplicito (non silenzioso).
+
+  Se smette di funzionare (token ruotato dal sito), va ri-estratto aprendo
+  `https://marimar.net/it/magazzino` con gli strumenti sviluppatore sulla
+  scheda Network, cercando l'header `Authorization: Bearer ...` in una
+  qualunque richiesta verso `marimar.interagisco.it`.
 
 ## Setup iniziale (una tantum, già fatto se stai leggendo questo su GitHub)
 
