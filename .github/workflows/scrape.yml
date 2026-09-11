@@ -16,7 +16,11 @@ concurrency:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    # Runner self-hosted su PC dell'utente (non ubuntu-latest): alcuni siti
+    # fornitore (es. Marimar/interagisco.it) bloccano le richieste dai range
+    # IP dei datacenter cloud (GitHub-hosted runner) con un secco 403, ma
+    # rispondono normalmente da una connessione "normale" come questa.
+    runs-on: [self-hosted, windows, cadoro-pc]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,7 +36,7 @@ jobs:
 
       - name: Installa Chromium per Playwright
         working-directory: scraper
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install chromium
 
       - name: Esegui scraper
         working-directory: scraper
@@ -42,6 +46,7 @@ jobs:
           MARIMAR_API_TOKEN: ${{ secrets.MARIMAR_API_TOKEN }}
 
       - name: Commit dati aggiornati (se cambiati)
+        shell: bash
         run: |
           git config user.name "magazzino-bot"
           git config user.email "actions@users.noreply.github.com"
