@@ -21164,7 +21164,7 @@
     "nome": "Marimar",
     "url": "https://marimar.net/it/magazzino",
     "stato": "scraped",
-    "note": "Magazzino lastre in tempo reale (pagina /it/magazzino) — scraping automatico notturno.",
+    "note": "Magazzino lastre in tempo reale — dati letti direttamente dall'API del widget (marimar.interagisco.it/api/v3/material), non dalla pagina web.",
     "materiali": [
       {
         "nome": "AGGLO BIANCO CARRARA",
@@ -21559,6 +21559,10 @@
         "alias": []
       },
       {
+        "nome": "QUARZITE CIELO",
+        "alias": []
+      },
+      {
         "nome": "QUARZITE EMERALD GREEN",
         "alias": []
       },
@@ -21680,6 +21684,10 @@
       },
       {
         "nome": "TUNDRA GREY",
+        "alias": []
+      },
+      {
+        "nome": "VENARIA",
         "alias": []
       },
       {
@@ -24348,6 +24356,10 @@
         "alias": []
       },
       {
+        "nome": "Ceppo di sicilia",
+        "alias": []
+      },
+      {
         "nome": "Chamonix",
         "alias": []
       },
@@ -24652,10 +24664,6 @@
         "alias": []
       },
       {
-        "nome": "Invictus",
-        "alias": []
-      },
-      {
         "nome": "Invisible Grey",
         "alias": []
       },
@@ -24868,10 +24876,6 @@
         "alias": []
       },
       {
-        "nome": "New Azul Aran",
-        "alias": []
-      },
-      {
         "nome": "New Collemandina",
         "alias": []
       },
@@ -25005,6 +25009,10 @@
       },
       {
         "nome": "Oyster Namibia",
+        "alias": []
+      },
+      {
+        "nome": "Oyster Picasso",
         "alias": []
       },
       {
@@ -39315,6 +39323,10 @@
         "alias": []
       },
       {
+        "nome": "BRECCIA ETNA",
+        "alias": []
+      },
+      {
         "nome": "BRECCIA IMPERIALE (AMARULIA)",
         "alias": []
       },
@@ -39424,6 +39436,10 @@
       },
       {
         "nome": "BRUNO PERLA",
+        "alias": []
+      },
+      {
+        "nome": "BURLESQUE (AVALANCHE)",
         "alias": []
       },
       {
@@ -39896,6 +39912,10 @@
       },
       {
         "nome": "EMOTION GREY",
+        "alias": []
+      },
+      {
+        "nome": "EMPERADOR ARGOS GREY",
         "alias": []
       },
       {
@@ -40576,6 +40596,10 @@
       },
       {
         "nome": "MARINACE VERDE",
+        "alias": []
+      },
+      {
+        "nome": "MARINCE VIVALDI",
         "alias": []
       },
       {
@@ -42056,6 +42080,10 @@
       },
       {
         "nome": "VERDE ALPI",
+        "alias": []
+      },
+      {
+        "nome": "VERDE ALPI (TINOS)",
         "alias": []
       },
       {
