@@ -23,9 +23,29 @@ rispedire file — tutti aprono lo stesso link, sempre aggiornato.
 
 ## Fornitori automatizzati oggi
 
-`orobici` (Marmi Orobici), `marimar`, `moristone` (Mori Stone),
-`stocchero-attilio` — 4 su 74. Gli altri 70 restano fissi in
-`scraper/seed-static.json` finché non gli si scrive uno scraper dedicato.
+**Scraper individuali (4)**: `orobici` (Marmi Orobici), `marimar`, `moristone`
+(Mori Stone), `stocchero-attilio`.
+
+**Piattaforma condivisa iblocky.it (7)**: `bb-atelier`, `mondial-granit`,
+`marmi-rosa`, `italian-stone-source`, `stone-export`, `planet-stone`, `cmc`
+— un solo modulo (`scraper/sites/_platforms/iblocky.js`) chiama l'API
+pubblica `api.iblocky.it/api/v2/tenants/<slug>/filters/materials` (basta
+Referer/Origin/User-Agent da browser, nessun token/login), i file in
+`scraper/sites/` sono solo un wrapper con lo slug del tenant.
+
+**11 su 74 totali.** Gli altri 63 restano fissi in `scraper/seed-static.json`.
+Due piattaforme condivise indagate e **scartate** (utile saperlo prima di
+riprovarci):
+- `isodata.it` (Red Graniti, NaturalStone): richiede login reale, 401 anche
+  dal browser — non è un'unica piattaforma comune (due prodotti diversi,
+  MarbleR2 e MarbleR3, dello stesso fornitore software).
+- piattaforma "DDL" con parametro `g_1_limit` (Lasa Marmo, Orlandini):
+  pagina "ACCESSO" con login, zero dati visibili senza credenziali.
+- `slabware.com` (Elite Stone, Elite Stone Group): il filtro materiali
+  esiste ed è pubblico, ma il sito è protetto da una verifica anti-bot
+  Cloudflare che blocca Playwright headless (pagina "Just a moment...").
+  Bypassabile in teoria con tecniche stealth aggiuntive, non tentato per
+  ora — restano fissi in `seed-static.json`.
 
 ## Aggiungere un nuovo fornitore automatizzato
 
