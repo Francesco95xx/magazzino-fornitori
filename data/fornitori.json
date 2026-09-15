@@ -3075,10 +3075,6 @@
         "alias": []
       },
       {
-        "nome": "COFFEE BROWN",
-        "alias": []
-      },
-      {
         "nome": "COSMIC GOLD BB",
         "alias": []
       },
@@ -3188,6 +3184,10 @@
       },
       {
         "nome": "FUSION EXPLOSION BLUE",
+        "alias": []
+      },
+      {
+        "nome": "FUSION FASCINATION",
         "alias": []
       },
       {
@@ -3447,10 +3447,6 @@
         "alias": []
       },
       {
-        "nome": "NEW CAMOUFLAGE",
-        "alias": []
-      },
-      {
         "nome": "NOIR BLANC",
         "alias": []
       },
@@ -3632,6 +3628,10 @@
       },
       {
         "nome": "ROSSO FRANCIA",
+        "alias": []
+      },
+      {
+        "nome": "ROSSO LEPANTO",
         "alias": []
       },
       {
@@ -24803,6 +24803,10 @@
         "alias": []
       },
       {
+        "nome": "Ming Green",
+        "alias": []
+      },
+      {
         "nome": "Moncervetto",
         "alias": []
       },
@@ -24932,6 +24936,10 @@
       },
       {
         "nome": "Onice Avorio",
+        "alias": []
+      },
+      {
+        "nome": "Onice Bianco",
         "alias": []
       },
       {
@@ -26152,7 +26160,7 @@
         "alias": []
       },
       {
-        "nome": "SHIVAKASHY",
+        "nome": "Shivakashy",
         "alias": []
       },
       {
@@ -26260,7 +26268,7 @@
         "alias": []
       },
       {
-        "nome": "Verde Guatemala",
+        "nome": "VERDE GUATEMALA",
         "alias": []
       },
       {
@@ -26280,7 +26288,7 @@
         "alias": []
       },
       {
-        "nome": "Verde Marina",
+        "nome": "VERDE MARINA",
         "alias": []
       },
       {
@@ -29720,10 +29728,6 @@
         "alias": []
       },
       {
-        "nome": "Black Vermont",
-        "alias": []
-      },
-      {
         "nome": "BLU PEARL SILVER",
         "alias": []
       },
@@ -29797,10 +29801,6 @@
       },
       {
         "nome": "Breccia del Gattopardo",
-        "alias": []
-      },
-      {
-        "nome": "Breccia Fantastica",
         "alias": []
       },
       {
@@ -30521,6 +30521,10 @@
       },
       {
         "nome": "Montebello",
+        "alias": []
+      },
+      {
+        "nome": "Moon Cream",
         "alias": []
       },
       {
@@ -36316,6 +36320,10 @@
         "alias": []
       },
       {
+        "nome": "EXPLOSION BLUE",
+        "alias": []
+      },
+      {
         "nome": "FIOR DI BOSCO",
         "alias": []
       },
@@ -39905,6 +39913,10 @@
       },
       {
         "nome": "AMAZZONITE EXTRA",
+        "alias": []
+      },
+      {
+        "nome": "AMAZZONITE TIFFANY EXTRA",
         "alias": []
       },
       {
