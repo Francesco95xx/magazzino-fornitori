@@ -49,20 +49,32 @@ corrente), scroll infinito fino a stabilizzazione, paginazione via URL
 (`?page=N`, `/page/N/`), estrazione via regex dal testo quando il DOM non
 ha un selettore stabile.
 
-**51 su 74 totali automatizzati.** Gli altri 23 restano fissi in
+**Fase 2b — investigati col browser vero invece del semplice fetch (5)**:
+AATC e Veneta Marmi condividono la stessa piattaforma (filtro
+`select#ew_materiale name="desc_materiale"`, naming identico su entrambi i
+siti pur essendo fornitori diversi); Marmi Meya usa lo stesso pattern
+Angular autocomplete di Marimar/Stocchero Attilio (`#searchSingleEl` +
+`mat-option`); Galvani Trading ha paginazione a bottoni JS (stato, non
+href) da cliccare; Stocchero Marcello è una griglia Angular a scroll
+infinito raggruppata per materiale (`.mat-header-row .p-name`) — qui il
+catalogo visibile è piccolo (8 materiali), non è un problema dello scraper.
+
+**56 su 74 totali automatizzati.** Gli altri 18 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
-- **Login reale richiesto** (5): GR Marmi, GeoMarmi, `isodata.it` (Red
-  Graniti, NaturalStone — due prodotti diversi, MarbleR2/MarbleR3, 401 anche
-  dal browser), piattaforma "DDL" con parametro `g_1_limit` (Lasa Marmo,
+- **Login reale richiesto** (6): GR Marmi, GeoMarmi, Margraf (form
+  email/password vero, non un semplice popup), `isodata.it` (Red Graniti,
+  NaturalStone — due prodotti diversi, MarbleR2/MarbleR3, 401 anche dal
+  browser), piattaforma "DDL" con parametro `g_1_limit` (Lasa Marmo,
   Orlandini — pagina "ACCESSO", zero dati senza credenziali).
 - **Anti-bot Cloudflare** (2): `slabware.com` (Elite Stone, Elite Stone
   Group) — filtro materiali pubblico ma pagina "Just a moment..." blocca
   Playwright headless. Bypassabile in teoria con tecniche stealth
   aggiuntive, non tentato per ora.
-- **App JS, serve investigazione col browser vero** (7): AATC, Marmi Meya,
-  GMI, Galvani Trading, Veneta Marmi, Margraf, Stocchero Marcello — WebFetch
-  non basta (pagina vuota/"Caricamento…"), da verificare con Playwright
-  interattivo caso per caso.
+- **Da investigare ulteriormente** (1): GMI — la pagina "Magazzino Online"
+  è solo una landing page marketing (nessun listino nel DOM, nessuna
+  select/autocomplete trovata), la sotto-pagina "materiali" mostra solo le
+  categorie (Marmo/Granito/Onice/...) senza nomi specifici. Non è chiaro se
+  il catalogo vero e proprio sia raggiungibile senza login.
 - **Cartelle Dropbox** (3): Bonotti (Stock 2cm), Bonotti (Stock 3cm),
   Professional — l'elenco viene dai nomi file nelle sottocartelle, servirebbe
   un approccio dedicato (API Dropbox o parsing della pagina di condivisione),
@@ -73,9 +85,6 @@ ha un selettore stabile.
 - **Caso speciale** (1): Marmi Rossi — catalogo in PDF, non HTML.
 - **Da verificare con l'utente** (1): Il Fiorino Marmi — richieste WebFetch
   su questo dominio rifiutate esplicitamente durante il triage.
-- **GeoMarmi** conta sia nel gruppo "login" (preventivi) sia potenzialmente
-  rivisitabile: il catalogo si vede senza login, ma serve investigazione
-  browser per capire se i nomi materiale sono estraibili senza autenticarsi.
 
 ## Aggiungere un nuovo fornitore automatizzato
 
