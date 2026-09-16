@@ -33,19 +33,49 @@ pubblica `api.iblocky.it/api/v2/tenants/<slug>/filters/materials` (basta
 Referer/Origin/User-Agent da browser, nessun token/login), i file in
 `scraper/sites/` sono solo un wrapper con lo slug del tenant.
 
-**11 su 74 totali.** Gli altri 63 restano fissi in `scraper/seed-static.json`.
-Due piattaforme condivise indagate e **scartate** (utile saperlo prima di
-riprovarci):
-- `isodata.it` (Red Graniti, NaturalStone): richiede login reale, 401 anche
-  dal browser — non è un'unica piattaforma comune (due prodotti diversi,
-  MarbleR2 e MarbleR3, dello stesso fornitore software).
-- piattaforma "DDL" con parametro `g_1_limit` (Lasa Marmo, Orlandini):
-  pagina "ACCESSO" con login, zero dati visibili senza credenziali.
-- `slabware.com` (Elite Stone, Elite Stone Group): il filtro materiali
-  esiste ed è pubblico, ma il sito è protetto da una verifica anti-bot
-  Cloudflare che blocca Playwright headless (pagina "Just a moment...").
-  Bypassabile in teoria con tecniche stealth aggiuntive, non tentato per
-  ora — restano fissi in `seed-static.json`.
+**Fase 2 — triage completo dei 63 fornitori statici rimanenti (40)**:
+Girasole Pietre, Granitifavorita, Bagnara, Vanti Franco, Dalle Nogare,
+L.M.G. di Botton, Marmolesman, Marmi Bocchese, Marble Point, Marcolini,
+Savoia Marble Store, Black Eagle, Solfagroup, A&G 23, Stonest, R.A. Marmi,
+Bacci, Mondial Marmi, La Ponte, V. Fontanili Carrara (unificato con il
+duplicato `nicola-fontanili`), Max Marmi, Bruno Lucchetti, Bufalini,
+Granitex, Vitoria Stone, Errebi Marmi, Giza Stone, Alberti & Alberti,
+Zagross, Franchi Umberto Marmi, Marmi Corradini, MGS, Sa.Ge.Van, Marmi
+Colombare, Marmi 3Esse, Onymar, Royal Marmi Carrara, Dansk Marble, Ferrari
+Marmi. Pattern usati (ogni sito è diverso, vedi i singoli file per i
+dettagli): filtro `<select>`/checkbox con l'elenco materiali (il più
+affidabile: prende tutto il catalogo in un colpo, non solo la pagina
+corrente), scroll infinito fino a stabilizzazione, paginazione via URL
+(`?page=N`, `/page/N/`), estrazione via regex dal testo quando il DOM non
+ha un selettore stabile.
+
+**51 su 74 totali automatizzati.** Gli altri 23 restano fissi in
+`scraper/seed-static.json`, classificati così dal triage (2026-09):
+- **Login reale richiesto** (5): GR Marmi, GeoMarmi, `isodata.it` (Red
+  Graniti, NaturalStone — due prodotti diversi, MarbleR2/MarbleR3, 401 anche
+  dal browser), piattaforma "DDL" con parametro `g_1_limit` (Lasa Marmo,
+  Orlandini — pagina "ACCESSO", zero dati senza credenziali).
+- **Anti-bot Cloudflare** (2): `slabware.com` (Elite Stone, Elite Stone
+  Group) — filtro materiali pubblico ma pagina "Just a moment..." blocca
+  Playwright headless. Bypassabile in teoria con tecniche stealth
+  aggiuntive, non tentato per ora.
+- **App JS, serve investigazione col browser vero** (7): AATC, Marmi Meya,
+  GMI, Galvani Trading, Veneta Marmi, Margraf, Stocchero Marcello — WebFetch
+  non basta (pagina vuota/"Caricamento…"), da verificare con Playwright
+  interattivo caso per caso.
+- **Cartelle Dropbox** (3): Bonotti (Stock 2cm), Bonotti (Stock 3cm),
+  Professional — l'elenco viene dai nomi file nelle sottocartelle, servirebbe
+  un approccio dedicato (API Dropbox o parsing della pagina di condivisione),
+  bassa priorità.
+- **Errore persistente lato sito** (2): Marmoelite (HTTP 500 ripetuto anche
+  a distanza di giorni), Marmi di Carrara (connessione rifiutata/reset
+  ripetuto) — non un blocco per IP, probabile problema del sito stesso.
+- **Caso speciale** (1): Marmi Rossi — catalogo in PDF, non HTML.
+- **Da verificare con l'utente** (1): Il Fiorino Marmi — richieste WebFetch
+  su questo dominio rifiutate esplicitamente durante il triage.
+- **GeoMarmi** conta sia nel gruppo "login" (preventivi) sia potenzialmente
+  rivisitabile: il catalogo si vede senza login, ma serve investigazione
+  browser per capire se i nomi materiale sono estraibili senza autenticarsi.
 
 ## Aggiungere un nuovo fornitore automatizzato
 
