@@ -54,8 +54,32 @@ jobs:
           git diff --cached --quiet
           if ($LASTEXITCODE -eq 0) {
             Write-Output "Nessuna modifica ai dati, niente da committare."
-          } else {
-            $timestamp = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
-            git commit -m "Aggiornamento automatico magazzino fornitori $timestamp"
+            exit 0
+          }
+
+          $timestamp = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+          git commit -m "Aggiornamento automatico magazzino fornitori $timestamp"
+
+          # Se main è avanzato mentre girava questo job (es. corsa rimasta in
+          # coda a lungo per runner offline, e nel frattempo qualcuno ha
+          # pushato a mano), il push semplice viene rifiutato ("fetch
+          # first"). Ritentiamo con un rebase sul remoto aggiornato prima di
+          # riprovare; se non basta dopo alcuni tentativi non blocchiamo il
+          # job per questo — i dati restano comunque quelli dell'ultima
+          # corsa buona, si riallineerà alla prossima esecuzione.
+          $pushed = $false
+          for ($i = 1; $i -le 3; $i++) {
             git push
+            if ($LASTEXITCODE -eq 0) { $pushed = $true; break }
+            Write-Output "Push rifiutato (tentativo $i/3), provo un rebase sul remoto..."
+            git fetch origin main
+            git rebase origin/main
+            if ($LASTEXITCODE -ne 0) {
+              Write-Output "Rebase fallito, abbandono il push per questa corsa."
+              git rebase --abort
+              break
+            }
+          }
+          if (-not $pushed) {
+            Write-Output "Impossibile pushare il commit in questa corsa (non è un errore fatale, i dati pubblicati restano quelli precedenti)."
           }
