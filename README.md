@@ -75,7 +75,22 @@ già tutti presenti nel DOM per ogni categoria (Marmo/Granito/Onice/
 Travertino/Slate/Quarzite/Pietra), senza bisogno di espandere l'accordion
 né di fare login — la prima indagine era stata troppo frettolosa.
 
-**59 su 74 totali automatizzati.** Gli altri 15 restano fissi in
+**Cartelle Dropbox (3)**: Bonotti Stock 2cm, Bonotti Stock 3cm, Professional
+— modulo condiviso `scraper/sites/_platforms/dropbox.js`. La griglia file
+di Dropbox è virtualizzata (`[data-testid="sl-grid-body"] > li`, nome file
+nell'`alt` dell'immagine anteprima) e carica altri elementi solo scrollando
+i contenitori interni, non la pagina — serve forzare `scrollTop` su ogni
+div scrollabile trovato nel DOM, `page.mouse.wheel`/`window.scrollBy` da
+soli non bastano. Il nome materiale va estratto dal nome file con regex
+euristiche diverse per fornitore (convenzioni di naming diverse anche se
+la piattaforma è la stessa): Bonotti usa `nome_b <codice> slabs...`
+(minuscolo, sottocarelle `_marble Ncm`/`_offer Ncm` da visitare oltre alla
+radice), Professional usa `Nome Materiale CODICE n. <lastre> ...`
+(maiuscolo/minuscolo misto, cartella unica). Qualità non perfetta al 100%
+(qualche sigla residua attaccata al nome quando il file non segue la
+convenzione), accettabile per l'uso previsto.
+
+**62 su 74 totali automatizzati.** Gli altri 12 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
 - **Login reale richiesto** (6): GR Marmi, GeoMarmi, Margraf (form
   email/password vero, non un semplice popup), `isodata.it` (Red Graniti,
@@ -86,10 +101,6 @@ né di fare login — la prima indagine era stata troppo frettolosa.
   Group) — filtro materiali pubblico ma pagina "Just a moment..." blocca
   Playwright headless. Bypassabile in teoria con tecniche stealth
   aggiuntive, non tentato per ora.
-- **Cartelle Dropbox** (3): Bonotti (Stock 2cm), Bonotti (Stock 3cm),
-  Professional — l'elenco viene dai nomi file nelle sottocartelle, servirebbe
-  un approccio dedicato (API Dropbox o parsing della pagina di condivisione),
-  bassa priorità.
 - **Errore persistente lato sito** (2): Marmoelite (HTTP 500 ripetuto anche
   a distanza di giorni), Marmi di Carrara (connessione rifiutata/reset
   ripetuto) — non un blocco per IP, probabile problema del sito stesso.
