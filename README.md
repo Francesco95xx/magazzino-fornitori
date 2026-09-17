@@ -64,7 +64,12 @@ catalogo visibile è piccolo (8 materiali), non è un problema dello scraper.
 va in timeout su questo sito (richieste in background persistenti) — usa
 `"load"` invece, come per Franchi Umberto Marmi.
 
-**57 su 74 totali automatizzati.** Gli altri 17 restano fissi in
+**Venturini Marmi**: pagina Wix statica e piccola (8 materiali, sezione
+"Marmi di Cava"); filtrati titolo/paragrafo finanziamento/contatti dal testo
+della pagina invece di puntare a un id di componente Wix (fragile, cambia
+se il sito viene ripubblicato).
+
+**58 su 74 totali automatizzati.** Gli altri 16 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
 - **Login reale richiesto** (6): GR Marmi, GeoMarmi, Margraf (form
   email/password vero, non un semplice popup), `isodata.it` (Red Graniti,

@@ -10677,46 +10677,6 @@
     ]
   },
   {
-    "id": "venturini-marmi",
-    "nome": "Venturini Marmi",
-    "url": "https://www.venturinimarmisrl.com/it/materiales",
-    "stato": "scraped",
-    "materiali": [
-      {
-        "nome": "Calacatta Faggetta",
-        "alias": []
-      },
-      {
-        "nome": "Vena Oro Faggetta",
-        "alias": []
-      },
-      {
-        "nome": "Venato Faggetta",
-        "alias": []
-      },
-      {
-        "nome": "Terre di Siena",
-        "alias": []
-      },
-      {
-        "nome": "Calacatta Cremo",
-        "alias": []
-      },
-      {
-        "nome": "Bardiglio Faggetta",
-        "alias": []
-      },
-      {
-        "nome": "Jurassic Gold",
-        "alias": []
-      },
-      {
-        "nome": "Bianco C Extra",
-        "alias": []
-      }
-    ]
-  },
-  {
     "id": "elite-stone",
     "nome": "Elite Stone",
     "url": "https://esgroup.slabware.com/",

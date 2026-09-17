@@ -11632,7 +11632,7 @@
         "alias": []
       },
       {
-        "nome": "Bardiglio",
+        "nome": "Bardiglio 1329",
         "alias": []
       },
       {
@@ -26989,7 +26989,7 @@
         "alias": []
       },
       {
-        "nome": "MYSTIC GREEN",
+        "nome": "Mystic Green",
         "alias": []
       },
       {
@@ -30307,7 +30307,7 @@
         "alias": []
       },
       {
-        "nome": "ARABESCATO VAGLI",
+        "nome": "Arabescato Vagli",
         "alias": []
       },
       {
@@ -30595,7 +30595,7 @@
         "alias": []
       },
       {
-        "nome": "CALACATTA CREMO",
+        "nome": "Calacatta Cremo",
         "alias": []
       },
       {
@@ -30683,7 +30683,7 @@
         "alias": []
       },
       {
-        "nome": "CALACATTA VAGLI ORO",
+        "nome": "Calacatta Vagli Oro",
         "alias": []
       },
       {
@@ -31395,7 +31395,7 @@
         "alias": []
       },
       {
-        "nome": "PICASSO",
+        "nome": "Picasso",
         "alias": []
       },
       {
@@ -45116,9 +45116,30 @@
     "nome": "Venturini Marmi",
     "url": "https://www.venturinimarmisrl.com/it/materiales",
     "stato": "scraped",
+    "note": "Elenco letto dalla sezione \"Marmi di Cava\" della pagina Materiali — scraping automatico notturno.",
     "materiali": [
       {
+        "nome": "Bardiglio Faggetta",
+        "alias": []
+      },
+      {
+        "nome": "Bianco C Extra",
+        "alias": []
+      },
+      {
+        "nome": "Calacatta Cremo",
+        "alias": []
+      },
+      {
         "nome": "Calacatta Faggetta",
+        "alias": []
+      },
+      {
+        "nome": "Jurassic Gold",
+        "alias": []
+      },
+      {
+        "nome": "Terre di Siena",
         "alias": []
       },
       {
@@ -45127,26 +45148,6 @@
       },
       {
         "nome": "Venato Faggetta",
-        "alias": []
-      },
-      {
-        "nome": "Terre di Siena",
-        "alias": []
-      },
-      {
-        "nome": "Calacatta Cremo",
-        "alias": []
-      },
-      {
-        "nome": "Bardiglio Faggetta",
-        "alias": []
-      },
-      {
-        "nome": "Jurassic Gold",
-        "alias": []
-      },
-      {
-        "nome": "Bianco C Extra",
         "alias": []
       }
     ]
@@ -45568,6 +45569,10 @@
         "alias": []
       },
       {
+        "nome": "Calacatta Oro Mezzamacchia",
+        "alias": []
+      },
+      {
         "nome": "Calacatta Oro Monet",
         "alias": []
       },
@@ -45613,6 +45618,10 @@
       },
       {
         "nome": "Calacatta Viola Monet",
+        "alias": []
+      },
+      {
+        "nome": "Ceppo Beige",
         "alias": []
       },
       {
