@@ -69,7 +69,13 @@ va in timeout su questo sito (richieste in background persistenti) — usa
 della pagina invece di puntare a un id di componente Wix (fragile, cambia
 se il sito viene ripubblicato).
 
-**58 su 74 totali automatizzati.** Gli altri 16 restano fissi in
+**GMI**: alla seconda investigazione (con un `networkidle` più lungo) la
+pagina "materiali" mostra 110 link `javascript:show_line_view(id, 'NOME')`
+già tutti presenti nel DOM per ogni categoria (Marmo/Granito/Onice/
+Travertino/Slate/Quarzite/Pietra), senza bisogno di espandere l'accordion
+né di fare login — la prima indagine era stata troppo frettolosa.
+
+**59 su 74 totali automatizzati.** Gli altri 15 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
 - **Login reale richiesto** (6): GR Marmi, GeoMarmi, Margraf (form
   email/password vero, non un semplice popup), `isodata.it` (Red Graniti,
@@ -80,11 +86,6 @@ se il sito viene ripubblicato).
   Group) — filtro materiali pubblico ma pagina "Just a moment..." blocca
   Playwright headless. Bypassabile in teoria con tecniche stealth
   aggiuntive, non tentato per ora.
-- **Da investigare ulteriormente** (1): GMI — la pagina "Magazzino Online"
-  è solo una landing page marketing (nessun listino nel DOM, nessuna
-  select/autocomplete trovata), la sotto-pagina "materiali" mostra solo le
-  categorie (Marmo/Granito/Onice/...) senza nomi specifici. Non è chiaro se
-  il catalogo vero e proprio sia raggiungibile senza login.
 - **Cartelle Dropbox** (3): Bonotti (Stock 2cm), Bonotti (Stock 3cm),
   Professional — l'elenco viene dai nomi file nelle sottocartelle, servirebbe
   un approccio dedicato (API Dropbox o parsing della pagina di condivisione),
