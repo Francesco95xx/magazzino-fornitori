@@ -99,6 +99,14 @@ lo scroll va fatto sulla pagina intera (`window.scrollTo` fino in fondo,
 ripetuto finché il conteggio si stabilizza), non su un contenitore interno
 come per le altre griglie Angular di questo progetto.
 
+**Nota — Max Marmi Carrara (`scraper/sites/max-marmi.js`) è rotto dal
+2026-09-18**: il sito ha rifatto la pagina magazzino come mappa 2D
+interattiva (zone A1-G6 cliccabili), lo scraper vecchio (link categoria
+`a.oxy-read-more`) non trova più nulla. Il fallback tiene i 16 nomi
+categoria dell'ultima corsa buona, ma serve una nuova investigazione (non
+banale: bisogna capire se cliccare una zona rivela i nomi materiale o se
+serve un'altra via) prima di correggerlo.
+
 **65 su 74 totali automatizzati.** Gli altri 9 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
 - **Login reale richiesto** (6): GR Marmi, GeoMarmi, Margraf (form
