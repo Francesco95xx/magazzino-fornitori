@@ -50,6 +50,17 @@ jobs:
         run: |
           git config user.name "magazzino-bot"
           git config user.email "actions@users.noreply.github.com"
+
+          # Il checkout iniziale puo' essere ormai vecchio di ore (es. corsa
+          # rimasta in coda per runner offline): ci riallineiamo all'ultimo
+          # main remoto prima di committare, cosi' la finestra in cui un
+          # push concorrente puo' farci scontrare si riduce ai pochi secondi
+          # di questo step invece che alla durata di tutto lo scraping.
+          # --soft sposta solo il puntatore di branch, non tocca il
+          # fornitori.json appena rigenerato nella working directory.
+          git fetch origin main
+          git reset --soft origin/main
+
           git add data/fornitori.json
           git diff --cached --quiet
           if ($LASTEXITCODE -eq 0) {
