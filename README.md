@@ -107,17 +107,27 @@ categoria dell'ultima corsa buona, ma serve una nuova investigazione (non
 banale: bisogna capire se cliccare una zona rivela i nomi materiale o se
 serve un'altra via) prima di correggerlo.
 
-**65 su 74 totali automatizzati.** Gli altri 9 restano fissi in
+**Elite Stone / Elite Stone Group (slabware.com)**: risolto l'anti-bot
+Cloudflare senza tecniche stealth — Cloudflare blocca specificamente
+Chromium **headless**, ma un browser **headed** (finestra reale, non
+headless) passa la verifica senza intervento. Modulo condiviso
+`scraper/sites/_platforms/slabware.js`: a differenza di tutti gli altri
+scraper NON usa il `context` condiviso passato da `run-all.js` (che è
+headless), apre un proprio `chromium.launch({ headless: false })` isolato
+solo per questa piattaforma. Effetto collaterale: sul runner self-hosted
+apre per ~5 secondi una finestra Chromium visibile sullo schermo del PC
+durante la corsa. Elite Stone ed Elite Stone Group condividono lo stesso
+URL/tenant (`esgroup.slabware.com`) quindi stessi 238 materiali per
+entrambi — non è un errore, i due nomi commerciali condividono un unico
+magazzino fisico.
+
+**67 su 74 totali automatizzati.** Gli altri 7 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
 - **Login reale richiesto** (6): GR Marmi, GeoMarmi, Margraf (form
   email/password vero, non un semplice popup), `isodata.it` (Red Graniti,
   NaturalStone — due prodotti diversi, MarbleR2/MarbleR3, 401 anche dal
   browser), piattaforma "DDL" con parametro `g_1_limit` (Lasa Marmo,
   Orlandini — pagina "ACCESSO", zero dati senza credenziali).
-- **Anti-bot Cloudflare** (2): `slabware.com` (Elite Stone, Elite Stone
-  Group) — filtro materiali pubblico ma pagina "Just a moment..." blocca
-  Playwright headless. Bypassabile in teoria con tecniche stealth
-  aggiuntive, non tentato per ora.
 - **Errore persistente lato sito** (2): Marmoelite (HTTP 500 ripetuto anche
   a distanza di giorni), Marmi di Carrara (connessione rifiutata/reset
   ripetuto) — non un blocco per IP, probabile problema del sito stesso.
