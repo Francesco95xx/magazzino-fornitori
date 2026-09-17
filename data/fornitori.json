@@ -1759,6 +1759,10 @@
         "alias": []
       },
       {
+        "nome": "TRAVERTINO AVORIO",
+        "alias": []
+      },
+      {
         "nome": "TRAVERTINO BIANCO",
         "alias": []
       },
@@ -11744,6 +11748,10 @@
         "alias": []
       },
       {
+        "nome": "Calacatta Degli Angeli 3205",
+        "alias": []
+      },
+      {
         "nome": "Calacatta Degli Angeli 3279",
         "alias": []
       },
@@ -14180,10 +14188,6 @@
       },
       {
         "nome": "VERDE IMPERIALE",
-        "alias": []
-      },
-      {
-        "nome": "VERDE JASMIN",
         "alias": []
       },
       {
@@ -16888,6 +16892,10 @@
         "alias": []
       },
       {
+        "nome": "AVOHAI",
+        "alias": []
+      },
+      {
         "nome": "AVORIO TOP",
         "alias": []
       },
@@ -17025,6 +17033,10 @@
       },
       {
         "nome": "BLIZZARD BLUE TOP",
+        "alias": []
+      },
+      {
+        "nome": "BLUE COAST",
         "alias": []
       },
       {
@@ -17245,6 +17257,10 @@
       },
       {
         "nome": "CIPOLLINO ONDULATO",
+        "alias": []
+      },
+      {
+        "nome": "CIPOLLINO TOP",
         "alias": []
       },
       {
@@ -17768,10 +17784,6 @@
         "alias": []
       },
       {
-        "nome": "LADY ROSE",
-        "alias": []
-      },
-      {
         "nome": "LAPIS WHITE",
         "alias": []
       },
@@ -17813,10 +17825,6 @@
       },
       {
         "nome": "MATRIX",
-        "alias": []
-      },
-      {
-        "nome": "MAYA",
         "alias": []
       },
       {
@@ -17877,6 +17885,10 @@
       },
       {
         "nome": "MYSTIC GREY",
+        "alias": []
+      },
+      {
+        "nome": "NACARADO",
         "alias": []
       },
       {
@@ -17945,6 +17957,10 @@
       },
       {
         "nome": "NERO INDIANO",
+        "alias": []
+      },
+      {
+        "nome": "NERO MARQUINIA",
         "alias": []
       },
       {
@@ -18352,6 +18368,10 @@
         "alias": []
       },
       {
+        "nome": "RAFFINATO",
+        "alias": []
+      },
+      {
         "nome": "RAINBOW LIGHT",
         "alias": []
       },
@@ -18416,6 +18436,10 @@
         "alias": []
       },
       {
+        "nome": "SAINT BARTH",
+        "alias": []
+      },
+      {
         "nome": "SEA GREEN",
         "alias": []
       },
@@ -18456,6 +18480,10 @@
         "alias": []
       },
       {
+        "nome": "SILVER WAVE BROWN",
+        "alias": []
+      },
+      {
         "nome": "SKY PEARL",
         "alias": []
       },
@@ -18493,6 +18521,10 @@
       },
       {
         "nome": "SPLENDIDO LIGHT",
+        "alias": []
+      },
+      {
+        "nome": "SPLENDIDO ROSA",
         "alias": []
       },
       {
@@ -22392,7 +22424,7 @@
         "alias": []
       },
       {
-        "nome": "EMPERADOR DARK",
+        "nome": "EVOLENE",
         "alias": []
       },
       {
@@ -23820,6 +23852,10 @@
         "alias": []
       },
       {
+        "nome": "CRISTALLO EXTRA",
+        "alias": []
+      },
+      {
         "nome": "CRISTALLO FROST",
         "alias": []
       },
@@ -23853,10 +23889,6 @@
       },
       {
         "nome": "FIOR DI BOSCO",
-        "alias": []
-      },
-      {
-        "nome": "GALAXY STAR F",
         "alias": []
       },
       {
@@ -25219,6 +25251,10 @@
         "alias": []
       },
       {
+        "nome": "Breccia Beige",
+        "alias": []
+      },
+      {
         "nome": "Breccia Blu",
         "alias": []
       },
@@ -25447,6 +25483,10 @@
         "alias": []
       },
       {
+        "nome": "Copenhagen",
+        "alias": []
+      },
+      {
         "nome": "Corchia Paonazzo",
         "alias": []
       },
@@ -25528,10 +25568,6 @@
       },
       {
         "nome": "Demetra",
-        "alias": []
-      },
-      {
-        "nome": "Deserto Bianco",
         "alias": []
       },
       {
@@ -25807,6 +25843,10 @@
         "alias": []
       },
       {
+        "nome": "Luminous",
+        "alias": []
+      },
+      {
         "nome": "Lundhs Blue Pearl",
         "alias": []
       },
@@ -25956,10 +25996,6 @@
       },
       {
         "nome": "Notre Dame",
-        "alias": []
-      },
-      {
-        "nome": "Nuage",
         "alias": []
       },
       {
@@ -26471,10 +26507,6 @@
         "alias": []
       },
       {
-        "nome": "Verde Venezia",
-        "alias": []
-      },
-      {
         "nome": "Verias Green",
         "alias": []
       },
@@ -26601,6 +26633,10 @@
       },
       {
         "nome": "ALMA GREY",
+        "alias": []
+      },
+      {
+        "nome": "ALPINUS WHITE",
         "alias": []
       },
       {
@@ -27184,7 +27220,7 @@
         "alias": []
       },
       {
-        "nome": "ROSSO MULTICOLOR",
+        "nome": "Rosso Multicolor",
         "alias": []
       },
       {
@@ -27324,7 +27360,7 @@
         "alias": []
       },
       {
-        "nome": "VERDE GUATEMALA",
+        "nome": "Verde Guatemala",
         "alias": []
       },
       {
@@ -27344,7 +27380,7 @@
         "alias": []
       },
       {
-        "nome": "VERDE MARINA",
+        "nome": "Verde Marina",
         "alias": []
       },
       {
@@ -30306,7 +30342,7 @@
         "alias": []
       },
       {
-        "nome": "Arabescato Vagli",
+        "nome": "ARABESCATO VAGLI",
         "alias": []
       },
       {
@@ -30594,7 +30630,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Cremo",
+        "nome": "CALACATTA CREMO",
         "alias": []
       },
       {
@@ -30682,7 +30718,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Vagli Oro",
+        "nome": "CALACATTA VAGLI ORO",
         "alias": []
       },
       {
@@ -31394,7 +31430,7 @@
         "alias": []
       },
       {
-        "nome": "Picasso",
+        "nome": "PICASSO",
         "alias": []
       },
       {
@@ -31594,7 +31630,7 @@
         "alias": []
       },
       {
-        "nome": "Taj Mahal",
+        "nome": "TAJ MAHAL",
         "alias": []
       },
       {
@@ -38965,6 +39001,10 @@
         "alias": []
       },
       {
+        "nome": "NEW CREMA ISTRIA",
+        "alias": []
+      },
+      {
         "nome": "ONICE BIANCO",
         "alias": []
       },
@@ -39719,10 +39759,6 @@
       },
       {
         "nome": "Palissandro Bluette",
-        "alias": []
-      },
-      {
-        "nome": "Palissandro Classico",
         "alias": []
       },
       {
@@ -42891,6 +42927,10 @@
         "alias": []
       },
       {
+        "nome": "ROSSO FRANCIA",
+        "alias": []
+      },
+      {
         "nome": "ROSSO KARZAY",
         "alias": []
       },
@@ -43596,6 +43636,10 @@
         "alias": []
       },
       {
+        "nome": "AVORIO - SAN SEBASTIAN",
+        "alias": []
+      },
+      {
         "nome": "BARDIGLIO",
         "alias": []
       },
@@ -44151,6 +44195,10 @@
       },
       {
         "nome": "Crema Sevilla",
+        "alias": []
+      },
+      {
+        "nome": "Cristallo",
         "alias": []
       },
       {
