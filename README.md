@@ -99,13 +99,13 @@ lo scroll va fatto sulla pagina intera (`window.scrollTo` fino in fondo,
 ripetuto finché il conteggio si stabilizza), non su un contenitore interno
 come per le altre griglie Angular di questo progetto.
 
-**Nota — Max Marmi Carrara (`scraper/sites/max-marmi.js`) è rotto dal
-2026-09-18**: il sito ha rifatto la pagina magazzino come mappa 2D
-interattiva (zone A1-G6 cliccabili), lo scraper vecchio (link categoria
-`a.oxy-read-more`) non trova più nulla. Il fallback tiene i 16 nomi
-categoria dell'ultima corsa buona, ma serve una nuova investigazione (non
-banale: bisogna capire se cliccare una zona rivela i nomi materiale o se
-serve un'altra via) prima di correggerlo.
+**Max Marmi Carrara — sistemato dopo il redesign del sito (2026-09-18)**: la
+nuova mappa 2D del magazzino carica i dati da un'API pubblica
+(`/api/marmi/magazzino?locale=it`, nessuna auth) che restituisce tutti i
+marmi raggruppati per zona (`{ ok, marmi: { A1: [...], A2: [...], ... } }`).
+Niente browser necessario, un semplice `fetch()` basta — stesso approccio
+di `marimar.js`. Risultato più preciso di prima: 52 materiali specifici
+invece delle 16 categorie generiche lette dal vecchio sito.
 
 **Elite Stone / Elite Stone Group (slabware.com)**: risolto l'anti-bot
 Cloudflare senza tecniche stealth — Cloudflare blocca specificamente

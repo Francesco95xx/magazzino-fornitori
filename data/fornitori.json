@@ -2886,6 +2886,10 @@
         "alias": []
       },
       {
+        "nome": "ARABESCATO OROBICO ROSSO",
+        "alias": []
+      },
+      {
         "nome": "ARAGONITE",
         "alias": []
       },
@@ -30693,24 +30697,68 @@
   {
     "id": "max-marmi",
     "nome": "Max Marmi Carrara",
-    "url": "https://www.maxmarmicarrara.com/it/magazzino/",
+    "url": "https://www.maxmarmicarrara.com/magazzino",
     "stato": "scraped",
-    "note": "Elenco letto dalle famiglie di materiale della pagina Magazzino — scraping automatico notturno.",
+    "note": "Elenco letto dall'API pubblica della mappa 2D del magazzino (api/marmi/magazzino), tutte le zone unite — scraping automatico notturno.",
     "materiali": [
       {
-        "nome": "Arabescato",
+        "nome": "Arabescato Corchia",
         "alias": []
       },
       {
-        "nome": "Bianco Carrara",
+        "nome": "Arabescato Corchia Gold",
         "alias": []
       },
       {
-        "nome": "Bianco Venato",
+        "nome": "Arabescato Faniello",
+        "alias": []
+      },
+      {
+        "nome": "Arabescato Vagli",
+        "alias": []
+      },
+      {
+        "nome": "Bianco Gioia",
+        "alias": []
+      },
+      {
+        "nome": "Breccia Aurora",
+        "alias": []
+      },
+      {
+        "nome": "Breccia Corallo",
+        "alias": []
+      },
+      {
+        "nome": "Breccia Damascata",
+        "alias": []
+      },
+      {
+        "nome": "Breccia San Giorgio",
+        "alias": []
+      },
+      {
+        "nome": "Breccia Versilia",
         "alias": []
       },
       {
         "nome": "Calacatta",
+        "alias": []
+      },
+      {
+        "nome": "Calacatta Atlantico",
+        "alias": []
+      },
+      {
+        "nome": "Calacatta Cremo",
+        "alias": []
+      },
+      {
+        "nome": "Calacatta Extra",
+        "alias": []
+      },
+      {
+        "nome": "Calacatta Luccicoso",
         "alias": []
       },
       {
@@ -30722,15 +30770,79 @@
         "alias": []
       },
       {
+        "nome": "Calacatta Oro",
+        "alias": []
+      },
+      {
+        "nome": "Calacatta Oyster",
+        "alias": []
+      },
+      {
+        "nome": "Calacatta Picasso",
+        "alias": []
+      },
+      {
         "nome": "Calacatta Super Gold",
         "alias": []
       },
       {
-        "nome": "Colorati Italiani",
+        "nome": "Calacatta Vagli Macchia Oro",
         "alias": []
       },
       {
-        "nome": "Cremo",
+        "nome": "Calacatta Vagli Rosato",
+        "alias": []
+      },
+      {
+        "nome": "Calacatta Viola",
+        "alias": []
+      },
+      {
+        "nome": "Carapace",
+        "alias": []
+      },
+      {
+        "nome": "Cardoso",
+        "alias": []
+      },
+      {
+        "nome": "Ceppo d'Aragona",
+        "alias": []
+      },
+      {
+        "nome": "Ceppo di Vagli",
+        "alias": []
+      },
+      {
+        "nome": "Cipollino Grigio",
+        "alias": []
+      },
+      {
+        "nome": "Cipollino Verde",
+        "alias": []
+      },
+      {
+        "nome": "Cipollino Viola",
+        "alias": []
+      },
+      {
+        "nome": "Cremo Delicato",
+        "alias": []
+      },
+      {
+        "nome": "Fantastico Arni",
+        "alias": []
+      },
+      {
+        "nome": "Fior di Pesco",
+        "alias": []
+      },
+      {
+        "nome": "Fumo di Toscana",
+        "alias": []
+      },
+      {
+        "nome": "Grigio di Firenze",
         "alias": []
       },
       {
@@ -30738,7 +30850,15 @@
         "alias": []
       },
       {
-        "nome": "Oyster",
+        "nome": "Nero Marquinia",
+        "alias": []
+      },
+      {
+        "nome": "Oyster White",
+        "alias": []
+      },
+      {
+        "nome": "Palissandro",
         "alias": []
       },
       {
@@ -30746,7 +30866,27 @@
         "alias": []
       },
       {
-        "nome": "Statuario",
+        "nome": "Paonazzo Bianco",
+        "alias": []
+      },
+      {
+        "nome": "Rosso Collemandina",
+        "alias": []
+      },
+      {
+        "nome": "Rosso Levanto",
+        "alias": []
+      },
+      {
+        "nome": "Rosso Melograno",
+        "alias": []
+      },
+      {
+        "nome": "Rosso Orobico",
+        "alias": []
+      },
+      {
+        "nome": "Statuarietto",
         "alias": []
       },
       {
@@ -30754,11 +30894,19 @@
         "alias": []
       },
       {
-        "nome": "Vedi Blocco",
+        "nome": "Verde Assoluto",
+        "alias": []
+      },
+      {
+        "nome": "Verde Issogne",
         "alias": []
       },
       {
         "nome": "Zebrino",
+        "alias": []
+      },
+      {
+        "nome": "Zebrino BarCode",
         "alias": []
       }
     ]
