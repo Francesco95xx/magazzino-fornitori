@@ -59,7 +59,12 @@ href) da cliccare; Stocchero Marcello è una griglia Angular a scroll
 infinito raggruppata per materiale (`.mat-header-row .p-name`) — qui il
 catalogo visibile è piccolo (8 materiali), non è un problema dello scraper.
 
-**56 su 74 totali automatizzati.** Gli altri 18 restano fissi in
+**Il Fiorino Marmi**: store statico senza paginazione, nome lastra in
+`div.box-lastra h2`. Nota tecnica: `page.goto` con `waitUntil: "networkidle"`
+va in timeout su questo sito (richieste in background persistenti) — usa
+`"load"` invece, come per Franchi Umberto Marmi.
+
+**57 su 74 totali automatizzati.** Gli altri 17 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
 - **Login reale richiesto** (6): GR Marmi, GeoMarmi, Margraf (form
   email/password vero, non un semplice popup), `isodata.it` (Red Graniti,
@@ -83,8 +88,6 @@ catalogo visibile è piccolo (8 materiali), non è un problema dello scraper.
   a distanza di giorni), Marmi di Carrara (connessione rifiutata/reset
   ripetuto) — non un blocco per IP, probabile problema del sito stesso.
 - **Caso speciale** (1): Marmi Rossi — catalogo in PDF, non HTML.
-- **Da verificare con l'utente** (1): Il Fiorino Marmi — richieste WebFetch
-  su questo dominio rifiutate esplicitamente durante il triage.
 
 ## Aggiungere un nuovo fornitore automatizzato
 
