@@ -90,7 +90,16 @@ radice), Professional usa `Nome Materiale CODICE n. <lastre> ...`
 (qualche sigla residua attaccata al nome quando il file non segue la
 convenzione), accettabile per l'uso previsto.
 
-**62 su 74 totali automatizzati.** Gli altri 12 restano fissi in
+**Marmi Rossi**: l'utente ha segnalato l'URL giusto del magazzino online
+reale (`marmirossi.com/it/magazzino-online/#/list`), diverso da quello
+trovato durante il triage originale che portava solo al catalogo PDF — non
+era affatto un "caso PDF", semplicemente avevamo l'URL sbagliato. Piattaforma
+Angular con scroll infinito grande (~600+ lastre, 235 materiali distinti);
+lo scroll va fatto sulla pagina intera (`window.scrollTo` fino in fondo,
+ripetuto finché il conteggio si stabilizza), non su un contenitore interno
+come per le altre griglie Angular di questo progetto.
+
+**65 su 74 totali automatizzati.** Gli altri 9 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
 - **Login reale richiesto** (6): GR Marmi, GeoMarmi, Margraf (form
   email/password vero, non un semplice popup), `isodata.it` (Red Graniti,
@@ -104,7 +113,6 @@ convenzione), accettabile per l'uso previsto.
 - **Errore persistente lato sito** (2): Marmoelite (HTTP 500 ripetuto anche
   a distanza di giorni), Marmi di Carrara (connessione rifiutata/reset
   ripetuto) — non un blocco per IP, probabile problema del sito stesso.
-- **Caso speciale** (1): Marmi Rossi — catalogo in PDF, non HTML.
 
 ## Aggiungere un nuovo fornitore automatizzato
 

@@ -9411,10 +9411,6 @@
         "alias": []
       },
       {
-        "nome": "costa smeralda",
-        "alias": []
-      },
-      {
         "nome": "cremo L",
         "alias": []
       },
@@ -27421,7 +27417,7 @@
         "alias": []
       },
       {
-        "nome": "COLONIAL IVORY",
+        "nome": "Colonial Ivory",
         "alias": []
       },
       {
@@ -27581,7 +27577,7 @@
         "alias": []
       },
       {
-        "nome": "JUPARANA' INDIA",
+        "nome": "Juparana India",
         "alias": []
       },
       {
@@ -27657,7 +27653,7 @@
         "alias": []
       },
       {
-        "nome": "MYSTIC GREEN",
+        "nome": "Mystic Green",
         "alias": []
       },
       {
@@ -27853,7 +27849,7 @@
         "alias": []
       },
       {
-        "nome": "ROSSO MULTICOLOR",
+        "nome": "Rosso Multicolor",
         "alias": []
       },
       {
@@ -27885,7 +27881,7 @@
         "alias": []
       },
       {
-        "nome": "SHIVAKASHY",
+        "nome": "Shivakashy",
         "alias": []
       },
       {
@@ -28013,7 +28009,7 @@
         "alias": []
       },
       {
-        "nome": "VERDE MARINA",
+        "nome": "Verde Marina",
         "alias": []
       },
       {
@@ -28061,868 +28057,948 @@
   {
     "id": "marmi-rossi",
     "nome": "Marmi Rossi",
-    "url": "https://www.marmirossi.com/it/catalogo-materiali/",
+    "url": "https://marmirossi.com/it/magazzino-online/#/list",
     "stato": "scraped",
-    "note": "Catalogo materiali generale del sito (non lo stock live del magazzino online).",
+    "note": "Elenco letto dal Magazzino Online reale (non più il catalogo PDF) con scroll di pagina ripetuto fino a stabilizzazione — scraping automatico notturno.",
     "materiali": [
       {
-        "nome": "Australian Calacatta Gold",
+        "nome": "ACQUA MARINA",
         "alias": []
       },
       {
-        "nome": "Dolomite",
+        "nome": "AGATHA",
         "alias": []
       },
       {
-        "nome": "Australian Cream",
+        "nome": "ALASKA WHITE",
         "alias": []
       },
       {
-        "nome": "Acqua Marina",
+        "nome": "ANDROMEDA",
         "alias": []
       },
       {
-        "nome": "Agatha",
+        "nome": "ANGOLA BLACK",
         "alias": []
       },
       {
-        "nome": "Alaska White",
+        "nome": "ANGOLA BLUE MOON",
         "alias": []
       },
       {
-        "nome": "Alpinus",
+        "nome": "ANGOLA SILVER",
         "alias": []
       },
       {
-        "nome": "Andromeda",
+        "nome": "ARABESCATO CORCHIA",
         "alias": []
       },
       {
-        "nome": "Angola Silver",
+        "nome": "ARABESCATO SUPERLATIVE",
         "alias": []
       },
       {
-        "nome": "Arabescato Corchia",
+        "nome": "AUSTRALIAN CALACATTA GOLD",
         "alias": []
       },
       {
-        "nome": "Azul Macaubas",
+        "nome": "AUSTRALIAN CREAM",
         "alias": []
       },
       {
-        "nome": "Azul Imperial",
+        "nome": "AVOCATUS",
         "alias": []
       },
       {
-        "nome": "Azul Noche",
+        "nome": "AZUL IMPERIAL",
         "alias": []
       },
       {
-        "nome": "Azul Platino",
+        "nome": "AZUL MACAUBAS",
         "alias": []
       },
       {
-        "nome": "Basaltina",
+        "nome": "AZUL NOCHE",
         "alias": []
       },
       {
-        "nome": "Blue Roma Illusion",
+        "nome": "AZUL PLATINO",
         "alias": []
       },
       {
-        "nome": "Balmoral Red",
+        "nome": "BALMORAL RED",
         "alias": []
       },
       {
-        "nome": "Baltic Brown",
+        "nome": "BALTIC BROWN",
         "alias": []
       },
       {
-        "nome": "Belvedere",
+        "nome": "BASALTINA",
         "alias": []
       },
       {
-        "nome": "Bengal Black",
+        "nome": "BELVEDERE",
         "alias": []
       },
       {
-        "nome": "Bethel White",
+        "nome": "BENGAL BLACK EXTRA",
         "alias": []
       },
       {
-        "nome": "Bianco Antico",
+        "nome": "BETHEL WHITE",
         "alias": []
       },
       {
-        "nome": "Bianco Carrara C",
+        "nome": "BIANCO ANTICO",
         "alias": []
       },
       {
-        "nome": "Bianco Carrara Cd",
+        "nome": "BIANCO CARRARA C",
         "alias": []
       },
       {
-        "nome": "Bianco Sardo",
+        "nome": "BIANCO CARRARA C EXTRA",
         "alias": []
       },
       {
-        "nome": "Black Grafite",
+        "nome": "BIANCO CARRARA GIOIA",
         "alias": []
       },
       {
-        "nome": "Black Ice",
+        "nome": "BIANCO IBERICO-PIETRA SALGADAS",
         "alias": []
       },
       {
-        "nome": "Black Pearl",
+        "nome": "BIANCO SARDO PERLA",
         "alias": []
       },
       {
-        "nome": "Black Pepper",
+        "nome": "BLACK GRAFITE",
         "alias": []
       },
       {
-        "nome": "Black Vermont",
+        "nome": "BLACK ICE",
         "alias": []
       },
       {
-        "nome": "Blanco Cristal",
+        "nome": "BLACK THERA",
         "alias": []
       },
       {
-        "nome": "Blue Moon",
+        "nome": "BLACK VERMONT",
         "alias": []
       },
       {
-        "nome": "Blue Roma",
+        "nome": "BLUE DUNES",
         "alias": []
       },
       {
-        "nome": "Blues In The Night",
+        "nome": "BLUE ROMA",
         "alias": []
       },
       {
-        "nome": "Brazil Gold",
+        "nome": "BLUES IN THE NIGHT",
         "alias": []
       },
       {
-        "nome": "Breccia Imperiale",
+        "nome": "BRAZIL GOLD",
         "alias": []
       },
       {
-        "nome": "Brown Antique",
+        "nome": "BRECCIA IMPERIALE",
         "alias": []
       },
       {
-        "nome": "Brown Chocolate",
+        "nome": "BROWN ANTIQUE",
         "alias": []
       },
       {
-        "nome": "Brown Silk",
+        "nome": "BROWN ANTIQUE EXTRA DARK",
         "alias": []
       },
       {
-        "nome": "Cristallo Extra",
+        "nome": "BROWN CHOCOLATE",
         "alias": []
       },
       {
-        "nome": "Cristallo Lumix Extra",
+        "nome": "BROWN SILK",
         "alias": []
       },
       {
-        "nome": "Cristallo Rosa",
+        "nome": "CAFE IMPERIAL",
         "alias": []
       },
       {
-        "nome": "Cafe Imperial",
+        "nome": "CALACATTA",
         "alias": []
       },
       {
-        "nome": "Calacatta",
+        "nome": "CALACATTA MACCHIA VECCHIA",
         "alias": []
       },
       {
-        "nome": "Calacatta Cremo Delicato",
+        "nome": "CALACATTA MATARAZZO",
         "alias": []
       },
       {
-        "nome": "Calacatta Matarazzo",
+        "nome": "CALACATTA MATARAZZO EXTRA",
         "alias": []
       },
       {
-        "nome": "Calacatta Viola",
+        "nome": "CALIZIA CAPRI",
         "alias": []
       },
       {
-        "nome": "Coffee Brown",
+        "nome": "COFFEE BROWN",
         "alias": []
       },
       {
-        "nome": "Colonial Cream",
+        "nome": "COLONIAL GOLD",
         "alias": []
       },
       {
-        "nome": "Colonial Gold",
+        "nome": "COLONIAL IVORY",
         "alias": []
       },
       {
-        "nome": "Colonial Ivory",
+        "nome": "COLONIAL WHITE",
         "alias": []
       },
       {
-        "nome": "Colonial White",
+        "nome": "COPENHAGEN",
         "alias": []
       },
       {
-        "nome": "Copacabana",
+        "nome": "CREMA MARFIL",
         "alias": []
       },
       {
-        "nome": "Copenhagen",
+        "nome": "CREMA MARFIL EXTRA",
         "alias": []
       },
       {
-        "nome": "Crema Marfil",
+        "nome": "CRISTALLO",
         "alias": []
       },
       {
-        "nome": "Cristallo",
+        "nome": "CRISTALLO BONSAI",
         "alias": []
       },
       {
-        "nome": "Cristallo Bonsai",
+        "nome": "CRISTALLO EXTRA",
         "alias": []
       },
       {
-        "nome": "Diorite Green",
+        "nome": "CRISTALLO LUMIX EXTRA",
         "alias": []
       },
       {
-        "nome": "Donatello",
+        "nome": "CRISTALLO ROSA",
         "alias": []
       },
       {
-        "nome": "Eagle Blue",
+        "nome": "DIORITE GREEN",
         "alias": []
       },
       {
-        "nome": "Elegant Brown",
+        "nome": "DOLCE VITA",
         "alias": []
       },
       {
-        "nome": "Emerald Pearl",
+        "nome": "DONATELLO",
         "alias": []
       },
       {
-        "nome": "Emperador Dark",
+        "nome": "ELEGANT BROWN",
         "alias": []
       },
       {
-        "nome": "Emperador Gold",
+        "nome": "ELEGANT BROWN EXTRA",
         "alias": []
       },
       {
-        "nome": "Emperador Light",
+        "nome": "EMERALD PEARL",
         "alias": []
       },
       {
-        "nome": "Fior Di Bosco",
+        "nome": "EMERALD PEARL EXTRA",
         "alias": []
       },
       {
-        "nome": "Fusion Grey/Blue",
+        "nome": "EMPERADOR DARK",
         "alias": []
       },
       {
-        "nome": "Fusion Mona Lisa",
+        "nome": "EMPERADOR GOLD",
         "alias": []
       },
       {
-        "nome": "Fantasy Brown Extra",
+        "nome": "EMPERADOR LIGHT",
         "alias": []
       },
       {
-        "nome": "Fantasy Brown",
+        "nome": "FANTASY BROWN",
         "alias": []
       },
       {
-        "nome": "Fox Brown",
+        "nome": "FANTASY BROWN EXTRA",
         "alias": []
       },
       {
-        "nome": "Fusion Amalfi",
+        "nome": "FOX BROWN",
         "alias": []
       },
       {
-        "nome": "Fusion Fashination Gold",
+        "nome": "FUSION AMALFI",
         "alias": []
       },
       {
-        "nome": "Fusion Black Taurus",
+        "nome": "FUSION BLACK TAURUS",
         "alias": []
       },
       {
-        "nome": "Fusion Blue Caravaggio",
+        "nome": "FUSION BLUE CARAVAGGIO",
         "alias": []
       },
       {
-        "nome": "Fusion Explosion Blue",
+        "nome": "FUSION EXPLOSION BLUE",
         "alias": []
       },
       {
-        "nome": "Fusion Fashination",
+        "nome": "FUSION FASHINATION",
         "alias": []
       },
       {
-        "nome": "Fusion Gold",
+        "nome": "FUSION FASHINATION GOLD",
         "alias": []
       },
       {
-        "nome": "Fusion Multicolor",
+        "nome": "FUSION GOLD",
         "alias": []
       },
       {
-        "nome": "Fusion Wow Red",
+        "nome": "FUSION GREY/BLUE",
         "alias": []
       },
       {
-        "nome": "Grey Wolf",
+        "nome": "FUSION GREY/BLUE CRYSTAL",
         "alias": []
       },
       {
-        "nome": "Galaxy Black",
+        "nome": "FUSION MONA LISA",
         "alias": []
       },
       {
-        "nome": "Ghibli Gold",
+        "nome": "FUSION REVOLUTION",
         "alias": []
       },
       {
-        "nome": "Grand Constantine",
+        "nome": "FUSION REVOLUTION CRYSTAL",
         "alias": []
       },
       {
-        "nome": "Ice Pearl",
+        "nome": "FUSION WOW MULTICOLOR",
         "alias": []
       },
       {
-        "nome": "Imperial Brown",
+        "nome": "GALAXY BLACK",
         "alias": []
       },
       {
-        "nome": "Imperial White",
+        "nome": "GALAXY BLACK EXTRA",
         "alias": []
       },
       {
-        "nome": "Infinity Brown",
+        "nome": "GIALLO CLEOPATRA",
         "alias": []
       },
       {
-        "nome": "Infinity Negresco",
+        "nome": "GIALLO SF REAL",
         "alias": []
       },
       {
-        "nome": "Ivory Brown Classic",
+        "nome": "GRAND CONSTANTINE",
         "alias": []
       },
       {
-        "nome": "Ivory Fantasy",
+        "nome": "GREY WOLF",
         "alias": []
       },
       {
-        "nome": "Juparana Bordeaux",
+        "nome": "ICE PEARL",
         "alias": []
       },
       {
-        "nome": "Juparana Colombo",
+        "nome": "IMPERIAL BROWN",
         "alias": []
       },
       {
-        "nome": "Juparana India",
+        "nome": "IMPERIAL WHITE",
         "alias": []
       },
       {
-        "nome": "Kashmir Gold",
+        "nome": "IMPERIAL WHITE EXTRA",
         "alias": []
       },
       {
-        "nome": "Kashmir White",
+        "nome": "INFINITY BROWN",
         "alias": []
       },
       {
-        "nome": "Kinawa Bianco Piracema",
+        "nome": "INFINITY NEGRESCO",
         "alias": []
       },
       {
-        "nome": "Lemurian Baobab",
+        "nome": "IVORY BROWN CLASSIC",
         "alias": []
       },
       {
-        "nome": "Labrador Antique",
+        "nome": "IVORY BROWN PINK",
         "alias": []
       },
       {
-        "nome": "Labrador Blue Pearl Gt",
+        "nome": "IVORY FANTASY",
         "alias": []
       },
       {
-        "nome": "Labradorite Bianca",
+        "nome": "JUPARANA BORDEAUX",
         "alias": []
       },
       {
-        "nome": "Magma Gold",
+        "nome": "JUPARANA COLOMBO",
         "alias": []
       },
       {
-        "nome": "Marinace Gold",
+        "nome": "JUPARANA INDIA",
         "alias": []
       },
       {
-        "nome": "Marinace Nero",
+        "nome": "JURA GELB",
         "alias": []
       },
       {
-        "nome": "Marinace Rosso",
+        "nome": "JURA GRAU",
         "alias": []
       },
       {
-        "nome": "Marinace Verde",
+        "nome": "JURASSIC BLACK",
         "alias": []
       },
       {
-        "nome": "Matrix",
+        "nome": "KASHMIR GOLD",
         "alias": []
       },
       {
-        "nome": "Multicolor Extra",
+        "nome": "KASHMIR WHITE",
         "alias": []
       },
       {
-        "nome": "Multicolor Light",
+        "nome": "KINAWA BIANCO PIRACEMA",
         "alias": []
       },
       {
-        "nome": "Mystic Grey",
+        "nome": "LABRADOR ANTIQUE",
         "alias": []
       },
       {
-        "nome": "Nero Assoluto Zimbawe",
+        "nome": "LABRADOR BLACK PEARL",
         "alias": []
       },
       {
-        "nome": "Nero Impala",
+        "nome": "LABRADOR BLUE PEARL",
         "alias": []
       },
       {
-        "nome": "Nero Marquina",
+        "nome": "LABRADOR TFV",
         "alias": []
       },
       {
-        "nome": "Nero Premium Black",
+        "nome": "LABRADORITE WHITE",
         "alias": []
       },
       {
-        "nome": "Nero San Marco",
+        "nome": "MAGMA GOLD",
         "alias": []
       },
       {
-        "nome": "Nero Via Lactea",
+        "nome": "MARINACE NERO",
         "alias": []
       },
       {
-        "nome": "New Impala",
+        "nome": "MARINACE ROSSO",
         "alias": []
       },
       {
-        "nome": "New Kashmir White",
+        "nome": "MARINACE VERDE",
         "alias": []
       },
       {
-        "nome": "New Spiace Black",
+        "nome": "MATRIX",
         "alias": []
       },
       {
-        "nome": "Nova Black",
+        "nome": "METALLICUS",
         "alias": []
       },
       {
-        "nome": "Oyster",
+        "nome": "MONTMARTRE",
         "alias": []
       },
       {
-        "nome": "Olive Green",
+        "nome": "MULTICOLOR ROSSO EXTRA",
         "alias": []
       },
       {
-        "nome": "Oriental Brown",
+        "nome": "MULTICOLOR ROSSO LIGHT",
         "alias": []
       },
       {
-        "nome": "Panna Fragola",
+        "nome": "MULTICOLOR TWILIGHT",
         "alias": []
       },
       {
-        "nome": "Paradiso Bash",
+        "nome": "MYSTIC GREY",
         "alias": []
       },
       {
-        "nome": "Paradiso Classico",
+        "nome": "NERO AFRICA",
         "alias": []
       },
       {
-        "nome": "Patagonia",
+        "nome": "NERO ASSOLUTO ZIMBABWE",
         "alias": []
       },
       {
-        "nome": "Patagonia Top",
+        "nome": "NERO BELFAST EXTRA",
         "alias": []
       },
       {
-        "nome": "Patagonia White",
+        "nome": "NERO MARQUINA",
         "alias": []
       },
       {
-        "nome": "Patagonia Green",
+        "nome": "NERO VIA LACTEA EXTRA",
         "alias": []
       },
       {
-        "nome": "Patagonia Green Extra",
+        "nome": "NEW KASHMIR WHITE",
         "alias": []
       },
       {
-        "nome": "Pegasus",
+        "nome": "NEW SPICE BLACK",
         "alias": []
       },
       {
-        "nome": "Phyton Black",
+        "nome": "OLIVE GREEN",
         "alias": []
       },
       {
-        "nome": "Pierre Blue",
+        "nome": "ORIENTAL BROWN",
         "alias": []
       },
       {
-        "nome": "Pietra Grey",
+        "nome": "ORISSA BLUE",
         "alias": []
       },
       {
-        "nome": "Pietra Serena",
+        "nome": "OYSTER",
         "alias": []
       },
       {
-        "nome": "Porto Rose",
+        "nome": "PANNA FRAGOLA",
         "alias": []
       },
       {
-        "nome": "Prada Gold",
+        "nome": "PARADISO BASH",
         "alias": []
       },
       {
-        "nome": "Quarzite Arthur Green",
+        "nome": "PARADISO CLASSICO",
         "alias": []
       },
       {
-        "nome": "Quarzite Botanic Green",
+        "nome": "PATAGONIA CRYSTAL",
         "alias": []
       },
       {
-        "nome": "Quarzite Emerald Green Jadore",
+        "nome": "PATAGONIA GREEN",
         "alias": []
       },
       {
-        "nome": "Quarzite Nacarado",
+        "nome": "PATAGONIA GREEN EXTRA",
         "alias": []
       },
       {
-        "nome": "Quarzite Natura Crystal",
+        "nome": "PATAGONIA WHITE",
         "alias": []
       },
       {
-        "nome": "Quarzite Splendido Rosa",
+        "nome": "PEGASUS",
         "alias": []
       },
       {
-        "nome": "Quarzite Blue Tempest",
+        "nome": "PHYTON BLACK",
         "alias": []
       },
       {
-        "nome": "Quarzite Chantilly",
+        "nome": "PIERRE BLUE",
         "alias": []
       },
       {
-        "nome": "Quarzite Chateau Blanc",
+        "nome": "PIETRA DI LUSERNA",
         "alias": []
       },
       {
-        "nome": "Quarzite Green Galaxy",
+        "nome": "PORT LAURENT",
         "alias": []
       },
       {
-        "nome": "Quarzite Ijen Blue Extra",
+        "nome": "PORTO ROSE",
         "alias": []
       },
       {
-        "nome": "Quarzite Mandrak",
+        "nome": "PRADA GOLD",
         "alias": []
       },
       {
-        "nome": "Quarzite Moulin Rouge",
+        "nome": "PREMIUM BLACK",
         "alias": []
       },
       {
-        "nome": "Quarzite Tempest White",
+        "nome": "QUARZITE ARTHUR GREEN",
         "alias": []
       },
       {
-        "nome": "Quarzite Venom",
+        "nome": "QUARZITE ATLANTIS",
         "alias": []
       },
       {
-        "nome": "Quarzite Vitara Crystal",
+        "nome": "QUARZITE BLUE TEMPEST",
         "alias": []
       },
       {
-        "nome": "Quarzite Colorado",
+        "nome": "QUARZITE BOTANIC GREEN",
         "alias": []
       },
       {
-        "nome": "Quarzite Emerald Green",
+        "nome": "QUARZITE CHANTILLY",
         "alias": []
       },
       {
-        "nome": "Quarzite Florida",
+        "nome": "QUARZITE CIELO",
         "alias": []
       },
       {
-        "nome": "Quarzite Green Da Vinci",
+        "nome": "QUARZITE COLORADO",
         "alias": []
       },
       {
-        "nome": "Quarzite Ijen Blue",
+        "nome": "QUARZITE EMERALD GREEN",
         "alias": []
       },
       {
-        "nome": "Quarzite Infinity Grey",
+        "nome": "QUARZITE EMERALD GREEN JADORE",
         "alias": []
       },
       {
-        "nome": "Quarzite Kalahari",
+        "nome": "QUARZITE FLORIDA",
         "alias": []
       },
       {
-        "nome": "Quarzite Krakatoa",
+        "nome": "QUARZITE GREEN DA VINCI",
         "alias": []
       },
       {
-        "nome": "Quarzite Macaubas Fantasy",
+        "nome": "QUARZITE GREEN GALAXY",
         "alias": []
       },
       {
-        "nome": "Quarzite Meridien",
+        "nome": "QUARZITE GUCCI",
         "alias": []
       },
       {
-        "nome": "Quarzite Meridien Blue",
+        "nome": "QUARZITE IJEN BLUE EXTRA",
         "alias": []
       },
       {
-        "nome": "Quarzite Ocean Blue",
+        "nome": "QUARZITE INFINITY GREY",
         "alias": []
       },
       {
-        "nome": "Quarzite Olympia",
+        "nome": "QUARZITE KALAHARI",
         "alias": []
       },
       {
-        "nome": "Quarzite Opus White",
+        "nome": "QUARZITE KRAKATOA",
         "alias": []
       },
       {
-        "nome": "Quarzite Portoro",
+        "nome": "QUARZITE MACAUBAS FANTASY",
         "alias": []
       },
       {
-        "nome": "Quarzite Supreme",
+        "nome": "QUARZITE MANDRAK",
         "alias": []
       },
       {
-        "nome": "Quarzite Vivid Green",
+        "nome": "QUARZITE MERIDIEN",
         "alias": []
       },
       {
-        "nome": "Quarzite White Infinity",
+        "nome": "QUARZITE MERIDIEN BLUE",
         "alias": []
       },
       {
-        "nome": "Quarzite White Pearl",
+        "nome": "QUARZITE MOULIN ROUGE",
         "alias": []
       },
       {
-        "nome": "Rain Forest Brown",
+        "nome": "QUARZITE NACARADO LIGHT",
         "alias": []
       },
       {
-        "nome": "Rain Forest Green",
+        "nome": "QUARZITE NATURA CRYSTAL",
         "alias": []
       },
       {
-        "nome": "River Gold",
+        "nome": "QUARZITE OCEAN BLUE",
         "alias": []
       },
       {
-        "nome": "River White",
+        "nome": "QUARZITE OLYMPIA",
         "alias": []
       },
       {
-        "nome": "Roma Imperiale",
+        "nome": "QUARZITE OPUS WHITE",
         "alias": []
       },
       {
-        "nome": "Rosa Beta",
+        "nome": "QUARZITE PACIFIC BROWN",
         "alias": []
       },
       {
-        "nome": "Rosa Porrino",
+        "nome": "QUARZITE PORTORO",
         "alias": []
       },
       {
-        "nome": "Rosa Sardo R",
+        "nome": "QUARZITE SILVERSTONE",
         "alias": []
       },
       {
-        "nome": "Royal Black",
+        "nome": "QUARZITE SPLENDIDO ROSA",
         "alias": []
       },
       {
-        "nome": "Saphire Blue",
+        "nome": "QUARZITE SUPREME",
         "alias": []
       },
       {
-        "nome": "Serizzo",
+        "nome": "QUARZITE TEMPEST WHITE",
         "alias": []
       },
       {
-        "nome": "Silver Roots - Harmony Grey",
+        "nome": "QUARZITE TROPICAL FASHION",
         "alias": []
       },
       {
-        "nome": "Silver Cloud",
+        "nome": "QUARZITE VELVET",
         "alias": []
       },
       {
-        "nome": "Silver Galaxy",
+        "nome": "QUARZITE VENOM",
         "alias": []
       },
       {
-        "nome": "Silver Grey",
+        "nome": "QUARZITE VITARA CRYSTAL",
         "alias": []
       },
       {
-        "nome": "Silver Paradiso",
+        "nome": "QUARZITE VIVID GREEN",
         "alias": []
       },
       {
-        "nome": "Statuario",
+        "nome": "QUARZITE WHITE",
         "alias": []
       },
       {
-        "nome": "Steel Grey",
+        "nome": "QUARZITE WHITE INFINITY",
         "alias": []
       },
       {
-        "nome": "Stromboli",
+        "nome": "RAIN FOREST BROWN",
         "alias": []
       },
       {
-        "nome": "Super Grey",
+        "nome": "RAIN FOREST GREEN",
         "alias": []
       },
       {
-        "nome": "Super White",
+        "nome": "RIVER BLUE",
         "alias": []
       },
       {
-        "nome": "Taj Mahal",
+        "nome": "RIVER GOLD",
         "alias": []
       },
       {
-        "nome": "Tan Brown",
+        "nome": "RIVER WHITE",
         "alias": []
       },
       {
-        "nome": "Thunder White",
+        "nome": "ROSA BETA",
         "alias": []
       },
       {
-        "nome": "Titanium",
+        "nome": "SAHARA NOIR",
         "alias": []
       },
       {
-        "nome": "Titanium Blue",
+        "nome": "SAPHIRE BLUE",
         "alias": []
       },
       {
-        "nome": "Titanium Cheyenne",
+        "nome": "SERIZZO FORMAZZA",
         "alias": []
       },
       {
-        "nome": "Titanium Gold",
+        "nome": "SILVER CLOUD",
         "alias": []
       },
       {
-        "nome": "Travertino Classico",
+        "nome": "SILVER GALAXY - STAR GATE",
         "alias": []
       },
       {
-        "nome": "Travertino Noce",
+        "nome": "SILVER GREY - ELEGANT GREY",
         "alias": []
       },
       {
-        "nome": "Verde Bahia Ubatuba",
+        "nome": "SILVER PARADISO",
         "alias": []
       },
       {
-        "nome": "Verde Guatemala",
+        "nome": "SILVER ROOTS - HARMONY GREY",
         "alias": []
       },
       {
-        "nome": "Verde Marina",
+        "nome": "SILVER WAVE",
         "alias": []
       },
       {
-        "nome": "Verde Maritaka",
+        "nome": "STATUARIETTO",
         "alias": []
       },
       {
-        "nome": "Virginia Black",
+        "nome": "STATUARIO",
         "alias": []
       },
       {
-        "nome": "Viscount White",
+        "nome": "STEEL GREY",
         "alias": []
       },
       {
-        "nome": "Vitoria Regia",
+        "nome": "STROMBOLI",
         "alias": []
       },
       {
-        "nome": "Vizag Blue",
+        "nome": "SUPER WHITE",
         "alias": []
       },
       {
-        "nome": "Volga Blue",
+        "nome": "SUPER WHITE CALACATTA",
         "alias": []
       },
       {
-        "nome": "Volga Blue Extra",
+        "nome": "TAJ MAHAL",
         "alias": []
       },
       {
-        "nome": "White Ice",
+        "nome": "TAJ MAHAL MP",
         "alias": []
       },
       {
-        "nome": "White Wave",
+        "nome": "TAN BROWN",
+        "alias": []
+      },
+      {
+        "nome": "THUNDER WHITE",
+        "alias": []
+      },
+      {
+        "nome": "TIMOTHY GREEN",
+        "alias": []
+      },
+      {
+        "nome": "TITANIUM",
+        "alias": []
+      },
+      {
+        "nome": "TITANIUM BLUE",
+        "alias": []
+      },
+      {
+        "nome": "TITANIUM CHEYENNE",
+        "alias": []
+      },
+      {
+        "nome": "TITANIUM CHEYENNE GOLD",
+        "alias": []
+      },
+      {
+        "nome": "TITANIUM GOLD",
+        "alias": []
+      },
+      {
+        "nome": "TRAVERTINO CLASSICO ROMANO",
+        "alias": []
+      },
+      {
+        "nome": "TRAVERTINO NOCE ROMANO",
+        "alias": []
+      },
+      {
+        "nome": "VERDE BAHIA",
+        "alias": []
+      },
+      {
+        "nome": "VERDE MARITAKA SAVANA",
+        "alias": []
+      },
+      {
+        "nome": "VICTORIA BLACK",
+        "alias": []
+      },
+      {
+        "nome": "VIRGINIA BLACK",
+        "alias": []
+      },
+      {
+        "nome": "VISCOUNT WHITE",
+        "alias": []
+      },
+      {
+        "nome": "VITORIA REGIA",
+        "alias": []
+      },
+      {
+        "nome": "VIZAG BLUE",
+        "alias": []
+      },
+      {
+        "nome": "VOLGA BLU",
+        "alias": []
+      },
+      {
+        "nome": "VOLGA BLU EXTRA",
+        "alias": []
+      },
+      {
+        "nome": "WHITE ICE",
+        "alias": []
+      },
+      {
+        "nome": "WHITE WAVE",
         "alias": []
       }
     ]
@@ -31263,7 +31339,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Cremo",
+        "nome": "CALACATTA CREMO",
         "alias": []
       },
       {
@@ -31351,7 +31427,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Vagli Oro",
+        "nome": "CALACATTA VAGLI ORO",
         "alias": []
       },
       {
@@ -32063,7 +32139,7 @@
         "alias": []
       },
       {
-        "nome": "Picasso",
+        "nome": "PICASSO",
         "alias": []
       },
       {
@@ -37997,7 +38073,7 @@
         "alias": []
       },
       {
-        "nome": "Ceppo di Sicilia",
+        "nome": "Ceppo Di Sicilia",
         "alias": []
       },
       {
@@ -38102,10 +38178,6 @@
       },
       {
         "nome": "Montebianco",
-        "alias": []
-      },
-      {
-        "nome": "Mystic Blue",
         "alias": []
       },
       {
