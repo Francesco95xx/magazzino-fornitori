@@ -3406,10 +3406,6 @@
         "alias": []
       },
       {
-        "nome": "GRIGIO COLLEMANDINA",
-        "alias": []
-      },
-      {
         "nome": "GRIGIO TURNER",
         "alias": []
       },
@@ -12969,10 +12965,6 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Marble",
-        "alias": []
-      },
-      {
         "nome": "Calacatta Michelangelo",
         "alias": []
       },
@@ -13927,10 +13919,6 @@
       },
       {
         "nome": "Calacatta Macchia Vecchia",
-        "alias": []
-      },
-      {
-        "nome": "Calacatta Marble",
         "alias": []
       },
       {
@@ -27426,7 +27414,7 @@
         "alias": []
       },
       {
-        "nome": "COLONIAL IVORY",
+        "nome": "Colonial Ivory",
         "alias": []
       },
       {
@@ -27582,11 +27570,11 @@
         "alias": []
       },
       {
-        "nome": "JUPARANA COLOMBO",
+        "nome": "Juparana Colombo",
         "alias": []
       },
       {
-        "nome": "JUPARANA' INDIA",
+        "nome": "Juparana India",
         "alias": []
       },
       {
@@ -27662,7 +27650,7 @@
         "alias": []
       },
       {
-        "nome": "MYSTIC GREEN",
+        "nome": "Mystic Green",
         "alias": []
       },
       {
@@ -27710,7 +27698,7 @@
         "alias": []
       },
       {
-        "nome": "NERO STAR GALAXY",
+        "nome": "Nero Star Galaxy",
         "alias": []
       },
       {
@@ -27858,7 +27846,7 @@
         "alias": []
       },
       {
-        "nome": "ROSSO MULTICOLOR",
+        "nome": "Rosso Multicolor",
         "alias": []
       },
       {
@@ -27890,7 +27878,7 @@
         "alias": []
       },
       {
-        "nome": "SHIVAKASHY",
+        "nome": "Shivakashy",
         "alias": []
       },
       {
@@ -27998,7 +27986,7 @@
         "alias": []
       },
       {
-        "nome": "VERDE GUATEMALA",
+        "nome": "Verde Guatemala",
         "alias": []
       },
       {
@@ -28018,7 +28006,7 @@
         "alias": []
       },
       {
-        "nome": "VERDE MARINA",
+        "nome": "Verde Marina",
         "alias": []
       },
       {
@@ -30046,10 +30034,6 @@
         "alias": []
       },
       {
-        "nome": "Arabescato Corchia (copia)",
-        "alias": []
-      },
-      {
         "nome": "Arabescato Corchia Gold",
         "alias": []
       },
@@ -31208,7 +31192,7 @@
         "alias": []
       },
       {
-        "nome": "ARABESCATO VAGLI",
+        "nome": "Arabescato Vagli",
         "alias": []
       },
       {
@@ -32421,6 +32405,10 @@
       },
       {
         "nome": "ROSA ZARCI",
+        "alias": []
+      },
+      {
+        "nome": "Rosso Alicante",
         "alias": []
       },
       {
@@ -37757,10 +37745,6 @@
         "alias": []
       },
       {
-        "nome": "CALACATTA OYSTER",
-        "alias": []
-      },
-      {
         "nome": "CALACATTA PICASSO",
         "alias": []
       },
@@ -38387,10 +38371,6 @@
       },
       {
         "nome": "Red Onyx",
-        "alias": []
-      },
-      {
-        "nome": "Revolution",
         "alias": []
       },
       {
@@ -40077,14 +40057,6 @@
       },
       {
         "nome": "Avorio",
-        "alias": []
-      },
-      {
-        "nome": "Azul Bahia",
-        "alias": []
-      },
-      {
-        "nome": "AZUL BAHIA",
         "alias": []
       },
       {
