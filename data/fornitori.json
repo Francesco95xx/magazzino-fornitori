@@ -3406,10 +3406,6 @@
         "alias": []
       },
       {
-        "nome": "GRIGIO COLLEMANDINA",
-        "alias": []
-      },
-      {
         "nome": "GRIGIO TURNER",
         "alias": []
       },
@@ -9451,10 +9447,6 @@
         "alias": []
       },
       {
-        "nome": "dolce vita",
-        "alias": []
-      },
-      {
         "nome": "dolcevita",
         "alias": []
       },
@@ -12969,10 +12961,6 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Marble",
-        "alias": []
-      },
-      {
         "nome": "Calacatta Michelangelo",
         "alias": []
       },
@@ -13927,10 +13915,6 @@
       },
       {
         "nome": "Calacatta Macchia Vecchia",
-        "alias": []
-      },
-      {
-        "nome": "Calacatta Marble",
         "alias": []
       },
       {
@@ -15400,6 +15384,10 @@
         "alias": []
       },
       {
+        "nome": "TRAVERTINO ONICIATO",
+        "alias": []
+      },
+      {
         "nome": "TRAVERTINO ROSA",
         "alias": []
       },
@@ -16274,10 +16262,6 @@
       },
       {
         "nome": "EMPERADOR LIGHT",
-        "alias": []
-      },
-      {
-        "nome": "GIALLO ATLANTIDE",
         "alias": []
       },
       {
@@ -24270,6 +24254,10 @@
         "alias": []
       },
       {
+        "nome": "ALEXANDER BLACK",
+        "alias": []
+      },
+      {
         "nome": "ALMA GREY",
         "alias": []
       },
@@ -24367,6 +24355,10 @@
       },
       {
         "nome": "BLACK SILK",
+        "alias": []
+      },
+      {
+        "nome": "BLACK TEA",
         "alias": []
       },
       {
@@ -26201,6 +26193,10 @@
         "alias": []
       },
       {
+        "nome": "Desert Green",
+        "alias": []
+      },
+      {
         "nome": "Dolce Vita",
         "alias": []
       },
@@ -27426,7 +27422,7 @@
         "alias": []
       },
       {
-        "nome": "COLONIAL IVORY",
+        "nome": "Colonial Ivory",
         "alias": []
       },
       {
@@ -27582,11 +27578,11 @@
         "alias": []
       },
       {
-        "nome": "JUPARANA COLOMBO",
+        "nome": "Juparana Colombo",
         "alias": []
       },
       {
-        "nome": "JUPARANA' INDIA",
+        "nome": "Juparana India",
         "alias": []
       },
       {
@@ -27662,7 +27658,7 @@
         "alias": []
       },
       {
-        "nome": "MYSTIC GREEN",
+        "nome": "Mystic Green",
         "alias": []
       },
       {
@@ -27710,7 +27706,7 @@
         "alias": []
       },
       {
-        "nome": "NERO STAR GALAXY",
+        "nome": "Nero Star Galaxy",
         "alias": []
       },
       {
@@ -27858,7 +27854,7 @@
         "alias": []
       },
       {
-        "nome": "ROSSO MULTICOLOR",
+        "nome": "Rosso Multicolor",
         "alias": []
       },
       {
@@ -27890,7 +27886,7 @@
         "alias": []
       },
       {
-        "nome": "SHIVAKASHY",
+        "nome": "Shivakashy",
         "alias": []
       },
       {
@@ -27998,7 +27994,7 @@
         "alias": []
       },
       {
-        "nome": "VERDE GUATEMALA",
+        "nome": "Verde Guatemala",
         "alias": []
       },
       {
@@ -28018,7 +28014,7 @@
         "alias": []
       },
       {
-        "nome": "VERDE MARINA",
+        "nome": "Verde Marina",
         "alias": []
       },
       {
@@ -28304,6 +28300,10 @@
       },
       {
         "nome": "CRISTALLO ROSA",
+        "alias": []
+      },
+      {
+        "nome": "CRISTALLO ST MARCOS",
         "alias": []
       },
       {
@@ -28763,6 +28763,14 @@
         "alias": []
       },
       {
+        "nome": "QUARZITE MYSTIC BLUE",
+        "alias": []
+      },
+      {
+        "nome": "QUARZITE NACARADO",
+        "alias": []
+      },
+      {
         "nome": "QUARZITE NACARADO LIGHT",
         "alias": []
       },
@@ -28852,6 +28860,10 @@
       },
       {
         "nome": "RIVER WHITE",
+        "alias": []
+      },
+      {
+        "nome": "ROMA IMPERIALE",
         "alias": []
       },
       {
@@ -30043,10 +30055,6 @@
     "materiali": [
       {
         "nome": "Arabescato Corchia",
-        "alias": []
-      },
-      {
-        "nome": "Arabescato Corchia (copia)",
         "alias": []
       },
       {
@@ -31452,6 +31460,10 @@
         "alias": []
       },
       {
+        "nome": "BRUN DU ROI",
+        "alias": []
+      },
+      {
         "nome": "CALACATA CALDIA EXTRA",
         "alias": []
       },
@@ -31496,7 +31508,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Cremo",
+        "nome": "CALACATTA CREMO",
         "alias": []
       },
       {
@@ -31584,7 +31596,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Vagli Oro",
+        "nome": "CALACATTA VAGLI ORO",
         "alias": []
       },
       {
@@ -32296,7 +32308,7 @@
         "alias": []
       },
       {
-        "nome": "Picasso",
+        "nome": "PICASSO",
         "alias": []
       },
       {
@@ -32421,6 +32433,10 @@
       },
       {
         "nome": "ROSA ZARCI",
+        "alias": []
+      },
+      {
+        "nome": "Rosso Alicante",
         "alias": []
       },
       {
@@ -32745,6 +32761,10 @@
       },
       {
         "nome": "Yellow Red",
+        "alias": []
+      },
+      {
+        "nome": "ZAFARANA",
         "alias": []
       },
       {
@@ -37757,10 +37777,6 @@
         "alias": []
       },
       {
-        "nome": "CALACATTA OYSTER",
-        "alias": []
-      },
-      {
         "nome": "CALACATTA PICASSO",
         "alias": []
       },
@@ -38387,10 +38403,6 @@
       },
       {
         "nome": "Red Onyx",
-        "alias": []
-      },
-      {
-        "nome": "Revolution",
         "alias": []
       },
       {
@@ -40080,14 +40092,6 @@
         "alias": []
       },
       {
-        "nome": "Azul Bahia",
-        "alias": []
-      },
-      {
-        "nome": "AZUL BAHIA",
-        "alias": []
-      },
-      {
         "nome": "AZUL EXTREMADURA",
         "alias": []
       },
@@ -40389,10 +40393,6 @@
       },
       {
         "nome": "Galaxy Black",
-        "alias": []
-      },
-      {
-        "nome": "GALAXY BLACK STAR GALAXY",
         "alias": []
       },
       {
@@ -41261,6 +41261,10 @@
         "alias": []
       },
       {
+        "nome": "BIANCO NEVE EXTRA FINE",
+        "alias": []
+      },
+      {
         "nome": "BIANCO PALOVINO",
         "alias": []
       },
@@ -41502,10 +41506,6 @@
       },
       {
         "nome": "BRECCIA DAMASCATA",
-        "alias": []
-      },
-      {
-        "nome": "BRECCIA EGEO",
         "alias": []
       },
       {
@@ -42066,6 +42066,10 @@
       },
       {
         "nome": "DOUBLE BROWN",
+        "alias": []
+      },
+      {
+        "nome": "DOVER WHITE",
         "alias": []
       },
       {
@@ -46125,7 +46129,15 @@
         "alias": []
       },
       {
+        "nome": "CRISTALLO CHAMPAGNE",
+        "alias": []
+      },
+      {
         "nome": "CRISTALLO VIOLA",
+        "alias": []
+      },
+      {
+        "nome": "CRISTALLO VITRUM",
         "alias": []
       },
       {
@@ -46158,6 +46170,10 @@
       },
       {
         "nome": "GREEN CAYMAN SODALITE",
+        "alias": []
+      },
+      {
+        "nome": "GREEN STAR",
         "alias": []
       },
       {

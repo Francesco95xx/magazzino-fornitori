@@ -121,20 +121,25 @@ URL/tenant (`esgroup.slabware.com`) quindi stessi 238 materiali per
 entrambi — non è un errore, i due nomi commerciali condividono un unico
 magazzino fisico.
 
-**GR Marmi**: il "Magazzino Online" (`/magazzino/`) richiede davvero un
-account cliente (email/password) — verificato di nuovo, login form reale.
-Esiste però una pagina pubblica separata, "I Materiali"
-(`/materiali-marmi-carrara/`), con il catalogo generale dell'azienda (51
-materiali, non le quantità live a magazzino ma comunque utile): nome in
-`figcaption.vc_figure-caption`.
+**GR Marmi — automatizzato con login reale**: primo (e finora unico)
+fornitore di questo progetto con vere credenziali cliente. Ca'D'Oro ha un
+account sul Magazzino Online (`/magazzino/`); lo scraper fa login
+automatico (form WordPress "User Registration": `#username`, `#password`,
+`button[name="login"]`) usando `GRMARMI_EMAIL`/`GRMARMI_PASSWORD` da
+variabili d'ambiente (mai hardcoded, vedi sezione secret sotto), poi legge
+il filtro "MATERIALE" (`select#product_cat`, 215 materiali — molto meglio
+dei 51 della pagina pubblica "I Materiali" usata come tentativo
+precedente, ora sostituita).
 
-**68 su 74 totali automatizzati.** Gli altri 6 restano fissi in
+**68 su 74 totali automatizzati** (GR Marmi era già conteggiato prima
+tramite la pagina pubblica: passare al login reale migliora la qualità dei
+dati ma non cambia il totale). Gli altri 6 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
-- **Login reale richiesto** (5): GeoMarmi, Margraf (form email/password
-  vero, non un semplice popup), `isodata.it` (Red Graniti, NaturalStone —
-  due prodotti diversi, MarbleR2/MarbleR3, 401 anche dal browser),
-  piattaforma "DDL" con parametro `g_1_limit` (Lasa Marmo, Orlandini —
-  pagina "ACCESSO", zero dati senza credenziali).
+- **Login reale richiesto, credenziali non disponibili** (6): GeoMarmi,
+  Margraf (form email/password vero, non un semplice popup), `isodata.it`
+  (Red Graniti, NaturalStone — due prodotti diversi, MarbleR2/MarbleR3, 401
+  anche dal browser), piattaforma "DDL" con parametro `g_1_limit` (Lasa
+  Marmo, Orlandini — pagina "ACCESSO", zero dati senza credenziali).
 - **Errore persistente lato sito** (2): Marmoelite (HTTP 500 ripetuto anche
   a distanza di giorni), Marmi di Carrara (connessione rifiutata/reset
   ripetuto) — non un blocco per IP, probabile problema del sito stesso.
@@ -197,6 +202,24 @@ vedi sotto per come gestisce il token di quell'API.
   `https://marimar.net/it/magazzino` con gli strumenti sviluppatore sulla
   scheda Network, cercando l'header `Authorization: Bearer ...` in una
   qualunque richiesta verso `marimar.interagisco.it`.
+
+- `GRMARMI_EMAIL` / `GRMARMI_PASSWORD` — credenziali reali dell'account
+  cliente Ca'D'Oro sul Magazzino Online di GR Marmi, usate da
+  `scraper/sites/gr-marmi.js` per fare login automatico (form WordPress,
+  `#username`/`#password`) prima di leggere il filtro materiali
+  (`select#product_cat`). **Queste sì sono credenziali vere** — a differenza
+  del token Marimar, non condividerle/incollarle mai in chat o nel codice.
+  Vanno impostate solo in:
+  - **GitHub Actions**: Settings del repo → Secrets and variables →
+    Actions → New repository secret → nomi `GRMARMI_EMAIL` e
+    `GRMARMI_PASSWORD`.
+  - **Locale**: `$env:GRMARMI_EMAIL = "..."` e `$env:GRMARMI_PASSWORD = "..."`
+    prima di lanciare `node run-all.js` (PowerShell), altrimenti quello
+    scraper fallisce con un errore esplicito e usa l'ultima versione buona.
+
+  Se la password viene cambiata, va aggiornato solo il secret
+  `GRMARMI_PASSWORD` su GitHub (e l'env locale se serve ritestare) — non è
+  scritta da nessuna parte nel codice sorgente.
 
 ## Setup iniziale (una tantum, già fatto se stai leggendo questo su GitHub)
 
