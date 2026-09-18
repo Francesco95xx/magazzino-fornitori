@@ -121,13 +121,20 @@ URL/tenant (`esgroup.slabware.com`) quindi stessi 238 materiali per
 entrambi — non è un errore, i due nomi commerciali condividono un unico
 magazzino fisico.
 
-**67 su 74 totali automatizzati.** Gli altri 7 restano fissi in
+**GR Marmi**: il "Magazzino Online" (`/magazzino/`) richiede davvero un
+account cliente (email/password) — verificato di nuovo, login form reale.
+Esiste però una pagina pubblica separata, "I Materiali"
+(`/materiali-marmi-carrara/`), con il catalogo generale dell'azienda (51
+materiali, non le quantità live a magazzino ma comunque utile): nome in
+`figcaption.vc_figure-caption`.
+
+**68 su 74 totali automatizzati.** Gli altri 6 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
-- **Login reale richiesto** (6): GR Marmi, GeoMarmi, Margraf (form
-  email/password vero, non un semplice popup), `isodata.it` (Red Graniti,
-  NaturalStone — due prodotti diversi, MarbleR2/MarbleR3, 401 anche dal
-  browser), piattaforma "DDL" con parametro `g_1_limit` (Lasa Marmo,
-  Orlandini — pagina "ACCESSO", zero dati senza credenziali).
+- **Login reale richiesto** (5): GeoMarmi, Margraf (form email/password
+  vero, non un semplice popup), `isodata.it` (Red Graniti, NaturalStone —
+  due prodotti diversi, MarbleR2/MarbleR3, 401 anche dal browser),
+  piattaforma "DDL" con parametro `g_1_limit` (Lasa Marmo, Orlandini —
+  pagina "ACCESSO", zero dati senza credenziali).
 - **Errore persistente lato sito** (2): Marmoelite (HTTP 500 ripetuto anche
   a distanza di giorni), Marmi di Carrara (connessione rifiutata/reset
   ripetuto) — non un blocco per IP, probabile problema del sito stesso.
