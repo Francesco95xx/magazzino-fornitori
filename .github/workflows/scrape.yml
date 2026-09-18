@@ -46,6 +46,8 @@ jobs:
           MARIMAR_API_TOKEN: ${{ secrets.MARIMAR_API_TOKEN }}
           GRMARMI_EMAIL: ${{ secrets.GRMARMI_EMAIL }}
           GRMARMI_PASSWORD: ${{ secrets.GRMARMI_PASSWORD }}
+          MARGRAF_EMAIL: ${{ secrets.MARGRAF_EMAIL }}
+          MARGRAF_PASSWORD: ${{ secrets.MARGRAF_PASSWORD }}
 
       - name: Commit dati aggiornati (se cambiati)
         shell: powershell # Windows PowerShell 5.1: pwsh (PS7) non è installato su questo runner

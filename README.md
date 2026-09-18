@@ -131,15 +131,23 @@ il filtro "MATERIALE" (`select#product_cat`, 215 materiali — molto meglio
 dei 51 della pagina pubblica "I Materiali" usata come tentativo
 precedente, ora sostituita).
 
-**68 su 74 totali automatizzati** (GR Marmi era già conteggiato prima
+**Margraf — automatizzato con login reale**: secondo fornitore con vere
+credenziali cliente. Login `#email`/`#password`, bottone "Invia" (nessun
+id/name, si clicca per testo); un banner cookie Cybot va rimosso prima o
+blocca i click. Dopo il login, "Tutti i prodotti" mostra le card materiale
+(`h2.font-bold`, stesso selettore usato anche dal carosello "Margraf
+Selection" in cima — dedup unifica i doppi), scroll fino a stabilizzazione:
+51 materiali.
+
+**69 su 74 totali automatizzati** (GR Marmi era già conteggiato prima
 tramite la pagina pubblica: passare al login reale migliora la qualità dei
-dati ma non cambia il totale). Gli altri 6 restano fissi in
+dati ma non cambia il totale). Gli altri 5 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
-- **Login reale richiesto, credenziali non disponibili** (6): GeoMarmi,
-  Margraf (form email/password vero, non un semplice popup), `isodata.it`
-  (Red Graniti, NaturalStone — due prodotti diversi, MarbleR2/MarbleR3, 401
-  anche dal browser), piattaforma "DDL" con parametro `g_1_limit` (Lasa
-  Marmo, Orlandini — pagina "ACCESSO", zero dati senza credenziali).
+- **Login reale richiesto, credenziali non disponibili** (5): GeoMarmi,
+  `isodata.it` (Red Graniti, NaturalStone — due prodotti diversi,
+  MarbleR2/MarbleR3, 401 anche dal browser), piattaforma "DDL" con
+  parametro `g_1_limit` (Lasa Marmo, Orlandini — pagina "ACCESSO", zero
+  dati senza credenziali).
 - **Errore persistente lato sito** (2): Marmoelite (HTTP 500 ripetuto anche
   a distanza di giorni), Marmi di Carrara (connessione rifiutata/reset
   ripetuto) — non un blocco per IP, probabile problema del sito stesso.
@@ -220,6 +228,15 @@ vedi sotto per come gestisce il token di quell'API.
   Se la password viene cambiata, va aggiornato solo il secret
   `GRMARMI_PASSWORD` su GitHub (e l'env locale se serve ritestare) — non è
   scritta da nessuna parte nel codice sorgente.
+
+- `MARGRAF_EMAIL` / `MARGRAF_PASSWORD` — stesso schema di
+  `GRMARMI_EMAIL`/`GRMARMI_PASSWORD`, credenziali reali dell'account
+  cliente Ca'D'Oro sul Magazzino Online di Margraf, usate da
+  `scraper/sites/margraf.js` (login `#email`/`#password`, bottone "Invia").
+  Stessi due posti dove impostarle: **GitHub Actions** (Secrets and
+  variables → Actions → New repository secret) e **locale**
+  (`$env:MARGRAF_EMAIL = "..."` / `$env:MARGRAF_PASSWORD = "..."` prima di
+  `node run-all.js`).
 
 ## Setup iniziale (una tantum, già fatto se stai leggendo questo su GitHub)
 
