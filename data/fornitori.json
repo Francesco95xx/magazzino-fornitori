@@ -9119,11 +9119,11 @@
         "alias": []
       },
       {
-        "nome": "arabescato",
+        "nome": "apuano",
         "alias": []
       },
       {
-        "nome": "arabescato altissimo",
+        "nome": "arabescato",
         "alias": []
       },
       {
@@ -9308,10 +9308,6 @@
       },
       {
         "nome": "calacatta foto",
-        "alias": []
-      },
-      {
-        "nome": "calacatta gold dune l",
         "alias": []
       },
       {
@@ -9579,10 +9575,6 @@
         "alias": []
       },
       {
-        "nome": "jacaranda",
-        "alias": []
-      },
-      {
         "nome": "jasper red l",
         "alias": []
       },
@@ -9816,10 +9808,6 @@
       },
       {
         "nome": "rosso damasco l",
-        "alias": []
-      },
-      {
-        "nome": "rosso fuoco l",
         "alias": []
       },
       {
@@ -19647,6 +19635,10 @@
       },
       {
         "nome": "Picasso",
+        "alias": []
+      },
+      {
+        "nome": "Rosa Norvegia",
         "alias": []
       },
       {
@@ -31204,11 +31196,11 @@
         "alias": []
       },
       {
-        "nome": "Arabescato",
+        "nome": "ARABESCATO",
         "alias": []
       },
       {
-        "nome": "Arabescato Corchia",
+        "nome": "ARABESCATO CORCHIA",
         "alias": []
       },
       {
@@ -31220,7 +31212,7 @@
         "alias": []
       },
       {
-        "nome": "Arabescato Vagli",
+        "nome": "ARABESCATO VAGLI",
         "alias": []
       },
       {
@@ -31484,7 +31476,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta",
+        "nome": "CALACATTA",
         "alias": []
       },
       {
@@ -31512,7 +31504,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Cremo",
+        "nome": "CALACATTA CREMO",
         "alias": []
       },
       {
@@ -31552,7 +31544,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Monet",
+        "nome": "CALACATTA MONET",
         "alias": []
       },
       {
@@ -31596,7 +31588,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Vagli",
+        "nome": "CALACATTA VAGLI",
         "alias": []
       },
       {
@@ -31620,7 +31612,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Viola",
+        "nome": "CALACATTA VIOLA",
         "alias": []
       },
       {
@@ -32312,7 +32304,7 @@
         "alias": []
       },
       {
-        "nome": "Picasso",
+        "nome": "PICASSO",
         "alias": []
       },
       {
@@ -32492,7 +32484,7 @@
         "alias": []
       },
       {
-        "nome": "Statuarietto",
+        "nome": "STATUARIETTO",
         "alias": []
       },
       {
@@ -32500,7 +32492,7 @@
         "alias": []
       },
       {
-        "nome": "Statuario",
+        "nome": "STATUARIO",
         "alias": []
       },
       {
@@ -38019,10 +38011,6 @@
       },
       {
         "nome": "Arabescato Corchia Picasso",
-        "alias": []
-      },
-      {
-        "nome": "Arabescato Corchia Venato",
         "alias": []
       },
       {
