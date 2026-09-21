@@ -148,18 +148,42 @@ Page"]`) **aggiunge** altri 24 elementi alla lista già nel DOM invece di
 sostituirla (l'URL nella pagina non cambia, è tutto via JS) — diverso da
 qualunque altro scroll/paginazione visto finora in questo progetto.
 
-**70 su 74 totali automatizzati** (GR Marmi era già conteggiato prima
+**Margraf — nota sul debug del login (2026-09)**: dopo l'aggiunta dei
+secret, la corsa CI continuava a fallire con "Nessun materiale trovato
+dopo il login". Diagnosticato passo passo con l'utente: non era un bug
+dello scraper né delle credenziali (confermate corrette, spazio finale
+incluso, verificate con login manuale su un altro dispositivo) — il sito
+Margraf aveva un disservizio lato loro (login funzionante ma nessuna
+immagine/materiale caricato per nessuno). Nel frattempo lo scraper è stato
+comunque reso più robusto: passato a un browser headed indipendente (stesso
+motivo di Elite Stone) perché la modalità headless dava lo stesso sintomo
+("login riuscito" ma pagina vuota) anche a sito funzionante. Non c'è altro
+da fare lato codice: va solo verificato che la corsa vada a buon fine ora
+che il sito Margraf è tornato operativo.
+
+**NaturalStone**: trovato un URL pubblico diverso da quello originale
+(`naturalstones.isodata.it`, che richiede login) — `naturalstones.marbler3.it`
+è la stessa piattaforma MarbleR3 ma **accessibile senza credenziali** su
+questo dominio. Il catalogo mostra 24 lastre per pagina di default; lo
+scraper clicca sul selettore dimensione pagina "48" per averne di più in un
+colpo solo (27 materiali distinti).
+
+**71 su 74 totali automatizzati** (GR Marmi era già conteggiato prima
 tramite la pagina pubblica: passare al login reale migliora la qualità dei
-dati ma non cambia il totale). Gli altri 4 restano fissi in
+dati ma non cambia il totale; lo stesso vale per Margraf una volta che il
+sito torna a funzionare). Gli altri 3 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
-- **Login reale richiesto, credenziali non disponibili** (3): GeoMarmi,
-  `isodata.it` (Red Graniti, NaturalStone — due prodotti diversi,
-  MarbleR2/MarbleR3, 401 anche dal browser).
-- **Login reale richiesto, ma esiste un catalogo pubblico alternativo**
-  (1): Lasa Marmo — stessa piattaforma DDL di Orlandini
-  (`slabs.lasamarmo.it`), da controllare se il sito principale
-  (`lasamarmo.it`) ha una pagina pubblica equivalente al Katalog di
-  Orlandini (non ancora investigato).
+- **Login reale richiesto, credenziali non disponibili** (2): GeoMarmi,
+  Red Graniti (`redgraniti.isodata.it`, piattaforma MarbleR2 — a differenza
+  di NaturalStone/MarbleR3 non è stato trovato un dominio pubblico
+  equivalente; da riprovare se si trova un URL alternativo come per
+  NaturalStone).
+- **Login reale richiesto, ma non ha senso automatizzarlo** (1): Lasa Marmo
+  — non è un rivenditore con un ampio catalogo come Orlandini/NaturalStone,
+  è l'azienda della cava stessa: vende sostanzialmente un solo marmo in 3
+  varianti (LASA Bianco, LASA Venato, LASA !ndividual). Non esiste un
+  catalogo pubblico più ampio da recuperare, il dato utile (disponibilità
+  blocchi/lastre) resta dietro login vero senza alternativa ragionevole.
 - **Errore persistente lato sito** (2): Marmoelite (HTTP 500 ripetuto anche
   a distanza di giorni), Marmi di Carrara (connessione rifiutata/reset
   ripetuto) — non un blocco per IP, probabile problema del sito stesso.
