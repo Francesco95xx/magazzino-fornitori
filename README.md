@@ -139,15 +139,27 @@ blocca i click. Dopo il login, "Tutti i prodotti" mostra le card materiale
 Selection" in cima — dedup unifica i doppi), scroll fino a stabilizzazione:
 51 materiali.
 
-**69 su 74 totali automatizzati** (GR Marmi era già conteggiato prima
+**Orlandini Gallery**: il vero magazzino (`lager.orlandini.de`, piattaforma
+DDL) resta dietro login, ma il sito principale ha un Katalog pubblico
+(`orlandini.de/store`, Webflow CMS) — non tutti i materiali disponibili per
+loro stessa ammissione, ma 254 nomi comunque utili. Paginazione ad
+accumulo particolare: ogni click su "Next Page" (`a[aria-label="Next
+Page"]`) **aggiunge** altri 24 elementi alla lista già nel DOM invece di
+sostituirla (l'URL nella pagina non cambia, è tutto via JS) — diverso da
+qualunque altro scroll/paginazione visto finora in questo progetto.
+
+**70 su 74 totali automatizzati** (GR Marmi era già conteggiato prima
 tramite la pagina pubblica: passare al login reale migliora la qualità dei
-dati ma non cambia il totale). Gli altri 5 restano fissi in
+dati ma non cambia il totale). Gli altri 4 restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
-- **Login reale richiesto, credenziali non disponibili** (5): GeoMarmi,
+- **Login reale richiesto, credenziali non disponibili** (3): GeoMarmi,
   `isodata.it` (Red Graniti, NaturalStone — due prodotti diversi,
-  MarbleR2/MarbleR3, 401 anche dal browser), piattaforma "DDL" con
-  parametro `g_1_limit` (Lasa Marmo, Orlandini — pagina "ACCESSO", zero
-  dati senza credenziali).
+  MarbleR2/MarbleR3, 401 anche dal browser).
+- **Login reale richiesto, ma esiste un catalogo pubblico alternativo**
+  (1): Lasa Marmo — stessa piattaforma DDL di Orlandini
+  (`slabs.lasamarmo.it`), da controllare se il sito principale
+  (`lasamarmo.it`) ha una pagina pubblica equivalente al Katalog di
+  Orlandini (non ancora investigato).
 - **Errore persistente lato sito** (2): Marmoelite (HTTP 500 ripetuto anche
   a distanza di giorni), Marmi di Carrara (connessione rifiutata/reset
   ripetuto) — non un blocco per IP, probabile problema del sito stesso.
