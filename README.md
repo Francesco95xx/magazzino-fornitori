@@ -26,9 +26,9 @@ rispedire file — tutti aprono lo stesso link, sempre aggiornato.
 **Scraper individuali (4)**: `orobici` (Marmi Orobici), `marimar`, `moristone`
 (Mori Stone), `stocchero-attilio`.
 
-**Piattaforma condivisa iblocky.it (7)**: `bb-atelier`, `mondial-granit`,
-`marmi-rosa`, `italian-stone-source`, `stone-export`, `planet-stone`, `cmc`
-— un solo modulo (`scraper/sites/_platforms/iblocky.js`) chiama l'API
+**Piattaforma condivisa iblocky.it (8)**: `bb-atelier`, `mondial-granit`,
+`marmi-rosa`, `italian-stone-source`, `stone-export`, `planet-stone`, `cmc`,
+`black-eagle` — un solo modulo (`scraper/sites/_platforms/iblocky.js`) chiama l'API
 pubblica `api.iblocky.it/api/v2/tenants/<slug>/filters/materials` (basta
 Referer/Origin/User-Agent da browser, nessun token/login), i file in
 `scraper/sites/` sono solo un wrapper con lo slug del tenant.
@@ -187,7 +187,24 @@ anch'esso in `<strong>`). Rispetto a prima copre anche le 4 categorie mai
 scraperate (Granito, Travertino, Onice, Quarzite, oltre a Marmo): **130
 materiali** invece di 85.
 
-**73 su 74 totali automatizzati**. Restano fissi in
+**Corradini Group — nuovo fornitore (2026-09-23)**: pagina statica
+(WordPress/Astra), tutti i 160 materiali sono già presenti nel DOM al
+caricamento — nessuno scroll o paginazione necessari (verificato che il
+conteggio non cambia scrollando), basta il context headless condiviso come
+per la maggior parte degli altri fornitori. Nome materiale nel primo `<h2>`
+di ogni voce dentro l'accordion dei filtri (`#block-filters .accordion-item`),
+selettore che esclude automaticamente i 3 `<h2>` non pertinenti della pagina
+(titolo, CTA, "Featured products"). Da non confondere con "Marmi Corradini"
+(id `marmi-corradini`, azienda diversa, già automatizzata in precedenza).
+
+**Black Eagle — passato a iblocky.it (2026-09-23)**: era automatizzato via
+shop WooCommerce (`/stock-online/`, catalogo prodotti statico), risulta
+essere anche un tenant sulla piattaforma condivisa iblocky.it (stesso
+gestionale di B&B Atelier/Mondial Granit/etc) — passando all'API si ottiene
+il magazzino lastre in tempo reale invece del catalogo shop: 171 materiali
+invece di 166.
+
+**71 su 74 totali automatizzati**. Restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
 - **Login reale richiesto, credenziali non disponibili** (2): GeoMarmi,
   Red Graniti (`redgraniti.isodata.it`, piattaforma MarbleR2 — a differenza
