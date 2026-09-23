@@ -168,10 +168,26 @@ questo dominio. Il catalogo mostra 24 lastre per pagina di default; lo
 scraper clicca sul selettore dimensione pagina "48" per averne di più in un
 colpo solo (27 materiali distinti).
 
-**71 su 74 totali automatizzati** (GR Marmi era già conteggiato prima
-tramite la pagina pubblica: passare al login reale migliora la qualità dei
-dati ma non cambia il totale; lo stesso vale per Margraf una volta che il
-sito torna a funzionare). Gli altri 3 restano fissi in
+**Marmoelite — risolto (2026-09-23)**: il problema non era il sito ma il
+throttling del browser in background: in headless/background lo scroll
+infinito si bloccava a 12-18 materiali. Con un browser headed (foreground,
+stesso schema di Elite Stone/Margraf) e una soglia di stabilità dello scroll
+più paziente (6 controlli invariati invece di 1, dato che il sito carica a
+scatti di 36 elementi alla volta) arriva fino in fondo: 634 lastre, **156
+materiali unici** (il nome è nel primo `h3` di ogni blocco lastra). Prima si
+usava un elenco statico di 324 lastre inserito a mano dall'utente.
+
+**Marmi di Carrara — risolto (2026-09-23)**: il sito ora risponde
+regolarmente (prima connessione rifiutata/reset ripetuto — probabile
+disservizio lato loro, non un blocco IP/bot, com'era già capitato a Margraf).
+È una pagina ASP server-rendered: **non serve un browser**, un semplice
+`fetch()` basta (nome materiale nel primo `<strong>` di ogni voce dentro
+`#portfolioitems`, filtrando il conteggio "Numero materiali: N" che è
+anch'esso in `<strong>`). Rispetto a prima copre anche le 4 categorie mai
+scraperate (Granito, Travertino, Onice, Quarzite, oltre a Marmo): **130
+materiali** invece di 85.
+
+**73 su 74 totali automatizzati**. Restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
 - **Login reale richiesto, credenziali non disponibili** (2): GeoMarmi,
   Red Graniti (`redgraniti.isodata.it`, piattaforma MarbleR2 — a differenza
@@ -184,9 +200,6 @@ sito torna a funzionare). Gli altri 3 restano fissi in
   varianti (LASA Bianco, LASA Venato, LASA !ndividual). Non esiste un
   catalogo pubblico più ampio da recuperare, il dato utile (disponibilità
   blocchi/lastre) resta dietro login vero senza alternativa ragionevole.
-- **Errore persistente lato sito** (2): Marmoelite (HTTP 500 ripetuto anche
-  a distanza di giorni), Marmi di Carrara (connessione rifiutata/reset
-  ripetuto) — non un blocco per IP, probabile problema del sito stesso.
 
 ## Aggiungere un nuovo fornitore automatizzato
 
