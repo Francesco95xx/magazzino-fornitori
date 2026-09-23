@@ -20379,6 +20379,10 @@
         "alias": []
       },
       {
+        "nome": "Arabescato Monet",
+        "alias": []
+      },
+      {
         "nome": "Artic White Travertine",
         "alias": []
       },
@@ -20420,6 +20424,10 @@
       },
       {
         "nome": "Breccia Firenze",
+        "alias": []
+      },
+      {
+        "nome": "Breccia Sicilia",
         "alias": []
       },
       {
@@ -21957,15 +21965,11 @@
         "alias": []
       },
       {
-        "nome": "Angola Black",
-        "alias": []
-      },
-      {
         "nome": "Aquamarina",
         "alias": []
       },
       {
-        "nome": "Azul Cielo",
+        "nome": "Azul Macaubas",
         "alias": []
       },
       {
@@ -21997,19 +22001,19 @@
         "alias": []
       },
       {
-        "nome": "Brown Agate",
-        "alias": []
-      },
-      {
         "nome": "Calacatta Siena",
         "alias": []
       },
       {
-        "nome": "Classique Quartz",
+        "nome": "Crema Light Marmo Resina",
         "alias": []
       },
       {
         "nome": "Crema Nuova",
+        "alias": []
+      },
+      {
+        "nome": "Crema Valencia",
         "alias": []
       },
       {
@@ -22021,15 +22025,7 @@
         "alias": []
       },
       {
-        "nome": "Da Vinci",
-        "alias": []
-      },
-      {
         "nome": "Dream Green",
-        "alias": []
-      },
-      {
-        "nome": "Dune",
         "alias": []
       },
       {
@@ -22037,11 +22033,23 @@
         "alias": []
       },
       {
+        "nome": "Eramosa",
+        "alias": []
+      },
+      {
         "nome": "Fior Di Pesco Carnico",
         "alias": []
       },
       {
+        "nome": "Four Seasons",
+        "alias": []
+      },
+      {
         "nome": "Giallo Siena",
+        "alias": []
+      },
+      {
+        "nome": "Golden Yellow",
         "alias": []
       },
       {
@@ -22053,6 +22061,10 @@
         "alias": []
       },
       {
+        "nome": "Nero Africa/impala Rustenbourgh",
+        "alias": []
+      },
+      {
         "nome": "Nero Di Ormea",
         "alias": []
       },
@@ -22061,19 +22073,7 @@
         "alias": []
       },
       {
-        "nome": "Onice Rosa",
-        "alias": []
-      },
-      {
-        "nome": "Onice Rosso",
-        "alias": []
-      },
-      {
-        "nome": "Perlatino",
-        "alias": []
-      },
-      {
-        "nome": "Pietra Di Vicenza Bianca",
+        "nome": "Pink Quartz",
         "alias": []
       },
       {
@@ -22081,23 +22081,15 @@
         "alias": []
       },
       {
-        "nome": "Porfido",
+        "nome": "Rasotika",
         "alias": []
       },
       {
-        "nome": "Red Agate",
-        "alias": []
-      },
-      {
-        "nome": "Repen",
+        "nome": "Rosa Peralba",
         "alias": []
       },
       {
         "nome": "Rosso Cardinale",
-        "alias": []
-      },
-      {
-        "nome": "Rosso Levanto",
         "alias": []
       },
       {
@@ -22125,11 +22117,15 @@
         "alias": []
       },
       {
-        "nome": "Striato Elegante",
+        "nome": "Sunset Gold",
         "alias": []
       },
       {
         "nome": "Taj Mahal",
+        "alias": []
+      },
+      {
+        "nome": "Tanzanite",
         "alias": []
       },
       {
@@ -22142,14 +22138,6 @@
       },
       {
         "nome": "Vanilla Cream",
-        "alias": []
-      },
-      {
-        "nome": "Victoria Regia",
-        "alias": []
-      },
-      {
-        "nome": "White Beauty",
         "alias": []
       }
     ]
@@ -30500,11 +30488,11 @@
         "alias": []
       },
       {
-        "nome": "Arabescato",
+        "nome": "ARABESCATO",
         "alias": []
       },
       {
-        "nome": "Arabescato Corchia",
+        "nome": "ARABESCATO CORCHIA",
         "alias": []
       },
       {
@@ -30516,7 +30504,7 @@
         "alias": []
       },
       {
-        "nome": "Arabescato Vagli",
+        "nome": "ARABESCATO VAGLI",
         "alias": []
       },
       {
@@ -30568,7 +30556,7 @@
         "alias": []
       },
       {
-        "nome": "Bardiglio",
+        "nome": "BARDIGLIO",
         "alias": []
       },
       {
@@ -30780,7 +30768,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta",
+        "nome": "CALACATTA",
         "alias": []
       },
       {
@@ -30808,7 +30796,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Cremo",
+        "nome": "CALACATTA CREMO",
         "alias": []
       },
       {
@@ -30848,7 +30836,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Monet",
+        "nome": "CALACATTA MONET",
         "alias": []
       },
       {
@@ -30892,11 +30880,11 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Vagli",
+        "nome": "CALACATTA VAGLI",
         "alias": []
       },
       {
-        "nome": "Calacatta Vagli Oro",
+        "nome": "CALACATTA VAGLI ORO",
         "alias": []
       },
       {
@@ -30916,7 +30904,7 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Viola",
+        "nome": "CALACATTA VIOLA",
         "alias": []
       },
       {
@@ -31616,7 +31604,7 @@
         "alias": []
       },
       {
-        "nome": "Picasso",
+        "nome": "PICASSO",
         "alias": []
       },
       {
@@ -31804,7 +31792,7 @@
         "alias": []
       },
       {
-        "nome": "Statuario",
+        "nome": "STATUARIO",
         "alias": []
       },
       {
@@ -31960,7 +31948,7 @@
         "alias": []
       },
       {
-        "nome": "Verde Alpi",
+        "nome": "VERDE ALPI",
         "alias": []
       },
       {
