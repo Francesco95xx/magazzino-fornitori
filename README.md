@@ -161,6 +161,23 @@ motivo di Elite Stone) perché la modalità headless dava lo stesso sintomo
 da fare lato codice: va solo verificato che la corsa vada a buon fine ora
 che il sito Margraf è tornato operativo.
 
+**Margraf — sceso a 51/46 materiali dopo il redesign del sito (risolto
+2026-09-24)**: il sito è passato da scroll infinito a un bottone "CARICA
+ALTRO" (in realtà un `<div class="label">` con handler JS, non un vero
+`<button>`/`<a>` — va cliccato via `element.click()` in `page.evaluate`,
+`page.click` per testo non lo trova in modo affidabile). Senza questo fix
+lo scraper si fermava al primo batch già presente nel DOM al login (~51
+materiali unici tra carosello "Margraf Selection" e prima pagina della
+griglia) invece di caricare il resto. Diagnosticato con l'utente lanciando
+uno script headed in locale con le sue credenziali (mai condivise in chat):
+cliccare ripetutamente il bottone porta a 403 materiali unici, in linea con
+lo storico. Il bottone resta nel DOM anche a catalogo esaurito (continua a
+sembrare cliccabile ma il conteggio smette di salire), quindi lo stop è
+basato sulla stabilità del conteggio (4 controlli invariati) e non sulla
+sua scomparsa. Anche il banner cookie Cybot va rimosso una seconda volta
+dopo il login (può ricomparire dopo il redirect) o blocca i click sul
+bottone sottostante.
+
 **NaturalStone**: trovato un URL pubblico diverso da quello originale
 (`naturalstones.isodata.it`, che richiede login) — `naturalstones.marbler3.it`
 è la stessa piattaforma MarbleR3 ma **accessibile senza credenziali** su
