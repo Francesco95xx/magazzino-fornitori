@@ -49,6 +49,11 @@ jobs:
           MARGRAF_EMAIL: ${{ secrets.MARGRAF_EMAIL }}
           MARGRAF_PASSWORD: ${{ secrets.MARGRAF_PASSWORD }}
 
+      - name: Sincronizza Ricerca Materiali.html
+        working-directory: scraper
+        run: node sync-ricerca-materiali.js
+        continue-on-error: true # file locale fuori da questo repo: un fallimento qui non deve bloccare il commit di data/fornitori.json
+
       - name: Commit dati aggiornati (se cambiati)
         shell: powershell # Windows PowerShell 5.1: pwsh (PS7) non è installato su questo runner
         run: |

@@ -20,6 +20,16 @@ rispedire file — tutti aprono lo stesso link, sempre aggiornato.
   fornitore", modifica materiali di un fornitore) restano salvate nel
   `localStorage` del suo browser, esattamente come nella versione originale
   — non vengono toccate da questo meccanismo.
+- Dal 2026-10-16 lo stesso workflow notturno esegue anche
+  `scraper/sync-ricerca-materiali.js`, che riversa i fornitori appena
+  scrapati dentro `FORNITORI_BASE` del vecchio tool standalone
+  `Desktop\MagazzinoMateriali\Ricerca Materiali.html` (ancora in uso in
+  parallelo, con grafica propria). Aggiorna solo i fornitori con id
+  corrispondente, aggiunge in fondo quelli nuovi, e lascia intatti quelli
+  presenti solo lì (es. `nicola-fontanili`, non automatizzato qui). Percorso
+  del file hardcoded nello script (file locale fuori da questo repo, non va
+  committato); se lo step fallisce non blocca il commit di
+  `data/fornitori.json` (`continue-on-error: true`).
 
 ## Fornitori automatizzati oggi
 
