@@ -9,9 +9,11 @@ rispedire file — tutti aprono lo stesso link, sempre aggiornato.
 - `index.html` è la pagina che si apre nel browser. Carica i dati da
   `data/fornitori.json` con un `fetch()` all'avvio (invece di averli
   incollati nel codice, come nella versione precedente).
-- `data/fornitori.json` viene rigenerato ogni notte da
-  `.github/workflows/scrape.yml`, che fa girare gli script in
-  `scraper/sites/` e li unisce ai fornitori "statici" non ancora
+- `data/fornitori.json` viene rigenerato ogni giorno alle 8:30/9:30 ora
+  italiana (07:30 UTC, orario scelto perché a quell'ora il PC è
+  normalmente già acceso e loggato) da `.github/workflows/scrape.yml`,
+  che fa girare gli script in `scraper/sites/` e li unisce ai fornitori
+  "statici" non ancora
   automatizzati (`scraper/seed-static.json`).
 - Se uno scraper fallisce in una corsa, il fornitore **non sparisce**:
   `scraper/run-all.js` tiene l'ultima versione buona di quel fornitore

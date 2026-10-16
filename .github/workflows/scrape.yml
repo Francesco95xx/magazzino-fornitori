@@ -2,8 +2,12 @@ name: Aggiorna magazzino fornitori
 
 on:
   schedule:
-    # 03:00 UTC ~= 04:00/05:00 ora italiana a seconda dell'ora legale
-    - cron: "0 3 * * *"
+    # 07:30 UTC = 08:30 ora italiana (CET, inverno) / 09:30 (CEST, estate) —
+    # spostato dalle 03:00 UTC il 2026-10-16: a quell'ora il PC era spesso
+    # spento/sloggato (il runner self-hosted parte solo al login utente),
+    # quindi la corsa notturna saltava per giorni di fila senza che nessuno
+    # se ne accorgesse. Alle 8:30 il PC è normalmente già acceso e loggato.
+    - cron: "30 7 * * *"
   workflow_dispatch: {}
 
 permissions:
