@@ -333,6 +333,21 @@ vedi sotto per come gestisce il token di quell'API.
   (`$env:MARGRAF_EMAIL = "..."` / `$env:MARGRAF_PASSWORD = "..."` prima di
   `node run-all.js`).
 
+- `BAGNARA_EMAIL` / `BAGNARA_PASSWORD` — stesso schema di
+  `GRMARMI_EMAIL`/`GRMARMI_PASSWORD`, credenziali reali dell'account
+  cliente Ca'D'Oro sul vero Magazzino Online di Bagnara (non il catalogo
+  pubblico generico), usate da `scraper/sites/bagnara.js` per fare login
+  su `/mitgliederbereich/` (form `uname`/`pwd`, bottone "Accedi") prima di
+  leggere `/magazzino-online?type=random`. Come Margraf, lo scraper apre
+  un proprio browser headed indipendente (il caricamento a click del
+  "carica altro" non è affidabile in headless) e si ferma quando il
+  conteggio materiali si stabilizza, con un'attesa adattiva dopo ogni click
+  (la risposta AJAX ha latenza variabile — un'attesa fissa troppo corta
+  fermava lo scraper a metà catalogo). Stessi due posti dove impostarle:
+  **GitHub Actions** (Secrets and variables → Actions → New repository
+  secret) e **locale** (`$env:BAGNARA_EMAIL = "..."` /
+  `$env:BAGNARA_PASSWORD = "..."` prima di `node run-all.js`).
+
 ## Setup iniziale (una tantum, già fatto se stai leggendo questo su GitHub)
 
 1. Repo privato su GitHub, push di questo progetto sul branch `main`.

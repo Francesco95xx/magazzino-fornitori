@@ -52,6 +52,8 @@ jobs:
           GRMARMI_PASSWORD: ${{ secrets.GRMARMI_PASSWORD }}
           MARGRAF_EMAIL: ${{ secrets.MARGRAF_EMAIL }}
           MARGRAF_PASSWORD: ${{ secrets.MARGRAF_PASSWORD }}
+          BAGNARA_EMAIL: ${{ secrets.BAGNARA_EMAIL }}
+          BAGNARA_PASSWORD: ${{ secrets.BAGNARA_PASSWORD }}
 
       - name: Sincronizza Ricerca Materiali.html
         working-directory: scraper
