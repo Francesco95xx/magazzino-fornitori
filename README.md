@@ -151,14 +151,17 @@ blocca i click. Dopo il login, "Tutti i prodotti" mostra le card materiale
 Selection" in cima — dedup unifica i doppi), scroll fino a stabilizzazione:
 51 materiali.
 
-**Orlandini Gallery**: il vero magazzino (`lager.orlandini.de`, piattaforma
-DDL) resta dietro login, ma il sito principale ha un Katalog pubblico
-(`orlandini.de/store`, Webflow CMS) — non tutti i materiali disponibili per
-loro stessa ammissione, ma 254 nomi comunque utili. Paginazione ad
-accumulo particolare: ogni click su "Next Page" (`a[aria-label="Next
-Page"]`) **aggiunge** altri 24 elementi alla lista già nel DOM invece di
-sostituirla (l'URL nella pagina non cambia, è tutto via JS) — diverso da
-qualunque altro scroll/paginazione visto finora in questo progetto.
+**Orlandini Gallery (fix 2026-10-20)**: si leggeva `orlandini.de/store`
+(Webflow CMS, Katalog pubblico dichiaratamente parziale, 254 nomi) perché
+si credeva che il vero magazzino `lager.orlandini.de` richiedesse login —
+verificato dal vivo che non è più così (il sito è cambiato): la griglia
+materiali e, cliccando, i blocchi reali con quantità/dimensioni/spessore
+sono pubblici senza login. Ora si legge da lì: 321 materiali, ciascuno con
+link diretto `lager.orlandini.de/?type=<nome>` (pattern di navigazione via
+pushState osservato cliccando una card dal vivo, costruito direttamente
+senza dover cliccare ogni materiale). Il bottone "Show more materials"
+aggiunge altri materiali alla griglia ad ogni click, si ferma quando
+sparisce.
 
 **Margraf — nota sul debug del login (2026-09)**: dopo l'aggiunta dei
 secret, la corsa CI continuava a fallire con "Nessun materiale trovato
