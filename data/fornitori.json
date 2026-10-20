@@ -30661,267 +30661,332 @@
     "nome": "Max Marmi Carrara",
     "url": "https://www.maxmarmicarrara.com/magazzino",
     "stato": "scraped",
-    "note": "Elenco letto dall'API pubblica della mappa 2D del magazzino (api/marmi/magazzino), tutte le zone unite — scraping automatico notturno.",
+    "note": "Elenco letto dall'API pubblica della mappa 2D del magazzino (api/marmi/magazzino), tutte le zone unite, con link diretto alla scheda materiale (/marmi/<slug>) — scraping automatico notturno.",
     "materiali": [
       {
         "nome": "Arabescato Corchia",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/arabescato-corchia-13929_1"
       },
       {
         "nome": "Arabescato Corchia Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/arabescato-corchia-gold-13928"
       },
       {
         "nome": "Arabescato Faniello",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/arabescato-faniello-13714"
       },
       {
         "nome": "Arabescato Vagli",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/arabescato-vagli-13314_b"
       },
       {
         "nome": "Bianco Gioia",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/bianco-gioia-13549"
       },
       {
         "nome": "Breccia Aurora",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/breccia-aurora-14145"
       },
       {
         "nome": "Breccia Aurora 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/breccia-aurora-13229"
       },
       {
         "nome": "Breccia Corallo",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/breccia-corallo-14244-2"
       },
       {
         "nome": "Breccia Damascata",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/breccia-damascata-14319-2"
       },
       {
         "nome": "Breccia Pernice",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/pernice-pernice-14337"
       },
       {
         "nome": "Breccia San Giorgio",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/breccia-san-giorgio-14309"
       },
       {
         "nome": "Breccia Versilia",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/breccia-versilia-14252"
       },
       {
         "nome": "Breccia Versilia 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/breccia-versilia-13669"
       },
       {
         "nome": "Calacatta",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-12684"
       },
       {
         "nome": "Calacatta Atlantico",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-atlantico-14075"
       },
       {
         "nome": "Calacatta Cremo",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-cremo-13758"
       },
       {
         "nome": "Calacatta Cremo 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-cremo-14179"
       },
       {
         "nome": "Calacatta Extra",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-extra-13766_2"
       },
       {
         "nome": "Calacatta Luccicoso",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-luccicoso-14194_a"
       },
       {
         "nome": "Calacatta Macchia Vecchia",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-macchia-vecchia-13062"
       },
       {
         "nome": "Calacatta Macchia Vecchia 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-macchia-vecchia-14063"
       },
       {
         "nome": "Calacatta Monet",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-monet-14323"
       },
       {
         "nome": "Calacatta Monet Extra",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-monet-extra-14334"
       },
       {
         "nome": "Calacatta Oro",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-oro-13832_2"
       },
       {
         "nome": "Calacatta Oyster",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-oyster-14327_1"
       },
       {
         "nome": "Calacatta Picasso",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-picasso-13994"
       },
       {
         "nome": "Calacatta Picasso 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-picasso-13825"
       },
       {
         "nome": "Calacatta Super Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-super-gold-1408_l"
       },
       {
         "nome": "Calacatta Vagli Macchia Oro",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-vagli-macchia-oro-13719"
       },
       {
         "nome": "Calacatta Viola",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/calacatta-viola-13331_1"
       },
       {
         "nome": "Carapace",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/carapace"
       },
       {
         "nome": "Cardoso",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/cardoso-13597"
       },
       {
         "nome": "Cardoso 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/cardoso-13736"
       },
       {
         "nome": "Ceppo d'Aragona",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/ceppo-daragona-14245_2"
       },
       {
         "nome": "Ceppo di Vagli",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/ceppo-di-vagli-14140_2"
       },
       {
         "nome": "Ceppo di Vagli 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/ceppo-di-vagli-14138"
       },
       {
         "nome": "Cipollino Grigio",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/cipollino-grigio-13238"
       },
       {
         "nome": "Cipollino Verde",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/cipollino-verde-13514"
       },
       {
         "nome": "Cipollino Viola",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/cipollino-viola-13729"
       },
       {
         "nome": "Cremo Delicato",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/cremo-delicato-14190"
       },
       {
         "nome": "Fantastico Arni",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/fantastico-arni-13932"
       },
       {
         "nome": "Fantastico Arni Viola",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/fantastico-arni-viola-14336"
       },
       {
         "nome": "Fior di Pesco",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/fior-di-pesco-13725"
       },
       {
         "nome": "Fior di Pesco 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/fior-di-pesco-13726"
       },
       {
         "nome": "Fumo di Toscana",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/fumo-di-toscana-13955"
       },
       {
         "nome": "Grigio di Firenze",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/grigio-di-firenze-13266"
       },
       {
         "nome": "Grigio Trambisera",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/grigio-trambisera-13371"
       },
       {
         "nome": "Grigio Trambisera 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/grigio-trambisera-12923_a"
       },
       {
         "nome": "Nero Marquinia 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/nero-marquinia-13343"
       },
       {
         "nome": "Oyster White",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/oyster-white-13647"
       },
       {
         "nome": "Palissandro",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/palissandro-14050"
       },
       {
         "nome": "Paonazzo",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/paonazzo-13408_1"
       },
       {
         "nome": "Paonazzo Bianco",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/paonazzo-bianco-13319"
       },
       {
         "nome": "Rosso Collemandina",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/rosso-collemandina-12898"
       },
       {
         "nome": "Rosso Levanto",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/rosso-levanto-13912"
       },
       {
         "nome": "Rosso Melograno",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/rosso-melograno-14236"
       },
       {
         "nome": "Rosso Orobico",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/rosso-orobico-14259"
       },
       {
         "nome": "Statuarietto",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/statuarietto-1387_l"
       },
       {
         "nome": "Tempesta",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/tempesta-2193"
       },
       {
         "nome": "Tempesta 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/tempesta-13579"
       },
       {
         "nome": "Travertino Silver",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/travertino-silver-1406_l"
       },
       {
         "nome": "Verde Assoluto",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/verde-assoluto-14114"
       },
       {
         "nome": "Zebrino",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/zebrino-14133"
       },
       {
         "nome": "Zebrino 3CM",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/zebrino-12651-1"
       },
       {
         "nome": "Zebrino BarCode",
-        "alias": []
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/zebrino-barcode-1337"
       }
     ]
   },

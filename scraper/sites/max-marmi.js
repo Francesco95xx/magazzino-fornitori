@@ -4,6 +4,8 @@
 // pubblica che restituisce tutti i marmi raggruppati per zona del
 // magazzino: niente browser necessario, un semplice fetch basta (come
 // marimar.js).
+const { dedupeWithUrl } = require("./_platforms/dedupe");
+
 const API_URL = "https://www.maxmarmicarrara.com/api/marmi/magazzino?locale=it";
 const PAGE_URL = "https://www.maxmarmicarrara.com/magazzino";
 
@@ -16,15 +18,15 @@ async function scrape() {
   const data = await res.json();
   if (!data || !data.ok || !data.marmi) throw new Error("Risposta API inattesa (manca 'marmi')");
 
-  const names = [];
+  const entries = [];
   for (const zona of Object.keys(data.marmi)) {
     for (const item of data.marmi[zona]) {
-      if (item.name) names.push(item.name);
+      if (item.name) entries.push({ nome: item.name, href: item.slug ? `https://www.maxmarmicarrara.com/marmi/${item.slug}` : null });
     }
   }
 
-  const unique = [...new Set(names)].sort((a, b) => a.localeCompare(b, "it"));
-  if (unique.length === 0) throw new Error("Nessun materiale trovato nella risposta API");
+  const materiali = dedupeWithUrl(entries);
+  if (materiali.length === 0) throw new Error("Nessun materiale trovato nella risposta API");
 
   return {
     id: "max-marmi",
@@ -32,8 +34,8 @@ async function scrape() {
     url: PAGE_URL,
     stato: "scraped",
     note:
-      "Elenco letto dall'API pubblica della mappa 2D del magazzino (api/marmi/magazzino), tutte le zone unite — scraping automatico notturno.",
-    materiali: unique.map((nome) => ({ nome, alias: [] })),
+      "Elenco letto dall'API pubblica della mappa 2D del magazzino (api/marmi/magazzino), tutte le zone unite, con link diretto alla scheda materiale (/marmi/<slug>) — scraping automatico notturno.",
+    materiali,
   };
 }
 
