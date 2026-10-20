@@ -35162,1025 +35162,1614 @@
   {
     "id": "orlandini",
     "nome": "Orlandini Gallery",
-    "url": "https://www.orlandini.de/store",
+    "url": "https://lager.orlandini.de",
     "stato": "scraped",
-    "note": "Elenco letto dal Katalog pubblico (il vero magazzino lager.orlandini.de richiede login, non ancora automatizzato), cliccando \"Next Page\" fino a esaurimento — scraping automatico notturno.",
+    "note": "Elenco letto dal vero magazzino lager.orlandini.de (non richiede login), con link diretto alla scheda materiale (?type=<nome>) — scraping automatico notturno.",
     "materiali": [
       {
+        "nome": "ACQUAMARE",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=ACQUAMARE"
+      },
+      {
         "nome": "African Galaxy",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=African%20Galaxy"
       },
       {
-        "nome": "African Red",
-        "alias": []
+        "nome": "African Ivory",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=African%20Ivory"
       },
       {
-        "nome": "Alabama White",
-        "alias": []
+        "nome": "African Rainbow Tobacco",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=African%20Rainbow%20Tobacco"
+      },
+      {
+        "nome": "Agglo Bianco Carrara",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Agglo%20Bianco%20Carrara"
+      },
+      {
+        "nome": "Agglo Bianco Carrara C",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Agglo%20Bianco%20Carrara%20C"
+      },
+      {
+        "nome": "Agglo Bianco Venato",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Agglo%20Bianco%20Venato"
+      },
+      {
+        "nome": "Agglo C Microwhite",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Agglo%20C%20Microwhite"
+      },
+      {
+        "nome": "Agglo Microgrey",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Agglo%20Microgrey"
+      },
+      {
+        "nome": "Agglo New Hadrian",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Agglo%20New%20Hadrian"
+      },
+      {
+        "nome": "Agglo Polare",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Agglo%20Polare"
+      },
+      {
+        "nome": "Agglo Rosa Toscana",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Agglo%20Rosa%20Toscana"
+      },
+      {
+        "nome": "Agglo Royal Beige",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Agglo%20Royal%20Beige"
+      },
+      {
+        "nome": "Agglo Snow White",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Agglo%20Snow%20White"
       },
       {
         "nome": "Alex Black / Black Mist",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Alex%20Black%20%2F%20Black%20Mist"
       },
       {
-        "nome": "Alta Quarzit",
-        "alias": []
+        "nome": "Amarello",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Amarello"
       },
       {
-        "nome": "Amarillo S Martinho",
-        "alias": []
-      },
-      {
-        "nome": "Amazonite",
-        "alias": []
+        "nome": "Amarillo San Martinho",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Amarillo%20San%20Martinho"
       },
       {
         "nome": "American Black",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=American%20Black"
       },
       {
         "nome": "Andromeda White",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Andromeda%20White"
       },
       {
-        "nome": "Arctic Blue",
-        "alias": []
+        "nome": "Antracite Elegante / Carbon Grey",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Antracite%20Elegante%20%2F%20Carbon%20Grey"
       },
       {
-        "nome": "Ardesia",
-        "alias": []
+        "nome": "Aquarela",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Aquarela"
       },
       {
-        "nome": "Ariston",
-        "alias": []
+        "nome": "ARABESCATO OROBICO ROSSO",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=ARABESCATO%20OROBICO%20ROSSO"
+      },
+      {
+        "nome": "Artosha",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Artosha"
       },
       {
         "nome": "Astir",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Astir"
       },
       {
-        "nome": "Atlantic Stone",
-        "alias": []
+        "nome": "Astoria",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Astoria"
       },
       {
-        "nome": "Aurisina",
-        "alias": []
-      },
-      {
-        "nome": "Aurisina Fiorito",
-        "alias": []
-      },
-      {
-        "nome": "Aurora - finnisch",
-        "alias": []
-      },
-      {
-        "nome": "Aurora Indiano",
-        "alias": []
+        "nome": "ATLANTIS BLACK",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=ATLANTIS%20BLACK"
       },
       {
         "nome": "Avocatus",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Avocatus"
       },
       {
         "nome": "Azul Aran",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Azul%20Aran"
       },
       {
         "nome": "Azul Bahia",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Azul%20Bahia"
       },
       {
         "nome": "Azul Boquira",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Azul%20Boquira"
       },
       {
-        "nome": "Azul Extremadura",
-        "alias": []
-      },
-      {
-        "nome": "Azul Imperial",
-        "alias": []
-      },
-      {
-        "nome": "Azul Macaubas",
-        "alias": []
+        "nome": "AZUL MACAUBAS",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=AZUL%20MACAUBAS"
       },
       {
         "nome": "Azul Noche",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Azul%20Noche"
       },
       {
         "nome": "Azul Platino",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Azul%20Platino"
       },
       {
-        "nome": "Azul Val Verde",
-        "alias": []
+        "nome": "Azul Tragal",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Azul%20Tragal"
       },
       {
         "nome": "Baltik Braun",
-        "alias": []
-      },
-      {
-        "nome": "Bardiglio Imperiale",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Baltik%20Braun"
       },
       {
         "nome": "Bardiglio nuvolato",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bardiglio%20nuvolato"
+      },
+      {
+        "nome": "Basaltina",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Basaltina"
+      },
+      {
+        "nome": "Basaltina \"Selcino\"",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Basaltina%20%22Selcino%22"
       },
       {
         "nome": "Basaltina Classico",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Basaltina%20Classico"
       },
       {
-        "nome": "Basalto Siciliano",
-        "alias": []
-      },
-      {
-        "nome": "Bateig Azul",
-        "alias": []
-      },
-      {
-        "nome": "Beige Marfil",
-        "alias": []
+        "nome": "Belize",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Belize"
       },
       {
         "nome": "Belvedere",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Belvedere"
       },
       {
-        "nome": "Bengal Black/Tiger Black",
-        "alias": []
+        "nome": "Belvedere White",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Belvedere%20White"
       },
       {
-        "nome": "Beola Ghiandonata",
-        "alias": []
-      },
-      {
-        "nome": "Beola Grigia",
-        "alias": []
-      },
-      {
-        "nome": "Bethel White",
-        "alias": []
+        "nome": "Bengal Black",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bengal%20Black"
       },
       {
         "nome": "Bianco Antico",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Antico"
       },
       {
-        "nome": "Bianco Berrocal",
-        "alias": []
+        "nome": "Bianco Black",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Black"
       },
       {
         "nome": "Bianco Carrara C",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Carrara%20C"
+      },
+      {
+        "nome": "Bianco Carrara CD",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Carrara%20CD"
+      },
+      {
+        "nome": "Bianco Ceara Classico",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Ceara%20Classico"
       },
       {
         "nome": "Bianco Cristal",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Cristal"
       },
       {
         "nome": "Bianco Iberico",
-        "alias": []
-      },
-      {
-        "nome": "Bianco Perlino",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Iberico"
       },
       {
         "nome": "Bianco Piracema",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Piracema"
       },
       {
-        "nome": "Bianco Romano",
-        "alias": []
+        "nome": "Bianco Rafaela",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Rafaela"
+      },
+      {
+        "nome": "Bianco Reale",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Reale"
+      },
+      {
+        "nome": "Bianco Rosa",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Rosa"
       },
       {
         "nome": "Bianco Sardo",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Sardo"
       },
       {
-        "nome": "Bianco Sivec",
-        "alias": []
+        "nome": "Bianco Sardo Perla",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Sardo%20Perla"
+      },
+      {
+        "nome": "Bianco Sardo S",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Sardo%20S"
       },
       {
         "nome": "Bianco Statuario",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Statuario"
       },
       {
         "nome": "Bianco Tarn",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Tarn"
       },
       {
-        "nome": "Biancone",
-        "alias": []
+        "nome": "Bianco Thomas",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bianco%20Thomas"
+      },
+      {
+        "nome": "Black Cosmic",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Black%20Cosmic"
       },
       {
         "nome": "Black Cosmic Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Black%20Cosmic%20Gold"
       },
       {
-        "nome": "Black Forest",
-        "alias": []
+        "nome": "Black Lightning",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Black%20Lightning"
       },
       {
-        "nome": "Black Pearl / Nero Angola OR",
-        "alias": []
+        "nome": "Black Pearl",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Black%20Pearl"
       },
       {
-        "nome": "Blanco Micaela",
-        "alias": []
+        "nome": "Black San Miguel",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Black%20San%20Miguel"
       },
       {
-        "nome": "Blue Eyes",
-        "alias": []
+        "nome": "Black Silk",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Black%20Silk"
       },
       {
-        "nome": "Bohus Red",
-        "alias": []
+        "nome": "Black Slate",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Black%20Slate"
       },
       {
-        "nome": "Botticino Classico",
-        "alias": []
+        "nome": "Blanco Potiguar",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Blanco%20Potiguar"
       },
       {
-        "nome": "Botticino Semi Classico",
-        "alias": []
+        "nome": "Blanco Umia",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Blanco%20Umia"
       },
       {
-        "nome": "Breccia Aurora",
-        "alias": []
+        "nome": "Blue Deep",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Blue%20Deep"
+      },
+      {
+        "nome": "Blue Dunes",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Blue%20Dunes"
+      },
+      {
+        "nome": "Blue Galaxy",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Blue%20Galaxy"
+      },
+      {
+        "nome": "Botticino",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Botticino"
+      },
+      {
+        "nome": "Branco Micaela",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Branco%20Micaela"
+      },
+      {
+        "nome": "Brasilian Green Slate",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Brasilian%20Green%20Slate"
+      },
+      {
+        "nome": "Brasilian Grey Slate",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Brasilian%20Grey%20Slate"
+      },
+      {
+        "nome": "BRECCIA CAMILLA",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=BRECCIA%20CAMILLA"
+      },
+      {
+        "nome": "BRECCIA CAPRAIA",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=BRECCIA%20CAPRAIA"
       },
       {
         "nome": "Breccia Imperiale",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Breccia%20Imperiale"
       },
       {
-        "nome": "Breccia Oniciata",
-        "alias": []
+        "nome": "BRECCIA ROSSA SICILIANA",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=BRECCIA%20ROSSA%20SICILIANA"
       },
       {
-        "nome": "Breccia Sarda",
-        "alias": []
+        "nome": "BRECCIA SARDA",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=BRECCIA%20SARDA"
       },
       {
-        "nome": "Bronze Amani",
-        "alias": []
+        "nome": "Bronze Fantasy",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Bronze%20Fantasy"
       },
       {
         "nome": "Brown Antique",
-        "alias": []
-      },
-      {
-        "nome": "Brown Elegant",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Brown%20Antique"
       },
       {
         "nome": "Brown Silk",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Brown%20Silk"
       },
       {
-        "nome": "Cafe Bahia",
-        "alias": []
+        "nome": "CALACATTA ALTISSIMO",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=CALACATTA%20ALTISSIMO"
       },
       {
-        "nome": "Cafe Imperial",
-        "alias": []
+        "nome": "CALACATTA ALTISSIMO GOLD",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=CALACATTA%20ALTISSIMO%20GOLD"
       },
       {
-        "nome": "Calacatta",
-        "alias": []
+        "nome": "Calacatta Brasil",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Calacatta%20Brasil"
       },
       {
-        "nome": "Calacatta Oro",
-        "alias": []
+        "nome": "Calacatta Matarazzo",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Calacatta%20Matarazzo"
       },
       {
-        "nome": "Carmen Red",
-        "alias": []
+        "nome": "Calacatta Montblanc",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Calacatta%20Montblanc"
       },
       {
-        "nome": "Celina Grey",
-        "alias": []
+        "nome": "CALACATTA NOBILE",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=CALACATTA%20NOBILE"
       },
       {
-        "nome": "Ceppo di Gré",
-        "alias": []
+        "nome": "CALACATTA OYSTER",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=CALACATTA%20OYSTER"
       },
       {
-        "nome": "Cinza Antas",
-        "alias": []
+        "nome": "CEPPO ARTISTICO",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=CEPPO%20ARTISTICO"
       },
       {
-        "nome": "Cleopatra",
-        "alias": []
+        "nome": "CEPPO BEIGE",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=CEPPO%20BEIGE"
+      },
+      {
+        "nome": "CEPPO CHAMPAGNE",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=CEPPO%20CHAMPAGNE"
+      },
+      {
+        "nome": "Chambolle",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Chambolle"
+      },
+      {
+        "nome": "Cheverny",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Cheverny"
+      },
+      {
+        "nome": "Cipollino Verde",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Cipollino%20Verde"
+      },
+      {
+        "nome": "Cocco Blu",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Cocco%20Blu"
       },
       {
         "nome": "Coffee Brown",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Coffee%20Brown"
       },
       {
         "nome": "Colonial Dream",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Colonial%20Dream"
       },
       {
         "nome": "Colonial White",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Colonial%20White"
       },
       {
-        "nome": "Costa Smeralda",
-        "alias": []
+        "nome": "Cosmopolitan",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Cosmopolitan"
+      },
+      {
+        "nome": "Costa Rica",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Costa%20Rica"
       },
       {
         "nome": "Crema Julia",
-        "alias": []
-      },
-      {
-        "nome": "Crema Luna",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Crema%20Julia"
       },
       {
         "nome": "Crema Marfil",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Crema%20Marfil"
+      },
+      {
+        "nome": "Creme Macaubas",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Creme%20Macaubas"
+      },
+      {
+        "nome": "Cresciano",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Cresciano"
+      },
+      {
+        "nome": "CRISTALLO",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=CRISTALLO"
+      },
+      {
+        "nome": "CRISTALLO DEL MARE",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=CRISTALLO%20DEL%20MARE"
+      },
+      {
+        "nome": "Cristallo Extra",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Cristallo%20Extra"
+      },
+      {
+        "nome": "Cristallo Frost",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Cristallo%20Frost"
+      },
+      {
+        "nome": "Cristallo Patagonia",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Cristallo%20Patagonia"
+      },
+      {
+        "nome": "Cristallo Tesla",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Cristallo%20Tesla"
       },
       {
         "nome": "Crystallo Oro",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Crystallo%20Oro"
       },
       {
-        "nome": "Dorato Valmalenco",
-        "alias": []
+        "nome": "Dark Arabescato",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Dark%20Arabescato"
       },
       {
-        "nome": "Duke White",
-        "alias": []
+        "nome": "Dover White",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Dover%20White"
+      },
+      {
+        "nome": "EMERALD QUARZITE",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=EMERALD%20QUARZITE"
       },
       {
         "nome": "Emperador dark",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Emperador%20dark"
       },
       {
-        "nome": "Estremoz Creme",
-        "alias": []
-      },
-      {
-        "nome": "Estremoz Rosè",
-        "alias": []
+        "nome": "Emperador light",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Emperador%20light"
       },
       {
         "nome": "Etna Basalt",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Etna%20Basalt"
       },
       {
-        "nome": "Forest Brown",
-        "alias": []
+        "nome": "Exuberante Brown",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Exuberante%20Brown"
       },
       {
-        "nome": "Fossil Black",
-        "alias": []
+        "nome": "FANTASTICO ARNI",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=FANTASTICO%20ARNI"
+      },
+      {
+        "nome": "FIOR DI PESCO CARNICO",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=FIOR%20DI%20PESCO%20CARNICO"
+      },
+      {
+        "nome": "FOUR SEASON",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=FOUR%20SEASON"
       },
       {
         "nome": "Fox Brown",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Fox%20Brown"
       },
       {
         "nome": "Fu Dian Black G-684 (Basalt)",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Fu%20Dian%20Black%20G-684%20(Basalt)"
+      },
+      {
+        "nome": "Fusion Blue",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Fusion%20Blue"
+      },
+      {
+        "nome": "FUSION FASCINATION",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=FUSION%20FASCINATION"
+      },
+      {
+        "nome": "FUSION MONNALISA",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=FUSION%20MONNALISA"
+      },
+      {
+        "nome": "Fusion Platinum",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Fusion%20Platinum"
       },
       {
         "nome": "Gaja Grey",
-        "alias": []
-      },
-      {
-        "nome": "Galala Creme",
-        "alias": []
-      },
-      {
-        "nome": "Ghibli",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Gaja%20Grey"
       },
       {
         "nome": "Giallo Atlantide",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Giallo%20Atlantide"
       },
       {
         "nome": "Giallo California",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Giallo%20California"
       },
       {
-        "nome": "Giallo Istria / Bale",
-        "alias": []
+        "nome": "Giallo SF Real",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Giallo%20SF%20Real"
       },
       {
-        "nome": "Giallo Reale",
-        "alias": []
+        "nome": "Giallo Venezia",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Giallo%20Venezia"
       },
       {
         "nome": "Giallo Veneziano",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Giallo%20Veneziano"
       },
       {
-        "nome": "Grigio Carnico",
-        "alias": []
+        "nome": "Glacier Tesla",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Glacier%20Tesla"
       },
       {
-        "nome": "Grigio Luna",
-        "alias": []
+        "nome": "Golden Cream",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Golden%20Cream"
       },
       {
-        "nome": "Gris Penalva / Grigio Aveiro",
-        "alias": []
+        "nome": "Grand Constantine",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Grand%20Constantine"
+      },
+      {
+        "nome": "Grigio Aveiro",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Grigio%20Aveiro"
+      },
+      {
+        "nome": "Grigio Collemandina",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Grigio%20Collemandina"
+      },
+      {
+        "nome": "Grigio Turner",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Grigio%20Turner"
       },
       {
         "nome": "Himalaya Blue",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Himalaya%20Blue"
+      },
+      {
+        "nome": "IJEN BLUE",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=IJEN%20BLUE"
+      },
+      {
+        "nome": "Imperial Red",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Imperial%20Red"
       },
       {
         "nome": "Imperial White",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Imperial%20White"
       },
       {
         "nome": "Indian Aurora",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Indian%20Aurora"
+      },
+      {
+        "nome": "Indian Summer",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Indian%20Summer"
+      },
+      {
+        "nome": "Infinity Brown",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Infinity%20Brown"
+      },
+      {
+        "nome": "Infinity White",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Infinity%20White"
       },
       {
         "nome": "Iragna / Lodrino",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Iragna%20%2F%20Lodrino"
       },
       {
-        "nome": "Iron Red",
-        "alias": []
+        "nome": "Ivory Fantasy",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Ivory%20Fantasy"
       },
       {
-        "nome": "Ivory Brown",
-        "alias": []
-      },
-      {
-        "nome": "Ivory White",
-        "alias": []
-      },
-      {
-        "nome": "Jerusalem Stone",
-        "alias": []
+        "nome": "Ivory Silk",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Ivory%20Silk"
       },
       {
         "nome": "Juparana Colombo",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Juparana%20Colombo"
+      },
+      {
+        "nome": "Juparana India",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Juparana%20India"
       },
       {
         "nome": "Jura Gelb",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Jura%20Gelb"
       },
       {
-        "nome": "Jura Grau",
-        "alias": []
-      },
-      {
-        "nome": "Kanfanar",
-        "alias": []
+        "nome": "Kalahari",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Kalahari"
       },
       {
         "nome": "Kashmir White",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Kashmir%20White"
       },
       {
-        "nome": "Labrador Antico",
-        "alias": []
+        "nome": "Krishna Black / Spice Black",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Krishna%20Black%20%2F%20Spice%20Black"
       },
       {
-        "nome": "Labrador Blue Pearl",
-        "alias": []
+        "nome": "Labrador Antique",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Labrador%20Antique"
       },
       {
         "nome": "Labrador Blue Pearl GT",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Labrador%20Blue%20Pearl%20GT"
+      },
+      {
+        "nome": "Labrador Blue Pearl TFV",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Labrador%20Blue%20Pearl%20TFV"
       },
       {
         "nome": "Labrador Emerald Pearl",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Labrador%20Emerald%20Pearl"
       },
       {
-        "nome": "Lasa Bianco Classico",
-        "alias": []
+        "nome": "LASA BIANCO ARABESCATO",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=LASA%20BIANCO%20ARABESCATO"
       },
       {
-        "nome": "Lasa Cevedale",
-        "alias": []
+        "nome": "LASA FANTASTICO",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=LASA%20FANTASTICO"
       },
       {
-        "nome": "Lasa Vena Oro",
-        "alias": []
+        "nome": "LASA VENA ORO",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=LASA%20VENA%20ORO"
       },
       {
-        "nome": "London White",
-        "alias": []
+        "nome": "LASA VENATO",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=LASA%20VENATO"
+      },
+      {
+        "nome": "Latashia",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Latashia"
+      },
+      {
+        "nome": "Lava Oro",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Lava%20Oro"
+      },
+      {
+        "nome": "LIBECCIO",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=LIBECCIO"
+      },
+      {
+        "nome": "Limestone Champagne",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Limestone%20Champagne"
+      },
+      {
+        "nome": "Macchia Vecchia",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Macchia%20Vecchia"
       },
       {
         "nome": "Madura Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Madura%20Gold"
       },
       {
         "nome": "Magma Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Magma%20Gold"
       },
       {
-        "nome": "Marinace Black",
-        "alias": []
+        "nome": "Makalu",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Makalu"
       },
       {
-        "nome": "Marinace Rosso",
-        "alias": []
+        "nome": "MARAZZI Calacatta Supreme Lux MPGZ",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=MARAZZI%20Calacatta%20Supreme%20Lux%20MPGZ"
+      },
+      {
+        "nome": "MARAZZI GRANDE CONCRETE BLACK MNH9",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=MARAZZI%20GRANDE%20CONCRETE%20BLACK%20MNH9"
+      },
+      {
+        "nome": "Marinace Nero",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Marinace%20Nero"
       },
       {
         "nome": "Marinace Verde",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Marinace%20Verde"
       },
       {
-        "nome": "Milas White",
-        "alias": []
+        "nome": "Matrix",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Matrix"
+      },
+      {
+        "nome": "Mediterraneo",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Mediterraneo"
+      },
+      {
+        "nome": "Meera White",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Meera%20White"
+      },
+      {
+        "nome": "MENTAWAI",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=MENTAWAI"
       },
       {
         "nome": "Mocca Creme",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Mocca%20Creme"
       },
       {
-        "nome": "Moleanos",
-        "alias": []
+        "nome": "Mont Blanc",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Mont%20Blanc"
       },
       {
-        "nome": "Multicolor",
-        "alias": []
+        "nome": "Moon Grey",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Moon%20Grey"
       },
       {
-        "nome": "Multicolor Green / Verde Marina",
-        "alias": []
+        "nome": "Multicolor Red",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Multicolor%20Red"
       },
       {
-        "nome": "Mustang Schiefer",
-        "alias": []
+        "nome": "Multicolor Venezuela",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Multicolor%20Venezuela"
       },
       {
         "nome": "Mystic Grey",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Mystic%20Grey"
       },
       {
-        "nome": "Namibia White - (Bianco Rhino)",
-        "alias": []
+        "nome": "NACARADO",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=NACARADO"
+      },
+      {
+        "nome": "NAICA",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=NAICA"
+      },
+      {
+        "nome": "Nano Crystallized Glass GF_201",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nano%20Crystallized%20Glass%20GF_201"
       },
       {
         "nome": "Naxos White",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Naxos%20White"
       },
       {
-        "nome": "Nembro Rosato",
-        "alias": []
+        "nome": "Negresco",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Negresco"
       },
       {
-        "nome": "Nero Aracruz",
-        "alias": []
+        "nome": "Negro Tulipa",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Negro%20Tulipa"
+      },
+      {
+        "nome": "Nero Angola",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Angola"
+      },
+      {
+        "nome": "Nero Assoluto Fine Grain",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Assoluto%20Fine%20Grain"
       },
       {
         "nome": "Nero Assoluto India",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Assoluto%20India"
+      },
+      {
+        "nome": "Nero Assoluto India (PK4)",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Assoluto%20India%20(PK4)"
+      },
+      {
+        "nome": "Nero Assoluto India OR",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Assoluto%20India%20OR"
+      },
+      {
+        "nome": "Nero Assoluto Memorial Original",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Assoluto%20Memorial%20Original"
+      },
+      {
+        "nome": "Nero Assoluto Typ Memorial",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Assoluto%20Typ%20Memorial"
       },
       {
         "nome": "Nero Assoluto Zimbabwe",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Assoluto%20Zimbabwe"
       },
       {
-        "nome": "Nero Favaco",
-        "alias": []
+        "nome": "Nero Everest",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Everest"
       },
       {
         "nome": "Nero Impala",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Impala"
       },
       {
         "nome": "Nero Marquina",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Marquina"
       },
       {
-        "nome": "Nero Portoro",
-        "alias": []
+        "nome": "Nero Profundo",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20Profundo"
       },
       {
         "nome": "Nero S. Gabriel",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20S.%20Gabriel"
       },
       {
         "nome": "Nero San Marco",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nero%20San%20Marco"
+      },
+      {
+        "nome": "New Caledonia",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=New%20Caledonia"
       },
       {
         "nome": "New Imperial Red",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=New%20Imperial%20Red"
       },
       {
-        "nome": "New Kashmir",
-        "alias": []
+        "nome": "New Panda",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=New%20Panda"
       },
       {
-        "nome": "New Venezian Gold",
-        "alias": []
+        "nome": "New Spice Black",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=New%20Spice%20Black"
       },
       {
-        "nome": "Noir St. Laurent",
-        "alias": []
+        "nome": "Nova Black",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nova%20Black"
       },
       {
-        "nome": "Onyx Miele",
-        "alias": []
+        "nome": "Nuage Macchia Oro",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Nuage%20Macchia%20Oro"
       },
       {
-        "nome": "Orissa Blue / Lavendel  Blue",
-        "alias": []
+        "nome": "Ocean Black",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Ocean%20Black"
       },
       {
-        "nome": "Oro Brasil",
-        "alias": []
+        "nome": "Ocean Blue",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Ocean%20Blue"
+      },
+      {
+        "nome": "Okite Grigio Chiaro (Quarz)",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Okite%20Grigio%20Chiaro%20(Quarz)"
+      },
+      {
+        "nome": "Onsernone",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Onsernone"
+      },
+      {
+        "nome": "Oro Veneziano",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Oro%20Veneziano"
       },
       {
         "nome": "Padang Cristallo G603",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Padang%20Cristallo%20G603"
       },
       {
         "nome": "Padang Dunkel G654",
-        "alias": []
-      },
-      {
-        "nome": "Padang Gelb G682",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Padang%20Dunkel%20G654"
       },
       {
         "nome": "Padang Hell G633",
-        "alias": []
-      },
-      {
-        "nome": "Palissandro Bluette",
-        "alias": []
-      },
-      {
-        "nome": "Palissandro Classico",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Padang%20Hell%20G633"
       },
       {
         "nome": "Panna Fragola",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Panna%20Fragola"
       },
       {
         "nome": "Pannonia Verde",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Pannonia%20Verde"
       },
       {
         "nome": "Paradiso Bash",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Paradiso%20Bash"
       },
       {
         "nome": "Paradiso Classico",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Paradiso%20Classico"
       },
       {
         "nome": "Patagonia",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Patagonia"
       },
       {
-        "nome": "Perlato Olimpo / Breccia Sarda",
-        "alias": []
+        "nome": "PATAGONIA EQUINOX",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=PATAGONIA%20EQUINOX"
       },
       {
-        "nome": "Perlato Royal",
-        "alias": []
+        "nome": "PATAGONIA ICE",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=PATAGONIA%20ICE"
       },
       {
-        "nome": "Pietra Del Cardoso",
-        "alias": []
+        "nome": "PATAGONIA TERRACOTTA",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=PATAGONIA%20TERRACOTTA"
+      },
+      {
+        "nome": "Perlato Olimpo",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Perlato%20Olimpo"
+      },
+      {
+        "nome": "Pierre Blue",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Pierre%20Blue"
       },
       {
         "nome": "Pietra di Luserna",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Pietra%20di%20Luserna"
       },
       {
-        "nome": "Pietra Piasentina",
-        "alias": []
+        "nome": "Pietra Dorata",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Pietra%20Dorata"
       },
       {
         "nome": "Pietra Serena",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Pietra%20Serena"
       },
       {
-        "nome": "Porphyr braun/rot",
-        "alias": []
-      },
-      {
-        "nome": "Porphyr grau",
-        "alias": []
-      },
-      {
-        "nome": "Porphyr grau-braun",
-        "alias": []
-      },
-      {
-        "nome": "Porphyr grau/grün",
-        "alias": []
-      },
-      {
-        "nome": "Porphyr Marrone",
-        "alias": []
-      },
-      {
-        "nome": "Porphyr rot",
-        "alias": []
-      },
-      {
-        "nome": "Porphyr rot/ violet",
-        "alias": []
-      },
-      {
-        "nome": "Porphyr Viola",
-        "alias": []
-      },
-      {
-        "nome": "Port Laurent",
-        "alias": []
+        "nome": "Pietra Tora",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Pietra%20Tora"
       },
       {
         "nome": "Porto Rosè",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Porto%20Ros%C3%A8"
       },
       {
-        "nome": "Rain Forest Brown",
-        "alias": []
+        "nome": "PORTOROSE",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=PORTOROSE"
       },
       {
-        "nome": "Rain Forest Green",
-        "alias": []
+        "nome": "Premium Black Dark",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Premium%20Black%20Dark"
       },
       {
-        "nome": "Rainbow",
-        "alias": []
+        "nome": "Python Black",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Python%20Black"
       },
       {
-        "nome": "Rojo Alicante",
-        "alias": []
+        "nome": "Quarzi Sankt Moritz",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Quarzi%20Sankt%20Moritz"
+      },
+      {
+        "nome": "Quarzit Bali",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Quarzit%20Bali"
+      },
+      {
+        "nome": "Quarzit Madeirus",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Quarzit%20Madeirus"
+      },
+      {
+        "nome": "Quarzit Marquina",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Quarzit%20Marquina"
+      },
+      {
+        "nome": "Quarzit Rosé",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Quarzit%20Ros%C3%A9"
+      },
+      {
+        "nome": "Quarzit Rossa Xango",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Quarzit%20Rossa%20Xango"
+      },
+      {
+        "nome": "QUARZITE FOUR SEASONS",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=QUARZITE%20FOUR%20SEASONS"
+      },
+      {
+        "nome": "Red Hollywood",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Red%20Hollywood"
+      },
+      {
+        "nome": "RED JASPER",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=RED%20JASPER"
+      },
+      {
+        "nome": "Regal Black",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Regal%20Black"
+      },
+      {
+        "nome": "Revolution",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Revolution"
       },
       {
         "nome": "Roma Imperiale",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Roma%20Imperiale"
       },
       {
         "nome": "Rosa Beta",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Rosa%20Beta"
       },
       {
-        "nome": "Rosa del Garda",
-        "alias": []
+        "nome": "Rosa Blanca",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Rosa%20Blanca"
+      },
+      {
+        "nome": "Rosa Cinzia",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Rosa%20Cinzia"
+      },
+      {
+        "nome": "Rosa Gamma",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Rosa%20Gamma"
       },
       {
         "nome": "Rosa Limbara",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Rosa%20Limbara"
       },
       {
-        "nome": "Rosa Perlino",
-        "alias": []
+        "nome": "Rosa Porrinho",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Rosa%20Porrinho"
       },
       {
-        "nome": "Rosso Asiago",
-        "alias": []
+        "nome": "ROSE DE FRANCE",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=ROSE%20DE%20FRANCE"
       },
       {
         "nome": "Rosso Balmoral",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Rosso%20Balmoral"
       },
       {
-        "nome": "Rosso Francia",
-        "alias": []
+        "nome": "ROSSO LUANA",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=ROSSO%20LUANA"
       },
       {
-        "nome": "Rosso Verona",
-        "alias": []
+        "nome": "Royal Black",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Royal%20Black"
       },
       {
-        "nome": "Sahara Noir",
-        "alias": []
+        "nome": "Royal Black f",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Royal%20Black%20f"
+      },
+      {
+        "nome": "Sahara Noir / Nero Dorato",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Sahara%20Noir%20%2F%20Nero%20Dorato"
+      },
+      {
+        "nome": "Saint Michel",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Saint%20Michel"
       },
       {
         "nome": "San Avorio",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=San%20Avorio"
       },
       {
         "nome": "San Valentino",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=San%20Valentino"
       },
       {
-        "nome": "Sequoia Brown",
-        "alias": []
+        "nome": "Serbias",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Serbias"
+      },
+      {
+        "nome": "Serizzo",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Serizzo"
       },
       {
         "nome": "Serizzo Antigorio",
-        "alias": []
-      },
-      {
-        "nome": "Serizzo Formazza",
-        "alias": []
-      },
-      {
-        "nome": "Serizzo Ghiandonato",
-        "alias": []
-      },
-      {
-        "nome": "Serpentino",
-        "alias": []
-      },
-      {
-        "nome": "Serpentino-Vittoria",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Serizzo%20Antigorio"
       },
       {
         "nome": "Shivakashi",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Shivakashi"
       },
       {
         "nome": "Silver Cloud",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Silver%20Cloud"
       },
       {
-        "nome": "Silver Paradiso / Black Forest",
-        "alias": []
+        "nome": "Silver Grey",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Silver%20Grey"
       },
       {
-        "nome": "Silver Wave",
-        "alias": []
+        "nome": "Silver Paradiso",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Silver%20Paradiso"
+      },
+      {
+        "nome": "Silver Phylitt - (Matrix)",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Silver%20Phylitt%20-%20(Matrix)"
+      },
+      {
+        "nome": "SILVER ROOTS",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=SILVER%20ROOTS"
+      },
+      {
+        "nome": "Silver White",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Silver%20White"
+      },
+      {
+        "nome": "Sky Fall",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Sky%20Fall"
+      },
+      {
+        "nome": "Sodalite Blue",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Sodalite%20Blue"
+      },
+      {
+        "nome": "SPI",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=SPI"
       },
       {
         "nome": "Star Galaxy",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Star%20Galaxy"
+      },
+      {
+        "nome": "Statuario Bianco",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Statuario%20Bianco"
       },
       {
         "nome": "Steel Grey",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Steel%20Grey"
+      },
+      {
+        "nome": "Stratus Boquira",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Stratus%20Boquira"
+      },
+      {
+        "nome": "Super Grey",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Super%20Grey"
+      },
+      {
+        "nome": "Super Grey Calacatta",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Super%20Grey%20Calacatta"
+      },
+      {
+        "nome": "Super White",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Super%20White"
+      },
+      {
+        "nome": "Super White Calacatta",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Super%20White%20Calacatta"
       },
       {
         "nome": "Taj Mahal",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Taj%20Mahal"
       },
       {
         "nome": "Tan Brown",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Tan%20Brown"
       },
       {
-        "nome": "Thassos",
-        "alias": []
+        "nome": "Terrazzo Grebi 92.80",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Terrazzo%20Grebi%2092.80"
       },
       {
-        "nome": "Titanium",
-        "alias": []
+        "nome": "Thala Beige",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Thala%20Beige"
       },
       {
-        "nome": "Trani Fiorito",
-        "alias": []
+        "nome": "Titanium Gold",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Titanium%20Gold"
       },
       {
-        "nome": "Trani Serpeggiante",
-        "alias": []
+        "nome": "Travertin Crete di Siena",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Travertin%20Crete%20di%20Siena"
       },
       {
-        "nome": "Travertin Crete die Siena",
-        "alias": []
+        "nome": "Travertin Imperiale",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Travertin%20Imperiale"
       },
       {
-        "nome": "Travertin Gelb Persiano",
-        "alias": []
-      },
-      {
-        "nome": "Travertin Navona",
-        "alias": []
+        "nome": "Travertin Noce",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Travertin%20Noce"
       },
       {
         "nome": "Travertin Romano Classico",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Travertin%20Romano%20Classico"
       },
       {
-        "nome": "Travertin Rosso",
-        "alias": []
+        "nome": "Travertin Striato",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Travertin%20Striato"
       },
       {
-        "nome": "Travertin Türkisch beige",
-        "alias": []
+        "nome": "Travertino Ostuni",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Travertino%20Ostuni"
       },
       {
-        "nome": "Travertin Türkisch Gelb",
-        "alias": []
+        "nome": "Travertino Silver",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Travertino%20Silver"
       },
       {
-        "nome": "Valser Quarzit",
-        "alias": []
+        "nome": "Tropical Storm",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Tropical%20Storm"
       },
       {
-        "nome": "Verde Alpi",
-        "alias": []
+        "nome": "Verde Acquarello",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Verde%20Acquarello"
       },
       {
         "nome": "Verde Andeer",
-        "alias": []
-      },
-      {
-        "nome": "Verde Bahia",
-        "alias": []
-      },
-      {
-        "nome": "Verde Bamboo",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Verde%20Andeer"
       },
       {
         "nome": "Verde Candeias",
-        "alias": []
-      },
-      {
-        "nome": "Verde Evolene",
-        "alias": []
-      },
-      {
-        "nome": "Verde Fontain",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Verde%20Candeias"
       },
       {
         "nome": "Verde Guatemala",
-        "alias": []
-      },
-      {
-        "nome": "Verde Imperiale",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Verde%20Guatemala"
       },
       {
         "nome": "Verde Lapponia",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Verde%20Lapponia"
       },
       {
-        "nome": "Verde Marinace",
-        "alias": []
+        "nome": "Verde Laura",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Verde%20Laura"
       },
       {
-        "nome": "Verde Maritaka",
-        "alias": []
-      },
-      {
-        "nome": "Verde Mergozzo",
-        "alias": []
+        "nome": "Verde Marina",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Verde%20Marina"
       },
       {
         "nome": "Verde Oasis",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Verde%20Oasis"
       },
       {
-        "nome": "Verde Olivo",
-        "alias": []
+        "nome": "VERIAS GREEN",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=VERIAS%20GREEN"
       },
       {
-        "nome": "Verde San Francisco",
-        "alias": []
+        "nome": "Via Lattea",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Via%20Lattea"
       },
       {
-        "nome": "Verde Spluga",
-        "alias": []
+        "nome": "VICTORIA GOLD",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=VICTORIA%20GOLD"
       },
       {
-        "nome": "Verde Ubatuba",
-        "alias": []
+        "nome": "Vincent Black",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Vincent%20Black"
       },
       {
         "nome": "Virginia Black",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Virginia%20Black"
       },
       {
         "nome": "Viscont White",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Viscont%20White"
+      },
+      {
+        "nome": "Vitoria Regia",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Vitoria%20Regia"
       },
       {
         "nome": "Vizag Blue / Orion Blue",
-        "alias": []
-      },
-      {
-        "nome": "Volakas",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Vizag%20Blue%20%2F%20Orion%20Blue"
       },
       {
         "nome": "Volga Blue",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Volga%20Blue"
       },
       {
         "nome": "Vratza",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Vratza"
       },
       {
         "nome": "Warangal Black",
-        "alias": []
-      },
-      {
-        "nome": "Wenge / gestreift",
-        "alias": []
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Warangal%20Black"
       }
     ]
   },

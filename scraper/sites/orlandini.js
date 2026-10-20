@@ -1,37 +1,42 @@
 // Orlandini Gallery — il vero magazzino (lager.orlandini.de, piattaforma
-// DDL) richiede login. Il sito principale ha però un Katalog pubblico
-// (orlandini.de/store, Webflow CMS) con una selezione di materiali —
-// dichiaratamente non tutti quelli disponibili, ma comunque utile.
-// La paginazione è ad accumulo: ogni click su "Next Page" AGGIUNGE altri
-// 24 elementi alla lista esistente (non la sostituisce), il bottone
-// scompare all'ultima pagina.
-const URL = "https://www.orlandini.de/store";
-const SELECTOR = "div.katalog-preview p";
-const NEXT_SELECTOR = 'a[aria-label="Next Page"]';
+// DDL) in realtà NON richiede login per vedere la griglia materiali e,
+// cliccando un materiale, i blocchi/lastre reali con quantità, dimensioni e
+// spessore (verificato dal vivo 2026-10-20 — il vecchio commento che
+// indicava "richiede login" era superato, il sito è cambiato). Il sito
+// pubblico su orlandini.de/store (Webflow, "Katalog") che scrapavamo prima
+// era dichiaratamente solo una selezione parziale.
+// La griglia iniziale carica 24 materiali, il bottone "Show more materials"
+// ne aggiunge altri ad ogni click (si ferma da solo quando sparisce).
+// Cliccare un materiale naviga via pushState a ?type=<nome url-encoded> —
+// pattern verificato, lo costruiamo direttamente senza dover cliccare ogni
+// card.
+const URL = "https://lager.orlandini.de";
+const SELECTOR = "div.product-item h3";
+const MORE_SELECTOR = "text=Show more materials";
 
 async function scrape(context) {
   const page = await context.newPage();
   await page.goto(URL, { waitUntil: "networkidle", timeout: 45000 });
   await page.waitForTimeout(1500);
 
-  for (let i = 0; i < 20; i++) {
-    const next = page.locator(NEXT_SELECTOR);
-    if ((await next.count()) === 0) break;
-    const visible = await next.first().isVisible().catch(() => false);
-    if (!visible) break;
+  for (let i = 0; i < 60; i++) {
+    const btn = page.locator(MORE_SELECTOR);
+    if ((await btn.count()) === 0) break;
     try {
-      await next.first().click({ timeout: 5000 });
+      await btn.first().click({ timeout: 5000 });
     } catch {
       break;
     }
-    await page.waitForTimeout(1200);
+    await page.waitForTimeout(900);
   }
 
   const raw = await page.locator(SELECTOR).allTextContents();
   await page.close();
 
-  const unique = [...new Set(raw.map((n) => n.trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b, "it"));
-  if (unique.length === 0) throw new Error("Nessun materiale trovato su orlandini.de/store");
+  const unique = [...new Set(raw.map((n) => n.trim()).filter((n) => n && !/^-+$/.test(n)))].sort((a, b) =>
+    a.localeCompare(b, "it")
+  );
+  if (unique.length === 0) throw new Error("Nessun materiale trovato su lager.orlandini.de");
 
   return {
     id: "orlandini",
@@ -39,8 +44,8 @@ async function scrape(context) {
     url: URL,
     stato: "scraped",
     note:
-      'Elenco letto dal Katalog pubblico (il vero magazzino lager.orlandini.de richiede login, non ancora automatizzato), cliccando "Next Page" fino a esaurimento — scraping automatico notturno.',
-    materiali: unique.map((nome) => ({ nome, alias: [] })),
+      'Elenco letto dal vero magazzino lager.orlandini.de (non richiede login), con link diretto alla scheda materiale (?type=<nome>) — scraping automatico notturno.',
+    materiali: unique.map((nome) => ({ nome, alias: [], url: `${URL}/?type=${encodeURIComponent(nome)}` })),
   };
 }
 
