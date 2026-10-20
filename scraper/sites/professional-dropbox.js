@@ -4,6 +4,7 @@
 // — il materiale è il testo prima del marcatore "n. <numero lastre>",
 // ripulito dal codice blocco finale (token tutto maiuscolo e/o numerico).
 const { listFolder } = require("./_platforms/dropbox");
+const { dedupeWithUrl } = require("./_platforms/dedupe");
 
 const URL =
   "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AIU_qbkI6KNJfSilICYWAmk?rlkey=vvotvwav1xvblsemwrn1mdmjo&e=2&st=f23yd1m6&dl=0";
@@ -30,17 +31,18 @@ async function scrape(context) {
   const items = await listFolder(page, URL);
   await page.close();
 
-  const names = items.filter((i) => i.alt).map((i) => cleanName(i.alt));
-  const unique = [...new Set(names.filter(Boolean))].sort((a, b) => a.localeCompare(b, "it"));
-  if (unique.length === 0) throw new Error("Nessun materiale trovato nella cartella Dropbox Professional");
+  const entries = items.filter((i) => i.alt).map((i) => ({ nome: cleanName(i.alt), href: i.href }));
+  const materiali = dedupeWithUrl(entries);
+  if (materiali.length === 0) throw new Error("Nessun materiale trovato nella cartella Dropbox Professional");
 
   return {
     id: "professional-dropbox",
     nome: "Professional (Dropbox)",
     url: URL,
     stato: "scraped",
-    note: "Elenco letto dai nomi file della cartella Dropbox pubblica AVAILABLE MATERIALS 2CM! — scraping automatico notturno.",
-    materiali: unique.map((nome) => ({ nome, alias: [] })),
+    note:
+      "Elenco letto dai nomi file della cartella Dropbox pubblica AVAILABLE MATERIALS 2CM!, ciascuno con link diretto all'anteprima del file su Dropbox — scraping automatico notturno.",
+    materiali,
   };
 }
 

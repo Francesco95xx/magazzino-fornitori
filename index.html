@@ -237,8 +237,9 @@
   .result-materials{display:flex; flex-wrap:wrap; gap:6px; margin-top:8px}
   .result-material-chip{
     font-size:.8rem; background:var(--bg-soft); border:1px solid var(--border); border-radius:8px;
-    padding:4px 10px; color:var(--muted); font-weight:500;
+    padding:4px 10px; color:var(--muted); font-weight:500; text-decoration:none; cursor:pointer;
   }
+  .result-material-chip:hover{border-color:var(--accent); color:var(--accent)}
 
   /* ---------- Manage link / dialog ---------- */
   .manage-link-wrap{max-width:920px; margin:14px auto 0; text-align:right}
@@ -406,7 +407,8 @@
 // ---------------------------------------------------------------------
 function mat(names){ return names.map(n=>({nome:n, alias:[]})); }
 
-function buildLink(f, rawQuery){
+function buildLink(f, rawQuery, material){
+  if(material && material.url) return material.url;
   if(rawQuery && f.searchUrl){
     return f.searchUrl.replace("{q}", encodeURIComponent(rawQuery));
   }
@@ -545,7 +547,9 @@ function render(){
     const badge = `<span class="badge ${f.stato}">${badgeLabel[f.stato]||f.stato}</span>`;
     const materialsHtml = hits.map(m=>{
       const aliasStr = (m.alias&&m.alias.length) ? ` <span class="result-alias">(${escapeHtml(m.alias.join(", "))})</span>` : "";
-      return `<span class="result-material-chip">${escapeHtml(m.nome)}${aliasStr}</span>`;
+      const link = buildLink(f, rawQuery, m);
+      const title = m.url ? ' title="Apri la scheda di questo materiale"' : ' title="Apri '+escapeAttr(f.nome)+'"';
+      return `<a class="result-material-chip" href="${escapeAttr(link)}" target="_blank" rel="noopener"${title}>${escapeHtml(m.nome)}${aliasStr}</a>`;
     }).join("");
     return `
       <div class="result-row">

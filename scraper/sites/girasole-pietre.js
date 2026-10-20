@@ -1,6 +1,8 @@
 // Girasole Pietre — 4 pagine categoria (marmo/travertino/onice/quarzite),
 // ognuna con scroll infinito che si stabilizza intorno a 200 lastre per
 // pagina (limite lato sito, non risolvibile con altro scroll).
+const { dedupeWithUrl } = require("./_platforms/dedupe");
+
 const CATEGORIES = [
   "https://girasolepietre.it/marmo",
   "https://girasolepietre.it/travertino",
@@ -22,20 +24,25 @@ async function scrapeCategory(context, url) {
     await page.waitForTimeout(700);
   }
 
-  const names = await page.locator(SELECTOR).allTextContents();
+  const entries = await page.locator(SELECTOR).evaluateAll((els) =>
+    els.map((el) => {
+      const a = el.closest("a");
+      return { nome: (el.textContent || "").trim(), href: a ? a.href : null };
+    })
+  );
   await page.close();
-  return names.map((n) => n.trim()).filter(Boolean);
+  return entries.filter((e) => e.nome);
 }
 
 async function scrape(context) {
   let all = [];
   for (const url of CATEGORIES) {
-    const names = await scrapeCategory(context, url);
-    all = all.concat(names);
+    const entries = await scrapeCategory(context, url);
+    all = all.concat(entries);
   }
 
-  const unique = [...new Set(all)].sort((a, b) => a.localeCompare(b, "it"));
-  if (unique.length === 0) throw new Error("Nessun materiale trovato su girasolepietre.it");
+  const materiali = dedupeWithUrl(all);
+  if (materiali.length === 0) throw new Error("Nessun materiale trovato su girasolepietre.it");
 
   return {
     id: "girasole-pietre",
@@ -43,8 +50,8 @@ async function scrape(context) {
     url: "https://girasolepietre.it/magazzino-online",
     stato: "scraped",
     note:
-      "Elenco letto dalle 4 pagine categoria (marmo/travertino/onice/quarzite) con scroll fino a stabilizzazione del DOM — scraping automatico notturno.",
-    materiali: unique.map((nome) => ({ nome, alias: [] })),
+      "Elenco letto dalle 4 pagine categoria (marmo/travertino/onice/quarzite) con scroll fino a stabilizzazione del DOM, con link diretto alla scheda lotto — scraping automatico notturno.",
+    materiali,
   };
 }
 
