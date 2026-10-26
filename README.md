@@ -38,9 +38,9 @@ rispedire file — tutti aprono lo stesso link, sempre aggiornato.
 **Scraper individuali (4)**: `orobici` (Marmi Orobici), `marimar`, `moristone`
 (Mori Stone), `stocchero-attilio`.
 
-**Piattaforma condivisa iblocky.it (8)**: `bb-atelier`, `mondial-granit`,
+**Piattaforma condivisa iblocky.it (9)**: `bb-atelier`, `mondial-granit`,
 `marmi-rosa`, `italian-stone-source`, `stone-export`, `planet-stone`, `cmc`,
-`black-eagle` — un solo modulo (`scraper/sites/_platforms/iblocky.js`) chiama l'API
+`black-eagle`, `gima-stone` (aggiunto 2026-10-26) — un solo modulo (`scraper/sites/_platforms/iblocky.js`) chiama l'API
 pubblica `api.iblocky.it/api/v2/tenants/<slug>/filters/materials` (basta
 Referer/Origin/User-Agent da browser, nessun token/login), i file in
 `scraper/sites/` sono solo un wrapper con lo slug del tenant.
@@ -244,7 +244,8 @@ gestionale di B&B Atelier/Mondial Granit/etc) — passando all'API si ottiene
 il magazzino lastre in tempo reale invece del catalogo shop: 171 materiali
 invece di 166.
 
-**72 su 75 totali automatizzati** (CEV Marmi aggiunto il 2026-10-26).
+**73 su 76 totali automatizzati** (CEV Marmi e Gi-Ma Stone aggiunti il
+2026-10-26).
 Restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
 - **Login reale richiesto, credenziali non disponibili** (2): GeoMarmi,

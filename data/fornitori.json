@@ -16384,6 +16384,331 @@
     ]
   },
   {
+    "id": "gima-stone",
+    "nome": "Gi-Ma Stone",
+    "url": "https://app.iblocky.it/public-blocks/gima-stone-srl?type=slab",
+    "stato": "scraped",
+    "note": "Magazzino lastre in tempo reale — dati letti dall'API filtri materiali del gestionale iblocky.it.",
+    "materiali": [
+      {
+        "nome": "ABSOLUTE BLACK",
+        "alias": []
+      },
+      {
+        "nome": "ALPINUS WHITE",
+        "alias": []
+      },
+      {
+        "nome": "ANDROMEDA WHITE",
+        "alias": []
+      },
+      {
+        "nome": "ARIZONA GOLD",
+        "alias": []
+      },
+      {
+        "nome": "ASTORIA",
+        "alias": []
+      },
+      {
+        "nome": "ASTORIA VALLEY",
+        "alias": []
+      },
+      {
+        "nome": "BLACK FANTASY",
+        "alias": []
+      },
+      {
+        "nome": "BLACK GALAXY",
+        "alias": []
+      },
+      {
+        "nome": "BLACK MARQUINA",
+        "alias": []
+      },
+      {
+        "nome": "BLACK PEARL",
+        "alias": []
+      },
+      {
+        "nome": "BRUTALIST WOOD",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA BRUTALIST",
+        "alias": []
+      },
+      {
+        "nome": "CAYMAN BLACK",
+        "alias": []
+      },
+      {
+        "nome": "CELESTIA",
+        "alias": []
+      },
+      {
+        "nome": "COFFEE BROWN",
+        "alias": []
+      },
+      {
+        "nome": "COLOMBO JUPARANA",
+        "alias": []
+      },
+      {
+        "nome": "COLONIAL GOLD",
+        "alias": []
+      },
+      {
+        "nome": "COLONIAL WHITE",
+        "alias": []
+      },
+      {
+        "nome": "CRISTALLO PINK",
+        "alias": []
+      },
+      {
+        "nome": "CRISTALLO WHITE",
+        "alias": []
+      },
+      {
+        "nome": "CRYSTALLO",
+        "alias": []
+      },
+      {
+        "nome": "FUCHSITE BLUE",
+        "alias": []
+      },
+      {
+        "nome": "FUSION WHITE",
+        "alias": []
+      },
+      {
+        "nome": "G-20",
+        "alias": []
+      },
+      {
+        "nome": "GG GOLD",
+        "alias": []
+      },
+      {
+        "nome": "GREEN MARBLE",
+        "alias": []
+      },
+      {
+        "nome": "GREEN QUARTZITE",
+        "alias": []
+      },
+      {
+        "nome": "HYMALAYAN BLUE",
+        "alias": []
+      },
+      {
+        "nome": "IMPERIAL GOLD",
+        "alias": []
+      },
+      {
+        "nome": "IMPERIAL WHITE",
+        "alias": []
+      },
+      {
+        "nome": "INDIAN JUPARANA",
+        "alias": []
+      },
+      {
+        "nome": "IVORY FANTASY",
+        "alias": []
+      },
+      {
+        "nome": "JASIMINE WHITE",
+        "alias": []
+      },
+      {
+        "nome": "KASHMIR GOLD",
+        "alias": []
+      },
+      {
+        "nome": "KRISHNA BLACK",
+        "alias": []
+      },
+      {
+        "nome": "KUPPAM BLACK",
+        "alias": []
+      },
+      {
+        "nome": "KUPPAM GREEN",
+        "alias": []
+      },
+      {
+        "nome": "LAZA GREY",
+        "alias": []
+      },
+      {
+        "nome": "LUMINANT",
+        "alias": []
+      },
+      {
+        "nome": "MILLENNIUM GOLD",
+        "alias": []
+      },
+      {
+        "nome": "MIST BLACK",
+        "alias": []
+      },
+      {
+        "nome": "MULTI JEKKERY LUCIDO",
+        "alias": []
+      },
+      {
+        "nome": "MULTICOLOR",
+        "alias": []
+      },
+      {
+        "nome": "MYSTIC GREEN",
+        "alias": []
+      },
+      {
+        "nome": "MYSTIC MARBLE",
+        "alias": []
+      },
+      {
+        "nome": "NERO AFRICA",
+        "alias": []
+      },
+      {
+        "nome": "NERO ZIMBAWE",
+        "alias": []
+      },
+      {
+        "nome": "NEW SPICE BLACK",
+        "alias": []
+      },
+      {
+        "nome": "NEW VISCONT WHITE",
+        "alias": []
+      },
+      {
+        "nome": "PAONAZZETTO",
+        "alias": []
+      },
+      {
+        "nome": "PARA GOLD",
+        "alias": []
+      },
+      {
+        "nome": "PARADISO BASH",
+        "alias": []
+      },
+      {
+        "nome": "PARADISO CLASSICO",
+        "alias": []
+      },
+      {
+        "nome": "PATAGONIA",
+        "alias": []
+      },
+      {
+        "nome": "PATAGONIA CRISTALLO",
+        "alias": []
+      },
+      {
+        "nome": "PATAGONIA PINK",
+        "alias": []
+      },
+      {
+        "nome": "PATAGONIA WHITE",
+        "alias": []
+      },
+      {
+        "nome": "PERLA VENATA",
+        "alias": []
+      },
+      {
+        "nome": "PREMIUM BLACK",
+        "alias": []
+      },
+      {
+        "nome": "RIVER WHITE",
+        "alias": []
+      },
+      {
+        "nome": "SAHARA BLACK",
+        "alias": []
+      },
+      {
+        "nome": "SILVER PARADISO",
+        "alias": []
+      },
+      {
+        "nome": "SIVAKASI - IVORY BROWN",
+        "alias": []
+      },
+      {
+        "nome": "SK BLUE",
+        "alias": []
+      },
+      {
+        "nome": "SPICE BLACK",
+        "alias": []
+      },
+      {
+        "nome": "STATUARIETTO EX",
+        "alias": []
+      },
+      {
+        "nome": "STATUARIO CALACATTA",
+        "alias": []
+      },
+      {
+        "nome": "STEEL GREY",
+        "alias": []
+      },
+      {
+        "nome": "TAJ LUMINOUS",
+        "alias": []
+      },
+      {
+        "nome": "TAJ MAHAL",
+        "alias": []
+      },
+      {
+        "nome": "TAN BROWN",
+        "alias": []
+      },
+      {
+        "nome": "THUNDER WHITE",
+        "alias": []
+      },
+      {
+        "nome": "ULTIMATE BLACK",
+        "alias": []
+      },
+      {
+        "nome": "VARANGAL BLACK",
+        "alias": []
+      },
+      {
+        "nome": "VERDE GUATEMALA",
+        "alias": []
+      },
+      {
+        "nome": "VERDE UDAIPUR",
+        "alias": []
+      },
+      {
+        "nome": "VIETNAM WHITE",
+        "alias": []
+      },
+      {
+        "nome": "VISCONT WHITE",
+        "alias": []
+      },
+      {
+        "nome": "VIZAG BLUE",
+        "alias": []
+      }
+    ]
+  },
+  {
     "id": "girasole-pietre",
     "nome": "Girasole Pietre",
     "url": "https://girasolepietre.it/magazzino-online",
