@@ -111,6 +111,14 @@ lo scroll va fatto sulla pagina intera (`window.scrollTo` fino in fondo,
 ripetuto finché il conteggio si stabilizza), non su un contenitore interno
 come per le altre griglie Angular di questo progetto.
 
+**CEV Marmi — aggiunto il 2026-10-26** (`cevmarmi.com/it/magazzino-online`,
+Verona): magazzino online pubblico, nessun login, mostra persino la data di
+ultimo aggiornamento in pagina. Stessa piattaforma di Marmi Rossi (classe
+`div.mag-col-material`), stesso pattern di scroll sulla pagina intera fino
+a stabilizzazione (~730 lastre, 127 materiali distinti). Molti materiali
+sono elencati con più nomi commerciali separati da " - " (es. "AFRICAN
+GALAXY - COSMOS - STARGATE"): il primo diventa `nome`, gli altri `alias`.
+
 **Max Marmi Carrara — sistemato dopo il redesign del sito (2026-09-18)**: la
 nuova mappa 2D del magazzino carica i dati da un'API pubblica
 (`/api/marmi/magazzino?locale=it`, nessuna auth) che restituisce tutti i
@@ -236,7 +244,8 @@ gestionale di B&B Atelier/Mondial Granit/etc) — passando all'API si ottiene
 il magazzino lastre in tempo reale invece del catalogo shop: 171 materiali
 invece di 166.
 
-**71 su 74 totali automatizzati**. Restano fissi in
+**72 su 75 totali automatizzati** (CEV Marmi aggiunto il 2026-10-26).
+Restano fissi in
 `scraper/seed-static.json`, classificati così dal triage (2026-09):
 - **Login reale richiesto, credenziali non disponibili** (2): GeoMarmi,
   Red Graniti (`redgraniti.isodata.it`, piattaforma MarbleR2 — a differenza
