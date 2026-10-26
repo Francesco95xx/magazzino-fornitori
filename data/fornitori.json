@@ -1567,10 +1567,6 @@
         "alias": []
       },
       {
-        "nome": "ROSA SARDO",
-        "alias": []
-      },
-      {
         "nome": "ROSSO ALICANTE",
         "alias": []
       },
@@ -1915,6 +1911,10 @@
         "alias": []
       },
       {
+        "nome": "VERDE ANTIGUA",
+        "alias": []
+      },
+      {
         "nome": "VERDE EVOLENE",
         "alias": []
       },
@@ -2087,7 +2087,7 @@
       {
         "nome": "CALACATTA AURORA",
         "alias": [],
-        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=8367&code=3b9d4b5e458a2108fb4ad062a8dd0422&manufacturer_id=0&limit=1000"
+        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=8368&code=f1e15353a65c382a3eca97d01a3d2d00&manufacturer_id=0&limit=1000"
       },
       {
         "nome": "CALACATTA BLUE",
@@ -2117,7 +2117,7 @@
       {
         "nome": "CALACATTA MIDNIGHT",
         "alias": [],
-        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=8288&code=e22cf493d478de39a7fca31acf3c08ca&manufacturer_id=0&limit=1000"
+        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=8213&code=153e41cac9dec530bb932b7843ced3b9&manufacturer_id=0&limit=1000"
       },
       {
         "nome": "CALACATTA MONET",
@@ -2237,7 +2237,7 @@
       {
         "nome": "GRIGIO ARGENTATO",
         "alias": [],
-        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=7968&code=c0904437a2ba9fa8c5e77e90a1f95028&manufacturer_id=0&limit=1000"
+        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=7967&code=8ee48c628f6a80af17c2fa78c50f01c9&manufacturer_id=0&limit=1000"
       },
       {
         "nome": "GRIGIO MASERATY",
@@ -2282,7 +2282,7 @@
       {
         "nome": "MAGIC BEIGE",
         "alias": [],
-        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=8063&code=057912b5e194009be58935b96eea8cca&manufacturer_id=0&limit=1000"
+        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=8062&code=baf9f4162f697220ba1c9b28cb6a3efd&manufacturer_id=0&limit=1000"
       },
       {
         "nome": "MIDNIGHT BLUE",
@@ -2342,7 +2342,7 @@
       {
         "nome": "ONICE BLUE",
         "alias": [],
-        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=8381&code=8070a7f8b6c1bdc7290a4532b7232c75&manufacturer_id=0&limit=1000"
+        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=8380&code=601619f25ba7feecc556b9b64c4af166&manufacturer_id=0&limit=1000"
       },
       {
         "nome": "ONICE COLA",
@@ -2452,7 +2452,7 @@
       {
         "nome": "STRIATO OLIMPICO",
         "alias": [],
-        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=7578&code=48e208664d8329809ccf98fda907670c&manufacturer_id=0&limit=1000"
+        "url": "https://ag23.stonecash.net/index.php?route=product/product&manufacturer_id=51&product_id=7576&code=96d44dcfdc0183fdbca61a2d577f3da0&manufacturer_id=0&limit=1000"
       },
       {
         "nome": "TITANIUM",
@@ -2932,6 +2932,10 @@
         "alias": []
       },
       {
+        "nome": "VERDE ALPI",
+        "alias": []
+      },
+      {
         "nome": "VERDE GAUGUIN GR",
         "alias": []
       },
@@ -2982,6 +2986,10 @@
       },
       {
         "nome": "AQUARELA",
+        "alias": []
+      },
+      {
+        "nome": "ARABESCATO CORCHIA",
         "alias": []
       },
       {
@@ -3397,6 +3405,10 @@
         "alias": []
       },
       {
+        "nome": "DESERT PATAGONIA",
+        "alias": []
+      },
+      {
         "nome": "DOLCE VITA",
         "alias": []
       },
@@ -3429,7 +3441,7 @@
         "alias": []
       },
       {
-        "nome": "FOUR SEASON",
+        "nome": "FOUR SEASONS",
         "alias": []
       },
       {
@@ -3850,10 +3862,6 @@
       },
       {
         "nome": "ROSA NEW CINZIA",
-        "alias": []
-      },
-      {
-        "nome": "ROSA PERLINO",
         "alias": []
       },
       {
@@ -6712,10 +6720,6 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Rhino",
-        "alias": []
-      },
-      {
         "nome": "Calacatta Rino",
         "alias": []
       },
@@ -7096,10 +7100,6 @@
         "alias": []
       },
       {
-        "nome": "Rhino White",
-        "alias": []
-      },
-      {
         "nome": "Rino White",
         "alias": []
       },
@@ -7247,6 +7247,11 @@
         "nome": "amarone silver",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/lgii850jk7aegr3gk6wm5/AO3pkTSIrfyuPZQMewLkE2Y/_offer%203cm/amarone%20silver_%20B%201628_sti%20215_26739.95_6%20slabs_300x200x3cm.jpg?rlkey=as52345zjet3wvxwbnscso0cp&dl=0"
+      },
+      {
+        "nome": "antrtic blue",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/lgii850jk7aegr3gk6wm5/AKO8CMmJMxpSyBlBLG55XRU/antrtic%20blue_b%209082.275_11%20slabs_318x198x3cm.jpg?rlkey=as52345zjet3wvxwbnscso0cp&dl=0"
       },
       {
         "nome": "arabescato altissimo",
@@ -7474,11 +7479,6 @@
         "url": "https://www.dropbox.com/scl/fo/lgii850jk7aegr3gk6wm5/AN6pwP1tVuhR01W8yPY34RU/cipollino%20bluette%20_b%206050.163_28%20slabs_310x195x3cm.jpg?rlkey=as52345zjet3wvxwbnscso0cp&dl=0"
       },
       {
-        "nome": "costa smeralda",
-        "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/lgii850jk7aegr3gk6wm5/AHbwhS-_zDI-H85JK-4ivJk/costa%20smeralda_c%200264.270_16%20slabs_310x200x3cm.jpg?rlkey=as52345zjet3wvxwbnscso0cp&dl=0"
-      },
-      {
         "nome": "cristallo",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/lgii850jk7aegr3gk6wm5/AM7m7WNwlxotSRhB-1uCj9c/cristallo_b%207271.690_11%20slabs_312x190x3cm.jpg?rlkey=as52345zjet3wvxwbnscso0cp&dl=0"
@@ -7532,6 +7532,11 @@
         "nome": "estremoz brasil .",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/lgii850jk7aegr3gk6wm5/AIxV1p_XiiKllvtdXh2CM6M/_marble%203cm/estremoz%20brasil_.160_40%20slabs_280x190x3cm.jpg?rlkey=as52345zjet3wvxwbnscso0cp&dl=0"
+      },
+      {
+        "nome": "fantastic white l",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/lgii850jk7aegr3gk6wm5/ALmgEbWKuucgkwfj_7u3t_s/fantastic%20white_l%206338.130_6%20slabs_330x190x3cm.jpg?rlkey=as52345zjet3wvxwbnscso0cp&dl=0"
       },
       {
         "nome": "fantastico arni",
@@ -7602,6 +7607,11 @@
         "nome": "karma",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/lgii850jk7aegr3gk6wm5/ABHZeHD2z30kaG6FxtYdptI/_offer%203cm/karma_b%206672.120_38%20slabs_340x178x3cm.jpg?rlkey=as52345zjet3wvxwbnscso0cp&dl=0"
+      },
+      {
+        "nome": "LEV bianco rhino l",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/lgii850jk7aegr3gk6wm5/AANchhb9lLRHZ4IENgVyK-k/_marble%203cm/LEV%20bianco%20rhino_l%2012962.225_19%20slabs_315x170x3cm.jpg?rlkey=as52345zjet3wvxwbnscso0cp&dl=0"
       },
       {
         "nome": "lilac",
@@ -7816,7 +7826,7 @@
       {
         "nome": "soapstone black l",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/lgii850jk7aegr3gk6wm5/ADF_uOqPZHHTz44i7d_VH1g/soapstone%20black_l%2012802.175_7%20slabs_340x198x3cm.jpg?rlkey=as52345zjet3wvxwbnscso0cp&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/lgii850jk7aegr3gk6wm5/AMCNYeXsZ5jHaIxKOCjizYw/soapstone%20black_l%2012803.175_5%20slabs_314x198x3cm_1.jpg?rlkey=as52345zjet3wvxwbnscso0cp&dl=0"
       },
       {
         "nome": "soapstone cm",
@@ -8005,7 +8015,7 @@
       {
         "nome": "amazzonia",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ADWhx5ipIYfuQb3N3wqkTxM/amazzonia_b%209916.278_61%20slabs_340x195x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AM0driblTkYW-3B5yFXk8Pg/amazzonia_b%209916.278_55%20slabs_340x195x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "antartic blue",
@@ -8038,9 +8048,14 @@
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AC7nsri8CU9bJLgCUIzJemw/special%20offer%202cm/arabescato%20grey_sti%2058111.105_15%20slabs_297x160x2cm.JPG?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
+        "nome": "arabescato orobico",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AMCTZZ1I_TwXrizBzuFPyIk/_marble%202cm/arabescato%20orobico_b%209914.130_20%20slabs_320x200x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+      },
+      {
         "nome": "arabescato orobico l",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ADgOWur55oju6Lhb72uLqe8/_marble%202cm/arabescato%20orobico_l%2012785.105_20%20slabs_301x172x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AO3IBbdTaqTCparQia1ec34/_marble%202cm/arabescato%20orobico_l%2012785.105_19%20slabs_301x172x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "arabescato vagli l",
@@ -8170,7 +8185,7 @@
       {
         "nome": "breccia damascata",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ABkkQ6mLLv6nhZYPghrkPUs/_marble%202cm/breccia%20damascata_b%209808.120_32%20slabs_283x187x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AFIxksjbRoUmuUYWH8cL170/_marble%202cm/breccia%20damascata_b%209808.120_22%20slabs_283x187x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "breccia dell'etna",
@@ -8233,11 +8248,6 @@
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AMZdnlVwQzPqv21cEyJQHvw/special%20offer%202cm/calacatta%20apuano%20vc_B%205336.80_3%20slabs_292x142x2cm.JPG?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
-        "nome": "calacatta belgia l",
-        "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AHemH2ANhz2-KMoGDtXH0_w/_marble%202cm/calacatta%20belgia_l%2012940.390_16%20slabs_302x204x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
-      },
-      {
         "nome": "calacatta borghini",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AJFgsX1N5gU2yoX8jekv-YA/_marble%202cm/calacatta_borghini%208070.145%20TON_45%20slabs_318x168x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
@@ -8245,12 +8255,17 @@
       {
         "nome": "calacatta caldia l",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AEubSTRIfARyx9p4_-ygass/_marble%202cm/calacatta%20caldia_l%2012873.280_20%20slabs_344x190x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ADTS_xgQl6pCT9r-nTeL1v8/_marble%202cm/calacatta%20caldia_l%2012873.280_19%20slabs_344x190x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "calacatta carrara",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AHKErrtvWWsRk29kNqVj28A/_marble%202cm/calacatta%20carrara_b%209515.490_81%20slabs_304x190x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AHT0PxVoopBActA3l4Ou_Ss/_marble%202cm/calacatta%20carrara_b%209520.220_40%20slabs_303x152x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+      },
+      {
+        "nome": "calacatta classic",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AIOBzE8OoweKVX04rwxP6nM/_marble%202cm/calacatta%20classic%20_b%209515.490_57%20slabs_304x190x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "calacatta cremo",
@@ -8290,7 +8305,7 @@
       {
         "nome": "calacatta oyster",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AIXThIVyQrMcWLSW5MKWeeg/_marble%202cm/calacatta%20oyster_b%208219.350_16%20slabs_345x198x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ACwMlFyqiCj9HxEDS8iPOKA/_marble%202cm/calacatta%20oyster_b%208219.350_24%20slabs_345x198x2cm_15-38.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "calacatta picasso",
@@ -8313,14 +8328,9 @@
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AAqcMzXd2za-y8ddC2NrKMY/_marble%202cm/calacatta%20vagli%20oro_b%209729-2.210_37%20slab_295x184x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
-        "nome": "calacatta verde",
-        "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AEK7xDgmnlyjk1OIO-NP_dU/_marble%202cm/calacatta%20verde%20_c%200240.215_24%20slabs_334x202x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
-      },
-      {
         "nome": "calacatta viola",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AAI_O4iWWNgvLhM0H_REWC0/_marble%202cm/calacatta%20viola_b%207835.300_16%20slabs_300x195x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AHDoQU3pDQMnefPoCB4ewEo/_marble%202cm/calacatta%20viola_b%208331-2.450_11%20slabs_327x198x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "calacatta viola rose'",
@@ -8335,7 +8345,12 @@
       {
         "nome": "caldia",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AF0qXN3dLtYzqqDTlq58GvE/_marble%202cm/caldia_c%200326.420_23%20slabs_353x188x2cm_HGF%2019-10.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AJMnKo4rGIAGVwqatq-k3nY/_marble%202cm/caldia_c%200326.420_23%20slabs_353x188x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+      },
+      {
+        "nome": "camouflage",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AHTHvAGZnrohPeyeWtJg3ts/_marble%202cm/camouflage_b%200764_25%20slabs_302x181x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "camouflage l",
@@ -8363,6 +8378,11 @@
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AFCJ7mNCNzIZqrWiOCegGi8/chateaux%20blanc_b%209607.167_70%20slabs_325x202x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
+        "nome": "cherry blossom",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AL7qOYYsSrqaRqjXBl_-vyc/_marble%202cm/cherry%20blossom%20_b%209252.380_36%20slabs_301x187.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+      },
+      {
         "nome": "cipollino",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AP6t2JrchGvfDD2G-S43qA0/_marble%202cm/cipollino_b%209314.225_4%20slabs_312x178x2cm_1-4.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
@@ -8376,6 +8396,11 @@
         "nome": "cipollino bluette",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AMyJwkjr1UMrSeLULHAoECY/cipollino%20bluette_b%205422.115_31%20slabs_320x200x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+      },
+      {
+        "nome": "cipollino bluette c xxx.",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AHwPtwQ52YjjPIaVquUt9pE/_marble%202cm/cipollino%20bluette_c%20xxx.145_70%20lastre_310x200x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "cipollino verde",
@@ -8410,7 +8435,7 @@
       {
         "nome": "cremo extra l",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/APK1aAE8jA3dgiNSTzF3eTA/_marble%202cm/cremo%20extra%20_l%2012946.450_17%20slabs_318x182x2cm_HLP.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ALv8UQVp6d7uNJOCmUeUhLE/_marble%202cm/cremo%20extra%20_l%2012946.450_17%20slabs_318x182x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "cremo L",
@@ -8475,7 +8500,7 @@
       {
         "nome": "dolcevita",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AEs1UzODBeX6nbTeJMb5HRk/dolcevita_c%200286.230_21%20slabs_300x175x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ACJnFnlj8mL2cuhAyY5o8rU/dolcevita_c%200286.230_51%20slabs_300x175x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "dolomite venata l",
@@ -8570,7 +8595,7 @@
       {
         "nome": "four season",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AO4Cf46ECiW_sM2C070A_cI/_marble%202cm/four%20season_b%209215.418_49%20slabs_304x195x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ANDUCTflrtSbuuuiQ8lsgXE/_marble%202cm/four%20season_b%209215.418_33%20slabs_304x195x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "four season l",
@@ -8585,12 +8610,17 @@
       {
         "nome": "fusion",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AG2_mjXDbZs6YoAs2oL0aFw/fusion_c%200239.220_23%20slabs_313x193x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AK3ZABzPZqZCWa-QiTFjleM/fusion_c%200239.220_21%20slabs_313x193x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "fusion platinum",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AMH4fV1_ZHIfwMiOmGvB5ro/special%20offer%202cm/fusion%20platinum_b%206675.150_1%20slabs_327x195x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+      },
+      {
+        "nome": "fusion wow",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AFN5B_u8fPqs13vuJoW21sw/fusion%20wow_c%200261.220_17%20slabs_314x205x2cm_HFB%202-11.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "fuxsite quarzite",
@@ -8630,7 +8660,7 @@
       {
         "nome": "indigo green",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AGnX9A7tqQin_P61bPy7wqU/indigo%20green_b%209844.190_9%20slabs_352x193x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AMIo0RZ3FRNm_cfJXyKKG64/indigo%20green_b%209843.190_38%20slabs_310x195x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "infinity",
@@ -8645,7 +8675,7 @@
       {
         "nome": "jasper red l",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ADjB93ebVxA15bqpweuE0Z4/_marble%202cm/jasper%20red_l%2012895.115_21%20slabs_280x195x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ADisiGDdZIEPTQBJzlKU4nY/_marble%202cm/jasper%20red_l%2012887.115_21%20slabs_316x189x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "karma white",
@@ -8713,6 +8743,11 @@
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AAaziqW1jLg-gwxPtZZxlds/_marble%202cm/michelangelo_b%209651.160_36%20slabs_318x155x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
+        "nome": "monet green",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AAb1mKucSz-kf6hyLjcOSmE/monet%20green_c%200240.215_24%20slabs_334x202x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+      },
+      {
         "nome": "monte bianco",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AOAUctVkbJFzGCp9yhroH7E/_marble%202cm/monte%20bianco_b%209881.190_28%20slabs_308x185x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
@@ -8768,9 +8803,9 @@
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AKIiz6aAkNs4CD4Vft3Gb2I/ocean%20blue_b%208118.160_20%20slabs_334x197x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
-        "nome": "ocean storm",
+        "nome": "onice",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AECB6fZ9xVmH34XUzf0hQxs/ocean%20storm_b%200710.130_9%20slabs_280x189x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AF7tLo-sVfzC_78diLSozCQ/_marble%202cm/onice_b%208780.450_10%20slabs_290x133x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "onice ivory l",
@@ -8873,6 +8908,11 @@
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AO-18AznTgrwnHlOmPVeqUg/patagonia%20silver%20_b%209525.310_25%20slabs_348x203x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
+        "nome": "patagonia wowl",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AGx86Ik1fMrBOnUO3Ty6yZ8/patagonia%20wowl%2012967.350_27%20slabs_335x195x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+      },
+      {
         "nome": "penida blue ice m",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ABF1fdRwYJS8JGwyOIV3Edg/_marble%202cm/penida%20blue%20ice_m%202996.180_21%20slabs_312x210x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
@@ -8940,7 +8980,7 @@
       {
         "nome": "rosso levanto",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/APqEs2Lda6NL4XUN4nP_pi0/_marble%202cm/rosso%20levanto_c%200354.175_29%20slabs_334x172x2cm_HCV%2019-10.jpeg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ANYlv5bOzUgFxo85RAk8xhY/_marble%202cm/rosso%20levanto_c%200354.175_28%20slabs_334x172x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "sahara noir",
@@ -9055,7 +9095,7 @@
       {
         "nome": "travertino romano cross cut",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AFeDr9uD8fEQxxnVUgr0J8Y/_marble%202cm/travertino%20romano%20cross%20cut%20_c%200190.165_61%20slabs_338x170x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AG3zA2YG3yQ6d-vWr8aV6FI/_marble%202cm/travertino%20romano%20cross%20cut_c%200190.165_61%20slabs_338x170x2cm..jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "travertino romano l",
@@ -9076,6 +9116,11 @@
         "nome": "travertino silver",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ADEANW_1ImgCfmb3cWKIyrQ/_marble%202cm/travertino%20silver_c%200089.275_24%20slabs_346x183x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+      },
+      {
+        "nome": "travertino silver l",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AH598PP5dYtx7cPa-drcNlw/_marble%202cm/travertino%20silver_l%2012963.230_29%20slabs_343x167x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "travertino silver m",
@@ -9165,7 +9210,7 @@
       {
         "nome": "verde ming l",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AJyjNZP7WxxK4IHzp7DNI3Q/_marble%202cm/verde%20ming_l%2012881.350_55%20slabs_329x188x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ABiYGid9cl3bumFBExTYbM4/_marble%202cm/verde%20ming_l%2012881.350_33%20slabs_329x188x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "verde vaticano l",
@@ -9180,7 +9225,7 @@
       {
         "nome": "violetta",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/ALeGAR3Tmqxo8W3-GflVpQA/_marble%202cm/violetta_c%200302.160_18%20slabs_308x180x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/uorcnmy9zgxcw5526tg8w/AJCveMjOaopROEEP1Zkm-ko/_marble%202cm/violetta_c%200302.160_48%20slabs_308x180x2cm.jpg?rlkey=eo1yc3s3dxiu0z9afu7wiin7h&dl=0"
       },
       {
         "nome": "Volakas light l",
@@ -11304,10 +11349,6 @@
         "alias": []
       },
       {
-        "nome": "Calacatta Di Vara",
-        "alias": []
-      },
-      {
         "nome": "Calacatta DNQ",
         "alias": []
       },
@@ -11416,10 +11457,6 @@
         "alias": []
       },
       {
-        "nome": "Cristallo Citrus",
-        "alias": []
-      },
-      {
         "nome": "Cristallo Gold",
         "alias": []
       },
@@ -11513,6 +11550,10 @@
       },
       {
         "nome": "Giallo Reale",
+        "alias": []
+      },
+      {
+        "nome": "Giallo Santa Cecilia",
         "alias": []
       },
       {
@@ -15671,10 +15712,6 @@
         "alias": []
       },
       {
-        "nome": "MARRON COHIBA",
-        "alias": []
-      },
-      {
         "nome": "MOKKA",
         "alias": []
       },
@@ -16022,7 +16059,7 @@
       {
         "nome": "BRÈCHE FANTASTIQUE",
         "alias": [],
-        "url": "https://girasolepietre.it/lotto/breche-fantastique-gir1905"
+        "url": "https://girasolepietre.it/lotto/breche-fantastique-gir2320"
       },
       {
         "nome": "BRONZE FANTASY",
@@ -16063,6 +16100,11 @@
         "nome": "FUSION BLACK",
         "alias": [],
         "url": "https://girasolepietre.it/lotto/fusion-black-gir1822"
+      },
+      {
+        "nome": "FUSION BLUE",
+        "alias": [],
+        "url": "https://girasolepietre.it/lotto/gir2715-33633"
       },
       {
         "nome": "GRIGIO CRISTALLINO",
@@ -16312,7 +16354,7 @@
       {
         "nome": "TRAVERTINO ROSSO",
         "alias": [],
-        "url": "https://girasolepietre.it/lotto/travertino-rosso-c43"
+        "url": "https://girasolepietre.it/lotto/travertino-rosso-gir2431"
       },
       {
         "nome": "TRAVERTINO SILVER",
@@ -17276,14 +17318,6 @@
         "alias": []
       },
       {
-        "nome": "DOLCE VITA VIOLET",
-        "alias": []
-      },
-      {
-        "nome": "DOLCEVITA SUNSET",
-        "alias": []
-      },
-      {
         "nome": "EASY BROWN",
         "alias": []
       },
@@ -17361,10 +17395,6 @@
       },
       {
         "nome": "GRIGIO FIOR DI BOSCO",
-        "alias": []
-      },
-      {
-        "nome": "GRIGIO MASERATI",
         "alias": []
       },
       {
@@ -17608,6 +17638,10 @@
         "alias": []
       },
       {
+        "nome": "ROSSO LEPANTO",
+        "alias": []
+      },
+      {
         "nome": "ROSSO LEVANTO",
         "alias": []
       },
@@ -17701,10 +17735,6 @@
       },
       {
         "nome": "TRAVERTINO ALABASTRINO",
-        "alias": []
-      },
-      {
-        "nome": "TRAVERTINO ARGENTO",
         "alias": []
       },
       {
@@ -18213,6 +18243,11 @@
         "url": "https://www.granitex.it/slabs/mat/346"
       },
       {
+        "nome": "Quarzite Le Blanc",
+        "alias": [],
+        "url": "https://www.granitex.it/slabs/mat/374"
+      },
+      {
         "nome": "Rain Forest Brown",
         "alias": [],
         "url": "https://www.granitex.it/slabs/mat/330"
@@ -18460,6 +18495,10 @@
         "alias": []
       },
       {
+        "nome": "ARTIC BLU",
+        "alias": []
+      },
+      {
         "nome": "ASPEN",
         "alias": []
       },
@@ -18489,6 +18528,10 @@
       },
       {
         "nome": "AVOCATUS",
+        "alias": []
+      },
+      {
+        "nome": "AVOCATUS LIGHT",
         "alias": []
       },
       {
@@ -18772,10 +18815,6 @@
         "alias": []
       },
       {
-        "nome": "CALACATTA N",
-        "alias": []
-      },
-      {
         "nome": "CALACATTA OYSTER",
         "alias": []
       },
@@ -18848,6 +18887,10 @@
         "alias": []
       },
       {
+        "nome": "CIPOLLINO TOP",
+        "alias": []
+      },
+      {
         "nome": "CIPOLLINO VERDE",
         "alias": []
       },
@@ -18861,10 +18904,6 @@
       },
       {
         "nome": "COLLEMANDINA",
-        "alias": []
-      },
-      {
-        "nome": "COLONIAL WHITE",
         "alias": []
       },
       {
@@ -18901,6 +18940,10 @@
       },
       {
         "nome": "CREMA MARFIL",
+        "alias": []
+      },
+      {
+        "nome": "CREMA MARFIL EXTRA",
         "alias": []
       },
       {
@@ -19089,10 +19132,6 @@
       },
       {
         "nome": "EPIC SAINT LAURENT",
-        "alias": []
-      },
-      {
-        "nome": "EPIC SONORA",
         "alias": []
       },
       {
@@ -19340,6 +19379,10 @@
         "alias": []
       },
       {
+        "nome": "LADY ROSE",
+        "alias": []
+      },
+      {
         "nome": "LAPIS WHITE",
         "alias": []
       },
@@ -19576,10 +19619,6 @@
         "alias": []
       },
       {
-        "nome": "NEW OPAL WHITE TOP",
-        "alias": []
-      },
-      {
         "nome": "NEW SPICE BLACK",
         "alias": []
       },
@@ -19601,10 +19640,6 @@
       },
       {
         "nome": "OCEAN GREEN",
-        "alias": []
-      },
-      {
-        "nome": "OCEAN SKY",
         "alias": []
       },
       {
@@ -19828,10 +19863,6 @@
         "alias": []
       },
       {
-        "nome": "PATAGONIA GREEN",
-        "alias": []
-      },
-      {
         "nome": "PATAGONIA ICE",
         "alias": []
       },
@@ -19869,10 +19900,6 @@
       },
       {
         "nome": "PETRIFIED WOOD BROWN",
-        "alias": []
-      },
-      {
-        "nome": "PETRIFIED WOOD IVORY RETRO'",
         "alias": []
       },
       {
@@ -20041,6 +20068,10 @@
       },
       {
         "nome": "SILVER RIVER TOP",
+        "alias": []
+      },
+      {
+        "nome": "SILVER STONE",
         "alias": []
       },
       {
@@ -20358,215 +20389,272 @@
     "nome": "Il Fiorino Marmi",
     "url": "https://ilfiorino.store/",
     "stato": "scraped",
-    "note": "Elenco letto dai titoli lastra dello store online — scraping automatico notturno.",
+    "note": "Elenco letto dai titoli lastra dello store online, con link diretto alla scheda lastra — scraping automatico notturno.",
     "materiali": [
       {
         "nome": "Arabescato",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1Wdy8wtCK2cZy6L7JeP--TnMDR0j7xdHc&foldername=Arabescato-47585-97%20slabs-310x185x2"
       },
       {
         "nome": "Arabescato Corchia",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1UNS3hgRS3xaO3fz7cUelRBXMXLzCBVVu&foldername=Arabescato%20Corchia-46230-34%20slabs-310x200x3-ON%20HOLD"
       },
       {
         "nome": "Arabescato Fantastico",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1TlmpfJgtf36bR7xBKOtZRbowemPVGzUA&foldername=Arabescato%20Fantastico-47817-96%20slabs-335x175x2"
       },
       {
         "nome": "Arabescato Orobico",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1CpZUtmw4XzHc608Pb_WsB9gD0kZapIvc&foldername=Arabescato%20Orobico-47279-67%20slabs-330x190x2"
       },
       {
         "nome": "Arabescato Vagli",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1H2lpXbZVh9igct1x0aT8pJxcm2ifxjj1&foldername=Arabescato%20Vagli-45599-15%20slabs-345x190x3"
       },
       {
         "nome": "Bardiglio",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1PoE7sV7i6RHy7LNy-s5bYLRrnaHzTWsG&foldername=Bardiglio-36933-63%20slabs-315x195x2"
       },
       {
         "nome": "Bianco Carrara",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1SrrhO9yO7EFgw9W9ewnzA8uRf8YZWOXh&foldername=Bianco%20Carrara-46006-14%20slabs-330x200x3-SOLD"
       },
       {
         "nome": "Bianco Elg",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1efEsBCGxAcq1xS43mA_LiGDiitW352_k&foldername=Bianco%20Elg-47682-48%20slabs-340x200x2"
       },
       {
         "nome": "Bianco Gioia",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1QOa9qtR67jdvK9PHQDkmPCPUq36OmBgm&foldername=Bianco%20Gioia-45594-49%20slabs-340x195x2-SOLD"
       },
       {
         "nome": "Bianco Rhino",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1BYWtSOHYut_ZYTHiR8bMveqgXoHz4y4w&foldername=Bianco%20Rhino-46977-15%20slabs-290x200x3"
       },
       {
         "nome": "Bianco Venato",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1EwdE2Ow6fVkMPUHtSiJkdXw2xczsI7n0&foldername=Bianco%20Venato-45333-22%20slabs-330x195x3"
       },
       {
         "nome": "Black Swan",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1uDpzy_vovlAPD7KIvH3Pm3EFjj7-wWYs&foldername=Black%20Swan-38284-52%20slabs-310x170x2"
       },
       {
         "nome": "Calacatta",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1B5Toh5WkXxcwZ89GnjHDOjICmGU_idD4&foldername=Calacatta-47863-66%20slabs-315x185x2"
       },
       {
         "nome": "Calacatta Antico",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1KvWw-xX0r7o0V89qW1l05t47GdXVLs1Q&foldername=Calacatta%20Antico-44719-54%20slabs-330x175x2"
       },
       {
         "nome": "Calacatta Blu",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1t6Z6D62HpeiOsmDtegjtUaPA5Zz9EoCa&foldername=Calacatta%20Blu-39131-27%20slabs-295x150x2"
       },
       {
         "nome": "Calacatta Cardellino",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1sK0dRd9D3Wo1-gBSUsMJ5a6-Rz3wU4rq&foldername=Calacatta%20Cardellino-40772-21%20slabs-300x200x2"
       },
       {
         "nome": "Calacatta Cremo",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1UebL4L3xXnmbmBfB2-_qvN0-A1tN932i&foldername=Calacatta%20Cremo-48482-75%20slabs-275x170x2"
       },
       {
         "nome": "Calacatta Crestola",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1tGTE20CqIBoQ1O5kl8q0ZoJ5X-AiUqNf&foldername=Calacatta%20Crestola-35142-92%20slabs-305x195x2"
       },
       {
         "nome": "Calacatta Fabbricotti",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1c4B1y1y91xyCFX7fMy23yyiQcs6bHoNG&foldername=Calacatta%20Fabbricotti-39136-63%20slabs-295x175x2"
       },
       {
         "nome": "Calacatta Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1w8Mg2IWllDnrXU7lpUNWYK0Gug9U7ikf&foldername=Calacatta%20Gold-45928-80%20slabs-315x200x2"
       },
       {
         "nome": "Calacatta Novecento",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1h0dMKM3CIq5DlGKa4OaO5boT3tjuhErB&foldername=Calacatta%20Novecento-42082-78%20slabs-300x195x2"
       },
       {
         "nome": "Calacatta Ondulato",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=156fBjc04o88_DkPd6RsbTrlR0sYo7yy7&foldername=Calacatta%20Ondulato-29658-20%20slabs-325x150x2"
       },
       {
         "nome": "Calacatta Oro",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1DTgJXrMI0bZt2z-Lj1mKfES4WUu37ue2&foldername=Calacatta%20Oro-47873-63%20slabs-315x190x2"
       },
       {
         "nome": "Calacatta Sinatra",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=17ObK8QVi2PATZseBFyaYn_8HP6mZ5m-b&foldername=Calacatta%20Sinatra-34376-41%20slabs-315x190x2"
       },
       {
         "nome": "Calacatta Vagli",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1xXxaqRxiCrGT01xui6OQUHMwhcTZjiye&foldername=Calacatta%20Vagli-47999-75%20slabs-340x195x2"
       },
       {
         "nome": "Calacatta Viola",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1Jp2F2q5YlHOrZz6WK3UT2n-qxZ9ioOFS&foldername=Calacatta%20Viola-48530-34%20slabs-300x200x2-ON%20HOLD"
       },
       {
         "nome": "Caldia",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1aHY7Dw1Ye7KTNerdZ9eZMMu_LijBVM5K&foldername=Caldia-47726-50%20slabs-300x185x2"
       },
       {
         "nome": "Carrara Silver Lining",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1W40jb9M3oeXsS5NhUwiZTjtmEN5yJnhF&foldername=Carrara%20Silver%20Lining-47372-41%20slabs-340x130x2"
       },
       {
         "nome": "Ceppo",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=11OM6-w2hxV7zKu2X_YdMQsCtL2bl_MQE&foldername=Ceppo-303214-57%20slabs-350x200x2"
       },
       {
         "nome": "Ceppo di Vagli",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1t1CZ4UDtZYfUE30DUPCy07a1Fx1KuIys&foldername=Ceppo%20di%20Vagli-38115-19%20slabs-345x195x2"
       },
       {
         "nome": "Cremo",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1hy-8sMVAKKJk-WTzRrMM_IUQL9e6rCke&foldername=Cremo-48403-84%20slabs-295x195x2"
       },
       {
         "nome": "Cremo Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1j6BIMzFhTjvQJdAYn47AOhkI-N-t9QS-&foldername=Cremo%20Gold-45904-74%20slabs-325x170x2"
       },
       {
         "nome": "Cristallo di Rocca",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1frv7Urmek9I4LqKDKujceyabl9uzgcjZ&foldername=Cristallo%20di%20Rocca-38289-39%20slabs-335x185x2"
       },
       {
         "nome": "Fiorino Antico",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1SJQEO2-rG97A507TwiTriqFD8GRu11kZ&foldername=Fiorino%20Antico-35140-81%20slabs-300x155x2"
       },
       {
         "nome": "Grigio Galileo",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1FSfNwKHuL7vhhGPK9FXPfi6mfl0wnyHO&foldername=Grigio%20Galileo-43215-43%20slabs-295x195x2"
       },
       {
         "nome": "Grigio Trambisera",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=12vmrQhz_e9E9qkE7evFB-Q7ojmoqp4V5&foldername=Grigio%20Trambisera-46007-48%20slabs-340x170x2"
       },
       {
         "nome": "Laguna Blu",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1Uuqo_656RHOp_X1j6EicDb6uyXwKKgJP&foldername=Laguna%20Blu-49391-72%20slabs-320x195x2"
+      },
+      {
+        "nome": "Manhattan",
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1toTxTTUaEwgdlmzltUGdBpt-05GSs7F5&foldername=Manhattan-48554-62%20slabs-300x160x2"
       },
       {
         "nome": "Mont Blanc",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1DH3w8scWDR2Zp6FzfKe-ezSLrez7X50P&foldername=Mont%20Blanc-39892-2%20slabs-340x195x2"
       },
       {
         "nome": "Montecristo",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1byZ16u4hsGgrrVg8_pYyoulil0hLxS58&foldername=Montecristo-41496-16%20slabs-320x200x2"
       },
       {
         "nome": "Nero Marquina",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1_G53vxtCTmS1Z-VOw8JDrIeBIRA_jvn8&foldername=Nero%20Marquina-42041-25%20slabs-295x185x3"
       },
       {
         "nome": "Oyster Blue",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1KHfb5RrRr5zMHSNLVvQpDZ8YaviA5kPw&foldername=Oyster%20Blue-49386-32%20slabs-340x200x2"
       },
       {
         "nome": "Paonazzo",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1Z7gKlX6kZ7EvEZ6g9sQyP8zdR5QbNN5j&foldername=Paonazzo-39127-53%20slabs-280x180x2"
       },
       {
         "nome": "Patagonia Green",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1tYDlinCqtwMFQ4Ypf5ylVbjiBaCEtWdO&foldername=Patagonia%20Green-39889-7%20slabs-330x190x2"
       },
       {
         "nome": "Picasso",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1gEkyoXmUlwuJnjlzVfuIc9U3kYpdzh2S&foldername=Picasso-47729-46%20slabs-295x200x2"
       },
       {
         "nome": "Rosa Norvegia",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1V3OD79bVRU7sMgYLCtM8XTD5oZoUfWdx&foldername=Rosa%20Norvegia-47883-54%20slabs-315x180x2"
       },
       {
         "nome": "Skeleton Taupe",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1w21NWD5PL8f5SmjYkk4VAgvcQ11oKXaV&foldername=Skeleton%20Taupe-48604-52%20slabs-340x200x2"
       },
       {
         "nome": "Statuarietto",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=18ljJkV4iK8u2Qfc2OwpfSYHpHnYq3am0&foldername=Statuarietto-44586-63%20slabs-310x200x2"
       },
       {
         "nome": "Statuario",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1kwiRMqAxM9WMmqmmniNiaMHi6l4ePwzk&foldername=Statuario-45373-86%20slabs-290x175x2"
       },
       {
         "nome": "Travertino",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1-Kr7v-J7L4v7yk_u9yNeKwuj6JVm3eRu&foldername=Travertino-47813-80%20slabs-300x200x2"
       },
       {
         "nome": "Venato Cardellino",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=10q8gUC9ZgYEQvXFdPnWStxBXj8MdxWv3&foldername=Venato%20Cardellino-33047-20%20slabs-295x190x2"
       },
       {
         "nome": "Verde Alpi",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1D0ebHxIoatlgQlHY4WrdLFKNKr1CwW7l&foldername=Verde%20Alpi-45241-57%20slabs-310x180x2"
       },
       {
         "nome": "Zebrino",
-        "alias": []
+        "alias": [],
+        "url": "https://ilfiorino.store/detail.php?q=n&fol=1D8CHkbE4ji6BOHP6nxZH-kS1apA5m-Q-&foldername=Zebrino-45942-50%20slabs-250x160x2"
       }
     ]
   },
@@ -21067,10 +21155,6 @@
         "alias": []
       },
       {
-        "nome": "Rainbow Grey",
-        "alias": []
-      },
-      {
         "nome": "Romantica",
         "alias": []
       },
@@ -21179,11 +21263,6 @@
         "url": "https://www.laponte.it/granito/azul-macaubas/19b295"
       },
       {
-        "nome": "BARDIGLIO IMPERIALE",
-        "alias": [],
-        "url": "https://www.laponte.it/marmo/bardiglio-imperiale/a2679"
-      },
-      {
         "nome": "BERRY BLACK",
         "alias": [],
         "url": "https://www.laponte.it/marmo/berry-black/13b075-510"
@@ -21261,7 +21340,7 @@
       {
         "nome": "CALACATTA MONET",
         "alias": [],
-        "url": "https://www.laponte.it/marmo/calacatta-monet/26b113"
+        "url": "https://www.laponte.it/marmo/calacatta-monet/a3235"
       },
       {
         "nome": "CALACATTA MONT BLANC",
@@ -21560,7 +21639,7 @@
       {
         "nome": "QUARZITE AMAZZONIA",
         "alias": [],
-        "url": "https://www.laponte.it/quarzite/quarzite-amazzonia/24b013"
+        "url": "https://www.laponte.it/quarzite/quarzite-amazzonia/26b022"
       },
       {
         "nome": "QUARZITE BROOKLYN",
@@ -21838,10 +21917,6 @@
       },
       {
         "nome": "Calacatta Cremo",
-        "alias": []
-      },
-      {
-        "nome": "Calacatta Di Vara",
         "alias": []
       },
       {
@@ -22442,10 +22517,6 @@
         "alias": []
       },
       {
-        "nome": "HARMONY",
-        "alias": []
-      },
-      {
         "nome": "HIMALAYAN ONYX",
         "alias": []
       },
@@ -22964,6 +23035,10 @@
       },
       {
         "nome": "Alma - Fuoco",
+        "alias": []
+      },
+      {
+        "nome": "Amalfi",
         "alias": []
       },
       {
@@ -23635,10 +23710,6 @@
         "alias": []
       },
       {
-        "nome": "Golden Small Agate",
-        "alias": []
-      },
-      {
         "nome": "Golden Yellow",
         "alias": []
       },
@@ -23731,6 +23802,10 @@
         "alias": []
       },
       {
+        "nome": "Jura Beige",
+        "alias": []
+      },
+      {
         "nome": "Labradorite Sps",
         "alias": []
       },
@@ -23784,6 +23859,10 @@
       },
       {
         "nome": "Macaubas Fantasy",
+        "alias": []
+      },
+      {
+        "nome": "Malachite Semipreziosi",
         "alias": []
       },
       {
@@ -23863,15 +23942,15 @@
         "alias": []
       },
       {
-        "nome": "Nero Di Ormea",
-        "alias": []
-      },
-      {
         "nome": "Nero Marquinia",
         "alias": []
       },
       {
         "nome": "Nero Pagoda",
+        "alias": []
+      },
+      {
+        "nome": "Nero Portofino",
         "alias": []
       },
       {
@@ -24131,10 +24210,6 @@
         "alias": []
       },
       {
-        "nome": "Radika",
-        "alias": []
-      },
-      {
         "nome": "Rasotika",
         "alias": []
       },
@@ -24315,6 +24390,10 @@
         "alias": []
       },
       {
+        "nome": "Soap Stone",
+        "alias": []
+      },
+      {
         "nome": "Sodalite Blu",
         "alias": []
       },
@@ -24351,7 +24430,7 @@
         "alias": []
       },
       {
-        "nome": "Tanzanite",
+        "nome": "Terra Royale",
         "alias": []
       },
       {
@@ -24491,6 +24570,10 @@
         "alias": []
       },
       {
+        "nome": "Verouge",
+        "alias": []
+      },
+      {
         "nome": "Veselje",
         "alias": []
       },
@@ -24532,10 +24615,6 @@
       },
       {
         "nome": "White Quartz Golden Leaf",
-        "alias": []
-      },
-      {
-        "nome": "White Quartz Silver Leaf",
         "alias": []
       },
       {
@@ -24740,10 +24819,6 @@
         "alias": []
       },
       {
-        "nome": "FUSION WOW",
-        "alias": []
-      },
-      {
         "nome": "GAJA DARK",
         "alias": []
       },
@@ -24809,10 +24884,6 @@
       },
       {
         "nome": "KASHMIR WHITE NEW",
-        "alias": []
-      },
-      {
-        "nome": "LABRADOR BLUE PEARL SILVER",
         "alias": []
       },
       {
@@ -24912,6 +24983,10 @@
         "alias": []
       },
       {
+        "nome": "NERO MARQUINA",
+        "alias": []
+      },
+      {
         "nome": "NERO VIA LATTEA",
         "alias": []
       },
@@ -24929,6 +25004,10 @@
       },
       {
         "nome": "OCEAN GREEN",
+        "alias": []
+      },
+      {
+        "nome": "PANDA WHITE",
         "alias": []
       },
       {
@@ -24953,10 +25032,6 @@
       },
       {
         "nome": "QUARZITE CHANTILLY",
-        "alias": []
-      },
-      {
-        "nome": "QUARZITE CIELO",
         "alias": []
       },
       {
@@ -25052,7 +25127,7 @@
         "alias": []
       },
       {
-        "nome": "TRAONIX",
+        "nome": "TRAONYX",
         "alias": []
       },
       {
@@ -27895,6 +27970,10 @@
         "alias": []
       },
       {
+        "nome": "Calacatta Oro Vagli",
+        "alias": []
+      },
+      {
         "nome": "Calacatta Oyster",
         "alias": []
       },
@@ -29192,6 +29271,10 @@
         "alias": []
       },
       {
+        "nome": "AZUL BAHIA",
+        "alias": []
+      },
+      {
         "nome": "AZUL NOCE",
         "alias": []
       },
@@ -29636,6 +29719,10 @@
         "alias": []
       },
       {
+        "nome": "PADANG ROSA G636",
+        "alias": []
+      },
+      {
         "nome": "PALISSANDRO CLASSICO",
         "alias": []
       },
@@ -30049,10 +30136,6 @@
         "alias": []
       },
       {
-        "nome": "BENGAL BLACK EXTRA",
-        "alias": []
-      },
-      {
         "nome": "BETHEL WHITE",
         "alias": []
       },
@@ -30122,10 +30205,6 @@
       },
       {
         "nome": "BROWN ANTIQUE EXTRA DARK",
-        "alias": []
-      },
-      {
-        "nome": "BROWN CHOCOLATE",
         "alias": []
       },
       {
@@ -30597,6 +30676,10 @@
         "alias": []
       },
       {
+        "nome": "QUARZITE COSMOPOLITAN",
+        "alias": []
+      },
+      {
         "nome": "QUARZITE EMERALD GREEN",
         "alias": []
       },
@@ -30654,10 +30737,6 @@
       },
       {
         "nome": "QUARZITE MOULIN ROUGE",
-        "alias": []
-      },
-      {
-        "nome": "QUARZITE MYSTIC BLUE",
         "alias": []
       },
       {
@@ -30967,6 +31046,582 @@
       },
       {
         "nome": "BIANCO APUANO",
+        "alias": []
+      },
+      {
+        "nome": "BIANCO CARRARA",
+        "alias": []
+      },
+      {
+        "nome": "BIANCO DOLOMITI",
+        "alias": []
+      },
+      {
+        "nome": "BIANCO LASA COVELANO",
+        "alias": []
+      },
+      {
+        "nome": "BIANCO LILLAC",
+        "alias": []
+      },
+      {
+        "nome": "BIANCO MICHELANGELO",
+        "alias": []
+      },
+      {
+        "nome": "BIANCO NAMIBIA/RHINO",
+        "alias": []
+      },
+      {
+        "nome": "BIANCO NEVE GRANA GROSSA",
+        "alias": []
+      },
+      {
+        "nome": "BIANCO STATUARIETTO",
+        "alias": []
+      },
+      {
+        "nome": "BIANCO THASSOS",
+        "alias": []
+      },
+      {
+        "nome": "BIANCO THASSOS VENATO",
+        "alias": []
+      },
+      {
+        "nome": "BLUE ROMA",
+        "alias": []
+      },
+      {
+        "nome": "BOTANIC GREEN",
+        "alias": []
+      },
+      {
+        "nome": "BRECCIA",
+        "alias": []
+      },
+      {
+        "nome": "BRECHE DE VENDOME",
+        "alias": []
+      },
+      {
+        "nome": "BRONZITE",
+        "alias": []
+      },
+      {
+        "nome": "BROWN CARNELIAN",
+        "alias": []
+      },
+      {
+        "nome": "BROWN CHOCOLATE",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA AURA",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA BORGHINI",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA CREMO",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA DOROTHEA",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA ELITE",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA EXTRA",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA FANTASTICO",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA IRON",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA LIGHT GOLD",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA LINCOLN",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA NOBILE",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA RHINO",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA URAGANO",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA VAGLI ORO",
+        "alias": []
+      },
+      {
+        "nome": "CALACATTA VIOLA",
+        "alias": []
+      },
+      {
+        "nome": "CALCITE BLUE",
+        "alias": []
+      },
+      {
+        "nome": "CARMEN BLACK",
+        "alias": []
+      },
+      {
+        "nome": "CEPPO GRIGIO",
+        "alias": []
+      },
+      {
+        "nome": "CEPPO ROSSO",
+        "alias": []
+      },
+      {
+        "nome": "CREMA MARFIL",
+        "alias": []
+      },
+      {
+        "nome": "CREMO DELICATO",
+        "alias": []
+      },
+      {
+        "nome": "CRISTALLO MURANO",
+        "alias": []
+      },
+      {
+        "nome": "CRISTALLO PINK",
+        "alias": []
+      },
+      {
+        "nome": "CRISTALLO SMERALDO",
+        "alias": []
+      },
+      {
+        "nome": "CRISTALLO VITRO",
+        "alias": []
+      },
+      {
+        "nome": "CRYSTAL AMETISTA",
+        "alias": []
+      },
+      {
+        "nome": "DEEP RIVER",
+        "alias": []
+      },
+      {
+        "nome": "DOLCEVITA",
+        "alias": []
+      },
+      {
+        "nome": "DOVER WHITE",
+        "alias": []
+      },
+      {
+        "nome": "ELEGANT BROWN",
+        "alias": []
+      },
+      {
+        "nome": "EMERALD QUARZITE",
+        "alias": []
+      },
+      {
+        "nome": "EVELYN BLUE",
+        "alias": []
+      },
+      {
+        "nome": "EXPLOSION BLUE",
+        "alias": []
+      },
+      {
+        "nome": "FANTASTICO ARNI VIOLA",
+        "alias": []
+      },
+      {
+        "nome": "FIORDALISO",
+        "alias": []
+      },
+      {
+        "nome": "GIALLO IMPERIALE",
+        "alias": []
+      },
+      {
+        "nome": "GOLDEN SPYDER",
+        "alias": []
+      },
+      {
+        "nome": "GREEN BEAUTY",
+        "alias": []
+      },
+      {
+        "nome": "GREY AGATE",
+        "alias": []
+      },
+      {
+        "nome": "GREY COLLEMANDINA",
+        "alias": []
+      },
+      {
+        "nome": "GREY ROOTS",
+        "alias": []
+      },
+      {
+        "nome": "INVISIBLE GREY",
+        "alias": []
+      },
+      {
+        "nome": "INVISIBLE GREY GOLD",
+        "alias": []
+      },
+      {
+        "nome": "ITALIAN RAINBOW",
+        "alias": []
+      },
+      {
+        "nome": "LUMINOUS",
+        "alias": []
+      },
+      {
+        "nome": "MAKALU",
+        "alias": []
+      },
+      {
+        "nome": "MALACHITE",
+        "alias": []
+      },
+      {
+        "nome": "MONT BLANC",
+        "alias": []
+      },
+      {
+        "nome": "NERO BELGIO",
+        "alias": []
+      },
+      {
+        "nome": "NERO PORT LAURENT",
+        "alias": []
+      },
+      {
+        "nome": "NERO PORTORO COMMERCIALE",
+        "alias": []
+      },
+      {
+        "nome": "NERO PORTORO EXTRA",
+        "alias": []
+      },
+      {
+        "nome": "NEW BLUE LOUISE",
+        "alias": []
+      },
+      {
+        "nome": "NEW FOUR SEASONS",
+        "alias": []
+      },
+      {
+        "nome": "NEW PORTORO",
+        "alias": []
+      },
+      {
+        "nome": "OCEAN STORM",
+        "alias": []
+      },
+      {
+        "nome": "ONICE ALABASTRO",
+        "alias": []
+      },
+      {
+        "nome": "ONICE AZZURRO",
+        "alias": []
+      },
+      {
+        "nome": "ONICE BIANCO",
+        "alias": []
+      },
+      {
+        "nome": "ONICE BIANCO COMMERCIALE",
+        "alias": []
+      },
+      {
+        "nome": "ONICE CHAMPAGNE",
+        "alias": []
+      },
+      {
+        "nome": "ONICE COCA COLA",
+        "alias": []
+      },
+      {
+        "nome": "ONICE CRISTALLO",
+        "alias": []
+      },
+      {
+        "nome": "ONICE GIOIELLO",
+        "alias": []
+      },
+      {
+        "nome": "ONICE GREY",
+        "alias": []
+      },
+      {
+        "nome": "ONICE IVORY",
+        "alias": []
+      },
+      {
+        "nome": "ONICE LIME",
+        "alias": []
+      },
+      {
+        "nome": "ONICE MIELE",
+        "alias": []
+      },
+      {
+        "nome": "ONICE NERO",
+        "alias": []
+      },
+      {
+        "nome": "ONICE OCEAN BLUE",
+        "alias": []
+      },
+      {
+        "nome": "ONICE ORANGE",
+        "alias": []
+      },
+      {
+        "nome": "ONICE PISTACCHIO",
+        "alias": []
+      },
+      {
+        "nome": "ONICE RAINBOW",
+        "alias": []
+      },
+      {
+        "nome": "ONICE ROSA",
+        "alias": []
+      },
+      {
+        "nome": "ONICE ROSSO",
+        "alias": []
+      },
+      {
+        "nome": "ONICE SETA",
+        "alias": []
+      },
+      {
+        "nome": "ONICE VANILLA",
+        "alias": []
+      },
+      {
+        "nome": "ONICE VERDE",
+        "alias": []
+      },
+      {
+        "nome": "ONICE VERDE GIADA",
+        "alias": []
+      },
+      {
+        "nome": "ONICE VERDE LIGHT",
+        "alias": []
+      },
+      {
+        "nome": "ONICE VERDE SMERALDO",
+        "alias": []
+      },
+      {
+        "nome": "OYSTER WHITE",
+        "alias": []
+      },
+      {
+        "nome": "PALISSANDRO BLUETTE",
+        "alias": []
+      },
+      {
+        "nome": "PANDA WHITE",
+        "alias": []
+      },
+      {
+        "nome": "PAONAZZO",
+        "alias": []
+      },
+      {
+        "nome": "PATAGONIA",
+        "alias": []
+      },
+      {
+        "nome": "PATAGONIA GREEN",
+        "alias": []
+      },
+      {
+        "nome": "PERSIAN BLUE",
+        "alias": []
+      },
+      {
+        "nome": "PETRIFIED WOOD",
+        "alias": []
+      },
+      {
+        "nome": "PIETRA GREY",
+        "alias": []
+      },
+      {
+        "nome": "PRESTIGE BLACK",
+        "alias": []
+      },
+      {
+        "nome": "QUARZITE CRISTALLO",
+        "alias": []
+      },
+      {
+        "nome": "QUARZITE CRISTALLO EXTRA",
+        "alias": []
+      },
+      {
+        "nome": "QUARZITE DA VINCI",
+        "alias": []
+      },
+      {
+        "nome": "QUARZITE EXOTIC",
+        "alias": []
+      },
+      {
+        "nome": "QUARZITE SAINT TROPEZ",
+        "alias": []
+      },
+      {
+        "nome": "QUARZO ROSA",
+        "alias": []
+      },
+      {
+        "nome": "RED JASPER",
+        "alias": []
+      },
+      {
+        "nome": "ROSSO DAMASCO",
+        "alias": []
+      },
+      {
+        "nome": "SAHARA NOIRE",
+        "alias": []
+      },
+      {
+        "nome": "SEQUOIA",
+        "alias": []
+      },
+      {
+        "nome": "SIBERIAN WHITE",
+        "alias": []
+      },
+      {
+        "nome": "SILVER WAVE",
+        "alias": []
+      },
+      {
+        "nome": "SKY ONYX",
+        "alias": []
+      },
+      {
+        "nome": "SODALITE BLUE ESSENTIAL",
+        "alias": []
+      },
+      {
+        "nome": "SODALITE BLUE EXTRA",
+        "alias": []
+      },
+      {
+        "nome": "SODALITE BLUE PREMIUM",
+        "alias": []
+      },
+      {
+        "nome": "SODALITE BLUE SUPER PREMIUM",
+        "alias": []
+      },
+      {
+        "nome": "STATUARIO",
+        "alias": []
+      },
+      {
+        "nome": "SUPER WHITE",
+        "alias": []
+      },
+      {
+        "nome": "TAJ MAHAL",
+        "alias": []
+      },
+      {
+        "nome": "TOBACCO BROWN",
+        "alias": []
+      },
+      {
+        "nome": "TRAVERTINO CLASSICO",
+        "alias": []
+      },
+      {
+        "nome": "TRAVERTINO SILVER",
+        "alias": []
+      },
+      {
+        "nome": "TRAVERTINO SILVER BLUE",
+        "alias": []
+      },
+      {
+        "nome": "TROPICAL STORM",
+        "alias": []
+      },
+      {
+        "nome": "VERDE ALPI",
+        "alias": []
+      },
+      {
+        "nome": "VERDE ANTIGUA",
+        "alias": []
+      },
+      {
+        "nome": "VERDE ATLANTIS",
+        "alias": []
+      },
+      {
+        "nome": "VERDE LEPANTO",
+        "alias": []
+      },
+      {
+        "nome": "VERDE MING",
+        "alias": []
+      },
+      {
+        "nome": "VERDE SAINT DENIS",
+        "alias": []
+      },
+      {
+        "nome": "VOLAKAS",
+        "alias": []
+      },
+      {
+        "nome": "WATERFALL GREEN",
+        "alias": []
+      },
+      {
+        "nome": "WHITE PEARL",
+        "alias": []
+      },
+      {
+        "nome": "WHITE QUARTZ",
         "alias": []
       }
     ]
@@ -31601,6 +32256,11 @@
         "url": "https://www.maxmarmicarrara.com/marmi/fumo-di-toscana-13955"
       },
       {
+        "nome": "Grigio Collemandina",
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/grigio-collemandina-14333"
+      },
+      {
         "nome": "Grigio di Firenze",
         "alias": [],
         "url": "https://www.maxmarmicarrara.com/marmi/grigio-di-firenze-13266"
@@ -31633,7 +32293,7 @@
       {
         "nome": "Paonazzo",
         "alias": [],
-        "url": "https://www.maxmarmicarrara.com/marmi/paonazzo-13408_1"
+        "url": "https://www.maxmarmicarrara.com/marmi/paonazzo-13777_a"
       },
       {
         "nome": "Paonazzo Bianco",
@@ -31699,6 +32359,11 @@
         "nome": "Zebrino BarCode",
         "alias": [],
         "url": "https://www.maxmarmicarrara.com/marmi/zebrino-barcode-1337"
+      },
+      {
+        "nome": "Zebrino Blu",
+        "alias": [],
+        "url": "https://www.maxmarmicarrara.com/marmi/zebrino-blu-12063"
       }
     ]
   },
@@ -32703,7 +33368,7 @@
         "alias": []
       },
       {
-        "nome": "BARDIGLIO",
+        "nome": "Bardiglio",
         "alias": []
       },
       {
@@ -32859,10 +33524,6 @@
         "alias": []
       },
       {
-        "nome": "Breccia imperiale",
-        "alias": []
-      },
-      {
         "nome": "BRECCIA ONICIATA",
         "alias": []
       },
@@ -33007,10 +33668,6 @@
         "alias": []
       },
       {
-        "nome": "CALACATTA NAMIBIA",
-        "alias": []
-      },
-      {
         "nome": "CALACATTA NOBILE",
         "alias": []
       },
@@ -33047,7 +33704,7 @@
         "alias": []
       },
       {
-        "nome": "CALACATTA VAGLI",
+        "nome": "Calacatta Vagli",
         "alias": []
       },
       {
@@ -33191,6 +33848,10 @@
         "alias": []
       },
       {
+        "nome": "CRISTAL WHITE",
+        "alias": []
+      },
+      {
         "nome": "Cristalita blue",
         "alias": []
       },
@@ -33327,11 +33988,7 @@
         "alias": []
       },
       {
-        "nome": "FANTASTICO ARNI",
-        "alias": []
-      },
-      {
-        "nome": "Fantastico arni viola",
+        "nome": "Fantastico Arni",
         "alias": []
       },
       {
@@ -33751,11 +34408,11 @@
         "alias": []
       },
       {
-        "nome": "Perla Venata",
+        "nome": "PERLA SANTANA",
         "alias": []
       },
       {
-        "nome": "Perlatino",
+        "nome": "Perla Venata",
         "alias": []
       },
       {
@@ -33775,7 +34432,7 @@
         "alias": []
       },
       {
-        "nome": "PICASSO",
+        "nome": "Picasso",
         "alias": []
       },
       {
@@ -33903,6 +34560,10 @@
         "alias": []
       },
       {
+        "nome": "ROSSO LEPANTO",
+        "alias": []
+      },
+      {
         "nome": "Rosso levanto",
         "alias": []
       },
@@ -33999,7 +34660,7 @@
         "alias": []
       },
       {
-        "nome": "Tiffany",
+        "nome": "TIFFANY",
         "alias": []
       },
       {
@@ -34020,6 +34681,10 @@
       },
       {
         "nome": "TRAVERTINO ALABASTRINO",
+        "alias": []
+      },
+      {
+        "nome": "TRAVERTINO ALABASTRINO BIANCO",
         "alias": []
       },
       {
@@ -35984,6 +36649,11 @@
         "url": "https://lager.orlandini.de/?type=Aquarela"
       },
       {
+        "nome": "Arabescato Orobico Grigio",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Arabescato%20Orobico%20Grigio"
+      },
+      {
         "nome": "ARABESCATO OROBICO ROSSO",
         "alias": [],
         "url": "https://lager.orlandini.de/?type=ARABESCATO%20OROBICO%20ROSSO"
@@ -36494,9 +37164,9 @@
         "url": "https://lager.orlandini.de/?type=FIOR%20DI%20PESCO%20CARNICO"
       },
       {
-        "nome": "FOUR SEASON",
+        "nome": "FOUR SEASONS",
         "alias": [],
-        "url": "https://lager.orlandini.de/?type=FOUR%20SEASON"
+        "url": "https://lager.orlandini.de/?type=FOUR%20SEASONS"
       },
       {
         "nome": "Fox Brown",
@@ -36924,11 +37594,6 @@
         "url": "https://lager.orlandini.de/?type=Nero%20San%20Marco"
       },
       {
-        "nome": "New Caledonia",
-        "alias": [],
-        "url": "https://lager.orlandini.de/?type=New%20Caledonia"
-      },
-      {
         "nome": "New Imperial Red",
         "alias": [],
         "url": "https://lager.orlandini.de/?type=New%20Imperial%20Red"
@@ -37182,6 +37847,11 @@
         "nome": "Rosso Balmoral",
         "alias": [],
         "url": "https://lager.orlandini.de/?type=Rosso%20Balmoral"
+      },
+      {
+        "nome": "Rosso Lepanto",
+        "alias": [],
+        "url": "https://lager.orlandini.de/?type=Rosso%20Lepanto"
       },
       {
         "nome": "ROSSO LUANA",
@@ -37769,6 +38439,10 @@
         "alias": []
       },
       {
+        "nome": "SILVER ROOTS",
+        "alias": []
+      },
+      {
         "nome": "STATUARIETTO",
         "alias": []
       },
@@ -37965,11 +38639,6 @@
         "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AIYQV685lRuDT682AJ95htc/Breccia%20Botticelli%20PRM%2032899%20n.21%20honed%20slabs%20%2823-43%29%20303x184x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
-        "nome": "Breccia D'Oriente",
-        "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AFy0111nJmH-anjo4b_Sw48/Breccia%20D%27Oriente%20PRM%2032924%20n.9%20%2859-67%29%20honed%20slabs%20290x200x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
-      },
-      {
         "nome": "Breccia D'Oriente PRMxx",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/ALBVNEAiVAWYgJTOCkZmo24/Breccia%20D%27Oriente%20PRMxx%20n.%2056%20slabs%20320x190x2.jpeg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
@@ -38032,7 +38701,7 @@
       {
         "nome": "Calacatta Borghini Gold",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/ADVJmgjKp7aU1MWJchV6i-U/Calacatta%20Borghini%20Gold%20PRM%2027523%20n.%2052%20slabs%20278x160x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AHu6KNaZFREjJQ_LC2IWFzw/Calacatta%20Borghini%20Gold%20PRM%2027523%20n.%2052%20Polished%20slabs%20278x160x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
         "nome": "Calacatta Carrara",
@@ -38090,6 +38759,11 @@
         "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/ACLIgHWkA6MU4t5W2X4ae6E/Calacatta%20Oyster%20Fabbricotti%20PRM%2025578%20n.%2020%20slabs%20300x198x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
+        "nome": "Calacatta Paonazzo PRM TBC",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AHTi8UofHbN2JYiCkcwKk1g/Calacatta%20Paonazzo%20PRM%20TBC%20n.%2052%20Polished%20slabs%20320x190x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
+      },
+      {
         "nome": "Calacatta Retrò Gold",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AOtR0yLJua9A_1U90RWTE1I/Calacatta%20Retr%C3%B2%20Gold%20PRM%2028978A%20n.%2042%20Polished%20slabs%20280x200x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
@@ -38120,9 +38794,19 @@
         "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AB7WkNTRzZUNdlhSv4KqlgY/Calacatta%20Vagli%20Monet%20Rosato%20PRM%2032338%20n.%2021%20Honed%20slabs%20305x200x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
+        "nome": "Calacatta Vagli Monet Soft Vein",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AH6NJ5OT4V3kFUJXglzzJ10/Calacatta%20Vagli%20Monet%20Soft%20Vein%20PRM%2032966%20n.%2083%20Honed%20slabs%20335x195x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
+      },
+      {
         "nome": "Calacatta Vagli Oro",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AC5wA_nqRoCTqEgFDiv_fic/Calacatta%20Vagli%20Oro%20PRM%2028671%20n.%2017%20Polished%20slabs%20295x195x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
+      },
+      {
+        "nome": "Calacatta Vagli Rosato",
+        "alias": [],
+        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/ALZLEsk0-94iigBc_tHKyAw/Calacatta%20Vagli%20Rosato%20PRM%2032646%20n.%2038%20%2860-97%29%20Honed%20slabs%20325x195x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
         "nome": "Calacatta Vagli Viola Monet",
@@ -38147,7 +38831,7 @@
       {
         "nome": "Caliza Luna",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AAvRC774Y0bABS3B9a_7xY4/Caliza%20Luna%20PRM%2032665%20n.%2043%20Honed%20slabs%20290x175x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AEyl9nY2Nr9GS7Vzqv2EyXE/Caliza%20Luna%20PRM%2032665%20n.%2033%20Honed%20slabs%20290x175x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
         "nome": "Cardoso Black",
@@ -38205,11 +38889,6 @@
         "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AGtBGMm5yV9Bwr7xNyMc128/Emperador%20Light%20PRM%2031964%20n.%209%20slabs%20290x160x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
-        "nome": "Explosion Blue - Van Gogh",
-        "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/ACGcpf8_rfoP15-Ds-4Za_Y/Explosion%20Blue%20-%20Van%20Gogh%20PRM%2032706%20n.%2018%20slabs%20Antique%20finish%20330x196x2cm.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
-      },
-      {
         "nome": "Fior di Bosco",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/ACQNY02Pf1cI_uEfrbJ1Nxg/Fior%20di%20Bosco%20PRM%2032576%20n.%2052%20slabs%20307x186x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
@@ -38247,7 +38926,7 @@
       {
         "nome": "Giallo Siena Simphony",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AGp2QoLx7wo3gnjUaHNQaYs/Giallo%20Siena%20Simphony%20PRM%2026460%20n.%2013%20slabs%20345x180x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AEBQm57V1uaPori8K1ue-Qw/Giallo%20Siena%20Simphony%20PRM%2026460%20n.%2013%20Polished%20slabs%20330x180x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
         "nome": "Gray Gold Onyx",
@@ -38288,11 +38967,6 @@
         "nome": "Montebianco",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AH1xY95clrW7aoCmSKtzBeo/Montebianco%20%20PRM%2022736%20n.%2050%20slabs%20305x165x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
-      },
-      {
-        "nome": "Mystic Blue Extra",
-        "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AM0UaZB5WUUl6AzvCkkMrBY/Mystic%20Blue%20Extra%20PRM%2032705%20n.%2012%20Polished%20slabs%20325x190x2.JPG?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
         "nome": "Naica",
@@ -38350,9 +39024,9 @@
         "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AGjsB1hzajaa1zr2StjpghU/Paonazzo%20Fantasy%20Fabbricotti%20PRM%2028862%20n.%2040%20slabs%20300x155x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
-        "nome": "Picasso PRM",
+        "nome": "Picasso",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AImoLAd6gd7_pVbNLLz8lag/Picasso%20PRM.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AJRZyxEUGBIOOUYQOSQB9cE/Picasso%20PRM%2033234%20n.64%20slabs%20300x200x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
         "nome": "Red Onyx",
@@ -38372,7 +39046,7 @@
       {
         "nome": "Rosso Iberico",
         "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AMrasDrtMf5qUI_nOpIrgxs/Rosso%20Iberico%20PRM%2032944%20n.%2063%20Honed%20slabs%20280x180x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
+        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/APZGhlWZNX70-ALM-5kSnZA/Rosso%20Iberico%20PRM%2032944%20n.%2051%20Honed%20slabs%20280x180x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
         "nome": "Rosso Levanto",
@@ -38428,11 +39102,6 @@
         "nome": "Travertino Noce",
         "alias": [],
         "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AH3bZ5y3IbcZyo9mibmqUo0/Travertino%20Noce%20PRM%2032667%20n.%2072%20slabs%20294x152x2.jpg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
-      },
-      {
-        "nome": "Travertino Romano",
-        "alias": [],
-        "url": "https://www.dropbox.com/scl/fo/zwzx26kytdb26cvkjhf79/AGhec06fUKz9vNgOcqGptzs/Travertino%20Romano%20PRM%2033149%20n.%2066%20slabs%20304x149x2.jpeg?rlkey=vvotvwav1xvblsemwrn1mdmjo&dl=0"
       },
       {
         "nome": "Travertino Romano Classico PRM 32042 approx 68 slabs",
@@ -39476,6 +40145,10 @@
       },
       {
         "nome": "Calacatta Viola",
+        "alias": []
+      },
+      {
+        "nome": "CARRARA D",
         "alias": []
       },
       {
@@ -40602,10 +41275,6 @@
       },
       {
         "nome": "Palissandro Bluette",
-        "alias": []
-      },
-      {
-        "nome": "Palissandro Classico",
         "alias": []
       },
       {
@@ -41930,10 +42599,6 @@
         "alias": []
       },
       {
-        "nome": "COPENHAGEN TIPO MONALISA",
-        "alias": []
-      },
-      {
         "nome": "CORAL",
         "alias": []
       },
@@ -42251,10 +42916,6 @@
       },
       {
         "nome": "FUSION BERRY",
-        "alias": []
-      },
-      {
-        "nome": "FUSION BLUE",
         "alias": []
       },
       {
@@ -44560,6 +45221,10 @@
         "alias": []
       },
       {
+        "nome": "ARABESCATO OROBICO ROSSO",
+        "alias": []
+      },
+      {
         "nome": "ARABESCATO VAGLI",
         "alias": []
       },
@@ -44689,10 +45354,6 @@
       },
       {
         "nome": "CALACATTA MONET",
-        "alias": []
-      },
-      {
-        "nome": "CALACATTA NAMIBIA",
         "alias": []
       },
       {
@@ -44860,6 +45521,10 @@
         "alias": []
       },
       {
+        "nome": "PERLA SANTANA",
+        "alias": []
+      },
+      {
         "nome": "PERSIAN LIMESTONE",
         "alias": []
       },
@@ -44896,6 +45561,10 @@
         "alias": []
       },
       {
+        "nome": "ROSSO LEPANTO",
+        "alias": []
+      },
+      {
         "nome": "SILVER ROOTS",
         "alias": []
       },
@@ -44925,6 +45594,10 @@
       },
       {
         "nome": "TRAVERTINO ALABASTRINO",
+        "alias": []
+      },
+      {
+        "nome": "TRAVERTINO ALABASTRINO BIANCO",
         "alias": []
       },
       {
@@ -46373,6 +47046,10 @@
       },
       {
         "nome": "MAPA MUNDI",
+        "alias": []
+      },
+      {
+        "nome": "MOLDAVITE CRYSTAL",
         "alias": []
       },
       {
