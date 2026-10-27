@@ -4,8 +4,6 @@
 // pubblica che restituisce tutti i marmi raggruppati per zona del
 // magazzino: niente browser necessario, un semplice fetch basta (come
 // marimar.js).
-const { dedupeWithUrl } = require("./_platforms/dedupe");
-
 const API_URL = "https://www.maxmarmicarrara.com/api/marmi/magazzino?locale=it";
 const PAGE_URL = "https://www.maxmarmicarrara.com/magazzino";
 
@@ -18,14 +16,40 @@ async function scrape() {
   const data = await res.json();
   if (!data || !data.ok || !data.marmi) throw new Error("Risposta API inattesa (manca 'marmi')");
 
-  const entries = [];
+  const byName = new Map();
   for (const zona of Object.keys(data.marmi)) {
     for (const item of data.marmi[zona]) {
-      if (item.name) entries.push({ nome: item.name, href: item.slug ? `https://www.maxmarmicarrara.com/marmi/${item.slug}` : null });
+      if (!item.name) continue;
+      if (!byName.has(item.name)) byName.set(item.name, { spessori: new Set(), lavorazioni: new Set(), blocchi: [], href: null });
+      const entry = byName.get(item.name);
+      if (!entry.href && item.slug) entry.href = `https://www.maxmarmicarrara.com/marmi/${item.slug}`;
+
+      const acf = item.acf || {};
+      const dim = acf.marmo_dettagli_dimensions || {};
+      const spessore = dim.spessore ? Number(dim.spessore) : null;
+      const lavorazione = acf.marmo_dettagli_finitura || null;
+      if (spessore) entry.spessori.add(spessore);
+      if (lavorazione) entry.lavorazioni.add(lavorazione);
+      entry.blocchi.push({
+        numero: acf.marmo_dettagli_codice || null,
+        spessore: spessore != null ? String(spessore) : null,
+        lavorazione: lavorazione || "",
+        quantita: acf.marmo_dettagli_quantita_lastre ? Number(acf.marmo_dettagli_quantita_lastre) : null,
+      });
     }
   }
 
-  const materiali = dedupeWithUrl(entries);
+  const materiali = [...byName.entries()]
+    .map(([nome, info]) => ({
+      nome,
+      alias: [],
+      url: info.href || undefined,
+      spessori: [...info.spessori].sort((a, b) => a - b),
+      lavorazioni: [...info.lavorazioni].sort(),
+      blocchi: info.blocchi,
+    }))
+    .sort((a, b) => a.nome.localeCompare(b.nome, "it"));
+
   if (materiali.length === 0) throw new Error("Nessun materiale trovato nella risposta API");
 
   return {
@@ -34,7 +58,7 @@ async function scrape() {
     url: PAGE_URL,
     stato: "scraped",
     note:
-      "Elenco letto dall'API pubblica della mappa 2D del magazzino (api/marmi/magazzino), tutte le zone unite, con link diretto alla scheda materiale (/marmi/<slug>) — scraping automatico notturno.",
+      "Elenco letto dall'API pubblica della mappa 2D del magazzino (api/marmi/magazzino), tutte le zone unite, con link diretto alla scheda materiale (/marmi/<slug>) e spessore/lavorazione/quantità per blocco — scraping automatico notturno.",
     materiali,
   };
 }
