@@ -63107,203 +63107,967 @@
     "nome": "Galvani Trading",
     "url": "https://www.warehousenaturalstone.com/galvani-trading/slabs",
     "stato": "scraped",
-    "note": "Elenco letto scorrendo le pagine di risultati (paginazione a bottoni) — scraping automatico notturno.",
+    "note": "Elenco letto scorrendo le pagine di risultati (paginazione a bottoni), con numero blocco/spessore/lastre disponibili per blocco letti dal testo di ogni card — scraping automatico notturno.",
     "materiali": [
       {
         "nome": "ACQUAMARE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-123422",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 46
+          }
+        ]
       },
       {
         "nome": "AMAZZONITE MONET",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-1",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 22
+          },
+          {
+            "numero": "BL-18",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "AMETISTA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-2",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 17
+          }
+        ]
       },
       {
         "nome": "ARARAS GOLD",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-186",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 16
+          },
+          {
+            "numero": "BL-1238",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 9
+          }
+        ]
       },
       {
         "nome": "AVALON",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-125471",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 39
+          }
+        ]
       },
       {
         "nome": "AVORIO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-1/B",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 33
+          }
+        ]
       },
       {
         "nome": "BELVEDERE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          1.7,
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-800065",
+            "spessore": "1.7",
+            "lavorazione": "",
+            "quantita": 56
+          },
+          {
+            "numero": "BL-800173",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 3
+          },
+          {
+            "numero": "BL-800732",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 49
+          }
+        ]
       },
       {
         "nome": "BIG BEN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-124462",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 26
+          }
+        ]
       },
       {
         "nome": "BLACK LEPANTO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BLACK",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 36
+          }
+        ]
       },
       {
         "nome": "BLACK MAMBA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BLACK",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 26
+          },
+          {
+            "numero": "BLACK",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 25
+          }
+        ]
       },
       {
         "nome": "BLUE ARARAS",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BLUE",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 9
+          }
+        ]
       },
       {
         "nome": "BOTANIC CRYSTAL",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-123327",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 20
+          },
+          {
+            "numero": "BL-223328",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 38
+          }
+        ]
       },
       {
         "nome": "BOTANIC GREEN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-223419",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 16
+          }
+        ]
       },
       {
         "nome": "BRECCIA DI CARAVAGGIO",
-        "alias": []
-      },
-      {
-        "nome": "BRECCIA IMPERIALE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-1818",
+            "spessore": "3",
+            "lavorazione": "",
+            "quantita": 10
+          }
+        ]
       },
       {
         "nome": "CRISTALLO AMETISTA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-169299",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 17
+          },
+          {
+            "numero": "BL-209316",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 21
+          }
+        ]
       },
       {
         "nome": "CRISTALLO CHAMPAGNE II°",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-523323",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 3
+          }
+        ]
       },
       {
         "nome": "CRISTALLO FROST",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-45",
+            "spessore": "3",
+            "lavorazione": "",
+            "quantita": 14
+          },
+          {
+            "numero": "BL-235",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 29
+          }
+        ]
       },
       {
         "nome": "CRISTALLO IMPERIALE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-8",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 6
+          },
+          {
+            "numero": "BL-30",
+            "spessore": "3",
+            "lavorazione": "",
+            "quantita": 8
+          },
+          {
+            "numero": "BL-38",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 9
+          },
+          {
+            "numero": "BL-61",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 48
+          },
+          {
+            "numero": "BL-66",
+            "spessore": "3",
+            "lavorazione": "",
+            "quantita": 2
+          }
+        ]
       },
       {
         "nome": "CRISTALLO WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-202314",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 37
+          },
+          {
+            "numero": "BL-230335",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 47
+          }
+        ]
       },
       {
         "nome": "CRYSTAL LAKE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-123420",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 16
+          },
+          {
+            "numero": "BL-223421",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 6
+          }
+        ]
       },
       {
         "nome": "CRYSTAL SUNSET",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-400456",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 15
+          },
+          {
+            "numero": "BL-400459",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 28
+          },
+          {
+            "numero": "BL-400478",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 18
+          }
+        ]
       },
       {
         "nome": "DARK SHADOW",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-423358",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 36
+          }
+        ]
       },
       {
         "nome": "GIOTTO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-368",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 58
+          }
+        ]
       },
       {
         "nome": "GLACIER VEIN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-125466",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 23
+          }
+        ]
       },
       {
         "nome": "GREY BAYOU",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-47",
+            "spessore": "3",
+            "lavorazione": "",
+            "quantita": 21
+          },
+          {
+            "numero": "BL-61",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 2
+          },
+          {
+            "numero": "BL-122",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 47
+          },
+          {
+            "numero": "BL-123",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 17
+          }
+        ]
       },
       {
         "nome": "ILLUMINATO GOLD",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-323415",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 27
+          }
+        ]
       },
       {
         "nome": "JATOBA BROWN COMMERCIALE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-331",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "JATOBA MOSS",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-377",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 19
+          }
+        ]
       },
       {
         "nome": "JATOBA' BROWN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-46",
+            "spessore": "3",
+            "lavorazione": "",
+            "quantita": 5
+          },
+          {
+            "numero": "BL-299",
+            "spessore": "3",
+            "lavorazione": "",
+            "quantita": 4
+          },
+          {
+            "numero": "BL-317",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 7
+          }
+        ]
       },
       {
         "nome": "LUMINOUS",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-700343",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 28
+          },
+          {
+            "numero": "BL-700409",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 50
+          },
+          {
+            "numero": "BL-700474",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 38
+          }
+        ]
       },
       {
         "nome": "MACONDO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-600628",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 12
+          }
+        ]
       },
       {
         "nome": "MOKKA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-15",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 12
+          }
+        ]
       },
       {
         "nome": "MONUMENTAL BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BLACK",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 15
+          }
+        ]
       },
       {
         "nome": "MOSCOVITA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-4",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 48
+          }
+        ]
       },
       {
         "nome": "NEON",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-1",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 49
+          }
+        ]
       },
       {
         "nome": "PATAGONIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-25",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 6
+          },
+          {
+            "numero": "BL-287",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 26
+          }
+        ]
       },
       {
         "nome": "PATAGONIA GREEN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-267318",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 21
+          }
+        ]
       },
       {
         "nome": "PERLA SANTANA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-1",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 3
+          },
+          {
+            "numero": "BL-3",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "RIVIERA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-224452",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 23
+          }
+        ]
       },
       {
         "nome": "SEVEN SEAS",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-29",
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": "BL-34",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 12
+          }
+        ]
       },
       {
         "nome": "STATUARIO BLU",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BLU",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 51
+          }
+        ]
       },
       {
         "nome": "TITANIUM",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-3573",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 27
+          },
+          {
+            "numero": "BL-4269",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 52
+          },
+          {
+            "numero": "BL-4373",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 8
+          }
+        ]
       },
       {
         "nome": "TORTUGA GREEN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-3710",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 17
+          }
+        ]
       },
       {
         "nome": "VERDE CANHIMEI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-400305",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 54
+          },
+          {
+            "numero": "BL-400332",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 23
+          }
+        ]
       },
       {
         "nome": "VERDE FUOCO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-1120",
+            "spessore": "3",
+            "lavorazione": "",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "VERDE GAUGUIN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-934",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 49
+          },
+          {
+            "numero": "BL-938",
+            "spessore": "3",
+            "lavorazione": "",
+            "quantita": 12
+          }
+        ]
       },
       {
         "nome": "VERDE ROMA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-23",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 7
+          },
+          {
+            "numero": "BL-43",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 11
+          }
+        ]
       },
       {
         "nome": "WHITE TEMPEST",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "BL-510004",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 23
+          }
+        ]
       }
     ]
   },
@@ -156562,43 +157326,246 @@
     "nome": "Stocchero Marcello",
     "url": "https://www.stocchero.it/magazzinoonline/",
     "stato": "scraped",
-    "note": "Elenco letto dalle intestazioni dei gruppi materiale con scroll fino a stabilizzazione — scraping automatico notturno.",
+    "note": "Elenco letto dalle intestazioni dei gruppi materiale con scroll fino a stabilizzazione, spessore/lavorazione/numero blocco/quantità per blocco — scraping automatico notturno.",
     "materiali": [
       {
         "nome": "ARABESCATO OROBICO GRIGIO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "8472",
+            "spessore": "3",
+            "lavorazione": "GREZZO",
+            "quantita": 7
+          },
+          {
+            "numero": "8472",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 4
+          }
+        ]
       },
       {
         "nome": "ARABESCATO VAGLI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          75
+        ],
+        "lavorazioni": [
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "CF307",
+            "spessore": "75",
+            "lavorazione": "GREZZO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "AVORIO - SAN SEBASTIAN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "CF443",
+            "spessore": "3",
+            "lavorazione": "GREZZO",
+            "quantita": 8
+          },
+          {
+            "numero": "CG379",
+            "spessore": "2",
+            "lavorazione": "GREZZO",
+            "quantita": 23
+          }
+        ]
       },
       {
         "nome": "BARDIGLIO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "CC476",
+            "spessore": "3",
+            "lavorazione": "GREZZO",
+            "quantita": 14
+          }
+        ]
       },
       {
         "nome": "BARDIGLIO CHIARO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "21/0790",
+            "spessore": "2",
+            "lavorazione": "GREZZO",
+            "quantita": 3
+          }
+        ]
       },
       {
         "nome": "BARDIGLIO TIPO IMPERIALE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "CD444L",
+            "spessore": "3",
+            "lavorazione": "LUCIDO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "BARDIGLIO TIPO NUVOLATO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          78
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "CF523",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 1
+          },
+          {
+            "numero": "CF523",
+            "spessore": "2",
+            "lavorazione": "GREZZO",
+            "quantita": 22
+          },
+          {
+            "numero": "CF523",
+            "spessore": "78",
+            "lavorazione": "GREZZO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "BARDIGLIO TIPO UNITO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          130
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "LEVIGATO",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "CF493",
+            "spessore": "130",
+            "lavorazione": "GREZZO",
+            "quantita": 1
+          },
+          {
+            "numero": "CF493",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 1
+          },
+          {
+            "numero": "CF493",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "BIANCO CARRARA C",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3,
+          6
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "CF335",
+            "spessore": "6",
+            "lavorazione": "LUCIDO",
+            "quantita": 5
+          },
+          {
+            "numero": "CF435",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 4
+          },
+          {
+            "numero": "CF162",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 4
+          },
+          {
+            "numero": "CF454",
+            "spessore": "3",
+            "lavorazione": "GREZZO",
+            "quantita": 2
+          },
+          {
+            "numero": "CF454",
+            "spessore": "2",
+            "lavorazione": "GREZZO",
+            "quantita": 3
+          },
+          {
+            "numero": "CF454",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 11
+          }
+        ]
       }
     ]
   },
