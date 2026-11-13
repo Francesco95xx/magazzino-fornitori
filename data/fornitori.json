@@ -91417,567 +91417,4188 @@
     "nome": "Marimar",
     "url": "https://marimar.net/it/magazzino",
     "stato": "scraped",
-    "note": "Magazzino lastre in tempo reale — dati letti direttamente dall'API del widget (marimar.interagisco.it/api/v3/material), non dalla pagina web.",
+    "note": "Magazzino lastre in tempo reale — dati letti direttamente dall'API del widget (marimar.interagisco.it/api/v3/item), spessore/lavorazione/numero blocco/quantita per blocco.",
     "materiali": [
       {
         "nome": "AGGLO BIANCO CARRARA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "50007",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 24
+          }
+        ]
       },
       {
         "nome": "AGGLO THASSOS WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "50008",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "ALPINUS",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "58001",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "AMAZZONI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "51003",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 12
+          }
+        ]
       },
       {
         "nome": "ANTRACITE BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          1.5,
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0638",
+            "spessore": "3/2/1.5",
+            "lavorazione": "GREZZO, SATINATO",
+            "quantita": 16
+          },
+          {
+            "numero": "G0301",
+            "spessore": "3/2/1.5",
+            "lavorazione": "GREZZO, SATINATO",
+            "quantita": 16
+          },
+          {
+            "numero": "G0542",
+            "spessore": "3/2/1.5",
+            "lavorazione": "GREZZO, SATINATO",
+            "quantita": 16
+          }
+        ]
       },
       {
         "nome": "ATLANTIC LAVA STONE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00832",
+            "spessore": "2",
+            "lavorazione": "GREZZO, SATINATO",
+            "quantita": 26
+          },
+          {
+            "numero": "L00834",
+            "spessore": "2",
+            "lavorazione": "GREZZO, SATINATO",
+            "quantita": 26
+          },
+          {
+            "numero": "46002",
+            "spessore": "2",
+            "lavorazione": "GREZZO, SATINATO",
+            "quantita": 26
+          }
+        ]
       },
       {
         "nome": "AVOCATUS",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0640",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, RESINATO, SATINATO",
+            "quantita": 36
+          }
+        ]
       },
       {
         "nome": "AVORIO SAN SEBASTIAN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "MICROBOCCIARDATO + 1 SPAZZOLA",
+          "SPAZZOLATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0724",
+            "spessore": "3/2",
+            "lavorazione": "SPAZZOLATO, GREZZO, MICROBOCCIARDATO + 1 SPAZZOLA",
+            "quantita": 10
+          },
+          {
+            "numero": "L00856",
+            "spessore": "3/2",
+            "lavorazione": "SPAZZOLATO, GREZZO, MICROBOCCIARDATO + 1 SPAZZOLA",
+            "quantita": 10
+          },
+          {
+            "numero": "G0730",
+            "spessore": "3/2",
+            "lavorazione": "SPAZZOLATO, GREZZO, MICROBOCCIARDATO + 1 SPAZZOLA",
+            "quantita": 10
+          }
+        ]
       },
       {
         "nome": "AZUL NOCHE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0679",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, SATINATO",
+            "quantita": 35
+          }
+        ]
       },
       {
         "nome": "BELVEDERE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0727",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, RESINATO, LUCIDO",
+            "quantita": 34
+          },
+          {
+            "numero": "G0624",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, RESINATO, LUCIDO",
+            "quantita": 34
+          },
+          {
+            "numero": "G0655",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, RESINATO, LUCIDO",
+            "quantita": 34
+          }
+        ]
       },
       {
         "nome": "BIANCO CARRARA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00816",
+            "spessore": "3",
+            "lavorazione": "LUCIDO",
+            "quantita": 2
+          }
+        ]
       },
       {
         "nome": "BIANCO CARRARA C",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "PATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "F06863",
+            "spessore": "2",
+            "lavorazione": "PATINATO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "BIANCO IBERICO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "FIAMMATO + 1 SPAZZOLA",
+          "FIAMMATO + 3 SPAZZOLE",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "40015",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO + 1 SPAZZOLA, FIAMMATO + 3 SPAZZOLE, LUCIDO",
+            "quantita": 16
+          },
+          {
+            "numero": "44032",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO + 1 SPAZZOLA, FIAMMATO + 3 SPAZZOLE, LUCIDO",
+            "quantita": 16
+          },
+          {
+            "numero": "44021",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO + 1 SPAZZOLA, FIAMMATO + 3 SPAZZOLE, LUCIDO",
+            "quantita": 16
+          },
+          {
+            "numero": "44027",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO + 1 SPAZZOLA, FIAMMATO + 3 SPAZZOLE, LUCIDO",
+            "quantita": 16
+          },
+          {
+            "numero": "44031",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO + 1 SPAZZOLA, FIAMMATO + 3 SPAZZOLE, LUCIDO",
+            "quantita": 16
+          }
+        ]
       },
       {
         "nome": "BIANCO PERLINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "LEVIGATO",
+          "SABBIATO + PATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "V0040",
+            "spessore": "2/3",
+            "lavorazione": "LEVIGATO, SABBIATO + PATINATO, GREZZO",
+            "quantita": 5
+          },
+          {
+            "numero": "F05675",
+            "spessore": "2/3",
+            "lavorazione": "LEVIGATO, SABBIATO + PATINATO, GREZZO",
+            "quantita": 5
+          },
+          {
+            "numero": "V0042",
+            "spessore": "2/3",
+            "lavorazione": "LEVIGATO, SABBIATO + PATINATO, GREZZO",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "BIANCO SARDO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "FIAMMATO + 1 SPAZZOLA",
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00862",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO + 1 SPAZZOLA, GREZZO",
+            "quantita": 33
+          },
+          {
+            "numero": "L00388",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO + 1 SPAZZOLA, GREZZO",
+            "quantita": 33
+          }
+        ]
       },
       {
         "nome": "BIANCO STATUARIO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO FINE"
+        ],
+        "blocchi": [
+          {
+            "numero": "S0384",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO FINE",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "BLACK CHASM",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO 300",
+          "LEVIGATO 320",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "35123",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO 320, LUCIDO, LEVIGATO 300",
+            "quantita": 39
+          },
+          {
+            "numero": "35019",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO 320, LUCIDO, LEVIGATO 300",
+            "quantita": 39
+          },
+          {
+            "numero": "35009",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO 320, LUCIDO, LEVIGATO 300",
+            "quantita": 39
+          }
+        ]
       },
       {
         "nome": "BLACK FOREST",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00295",
+            "spessore": "3",
+            "lavorazione": "LUCIDO",
+            "quantita": 24
+          },
+          {
+            "numero": "30188",
+            "spessore": "3",
+            "lavorazione": "LUCIDO",
+            "quantita": 24
+          },
+          {
+            "numero": "23049",
+            "spessore": "3",
+            "lavorazione": "LUCIDO",
+            "quantita": 24
+          }
+        ]
       },
       {
         "nome": "BLACK PEARL",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "30176",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 72
+          },
+          {
+            "numero": "30226",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 72
+          },
+          {
+            "numero": "30212",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 72
+          },
+          {
+            "numero": "30215",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 72
+          }
+        ]
       },
       {
         "nome": "BLACK WATERFALL",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "22005",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO",
+            "quantita": 39
+          },
+          {
+            "numero": "22006",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO",
+            "quantita": 39
+          },
+          {
+            "numero": "22004",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO",
+            "quantita": 39
+          }
+        ]
       },
       {
         "nome": "BLUE ROMA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "LEVIGATO 320",
+          "RESINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0633",
+            "spessore": "2",
+            "lavorazione": "RESINATO, LEVIGATO 320, LEVIGATO",
+            "quantita": 24
+          }
+        ]
       },
       {
         "nome": "BOULDER GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "35086",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 52
+          },
+          {
+            "numero": "35037",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 52
+          },
+          {
+            "numero": "35003",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 52
+          },
+          {
+            "numero": "35134",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 52
+          }
+        ]
       },
       {
         "nome": "BRECCIA IMPERIALE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0608",
+            "spessore": "2",
+            "lavorazione": "SATINATO, RESINATO",
+            "quantita": 13
+          },
+          {
+            "numero": "G0567",
+            "spessore": "2",
+            "lavorazione": "SATINATO, RESINATO",
+            "quantita": 13
+          }
+        ]
       },
       {
         "nome": "BROWN SILK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "61002",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 43
+          },
+          {
+            "numero": "61000",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 43
+          }
+        ]
       },
       {
         "nome": "CALACATTA BRASIL",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "54001",
+            "spessore": "2",
+            "lavorazione": "SATINATO",
+            "quantita": 8
+          }
+        ]
       },
       {
         "nome": "CALACATTA VIOLA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0702",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO",
+            "quantita": 73
+          },
+          {
+            "numero": "G0697-1",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO",
+            "quantita": 73
+          }
+        ]
       },
       {
         "nome": "CAPPUCCINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          1.8
+        ],
+        "lavorazioni": [
+          "1 P. RETINATO - 1 P. LEVIGATO",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "32006",
+            "spessore": "1.8",
+            "lavorazione": "1 P. RETINATO - 1 P. LEVIGATO, LUCIDO",
+            "quantita": 19
+          },
+          {
+            "numero": "32005",
+            "spessore": "1.8",
+            "lavorazione": "1 P. RETINATO - 1 P. LEVIGATO, LUCIDO",
+            "quantita": 19
+          }
+        ]
       },
       {
         "nome": "CARNIA GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0548-1",
+            "spessore": "2/3",
+            "lavorazione": "SATINATO, RESINATO",
+            "quantita": 28
+          },
+          {
+            "numero": "G0548-2-1",
+            "spessore": "2/3",
+            "lavorazione": "SATINATO, RESINATO",
+            "quantita": 28
+          }
+        ]
       },
       {
         "nome": "CEPPO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "STUCCATO + LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00861",
+            "spessore": "2",
+            "lavorazione": "STUCCATO + LEVIGATO",
+            "quantita": 9
+          }
+        ]
       },
       {
         "nome": "CEPPO ANTICO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          1.5,
+          2
+        ],
+        "lavorazioni": [
+          "BOCCIARDATO FINE + PATINATO",
+          "LEVIGATO",
+          "MICROBOCCIARDATO + WATERJET",
+          "RESINATO",
+          "RETINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0719",
+            "spessore": "1.5/2",
+            "lavorazione": "LEVIGATO, MICROBOCCIARDATO + WATERJET, RESINATO, BOCCIARDATO FINE + PATINATO, RETINATO",
+            "quantita": 109
+          },
+          {
+            "numero": "G0656",
+            "spessore": "1.5/2",
+            "lavorazione": "LEVIGATO, MICROBOCCIARDATO + WATERJET, RESINATO, BOCCIARDATO FINE + PATINATO, RETINATO",
+            "quantita": 109
+          },
+          {
+            "numero": "G0657",
+            "spessore": "1.5/2",
+            "lavorazione": "LEVIGATO, MICROBOCCIARDATO + WATERJET, RESINATO, BOCCIARDATO FINE + PATINATO, RETINATO",
+            "quantita": 109
+          }
+        ]
       },
       {
         "nome": "CEPPO BEIGE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "CROSTA",
+          "LEVIGATO",
+          "RESINATO",
+          "SPAZZOLATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0644",
+            "spessore": "2/3",
+            "lavorazione": "LEVIGATO, CROSTA, SPAZZOLATO, RESINATO",
+            "quantita": 42
+          },
+          {
+            "numero": "G0688",
+            "spessore": "2/3",
+            "lavorazione": "LEVIGATO, CROSTA, SPAZZOLATO, RESINATO",
+            "quantita": 42
+          }
+        ]
       },
       {
         "nome": "CEPPO CREMO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0712",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, LEVIGATO",
+            "quantita": 39
+          },
+          {
+            "numero": "V0127",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, LEVIGATO",
+            "quantita": 39
+          }
+        ]
       },
       {
         "nome": "CEPPO NAGELFLUH",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "LEVIGATO",
+          "RETINATO",
+          "STUCCATO + LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0709",
+            "spessore": "2/3",
+            "lavorazione": "LEVIGATO, GREZZO, RETINATO, STUCCATO + LEVIGATO",
+            "quantita": 64
+          },
+          {
+            "numero": "G0626",
+            "spessore": "2/3",
+            "lavorazione": "LEVIGATO, GREZZO, RETINATO, STUCCATO + LEVIGATO",
+            "quantita": 64
+          },
+          {
+            "numero": "G0625",
+            "spessore": "2/3",
+            "lavorazione": "LEVIGATO, GREZZO, RETINATO, STUCCATO + LEVIGATO",
+            "quantita": 64
+          }
+        ]
+      },
+      {
+        "nome": "CEPPO ROSSO",
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "V0126",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 10
+          }
+        ]
       },
       {
         "nome": "CIPOLLINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0620",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO",
+            "quantita": 68
+          }
+        ]
       },
       {
         "nome": "COBRA GOLD",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "23060",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 23
+          }
+        ]
       },
       {
         "nome": "COFFEE BROWN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3,
+          4
+        ],
+        "lavorazioni": [
+          "1 P. LUCIDO - 1 P. SATINATO",
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "30222",
+            "spessore": "3/4/2",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, SATINATO",
+            "quantita": 47
+          },
+          {
+            "numero": "36056",
+            "spessore": "3/4/2",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, SATINATO",
+            "quantita": 47
+          },
+          {
+            "numero": "30219",
+            "spessore": "3/4/2",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, SATINATO",
+            "quantita": 47
+          },
+          {
+            "numero": "01831",
+            "spessore": "3/4/2",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, SATINATO",
+            "quantita": 47
+          }
+        ]
       },
       {
         "nome": "COLONIAL IVORY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "FIAMMATO + 1 SPAZZOLA",
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "16087",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA",
+            "quantita": 65
+          },
+          {
+            "numero": "16090",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA",
+            "quantita": 65
+          },
+          {
+            "numero": "16088",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA",
+            "quantita": 65
+          },
+          {
+            "numero": "36062",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA",
+            "quantita": 65
+          },
+          {
+            "numero": "07084",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA",
+            "quantita": 65
+          },
+          {
+            "numero": "16073",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA",
+            "quantita": 65
+          }
+        ]
       },
       {
         "nome": "COSMIC BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "13250",
+            "spessore": "3",
+            "lavorazione": "LUCIDO",
+            "quantita": 5
+          },
+          {
+            "numero": "36026",
+            "spessore": "3",
+            "lavorazione": "LUCIDO",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "CRISTALLO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "RESINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "54005",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, RESINATO",
+            "quantita": 53
+          },
+          {
+            "numero": "G0725",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, RESINATO",
+            "quantita": 53
+          }
+        ]
       },
       {
         "nome": "CRYSTAL LAKE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "51000",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 16
+          }
+        ]
       },
       {
         "nome": "DELICATUS",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "59000",
+            "spessore": "2/3",
+            "lavorazione": "SATINATO, LUCIDO",
+            "quantita": 59
+          },
+          {
+            "numero": "59001",
+            "spessore": "2/3",
+            "lavorazione": "SATINATO, LUCIDO",
+            "quantita": 59
+          }
+        ]
       },
       {
         "nome": "DIAMOND GALAXY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "1 P. LUCIDO - 1 P. SATINATO",
+          "2 P. SATINATI"
+        ],
+        "blocchi": [
+          {
+            "numero": "20038",
+            "spessore": "2/3",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, 2 P. SATINATI",
+            "quantita": 66
+          },
+          {
+            "numero": "20037",
+            "spessore": "2/3",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, 2 P. SATINATI",
+            "quantita": 66
+          },
+          {
+            "numero": "20042",
+            "spessore": "2/3",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, 2 P. SATINATI",
+            "quantita": 66
+          },
+          {
+            "numero": "20039",
+            "spessore": "2/3",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, 2 P. SATINATI",
+            "quantita": 66
+          },
+          {
+            "numero": "20041",
+            "spessore": "2/3",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, 2 P. SATINATI",
+            "quantita": 66
+          },
+          {
+            "numero": "20035",
+            "spessore": "2/3",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, 2 P. SATINATI",
+            "quantita": 66
+          }
+        ]
       },
       {
         "nome": "DOLOMITI GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "SABBIATO + 2 SPAZZOLE",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0450",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, SABBIATO + 2 SPAZZOLE, SATINATO",
+            "quantita": 7
+          }
+        ]
       },
       {
         "nome": "DOVER WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0523",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "EVOLENE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0718",
+            "spessore": "2",
+            "lavorazione": "RESINATO, SATINATO",
+            "quantita": 32
+          }
+        ]
       },
       {
         "nome": "GAJA DARK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "RETINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00770",
+            "spessore": "2",
+            "lavorazione": "RETINATO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "GAJA GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "RETINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0517",
+            "spessore": "2",
+            "lavorazione": "RETINATO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "GAJA SAND",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "RETINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00771",
+            "spessore": "2",
+            "lavorazione": "RETINATO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "GALAXY BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "30187",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 61
+          },
+          {
+            "numero": "20044",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 61
+          },
+          {
+            "numero": "20043",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 61
+          }
+        ]
       },
       {
         "nome": "GRIGIO CARNICO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00815",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 19
+          }
+        ]
+      },
+      {
+        "nome": "GRIGIO CARPAZI",
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "V0128",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 14
+          }
+        ]
       },
       {
         "nome": "GRIGIO COLLEMANDINA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0616",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO",
+            "quantita": 17
+          }
+        ]
       },
       {
         "nome": "GRIGIO OLIVO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "1 P. MICROBOCCIARDATO + 1 SPAZZOLA - 1 P. SATINATO",
+          "FIAMMATO + 1 SPAZZOLA",
+          "FIAMMATO + PATINATO",
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0598-1-1",
+            "spessore": "2/3",
+            "lavorazione": "1 P. MICROBOCCIARDATO + 1 SPAZZOLA - 1 P. SATINATO, FIAMMATO + 1 SPAZZOLA, FIAMMATO + PATINATO, GREZZO",
+            "quantita": 42
+          },
+          {
+            "numero": "G0606-1-1",
+            "spessore": "2/3",
+            "lavorazione": "1 P. MICROBOCCIARDATO + 1 SPAZZOLA - 1 P. SATINATO, FIAMMATO + 1 SPAZZOLA, FIAMMATO + PATINATO, GREZZO",
+            "quantita": 42
+          },
+          {
+            "numero": "G0564",
+            "spessore": "2/3",
+            "lavorazione": "1 P. MICROBOCCIARDATO + 1 SPAZZOLA - 1 P. SATINATO, FIAMMATO + 1 SPAZZOLA, FIAMMATO + PATINATO, GREZZO",
+            "quantita": 42
+          },
+          {
+            "numero": "G0693",
+            "spessore": "2/3",
+            "lavorazione": "1 P. MICROBOCCIARDATO + 1 SPAZZOLA - 1 P. SATINATO, FIAMMATO + 1 SPAZZOLA, FIAMMATO + PATINATO, GREZZO",
+            "quantita": 42
+          },
+          {
+            "numero": "G0692-1",
+            "spessore": "2/3",
+            "lavorazione": "1 P. MICROBOCCIARDATO + 1 SPAZZOLA - 1 P. SATINATO, FIAMMATO + 1 SPAZZOLA, FIAMMATO + PATINATO, GREZZO",
+            "quantita": 42
+          }
+        ]
       },
       {
         "nome": "ICE WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "19014",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 3
+          }
+        ]
       },
       {
         "nome": "IMPERIAL WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3,
+          4
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "17098",
+            "spessore": "3/4/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 43
+          },
+          {
+            "numero": "17009",
+            "spessore": "3/4/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 43
+          },
+          {
+            "numero": "17120",
+            "spessore": "3/4/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 43
+          },
+          {
+            "numero": "17111",
+            "spessore": "3/4/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 43
+          },
+          {
+            "numero": "17118",
+            "spessore": "3/4/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 43
+          }
+        ]
       },
       {
         "nome": "INDUS GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "FIAMMATO AD ACQUA",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "17121",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, FIAMMATO AD ACQUA",
+            "quantita": 2
+          }
+        ]
       },
       {
         "nome": "INFINITY BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0636",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, LUCIDO, RESINATO",
+            "quantita": 38
+          },
+          {
+            "numero": "G0555",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, LUCIDO, RESINATO",
+            "quantita": 38
+          },
+          {
+            "numero": "L00274",
+            "spessore": "3/2",
+            "lavorazione": "SATINATO, LUCIDO, RESINATO",
+            "quantita": 38
+          }
+        ]
       },
       {
         "nome": "INFINITY BROWN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0710",
+            "spessore": "2/3",
+            "lavorazione": "SATINATO, RESINATO, LUCIDO",
+            "quantita": 70
+          },
+          {
+            "numero": "G0615",
+            "spessore": "2/3",
+            "lavorazione": "SATINATO, RESINATO, LUCIDO",
+            "quantita": 70
+          },
+          {
+            "numero": "G0663",
+            "spessore": "2/3",
+            "lavorazione": "SATINATO, RESINATO, LUCIDO",
+            "quantita": 70
+          },
+          {
+            "numero": "G0628",
+            "spessore": "2/3",
+            "lavorazione": "SATINATO, RESINATO, LUCIDO",
+            "quantita": 70
+          }
+        ]
       },
       {
         "nome": "JUPARANA COLOMBO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "16083",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 53
+          },
+          {
+            "numero": "L00435",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 53
+          },
+          {
+            "numero": "15074",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 53
+          }
+        ]
       },
       {
         "nome": "JUPARANA INDIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "36043",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO",
+            "quantita": 31
+          },
+          {
+            "numero": "01535",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO",
+            "quantita": 31
+          },
+          {
+            "numero": "36002",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO",
+            "quantita": 31
+          }
+        ]
       },
       {
         "nome": "JURASSIC BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0651",
+            "spessore": "3/2",
+            "lavorazione": "GREZZO, SATINATO",
+            "quantita": 28
+          },
+          {
+            "numero": "G0582",
+            "spessore": "3/2",
+            "lavorazione": "GREZZO, SATINATO",
+            "quantita": 28
+          }
+        ]
       },
       {
         "nome": "KALAHARI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "54006",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 97
+          },
+          {
+            "numero": "54000",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 97
+          },
+          {
+            "numero": "54003",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 97
+          },
+          {
+            "numero": "51004",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 97
+          }
+        ]
       },
       {
         "nome": "KASHMIR WHITE NEW",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "13266",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO",
+            "quantita": 47
+          },
+          {
+            "numero": "01659",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO",
+            "quantita": 47
+          },
+          {
+            "numero": "L00420",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO",
+            "quantita": 47
+          },
+          {
+            "numero": "15083",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO",
+            "quantita": 47
+          },
+          {
+            "numero": "23033",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO",
+            "quantita": 47
+          }
+        ]
       },
       {
         "nome": "MADREPERLA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "CORTECCIA",
+          "GREZZO",
+          "LEVIGATO",
+          "RESINATO",
+          "SABBIATO AD ACQUA",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "52000",
+            "spessore": "2",
+            "lavorazione": "SATINATO, SABBIATO AD ACQUA, GREZZO, CORTECCIA, RESINATO, LEVIGATO",
+            "quantita": 63
+          }
+        ]
       },
       {
         "nome": "MERIDIEN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0612-1",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, RESINATO, SATINATO",
+            "quantita": 33
+          },
+          {
+            "numero": "G0612",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, RESINATO, SATINATO",
+            "quantita": 33
+          }
+        ]
       },
       {
         "nome": "MICHELANGELO ARGENTO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "35098",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 36
+          }
+        ]
       },
       {
         "nome": "MICHELANGELO PRIME",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "35122",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 92
+          },
+          {
+            "numero": "35143",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 92
+          },
+          {
+            "numero": "35130",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 92
+          }
+        ]
       },
       {
         "nome": "MOULIN ROUGE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0674",
+            "spessore": "2",
+            "lavorazione": "SATINATO, RESINATO, LUCIDO",
+            "quantita": 28
+          }
+        ]
       },
       {
         "nome": "MULTICOLOR",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "FIAMMATO",
+          "FIAMMATO + 2 SPAZZOLE",
+          "FIAMMATO + SPAZZOLATO",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "01756",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO, LUCIDO, FIAMMATO + 2 SPAZZOLE, FIAMMATO + SPAZZOLATO",
+            "quantita": 46
+          },
+          {
+            "numero": "L00353",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO, LUCIDO, FIAMMATO + 2 SPAZZOLE, FIAMMATO + SPAZZOLATO",
+            "quantita": 46
+          },
+          {
+            "numero": "01824",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO, LUCIDO, FIAMMATO + 2 SPAZZOLE, FIAMMATO + SPAZZOLATO",
+            "quantita": 46
+          },
+          {
+            "numero": "01821",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO, LUCIDO, FIAMMATO + 2 SPAZZOLE, FIAMMATO + SPAZZOLATO",
+            "quantita": 46
+          },
+          {
+            "numero": "23051",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO, LUCIDO, FIAMMATO + 2 SPAZZOLE, FIAMMATO + SPAZZOLATO",
+            "quantita": 46
+          },
+          {
+            "numero": "23057",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO, LUCIDO, FIAMMATO + 2 SPAZZOLE, FIAMMATO + SPAZZOLATO",
+            "quantita": 46
+          }
+        ]
       },
       {
         "nome": "MUSCHELKALK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "MICROBOCCIARDATO + PATINATO",
+          "PATINATO",
+          "STUCCATO + LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0579",
+            "spessore": "2/3",
+            "lavorazione": "MICROBOCCIARDATO + PATINATO, PATINATO, STUCCATO + LEVIGATO",
+            "quantita": 23
+          }
+        ]
       },
       {
         "nome": "MYSTIC BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "23058",
+            "spessore": "3",
+            "lavorazione": "SATINATO",
+            "quantita": 9
+          }
+        ]
       },
       {
         "nome": "MYSTIC GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          1.2,
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0591",
+            "spessore": "3/1.2/2",
+            "lavorazione": "GREZZO, LUCIDO, SATINATO",
+            "quantita": 54
+          },
+          {
+            "numero": "G0634",
+            "spessore": "3/1.2/2",
+            "lavorazione": "GREZZO, LUCIDO, SATINATO",
+            "quantita": 54
+          },
+          {
+            "numero": "V0058",
+            "spessore": "3/1.2/2",
+            "lavorazione": "GREZZO, LUCIDO, SATINATO",
+            "quantita": 54
+          }
+        ]
       },
       {
         "nome": "NACARADO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "LUCIDO",
+          "RESINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0732",
+            "spessore": "2",
+            "lavorazione": "RESINATO, GREZZO, LUCIDO",
+            "quantita": 47
+          },
+          {
+            "numero": "G0689",
+            "spessore": "2",
+            "lavorazione": "RESINATO, GREZZO, LUCIDO",
+            "quantita": 47
+          }
+        ]
       },
       {
         "nome": "NAPOLEON BORDEAUX",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          1.8,
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "LUCIDO",
+          "SATINATO",
+          "SPAZZOLATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "35146",
+            "spessore": "2/1.8",
+            "lavorazione": "SPAZZOLATO, LUCIDO, LEVIGATO, SATINATO",
+            "quantita": 103
+          },
+          {
+            "numero": "35099",
+            "spessore": "2/1.8",
+            "lavorazione": "SPAZZOLATO, LUCIDO, LEVIGATO, SATINATO",
+            "quantita": 103
+          },
+          {
+            "numero": "35121",
+            "spessore": "2/1.8",
+            "lavorazione": "SPAZZOLATO, LUCIDO, LEVIGATO, SATINATO",
+            "quantita": 103
+          },
+          {
+            "numero": "35104",
+            "spessore": "2/1.8",
+            "lavorazione": "SPAZZOLATO, LUCIDO, LEVIGATO, SATINATO",
+            "quantita": 103
+          },
+          {
+            "numero": "35120",
+            "spessore": "2/1.8",
+            "lavorazione": "SPAZZOLATO, LUCIDO, LEVIGATO, SATINATO",
+            "quantita": 103
+          },
+          {
+            "numero": "35119",
+            "spessore": "2/1.8",
+            "lavorazione": "SPAZZOLATO, LUCIDO, LEVIGATO, SATINATO",
+            "quantita": 103
+          },
+          {
+            "numero": "35142",
+            "spessore": "2/1.8",
+            "lavorazione": "SPAZZOLATO, LUCIDO, LEVIGATO, SATINATO",
+            "quantita": 103
+          }
+        ]
       },
       {
         "nome": "NEGRESCO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "RESINATO",
+          "SABBIATO AD ACQUA + PATINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00303",
+            "spessore": "3/2",
+            "lavorazione": "SABBIATO AD ACQUA + PATINATO, SATINATO, LEVIGATO, RESINATO",
+            "quantita": 71
+          },
+          {
+            "numero": "53013",
+            "spessore": "3/2",
+            "lavorazione": "SABBIATO AD ACQUA + PATINATO, SATINATO, LEVIGATO, RESINATO",
+            "quantita": 71
+          },
+          {
+            "numero": "53003",
+            "spessore": "3/2",
+            "lavorazione": "SABBIATO AD ACQUA + PATINATO, SATINATO, LEVIGATO, RESINATO",
+            "quantita": 71
+          },
+          {
+            "numero": "G0596",
+            "spessore": "3/2",
+            "lavorazione": "SABBIATO AD ACQUA + PATINATO, SATINATO, LEVIGATO, RESINATO",
+            "quantita": 71
+          },
+          {
+            "numero": "V0107",
+            "spessore": "3/2",
+            "lavorazione": "SABBIATO AD ACQUA + PATINATO, SATINATO, LEVIGATO, RESINATO",
+            "quantita": 71
+          },
+          {
+            "numero": "53008",
+            "spessore": "3/2",
+            "lavorazione": "SABBIATO AD ACQUA + PATINATO, SATINATO, LEVIGATO, RESINATO",
+            "quantita": 71
+          }
+        ]
       },
       {
         "nome": "NERO ASSOLUTO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          8
+        ],
+        "lavorazioni": [
+          "FIAMMATO + PATINATO",
+          "FIAMMATO + PATINATO + TRATTATO",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00839",
+            "spessore": "2/8",
+            "lavorazione": "FIAMMATO + PATINATO, LUCIDO, FIAMMATO + PATINATO + TRATTATO",
+            "quantita": 25
+          },
+          {
+            "numero": "F06738",
+            "spessore": "2/8",
+            "lavorazione": "FIAMMATO + PATINATO, LUCIDO, FIAMMATO + PATINATO + TRATTATO",
+            "quantita": 25
+          },
+          {
+            "numero": "L00843",
+            "spessore": "2/8",
+            "lavorazione": "FIAMMATO + PATINATO, LUCIDO, FIAMMATO + PATINATO + TRATTATO",
+            "quantita": 25
+          },
+          {
+            "numero": "L00838",
+            "spessore": "2/8",
+            "lavorazione": "FIAMMATO + PATINATO, LUCIDO, FIAMMATO + PATINATO + TRATTATO",
+            "quantita": 25
+          }
+        ]
       },
       {
         "nome": "NERO ASSOLUTO AR",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "1 P. FIAMMATO+PATINATO+TRATTATO - 1 P. LEVIGATO",
+          "FIAMMATO + PATINATO + TRATTATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "01817",
+            "spessore": "3/2",
+            "lavorazione": "FIAMMATO + PATINATO + TRATTATO, 1 P. FIAMMATO+PATINATO+TRATTATO - 1 P. LEVIGATO",
+            "quantita": 18
+          }
+        ]
       },
       {
         "nome": "NERO ASSOLUTO BF",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "FIAMMATO + PATINATO",
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0576",
+            "spessore": "2",
+            "lavorazione": "FIAMMATO + PATINATO, GREZZO",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "NERO ASSOLUTO CB",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "1 P. LUCIDO - 1 P. SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "36032",
+            "spessore": "3/2",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO",
+            "quantita": 20
+          }
+        ]
       },
       {
         "nome": "NERO ASSOLUTO DB",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "FIAMMATO + 1 SPAZZOLA",
+          "FIAMMATO + 4 SPAZZOLE",
+          "FIAMMATO + PATINATO",
+          "FIAMMATO + SPAZZOLATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "36049",
+            "spessore": "2/3",
+            "lavorazione": "FIAMMATO + 4 SPAZZOLE, FIAMMATO + PATINATO, FIAMMATO + SPAZZOLATO, FIAMMATO + 1 SPAZZOLA",
+            "quantita": 49
+          },
+          {
+            "numero": "36010",
+            "spessore": "2/3",
+            "lavorazione": "FIAMMATO + 4 SPAZZOLE, FIAMMATO + PATINATO, FIAMMATO + SPAZZOLATO, FIAMMATO + 1 SPAZZOLA",
+            "quantita": 49
+          }
+        ]
       },
       {
         "nome": "NERO ASSOLUTO INDIANO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "48000",
+            "spessore": "3",
+            "lavorazione": "SATINATO, LUCIDO",
+            "quantita": 5
+          },
+          {
+            "numero": "48001",
+            "spessore": "3",
+            "lavorazione": "SATINATO, LUCIDO",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "NERO ASSOLUTO JB",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "45003",
+            "spessore": "3",
+            "lavorazione": "LUCIDO",
+            "quantita": 2
+          }
+        ]
       },
       {
         "nome": "NERO ASSOLUTO NB",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "36044",
+            "spessore": "3",
+            "lavorazione": "SATINATO, LUCIDO",
+            "quantita": 44
+          },
+          {
+            "numero": "36042",
+            "spessore": "3",
+            "lavorazione": "SATINATO, LUCIDO",
+            "quantita": 44
+          }
+        ]
       },
       {
         "nome": "NERO ASSOLUTO ZIMBABWE C",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "FIAMMATO + PATINATO + TRATTATO",
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0671",
+            "spessore": "3/2",
+            "lavorazione": "GREZZO, FIAMMATO + PATINATO + TRATTATO",
+            "quantita": 30
+          },
+          {
+            "numero": "G0670",
+            "spessore": "3/2",
+            "lavorazione": "GREZZO, FIAMMATO + PATINATO + TRATTATO",
+            "quantita": 30
+          }
+        ]
       },
       {
         "nome": "NERO ASSOLUTO ZIMBABWE M",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "FIAMMATO + PATINATO",
+          "FIAMMATO + PATINATO + TRATTATO",
+          "GREZZO",
+          "LEVIGATO 60",
+          "LUCIDO",
+          "SATINATO + TRATTATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0622",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "62007",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "62004",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "G0673",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "G0669",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "G0583",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "62008",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "62005",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "G0577",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "62002",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "62003",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "62001",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "62000",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          },
+          {
+            "numero": "62006",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, LEVIGATO 60, FIAMMATO + PATINATO + TRATTATO, SATINATO + TRATTATO, GREZZO, FIAMMATO + PATINATO",
+            "quantita": 263
+          }
+        ]
       },
       {
         "nome": "NERO BRASILE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0650",
+            "spessore": "3",
+            "lavorazione": "SATINATO, RESINATO",
+            "quantita": 6
+          }
+        ]
       },
       {
         "nome": "NERO IMPALA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "FIAMMATO",
+          "FIAMMATO + 1 SPAZZOLA",
+          "FIAMMATO + PULITO",
+          "FIAMMATO AD ACQUA + PATINATO",
+          "FIAMMATO AD ACQUA + PULITO",
+          "GREZZO",
+          "LEVIGATO",
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0706",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, FIAMMATO, SATINATO, LUCIDO, FIAMMATO AD ACQUA + PATINATO, FIAMMATO AD ACQUA + PULITO, FIAMMATO + 1 SPAZZOLA, LEVIGATO, FIAMMATO + PULITO",
+            "quantita": 41
+          },
+          {
+            "numero": "L00660",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, FIAMMATO, SATINATO, LUCIDO, FIAMMATO AD ACQUA + PATINATO, FIAMMATO AD ACQUA + PULITO, FIAMMATO + 1 SPAZZOLA, LEVIGATO, FIAMMATO + PULITO",
+            "quantita": 41
+          },
+          {
+            "numero": "L00625",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, FIAMMATO, SATINATO, LUCIDO, FIAMMATO AD ACQUA + PATINATO, FIAMMATO AD ACQUA + PULITO, FIAMMATO + 1 SPAZZOLA, LEVIGATO, FIAMMATO + PULITO",
+            "quantita": 41
+          },
+          {
+            "numero": "L00750",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, FIAMMATO, SATINATO, LUCIDO, FIAMMATO AD ACQUA + PATINATO, FIAMMATO AD ACQUA + PULITO, FIAMMATO + 1 SPAZZOLA, LEVIGATO, FIAMMATO + PULITO",
+            "quantita": 41
+          },
+          {
+            "numero": "L00730",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, FIAMMATO, SATINATO, LUCIDO, FIAMMATO AD ACQUA + PATINATO, FIAMMATO AD ACQUA + PULITO, FIAMMATO + 1 SPAZZOLA, LEVIGATO, FIAMMATO + PULITO",
+            "quantita": 41
+          },
+          {
+            "numero": "L00851",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, FIAMMATO, SATINATO, LUCIDO, FIAMMATO AD ACQUA + PATINATO, FIAMMATO AD ACQUA + PULITO, FIAMMATO + 1 SPAZZOLA, LEVIGATO, FIAMMATO + PULITO",
+            "quantita": 41
+          },
+          {
+            "numero": "L00794",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, FIAMMATO, SATINATO, LUCIDO, FIAMMATO AD ACQUA + PATINATO, FIAMMATO AD ACQUA + PULITO, FIAMMATO + 1 SPAZZOLA, LEVIGATO, FIAMMATO + PULITO",
+            "quantita": 41
+          },
+          {
+            "numero": "L00256",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, FIAMMATO, SATINATO, LUCIDO, FIAMMATO AD ACQUA + PATINATO, FIAMMATO AD ACQUA + PULITO, FIAMMATO + 1 SPAZZOLA, LEVIGATO, FIAMMATO + PULITO",
+            "quantita": 41
+          },
+          {
+            "numero": "L00119",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, FIAMMATO, SATINATO, LUCIDO, FIAMMATO AD ACQUA + PATINATO, FIAMMATO AD ACQUA + PULITO, FIAMMATO + 1 SPAZZOLA, LEVIGATO, FIAMMATO + PULITO",
+            "quantita": 41
+          },
+          {
+            "numero": "G0426",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, FIAMMATO, SATINATO, LUCIDO, FIAMMATO AD ACQUA + PATINATO, FIAMMATO AD ACQUA + PULITO, FIAMMATO + 1 SPAZZOLA, LEVIGATO, FIAMMATO + PULITO",
+            "quantita": 41
+          },
+          {
+            "numero": "L00793",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO, FIAMMATO, SATINATO, LUCIDO, FIAMMATO AD ACQUA + PATINATO, FIAMMATO AD ACQUA + PULITO, FIAMMATO + 1 SPAZZOLA, LEVIGATO, FIAMMATO + PULITO",
+            "quantita": 41
+          }
+        ]
       },
       {
         "nome": "NERO MARQUINA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "PATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "F05789",
+            "spessore": "2",
+            "lavorazione": "PATINATO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "NERO VIA LATTEA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "51002",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 47
+          },
+          {
+            "numero": "61001",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 47
+          },
+          {
+            "numero": "G0584",
+            "spessore": "2/3",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 47
+          }
+        ]
       },
       {
         "nome": "NUVOLATO CALACATTA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "35136",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35144",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35087",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35102",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35129",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35147",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35091",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35132",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35131",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35133",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35126",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35127",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35139",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35140",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35114",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35138",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35145",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35062-1",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35074",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35141",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35124",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35100",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35137",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          },
+          {
+            "numero": "35135",
+            "spessore": "3/2",
+            "lavorazione": "LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 439
+          }
+        ]
       },
       {
         "nome": "OCEAN BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "42004",
+            "spessore": "3",
+            "lavorazione": "SATINATO",
+            "quantita": 23
+          }
+        ]
       },
       {
         "nome": "OCEAN BLUE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "RESINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "53001",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, RESINATO",
+            "quantita": 35
+          },
+          {
+            "numero": "G0613",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, RESINATO",
+            "quantita": 35
+          }
+        ]
       },
       {
         "nome": "OCEAN GREEN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "53000",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 20
+          }
+        ]
       },
       {
         "nome": "PANDA WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "42005",
+            "spessore": "3",
+            "lavorazione": "LUCIDO",
+            "quantita": 4
+          }
+        ]
       },
       {
         "nome": "PARADISO BASH",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3,
+          4
+        ],
+        "lavorazioni": [
+          "1 P. LUCIDO - 1 P. LEVIGATO",
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "16089",
+            "spessore": "2/4/3",
+            "lavorazione": "1 P. LUCIDO - 1 P. LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 56
+          },
+          {
+            "numero": "16069",
+            "spessore": "2/4/3",
+            "lavorazione": "1 P. LUCIDO - 1 P. LEVIGATO, LUCIDO, SATINATO",
+            "quantita": 56
+          }
+        ]
       },
       {
         "nome": "PATAGONIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0639",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 27
+          }
+        ]
       },
       {
         "nome": "PIETRA DI LUSERNA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00860",
+            "spessore": "2",
+            "lavorazione": "SATINATO, GREZZO",
+            "quantita": 9
+          }
+        ]
       },
       {
         "nome": "PIETRA GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0607",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO",
+            "quantita": 16
+          }
+        ]
       },
       {
         "nome": "PIETRA PIASENTINA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "FIAMMATO + PATINATO",
+          "PATINATO",
+          "RETINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00197",
+            "spessore": "3",
+            "lavorazione": "FIAMMATO + PATINATO, PATINATO, RETINATO",
+            "quantita": 15
+          },
+          {
+            "numero": "L00011",
+            "spessore": "3",
+            "lavorazione": "FIAMMATO + PATINATO, PATINATO, RETINATO",
+            "quantita": 15
+          },
+          {
+            "numero": "L00202",
+            "spessore": "3",
+            "lavorazione": "FIAMMATO + PATINATO, PATINATO, RETINATO",
+            "quantita": 15
+          },
+          {
+            "numero": "L00804",
+            "spessore": "3",
+            "lavorazione": "FIAMMATO + PATINATO, PATINATO, RETINATO",
+            "quantita": 15
+          }
+        ]
       },
       {
         "nome": "QUARZITE CHANTILLY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "54004",
+            "spessore": "2",
+            "lavorazione": "SATINATO, LUCIDO",
+            "quantita": 68
+          }
+        ]
       },
       {
         "nome": "QUARZITE EMERALD GREEN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          1,
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "LUCIDO",
+          "RESINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0525",
+            "spessore": "2/1",
+            "lavorazione": "LUCIDO, LEVIGATO, RESINATO",
+            "quantita": 17
+          },
+          {
+            "numero": "G0611",
+            "spessore": "2/1",
+            "lavorazione": "LUCIDO, LEVIGATO, RESINATO",
+            "quantita": 17
+          }
+        ]
       },
       {
         "nome": "QUARZITE MONT BLANC",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "53004",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO, SATINATO, LEVIGATO",
+            "quantita": 73
+          },
+          {
+            "numero": "53012",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO, SATINATO, LEVIGATO",
+            "quantita": 73
+          },
+          {
+            "numero": "53010",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO, SATINATO, LEVIGATO",
+            "quantita": 73
+          },
+          {
+            "numero": "53005",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO, SATINATO, LEVIGATO",
+            "quantita": 73
+          },
+          {
+            "numero": "53007",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO, SATINATO, LEVIGATO",
+            "quantita": 73
+          }
+        ]
       },
       {
         "nome": "QUARZITE TERRANOVA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "RESINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0496",
+            "spessore": "3",
+            "lavorazione": "RESINATO",
+            "quantita": 2
+          }
+        ]
       },
       {
         "nome": "RAIN FOREST BROWN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "PATINATO",
+          "SABBIATO AD ACQUA"
+        ],
+        "blocchi": [
+          {
+            "numero": "24022",
+            "spessore": "2/3",
+            "lavorazione": "PATINATO, SABBIATO AD ACQUA, LUCIDO",
+            "quantita": 13
+          },
+          {
+            "numero": "32017",
+            "spessore": "2/3",
+            "lavorazione": "PATINATO, SABBIATO AD ACQUA, LUCIDO",
+            "quantita": 13
+          },
+          {
+            "numero": "24023",
+            "spessore": "2/3",
+            "lavorazione": "PATINATO, SABBIATO AD ACQUA, LUCIDO",
+            "quantita": 13
+          }
+        ]
       },
       {
         "nome": "RAIN FOREST GREEN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "PATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "32032",
+            "spessore": "3",
+            "lavorazione": "LUCIDO, PATINATO",
+            "quantita": 14
+          },
+          {
+            "numero": "49001",
+            "spessore": "3",
+            "lavorazione": "LUCIDO, PATINATO",
+            "quantita": 14
+          }
+        ]
       },
       {
         "nome": "ROSA BETA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "FIAMMATO",
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00863",
+            "spessore": "3/2",
+            "lavorazione": "GREZZO, FIAMMATO",
+            "quantita": 54
+          },
+          {
+            "numero": "L00823",
+            "spessore": "3/2",
+            "lavorazione": "GREZZO, FIAMMATO",
+            "quantita": 54
+          },
+          {
+            "numero": "L00845",
+            "spessore": "3/2",
+            "lavorazione": "GREZZO, FIAMMATO",
+            "quantita": 54
+          },
+          {
+            "numero": "L00431",
+            "spessore": "3/2",
+            "lavorazione": "GREZZO, FIAMMATO",
+            "quantita": 54
+          }
+        ]
       },
       {
         "nome": "ROSA POLARE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "V0041",
+            "spessore": "2",
+            "lavorazione": "GREZZO",
+            "quantita": 4
+          }
+        ]
       },
       {
         "nome": "ROSA PORTOGALLO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0699",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 35
+          }
+        ]
       },
       {
         "nome": "ROSA SARDO LIMBARA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00819",
+            "spessore": "2/3",
+            "lavorazione": "GREZZO",
+            "quantita": 3
+          }
+        ]
+      },
+      {
+        "nome": "ROSSO CARPAZI",
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "V0125",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 14
+          }
+        ]
       },
       {
         "nome": "ROSSO LEPANTO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "SPAZZOLATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0729",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, SPAZZOLATO",
+            "quantita": 29
+          },
+          {
+            "numero": "G0729-1",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, SPAZZOLATO",
+            "quantita": 29
+          },
+          {
+            "numero": "G0729-1-1",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, SPAZZOLATO",
+            "quantita": 29
+          }
+        ]
       },
       {
         "nome": "SERIZZO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00836",
+            "spessore": "2",
+            "lavorazione": "GREZZO",
+            "quantita": 9
+          }
+        ]
       },
       {
         "nome": "SILVER GREY",
-        "alias": []
-      },
-      {
-        "nome": "SILVER ROOTS",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "FIAMMATO + 3 SPAZZOLE",
+          "GREZZO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0694",
+            "spessore": "2/3",
+            "lavorazione": "FIAMMATO + 3 SPAZZOLE, GREZZO, SATINATO",
+            "quantita": 40
+          },
+          {
+            "numero": "G0682",
+            "spessore": "2/3",
+            "lavorazione": "FIAMMATO + 3 SPAZZOLE, GREZZO, SATINATO",
+            "quantita": 40
+          }
+        ]
       },
       {
         "nome": "SPICE BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "30225",
+            "spessore": "2",
+            "lavorazione": "SATINATO",
+            "quantita": 50
+          }
+        ]
       },
       {
         "nome": "SPIDER GREEN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3,
+          20
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "LUCIDO",
+          "RESINATO",
+          "SATINATO",
+          "SPAZZOLATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "32024",
+            "spessore": "2/3/20",
+            "lavorazione": "LUCIDO, GREZZO, RESINATO, SPAZZOLATO, SATINATO",
+            "quantita": 90
+          },
+          {
+            "numero": "32014",
+            "spessore": "2/3/20",
+            "lavorazione": "LUCIDO, GREZZO, RESINATO, SPAZZOLATO, SATINATO",
+            "quantita": 90
+          },
+          {
+            "numero": "32016",
+            "spessore": "2/3/20",
+            "lavorazione": "LUCIDO, GREZZO, RESINATO, SPAZZOLATO, SATINATO",
+            "quantita": 90
+          },
+          {
+            "numero": "55000",
+            "spessore": "2/3/20",
+            "lavorazione": "LUCIDO, GREZZO, RESINATO, SPAZZOLATO, SATINATO",
+            "quantita": 90
+          },
+          {
+            "numero": "32013",
+            "spessore": "2/3/20",
+            "lavorazione": "LUCIDO, GREZZO, RESINATO, SPAZZOLATO, SATINATO",
+            "quantita": 90
+          }
+        ]
       },
       {
         "nome": "STEEL GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3,
+          4
+        ],
+        "lavorazioni": [
+          "1 P. LUCIDO - 1 P. SATINATO",
+          "CAREZZA",
+          "FIAMMATO + 1 SPAZZOLA",
+          "FIAMMATO + SPAZZOLATO",
+          "FIAMMATO + WATERJET",
+          "FIAMMATO AD ACQUA",
+          "FIAMMATO AD ACQUA + 1 SPAZZOLA",
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "48003",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "48005",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "30214",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "48004",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "30220",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "L00450",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "30168",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "30224",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "30218",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "30221",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "L00523",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "36041",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "20022",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "30181",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "20023",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "30185",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "L00376",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "30223",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "36046",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "30146",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "L00469",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "36059",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          },
+          {
+            "numero": "30195",
+            "spessore": "2/3/4",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO, LUCIDO, FIAMMATO + 1 SPAZZOLA, SATINATO, FIAMMATO AD ACQUA + 1 SPAZZOLA, FIAMMATO + SPAZZOLATO, CAREZZA, FIAMMATO AD ACQUA, FIAMMATO + WATERJET",
+            "quantita": 409
+          }
+        ]
       },
       {
         "nome": "SUPER WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "57000",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, RESINATO, SATINATO",
+            "quantita": 52
+          }
+        ]
       },
       {
         "nome": "TAJ BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0573",
+            "spessore": "2",
+            "lavorazione": "SATINATO, RESINATO",
+            "quantita": 25
+          }
+        ]
       },
       {
         "nome": "TAJ MAHAL",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          1.2,
+          2,
+          2.2
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "LEVIGATO",
+          "LUCIDO",
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0686",
+            "spessore": "2.2/1.2/2",
+            "lavorazione": "LEVIGATO, LUCIDO, GREZZO, RESINATO, SATINATO",
+            "quantita": 120
+          },
+          {
+            "numero": "G0675",
+            "spessore": "2.2/1.2/2",
+            "lavorazione": "LEVIGATO, LUCIDO, GREZZO, RESINATO, SATINATO",
+            "quantita": 120
+          },
+          {
+            "numero": "G0649",
+            "spessore": "2.2/1.2/2",
+            "lavorazione": "LEVIGATO, LUCIDO, GREZZO, RESINATO, SATINATO",
+            "quantita": 120
+          },
+          {
+            "numero": "G0599",
+            "spessore": "2.2/1.2/2",
+            "lavorazione": "LEVIGATO, LUCIDO, GREZZO, RESINATO, SATINATO",
+            "quantita": 120
+          },
+          {
+            "numero": "G0726",
+            "spessore": "2.2/1.2/2",
+            "lavorazione": "LEVIGATO, LUCIDO, GREZZO, RESINATO, SATINATO",
+            "quantita": 120
+          },
+          {
+            "numero": "G0619",
+            "spessore": "2.2/1.2/2",
+            "lavorazione": "LEVIGATO, LUCIDO, GREZZO, RESINATO, SATINATO",
+            "quantita": 120
+          },
+          {
+            "numero": "G0680",
+            "spessore": "2.2/1.2/2",
+            "lavorazione": "LEVIGATO, LUCIDO, GREZZO, RESINATO, SATINATO",
+            "quantita": 120
+          },
+          {
+            "numero": "G0728",
+            "spessore": "2.2/1.2/2",
+            "lavorazione": "LEVIGATO, LUCIDO, GREZZO, RESINATO, SATINATO",
+            "quantita": 120
+          },
+          {
+            "numero": "G0713",
+            "spessore": "2.2/1.2/2",
+            "lavorazione": "LEVIGATO, LUCIDO, GREZZO, RESINATO, SATINATO",
+            "quantita": 120
+          },
+          {
+            "numero": "G0667",
+            "spessore": "2.2/1.2/2",
+            "lavorazione": "LEVIGATO, LUCIDO, GREZZO, RESINATO, SATINATO",
+            "quantita": 120
+          }
+        ]
       },
       {
         "nome": "THALA GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "1 P. LEVIGATO FINE - 1 P. PATINATO",
+          "PATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0416",
+            "spessore": "2",
+            "lavorazione": "1 P. LEVIGATO FINE - 1 P. PATINATO, PATINATO",
+            "quantita": 4
+          }
+        ]
       },
       {
         "nome": "THUNDER WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "1 P. LUCIDO - 1 P. SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "30112",
+            "spessore": "2",
+            "lavorazione": "1 P. LUCIDO - 1 P. SATINATO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "TITANIUM",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "01819",
+            "spessore": "3",
+            "lavorazione": "LUCIDO",
+            "quantita": 24
+          }
+        ]
       },
       {
         "nome": "TITANIUM GOLD",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "36063",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 44
+          }
+        ]
       },
       {
         "nome": "TRAONYX",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "RETINATO",
+          "STUCCATO + LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0716",
+            "spessore": "2",
+            "lavorazione": "RETINATO, STUCCATO + LEVIGATO",
+            "quantita": 61
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO CLASSICO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "RETINATO",
+          "STUCCATO + LEVIGATO",
+          "STUCCATO + PATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0585",
+            "spessore": "2/3",
+            "lavorazione": "STUCCATO + PATINATO, STUCCATO + LEVIGATO, RETINATO",
+            "quantita": 90
+          },
+          {
+            "numero": "G0696",
+            "spessore": "2/3",
+            "lavorazione": "STUCCATO + PATINATO, STUCCATO + LEVIGATO, RETINATO",
+            "quantita": 90
+          },
+          {
+            "numero": "G0720",
+            "spessore": "2/3",
+            "lavorazione": "STUCCATO + PATINATO, STUCCATO + LEVIGATO, RETINATO",
+            "quantita": 90
+          },
+          {
+            "numero": "G0664",
+            "spessore": "2/3",
+            "lavorazione": "STUCCATO + PATINATO, STUCCATO + LEVIGATO, RETINATO",
+            "quantita": 90
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO IRANIANO SILVER",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "MICROBOCCIARDATO + WATERJET",
+          "RETINATO",
+          "STUCCATO + LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0722",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO, STUCCATO + LEVIGATO, RETINATO, MICROBOCCIARDATO + WATERJET",
+            "quantita": 63
+          },
+          {
+            "numero": "L00768",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO, STUCCATO + LEVIGATO, RETINATO, MICROBOCCIARDATO + WATERJET",
+            "quantita": 63
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO ROMANO SILVER",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "RETINATO",
+          "STUCCATO + LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0721",
+            "spessore": "2",
+            "lavorazione": "RETINATO, LEVIGATO, STUCCATO + LEVIGATO",
+            "quantita": 65
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO ROSSO PERSIANO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "RETINATO",
+          "STUCCATO + LEVIGATO",
+          "STUCCATO + LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "F07363",
+            "spessore": "3/2",
+            "lavorazione": "STUCCATO + LEVIGATO, STUCCATO + LUCIDO, RETINATO",
+            "quantita": 63
+          },
+          {
+            "numero": "G0715",
+            "spessore": "3/2",
+            "lavorazione": "STUCCATO + LEVIGATO, STUCCATO + LUCIDO, RETINATO",
+            "quantita": 63
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO STRIATO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "GREZZO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0562",
+            "spessore": "3",
+            "lavorazione": "GREZZO",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO TITANIUM",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "LUCIDO",
+          "RETINATO",
+          "STUCCATO + LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0569",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, RETINATO, STUCCATO + LEVIGATO, LEVIGATO",
+            "quantita": 18
+          }
+        ]
       },
       {
         "nome": "TROPICAL STORM",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LEVIGATO",
+          "LUCIDO",
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0518",
+            "spessore": "2/3",
+            "lavorazione": "LEVIGATO, SATINATO, RESINATO, LUCIDO",
+            "quantita": 53
+          },
+          {
+            "numero": "G0593",
+            "spessore": "2/3",
+            "lavorazione": "LEVIGATO, SATINATO, RESINATO, LUCIDO",
+            "quantita": 53
+          },
+          {
+            "numero": "G0661",
+            "spessore": "2/3",
+            "lavorazione": "LEVIGATO, SATINATO, RESINATO, LUCIDO",
+            "quantita": 53
+          }
+        ]
       },
       {
         "nome": "TUNDRA GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LEVIGATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "L00825",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO",
+            "quantita": 27
+          },
+          {
+            "numero": "F06678",
+            "spessore": "2",
+            "lavorazione": "LEVIGATO",
+            "quantita": 27
+          }
+        ]
       },
       {
         "nome": "VENARIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "53011",
+            "spessore": "2",
+            "lavorazione": "LUCIDO, SATINATO",
+            "quantita": 9
+          }
+        ]
       },
       {
         "nome": "VERDE DORATO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0704",
+            "spessore": "2",
+            "lavorazione": "RESINATO, SATINATO",
+            "quantita": 22
+          }
+        ]
       },
       {
         "nome": "VERDE FUSION",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0609",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO, RESINATO, SATINATO",
+            "quantita": 41
+          },
+          {
+            "numero": "G0658",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO, RESINATO, SATINATO",
+            "quantita": 41
+          }
+        ]
       },
       {
         "nome": "VERDE GUATEMALA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3,
+          20
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "32026",
+            "spessore": "3/20",
+            "lavorazione": "LUCIDO, GREZZO",
+            "quantita": 4
+          },
+          {
+            "numero": "F06465",
+            "spessore": "3/20",
+            "lavorazione": "LUCIDO, GREZZO",
+            "quantita": 4
+          }
+        ]
       },
       {
         "nome": "VERDE SALVAN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0717",
+            "spessore": "2",
+            "lavorazione": "GREZZO, RESINATO, SATINATO",
+            "quantita": 47
+          },
+          {
+            "numero": "L00844",
+            "spessore": "2",
+            "lavorazione": "GREZZO, RESINATO, SATINATO",
+            "quantita": 47
+          },
+          {
+            "numero": "G0701",
+            "spessore": "2",
+            "lavorazione": "GREZZO, RESINATO, SATINATO",
+            "quantita": 47
+          }
+        ]
       },
       {
         "nome": "VIRGINIA BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "GREZZO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0642",
+            "spessore": "2",
+            "lavorazione": "SATINATO, GREZZO",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "VISCONT WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "16086",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 96
+          },
+          {
+            "numero": "13264",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 96
+          },
+          {
+            "numero": "20026",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 96
+          },
+          {
+            "numero": "23061",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 96
+          },
+          {
+            "numero": "16082",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 96
+          },
+          {
+            "numero": "23062",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 96
+          },
+          {
+            "numero": "20027",
+            "spessore": "3/2",
+            "lavorazione": "LUCIDO",
+            "quantita": 96
+          }
+        ]
       },
       {
         "nome": "VITORIA REGIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "RESINATO",
+          "SATINATO"
+        ],
+        "blocchi": [
+          {
+            "numero": "G0700",
+            "spessore": "2",
+            "lavorazione": "RESINATO, SATINATO",
+            "quantita": 53
+          },
+          {
+            "numero": "G0529-1-1",
+            "spessore": "2",
+            "lavorazione": "RESINATO, SATINATO",
+            "quantita": 53
+          }
+        ]
       },
       {
         "nome": "WENGHE BORDEAUX",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO"
+        ],
+        "blocchi": [
+          {
+            "numero": "42003",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 14
+          }
+        ]
       }
     ]
   },
