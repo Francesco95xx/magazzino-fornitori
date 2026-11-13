@@ -166570,619 +166570,3543 @@
     "nome": "Zagross Marmi",
     "url": "https://zagrossmarmi.com/pronta-consegna/",
     "stato": "scraped",
-    "note": "Elenco letto dallo shop Pronta Consegna (WooCommerce) con scroll fino a stabilizzazione — scraping automatico notturno.",
+    "note": "Elenco letto dallo shop Pronta Consegna (WooCommerce) con scroll fino a stabilizzazione, con link diretto, numero blocco/spessore/lavorazione/quantità letti dalla scheda di ogni prodotto — scraping automatico notturno.",
     "materiali": [
       {
         "nome": "Afyon",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/afyon-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "14401",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 27
+          }
+        ]
       },
       {
         "nome": "Alaska white",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/alaska-white/",
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Amarello",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/amarello-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "spazzolato"
+        ],
+        "blocchi": [
+          {
+            "numero": "11436",
+            "spessore": "2",
+            "lavorazione": "spazzolato",
+            "quantita": 10
+          }
+        ]
       },
       {
         "nome": "Arabescato",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/arabescato/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: 7",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 7
+          }
+        ]
       },
       {
         "nome": "Arabescato Corchia",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/arabescato-corchia/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucida",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "21083",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 15
+          },
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 51
+          },
+          {
+            "numero": "23045",
+            "spessore": null,
+            "lavorazione": "lucido",
+            "quantita": 47
+          },
+          {
+            "numero": "24003",
+            "spessore": null,
+            "lavorazione": "lucido",
+            "quantita": 27
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 30
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 48
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 76
+          },
+          {
+            "numero": "25069",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 88
+          }
+        ]
       },
       {
         "nome": "Arabescato Corchia Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/arabescato-corchia-gold/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "23159",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 21
+          }
+        ]
       },
       {
         "nome": "Arabescato Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/arabescato-gold/",
+        "spessori": [],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "23065",
+            "spessore": null,
+            "lavorazione": "lucido",
+            "quantita": 54
+          }
+        ]
       },
       {
         "nome": "Arabescato Monet",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/arabescato-monet/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 39
+          }
+        ]
       },
       {
         "nome": "Arabescato Oro",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/arabescato-oro/",
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Arabescato Statuario",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/arabescato-statuario/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "23007",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 56
+          }
+        ]
       },
       {
         "nome": "Arabescato Vagli",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/arabescato-vagli/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucida",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 71
+          },
+          {
+            "numero": "2215",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 43
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 57
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 81
+          },
+          {
+            "numero": "25099",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 57
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 97
+          },
+          {
+            "numero": "26042",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 35
+          }
+        ]
       },
       {
         "nome": "Arabescato Vagli Extra",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/arabescato-vagli-extra/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "26018-1",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 93
+          }
+        ]
       },
       {
         "nome": "Arabescato Vagli Oro",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-vagli-4/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "24035",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 23
+          }
+        ]
       },
       {
         "nome": "Autumn Green",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/autumn-green-pronta-consegna/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "11817",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 4
+          }
+        ]
       },
       {
         "nome": "Azul Bahia",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/azul-bahia-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "42080",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 10
+          }
+        ]
       },
       {
         "nome": "Azul Macaubas",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/azul-macaubas-pronta-consegna-4/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": "2129",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 7
+          }
+        ]
       },
       {
         "nome": "Bardiglio Imperiale",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/bardiglio-imperiale-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "17381",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 8
+          }
+        ]
       },
       {
         "nome": "Bianco Assoluto Impeccabile",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/bianco-assoluto-impeccabile-pronta-consegna/",
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Bianco Rosa",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/bianco-rosa-pronta-consegna-9/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "525",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 11
+          }
+        ]
       },
       {
         "nome": "Bianco Venato",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/bianco-venato-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "06",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 10
+          }
+        ]
       },
       {
         "nome": "Black Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/black-gold/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "160",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 12
+          }
+        ]
       },
       {
         "nome": "Blue Zaffiro",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/blue-zaffiro/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 20
+          }
+        ]
       },
       {
         "nome": "Botticelli extra",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/botticelli-extra/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "25119",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 68
+          }
+        ]
       },
       {
         "nome": "Breccia Antica",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/breccia-antica-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "14708",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 15
+          }
+        ]
       },
       {
         "nome": "Breccia Antica Ligure",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/breccia-antica-ligure-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "16755",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 22
+          }
+        ]
       },
       {
         "nome": "Breccia Medicea",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/breccia-medicea-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "15307",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 11
+          }
+        ]
       },
       {
         "nome": "Breccia Pernice",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/breccia-pernice/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "26032",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 43
+          }
+        ]
       },
       {
         "nome": "Breccia Viola Antica",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/breccia-viola-antica/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 42
+          },
+          {
+            "numero": "26177",
+            "spessore": null,
+            "lavorazione": "levigato",
+            "quantita": 30
+          }
+        ]
       },
       {
         "nome": "Caju",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/caju/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "454",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "Calacatta",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 40
+          },
+          {
+            "numero": "26036",
+            "spessore": null,
+            "lavorazione": "levigato",
+            "quantita": 59
+          },
+          {
+            "numero": "26007",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 34
+          }
+        ]
       },
       {
         "nome": "Calacatta Afyon",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-afyon/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "906",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 29
+          },
+          {
+            "numero": "06",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 21
+          }
+        ]
       },
       {
         "nome": "Calacatta Arabescato",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-arabescato/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "599",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 25
+          }
+        ]
       },
       {
         "nome": "Calacatta Barocco",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-barocco/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 52
+          }
+        ]
       },
       {
         "nome": "Calacatta Barocco Extra",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-barocco-extra/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucida"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 53
+          }
+        ]
       },
       {
         "nome": "Calacatta Batman",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-batman/",
+        "spessori": [],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "23032",
+            "spessore": null,
+            "lavorazione": "lucido",
+            "quantita": 57
+          }
+        ]
       },
       {
         "nome": "Calacatta Borghini",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-borghini/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "23044",
+            "spessore": null,
+            "lavorazione": "lucido",
+            "quantita": 38
+          },
+          {
+            "numero": "24078",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 42
+          },
+          {
+            "numero": "24101",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 56
+          },
+          {
+            "numero": "24140",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 70
+          },
+          {
+            "numero": "24120",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 51
+          },
+          {
+            "numero": "25107",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 70
+          },
+          {
+            "numero": "26021",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 20
+          }
+        ]
       },
       {
         "nome": "Calacatta Borghini – Macchia Vecchia",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-borghini-macchia-vecchia/",
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Calacatta Caldia",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-caldia-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "16963",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 35
+          }
+        ]
       },
       {
         "nome": "Calacatta Carrara",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-carrara/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 91
+          },
+          {
+            "numero": "26180",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 57
+          }
+        ]
       },
       {
         "nome": "Calacatta Corchia",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-corchia/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "23032",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 57
+          },
+          {
+            "numero": "24098",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 60
+          }
+        ]
       },
       {
         "nome": "Calacatta Cremo",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-cremo/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucida",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "22215",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 43
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 46
+          },
+          {
+            "numero": "24126",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 35
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 44
+          }
+        ]
       },
       {
         "nome": "Calacatta Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-gold/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucida"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 34
+          }
+        ]
       },
       {
         "nome": "Calacatta Ibla",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-ibla/",
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "lucido",
+          "spazzolato"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: 14",
+            "spessore": "3",
+            "lavorazione": "spazzolato",
+            "quantita": 14
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 40
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 58
+          }
+        ]
       },
       {
         "nome": "Calacatta Manhattan",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-manhattan/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 30
+          }
+        ]
       },
       {
         "nome": "Calacatta Michelangelo",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-michelangelo/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: 32",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 35
+          }
+        ]
       },
       {
         "nome": "Calacatta Monet",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-monet/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucida",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 80
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 37
+          },
+          {
+            "numero": "23154",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 41
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 37
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 34
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 58
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 22
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 71
+          },
+          {
+            "numero": "25143",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 23
+          },
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": 81
+          },
+          {
+            "numero": "26176",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 24
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 45
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 33
+          },
+          {
+            "numero": "Quantità: 3",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 3
+          }
+        ]
       },
       {
         "nome": "Calacatta Oro",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-oro/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: 15",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 15
+          },
+          {
+            "numero": "404",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 15
+          },
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Calacatta Oro Mezzamacchia",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-oro-mezzamacchia/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 45
+          }
+        ]
       },
       {
         "nome": "Calacatta Oro Monet",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-oro-monet/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 136
+          },
+          {
+            "numero": "26161",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 32
+          }
+        ]
       },
       {
         "nome": "Calacatta Paonazzo",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-paonazzo/",
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "lucida",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 39
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 35
+          },
+          {
+            "numero": "25141/1 + 25141/2",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 52
+          },
+          {
+            "numero": null,
+            "spessore": "3",
+            "lavorazione": "",
+            "quantita": 17
+          }
+        ]
       },
       {
         "nome": "Calacatta Perla",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-perla/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "224",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 48
+          }
+        ]
       },
       {
         "nome": "Calacatta Picasso",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/picasso/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "LUCIDO",
+          "lucida",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "22131",
+            "spessore": "2",
+            "lavorazione": "LUCIDO",
+            "quantita": 79
+          },
+          {
+            "numero": "23081",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 37
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 34
+          }
+        ]
       },
       {
         "nome": "Calacatta Siena",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-siena/",
+        "spessori": [],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "24152",
+            "spessore": null,
+            "lavorazione": "lucido",
+            "quantita": 81
+          }
+        ]
       },
       {
         "nome": "Calacatta Tiffany",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-tiffany/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "24851",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 48
+          }
+        ]
       },
       {
         "nome": "Calacatta Vagli",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-vagli/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucida",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "2340",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 22
+          },
+          {
+            "numero": "22153",
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 84
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 6
+          },
+          {
+            "numero": "25001",
+            "spessore": null,
+            "lavorazione": "lucido",
+            "quantita": 39
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 63
+          }
+        ]
       },
       {
         "nome": "Calacatta Vagli Oro",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-vagli-oro/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "23051",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 46
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 84
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 32
+          }
+        ]
       },
       {
         "nome": "Calacatta Van Gogh",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-van-gogh-pronta-consegna-8/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "269",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 19
+          },
+          {
+            "numero": "119",
+            "spessore": null,
+            "lavorazione": "lucido",
+            "quantita": 44
+          },
+          {
+            "numero": "231",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 10
+          },
+          {
+            "numero": "212",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 34
+          }
+        ]
       },
       {
         "nome": "Calacatta Viola",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-viola/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucida",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": "23042",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 36
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 42
+          },
+          {
+            "numero": "23158",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 29
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 49
+          },
+          {
+            "numero": "24107 –",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 84
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 77
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 60
+          },
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "levigato",
+            "quantita": 38
+          },
+          {
+            "numero": "25025",
+            "spessore": null,
+            "lavorazione": "levigato",
+            "quantita": 88
+          },
+          {
+            "numero": "25111",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 16
+          },
+          {
+            "numero": "25026",
+            "spessore": null,
+            "lavorazione": "levigato",
+            "quantita": 30
+          }
+        ]
       },
       {
         "nome": "Calacatta Viola Extra",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-viola-extra/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 290
+          }
+        ]
       },
       {
         "nome": "Calacatta Viola Monet",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/calacatta-viola-monet/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucida"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: 42",
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 42
+          },
+          {
+            "numero": "26171",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 31
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 31
+          }
+        ]
       },
       {
         "nome": "Ceppo Beige",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/ceppo-beige/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 58
+          }
+        ]
       },
       {
         "nome": "Ceppo di Vagli",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/ceppo-di-vagli/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "26039",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 12
+          }
+        ]
+      },
+      {
+        "nome": "Cippolino Verde",
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/cippolino-verde/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "26187",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 31
+          }
+        ]
       },
       {
         "nome": "Cobalt Green",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/cobalt-green-pronta-consegna/",
+        "spessori": [],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "11454",
+            "spessore": null,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Corchia Paonazzo",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/corchia-paonazzo/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "224",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 53
+          }
+        ]
       },
       {
         "nome": "Crema Delicato",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/crema-delicato/",
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Crema Marfil",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/crema-marfil-pronta-consegna/",
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Crema Valencia",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/crema-valencia-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "1/5114",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 34
+          }
+        ]
       },
       {
         "nome": "Cristallo Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/cristallo-gold/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 50
+          }
+        ]
       },
       {
         "nome": "Crystal Michelangelo",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/crystal-michelangelo/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 17
+          }
+        ]
       },
       {
         "nome": "Ebony Brown",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/ebony-brown/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "spazzolata",
+          "spazzolato"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "spazzolata",
+            "quantita": 8
+          },
+          {
+            "numero": "BL01",
+            "spessore": "2",
+            "lavorazione": "spazzolato",
+            "quantita": 25
+          }
+        ]
       },
       {
         "nome": "Emperador Dark",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/emperador-dark/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "20065",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 52
+          }
+        ]
       },
       {
         "nome": "Eramosa",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/eramosa/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 28
+          },
+          {
+            "numero": "2334",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 12
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 28
+          }
+        ]
       },
       {
         "nome": "fossil marrone",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/fossil-marrone-pronta-consegna-2/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "spazzolata"
+        ],
+        "blocchi": [
+          {
+            "numero": "15042",
+            "spessore": "2",
+            "lavorazione": "spazzolata",
+            "quantita": 8
+          }
+        ]
       },
       {
         "nome": "Fossil Marrone",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/fossil-marrone2/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "spazzolata"
+        ],
+        "blocchi": [
+          {
+            "numero": "15195",
+            "spessore": "2",
+            "lavorazione": "spazzolata",
+            "quantita": 7
+          }
+        ]
       },
       {
         "nome": "Fumo di Londra",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/fumo-di-londra/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "2013/a",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 27
+          }
+        ]
       },
       {
         "nome": "Giallo Siena",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/giallo-siena-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "B/34729",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 9
+          },
+          {
+            "numero": "23132",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 46
+          }
+        ]
       },
       {
         "nome": "Grigio Armani",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/grigioarmani/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "spazzolato"
+        ],
+        "blocchi": [
+          {
+            "numero": "40561",
+            "spessore": "2",
+            "lavorazione": "spazzolato",
+            "quantita": 41
+          }
+        ]
       },
       {
         "nome": "Grigio Imperiale",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/grigio-imperiale-pronta-consegna/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "2008",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 2
+          }
+        ]
       },
       {
         "nome": "Grigio Perla",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/grigio-perla-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "3120",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 10
+          },
+          {
+            "numero": "2271",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 66
+          }
+        ]
       },
       {
         "nome": "Ibla Noir",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/ibla-noir/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "42722",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 27
+          },
+          {
+            "numero": "47816",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 57
+          },
+          {
+            "numero": "48610",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 36
+          },
+          {
+            "numero": "50445",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 61
+          }
+        ]
       },
       {
         "nome": "Kryptonite",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/kryptonite/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 25
+          }
+        ]
       },
       {
         "nome": "Lumin",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/lumin/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "39479",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 1
+          }
+        ]
       },
       {
         "nome": "Macchia Vecchia",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/macchiavecchia-prontaconsegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "15065",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 13
+          },
+          {
+            "numero": "15063",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 23
+          }
+        ]
       },
       {
         "nome": "Nacarado",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/nacarado/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "346",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 16
+          }
+        ]
       },
       {
         "nome": "Nero Marquinia",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/nero-marquinia/",
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 10
+          },
+          {
+            "numero": null,
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 8
+          }
+        ]
       },
       {
         "nome": "Nero seta",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/nero-seta/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "vs38",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 35
+          }
+        ]
       },
       {
         "nome": "New Portoro",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/new-portoro-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 34
+          }
+        ]
       },
       {
         "nome": "Ocean Blue",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/ocean-blue/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: 9",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 9
+          }
+        ]
       },
       {
         "nome": "Ocean Red",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/ocean-red-pronta-consegna/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "11446",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 34
+          }
+        ]
       },
       {
         "nome": "Onice Agata",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-agata/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "1988",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "Onice Arco Iris",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-arco-iris/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "01",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 29
+          }
+        ]
       },
       {
         "nome": "Onice Brown",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-brown/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "66851",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 11
+          }
+        ]
       },
       {
         "nome": "Onice Cappuccino",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-cappuccino-pronta-consegna-6/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: 5",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "Onice Grigio",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-grigio/",
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Onice Mbeya dark",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-mbeya-dark/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "121",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 10
+          }
+        ]
       },
       {
         "nome": "Onice Miele",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-miele-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "10538",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 9
+          },
+          {
+            "numero": "34928",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 3
+          },
+          {
+            "numero": "34928",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 8
+          },
+          {
+            "numero": "34855",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 10
+          },
+          {
+            "numero": "4126",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 11
+          },
+          {
+            "numero": "6627",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 18
+          },
+          {
+            "numero": "6445",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 20
+          },
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Onice Multicolor",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-multicolor/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "17401",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 45
+          }
+        ]
       },
       {
         "nome": "Onice Nero",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-nero/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: 9",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 9
+          }
+        ]
       },
       {
         "nome": "Onice Nuvolato",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-nuvolato/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucida"
+        ],
+        "blocchi": [
+          {
+            "numero": "212/2",
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 7
+          }
+        ]
       },
       {
         "nome": "Onice Orange",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-orange/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "34711",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 3
+          }
+        ]
       },
       {
         "nome": "Onice Rosa",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-rosa/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "3441",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 3
+          }
+        ]
       },
       {
         "nome": "Onice Tanganica",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-tanganica-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "10560",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 18
+          }
+        ]
       },
       {
         "nome": "Onice Verde",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/onice-verde/",
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": null,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Panda White",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/panda-white/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 2
+          }
+        ]
       },
       {
         "nome": "Paonazzo",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/paonazzo/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "21209",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 36
+          },
+          {
+            "numero": "22019",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 74
+          }
+        ]
       },
       {
         "nome": "Paonazzo extra",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/paonazzo-extra/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "22056",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 63
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Paonazzo Viola",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/paonazzo-viola/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: 40",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 40
+          }
+        ]
       },
       {
         "nome": "Patagonia",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/patagonia/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "BL01",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 26
+          }
+        ]
       },
       {
         "nome": "Pietra Grey",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/pietra-grey/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido o spazzolata"
+        ],
+        "blocchi": [
+          {
+            "numero": "01",
+            "spessore": "2",
+            "lavorazione": "lucido o spazzolata",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Portoro",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/portoro-pronta-consegna-8/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "16111",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 60
+          }
+        ]
       },
       {
         "nome": "Precious Stone – Black Mother Pearl",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/precious-stone-black-mother-pearl/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "448",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 3
+          }
+        ]
       },
       {
         "nome": "Precious Stone – Lapislazzuli",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/precious-stone-lapislazzuli/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "455",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 2
+          }
+        ]
       },
       {
         "nome": "Precious Stone – Quartzite White",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/precious-stone-quartzite-white/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "442",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 2
+          }
+        ]
       },
       {
         "nome": "quarzite gialla",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/quarzite-gialla-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "2003",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 4
+          }
+        ]
       },
       {
         "nome": "Rain Forest Brown",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rain-forest-brown/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "601",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "Rain Forest Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/forest-gold-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "2437",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 17
+          }
+        ]
       },
       {
         "nome": "Rain Forest Green",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/forest-green/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "271",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 20
+          }
+        ]
       },
       {
         "nome": "Rainbow sand stone",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rainbow-sand-stone-pronta-consegna-4/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "19/41",
+            "spessore": "3",
+            "lavorazione": "grezzo",
+            "quantita": 4
+          }
+        ]
       },
       {
         "nome": "Rosa Atlantide",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rosa-atlantide-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "5466",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 32
+          }
+        ]
       },
       {
         "nome": "Rosa Bellissimo",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rosa-bellissimo/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "14780",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 7
+          }
+        ]
       },
       {
         "nome": "Rosa Portogallo",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rosa-portogallo-pronta-consegna-3/",
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "14012",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 15
+          },
+          {
+            "numero": "15018",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 10
+          },
+          {
+            "numero": "14780",
+            "spessore": "2",
+            "lavorazione": "",
+            "quantita": 7
+          }
+        ]
       },
       {
         "nome": "Rosa Portogallo Estremoz",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rosa-portogallo-estremoz/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "12402",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 18
+          }
+        ]
       },
       {
         "nome": "rosso antico",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rosso-antico-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "2020",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 11
+          }
+        ]
       },
       {
         "nome": "Rosso Impero",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rosso-impero-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "12450",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 9
+          }
+        ]
       },
       {
         "nome": "rosso levanto",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rosso-levanto-pronta-consegna-2/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucida"
+        ],
+        "blocchi": [
+          {
+            "numero": "6519",
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 8
+          }
+        ]
       },
       {
         "nome": "Rosso Neda",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rosso-neda-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "6635",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 10
+          }
+        ]
       },
       {
         "nome": "Rosso vaticano",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rosso-vaticano-pronta-consegna-2/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "472",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 8
+          }
+        ]
       },
       {
         "nome": "Rosso Verona",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/rosso-verona-pronta-consegna-2/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "3750",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 17
+          }
+        ]
       },
       {
         "nome": "Sahara Noir",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/sahara-noir/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucida"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": null
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": null
+          },
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Salomè",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/salome-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "15911",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 3
+          }
+        ]
       },
       {
         "nome": "Sarrancolin",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/sarrancolin/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "14035",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 14
+          }
+        ]
       },
       {
         "nome": "Satir Fantastico",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/satir-fantastico-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "5570",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 30
+          }
+        ]
       },
       {
         "nome": "Silver Black Matrix",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/silverblackmatrix/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "spazzolato"
+        ],
+        "blocchi": [
+          {
+            "numero": "2705",
+            "spessore": "3",
+            "lavorazione": "spazzolato",
+            "quantita": 14
+          }
+        ]
       },
       {
         "nome": "Soft Brown",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/soft-brown/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "01",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "Soft Grey",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/soft-grey/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido o spazzolata"
+        ],
+        "blocchi": [
+          {
+            "numero": "01",
+            "spessore": "2",
+            "lavorazione": "lucido o spazzolata",
+            "quantita": 62
+          }
+        ]
       },
       {
         "nome": "Statuario",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/statuario-pronta-consegna/",
+        "spessori": [
+          2,
+          3,
+          5
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: 2",
+            "spessore": "5",
+            "lavorazione": "lucido",
+            "quantita": 2
+          },
+          {
+            "numero": "21018",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 9
+          },
+          {
+            "numero": "143/15",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 8
+          },
+          {
+            "numero": "Quantità: 2",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 2
+          }
+        ]
       },
       {
         "nome": "Statuario Altissimo",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/statuario-altissimo/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "23027",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 76
+          }
+        ]
       },
       {
         "nome": "Statuario Corchia",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/statuario-corchia/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "22257",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 62
+          },
+          {
+            "numero": "24097",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 75
+          }
+        ]
       },
       {
         "nome": "Statuario extra",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/statuario/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "21018",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 9
+          }
+        ]
       },
       {
         "nome": "Statuario Extra",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/statuario-extra/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "22110",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 48
+          },
+          {
+            "numero": "22110",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 48
+          }
+        ]
       },
       {
         "nome": "Tartaruga",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/tartaruga/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "2620",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 4
+          }
+        ]
       },
       {
         "nome": "Teak wood stone",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/teak-wood-stone-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "grezzo",
+            "quantita": 19
+          }
+        ]
       },
       {
         "nome": "Teakwood",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/teakwood/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "sk1575",
+            "spessore": "2",
+            "lavorazione": "levigato",
+            "quantita": 8
+          }
+        ]
       },
       {
         "nome": "Travertino",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/travertino-noce-pronta-consegna/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "BL 27",
+            "spessore": "2",
+            "lavorazione": "grezzo",
+            "quantita": 45
+          }
+        ]
       },
       {
         "nome": "Travertino noce",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/travertino-pronta-consegna-3/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: diverse",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "Tuscany Gold",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/tuscany-gold/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "0586",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 27
+          }
+        ]
       },
       {
         "nome": "Venatino",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/venatino/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucida"
+        ],
+        "blocchi": [
+          {
+            "numero": "22176",
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 61
+          }
+        ]
       },
       {
         "nome": "Verde Alpi",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/verde-alpi/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "01",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 11
+          }
+        ]
       },
       {
         "nome": "Verde Fantastico",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/verde-fantastico/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "10584",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 17
+          }
+        ]
       },
       {
         "nome": "Verde Guatemala",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/verde-guatemala-pronta-consegna-2/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "A",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 22
+          }
+        ]
       },
       {
         "nome": "Verde Karzai",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/verde-karzai-pronta-consegna/",
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "12308",
+            "spessore": "3",
+            "lavorazione": "lucido",
+            "quantita": 5
+          }
+        ]
       },
       {
         "nome": "Verde Smeraldo",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/verde-smeraldo/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "Quantità: 4",
+            "spessore": "2",
+            "lavorazione": "lucido",
+            "quantita": 4
+          }
+        ]
       },
       {
         "nome": "Zeus White",
-        "alias": []
+        "alias": [],
+        "url": "https://zagrossmarmi.com/prodotto/zeus-white/",
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucida"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "2",
+            "lavorazione": "lucida",
+            "quantita": 26
+          }
+        ]
       }
     ]
   }
