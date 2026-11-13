@@ -32,7 +32,7 @@ async function scrape(context) {
       const materialRaw = row.querySelector(".mag-grid-title .mag-col-material")?.textContent.trim() || "";
       const blockNum = row.querySelector(".mag-grid-title .mag-col-blocknumber")?.textContent.trim() || null;
       const details = [...row.querySelectorAll(".mag-detail-row")].map((d) => {
-        const sp = d.querySelector(".mag-col-thickness span")?.textContent.replace(/cm/i, "").trim() || null;
+        const sp = d.querySelector(".mag-col-thickness span")?.textContent.replace(/cm/i, "").replace(",", ".").trim() || null;
         const fin = d.querySelector(".mag-col-finishing span")?.textContent.trim() || null;
         const opts = [...d.querySelectorAll(".mag-col-qta option")].map((o) => Number(o.value)).filter((n) => !isNaN(n));
         return { spessore: sp, lavorazione: fin, quantita: opts.length ? Math.max(...opts) : null };
@@ -51,7 +51,7 @@ async function scrape(context) {
     const entry = byName.get(nome);
     rest.filter(Boolean).forEach((a) => entry.alias.add(a));
     for (const d of row.details) {
-      if (d.spessore) entry.spessori.add(Number(d.spessore));
+      if (d.spessore && !isNaN(Number(d.spessore))) entry.spessori.add(Number(d.spessore));
       if (d.lavorazione) entry.lavorazioni.add(d.lavorazione);
       entry.blocchi.push({ numero: row.blockNum, spessore: d.spessore, lavorazione: d.lavorazione || "", quantita: d.quantita });
     }

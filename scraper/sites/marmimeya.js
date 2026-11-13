@@ -40,7 +40,7 @@ async function scrape(context) {
     if (!byName.has(row.nome)) byName.set(row.nome, { spessori: new Set(), blocchi: [] });
     const entry = byName.get(row.nome);
     for (const d of row.details) {
-      if (d.spessore) entry.spessori.add(Number(d.spessore));
+      if (d.spessore && !isNaN(Number(d.spessore))) entry.spessori.add(Number(d.spessore));
       entry.blocchi.push({ numero: row.numero, spessore: d.spessore, lavorazione: "", quantita: d.quantita });
     }
   }
