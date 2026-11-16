@@ -69140,863 +69140,5567 @@
     "nome": "GR Marmi",
     "url": "https://www.grmarmi.it/magazzino/",
     "stato": "scraped",
-    "note": "Elenco letto dal filtro \"MATERIALE\" (select product_cat) del vero Magazzino Online, con login automatico — scraping automatico notturno.",
+    "note": "Elenco letto dal filtro \"MATERIALE\" (select product_cat) del vero Magazzino Online, con login automatico, spessore/lavorazione/numero blocco per ogni prodotto/blocco — scraping automatico notturno.",
     "materiali": [
       {
         "nome": "ACQUABIANCA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16441",
+            "spessore": "",
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16783",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "AFRICAN GOLD",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14387",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14559",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15768",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17428",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "AMAZZONITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17303",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17304",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ARABESCATO CORCHIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15056",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16578",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16927",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17036",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "Il Magazzino",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17361",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17924",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ARABESCATO FANIELLO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18159",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ARABESCATO OROBICO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16983",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16984",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16985",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "Il Magazzino",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ARABESCATO VAGLI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17102-1",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17341",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17403",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17558",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17661",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18221",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18285-1",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "AZUL CIELO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11757",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "AZUL EMPERADOR",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15043",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BARDIGLIO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo, lucido",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17275",
+            "spessore": 2,
+            "lavorazione": "grezzo, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17940",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BARDIGLIO APUANO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo, lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15148",
+            "spessore": 2,
+            "lavorazione": "grezzo, lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BARDIGLIO CAPPELLA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15214",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BARDIGLIO IMPERIALE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17923",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BARDIGLIO NUVOLATO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15155",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15880",
+            "spessore": 3,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BARDIGLIO TRAMBISERA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato",
+          "levigato, lucido",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15764",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16482",
+            "spessore": 2,
+            "lavorazione": "levigato, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16493",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17439",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17840",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BIANCO CARRARA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14320",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15172",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15638",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15928",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15936",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15977",
+            "spessore": 3,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15991",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16125",
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16130",
+            "spessore": 3,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16131",
+            "spessore": 3,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16137",
+            "spessore": 3,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16141",
+            "spessore": 3,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BIANCO GIOIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16733",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BIANCO MICHELANGELO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16478",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BIANCO RHINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13437",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14710",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14904/1",
+            "spessore": 3,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14980",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15139",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16564",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16720",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17209",
+            "spessore": 3,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17214",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17373",
+            "spessore": 3,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18109",
+            "spessore": 3,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18113",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BIANCO VENATO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13681",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BLACK SWAN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16807",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BOLGHERI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato, lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17679",
+            "spessore": 2,
+            "lavorazione": "levigato, lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BOTTICELLI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17608",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BOTTICINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18097",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BRECCIA AURORA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17149",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BRECCIA BLUE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17421",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BRECCIA DAMASCATA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17307",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17566",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BRECCIA de VENDOME",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17433",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BRECCIA DIVINA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17771",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17772",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17863",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18247",
+            "spessore": 2,
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18255",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BRECCIA ETNA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17685",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BRECCIA GARDENA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17123",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BRECCIA GORGONA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16520",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BRECCIA PERNICE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17997",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18212",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "BRECCIA VATICANO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17684",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13826/2",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14947",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16248",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16959",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17228",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17362",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18218",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18219",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18294",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA 900",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17142",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17240",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA BONA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18260",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA BORGHINI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo, lucido",
+          "levigato, lucido",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16692",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16696",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16957",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17485",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17591",
+            "spessore": 2,
+            "lavorazione": "grezzo, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17946",
+            "spessore": 2,
+            "lavorazione": "levigato, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18003",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18165",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18180",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 331-9",
+            "spessore": 2,
+            "lavorazione": "levigato, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 334-9",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA CANYON",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17383",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17384",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA CAPOLAVORO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17717",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA CARRARA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato, lucido",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13406",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15233",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15677",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15744",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15849",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15866",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16088",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16089",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16443",
+            "spessore": 2,
+            "lavorazione": "levigato, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16631",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17005",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17130",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA CORTINA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17179",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17284",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA FABBRICOTTI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17019",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17229",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA LINCOLN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17494",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA MACCHIA VECCHIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11565",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 12586",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 12823",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 12867",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 12892",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13134",
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA MANHATTAN",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "CALACATTA MONNALISA",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "CALACATTA ORIENTE",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "CALACATTA ROSE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17470",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA TERRA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18205-1",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18206",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18208",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18296",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18307",
+            "spessore": 2,
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18309",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA TURQUOISE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18183",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA VAGLI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17398",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17399",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17409",
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": null,
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17667-1",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18167",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALACATTA VIOLA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "grezzo, lucido",
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16822",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16823",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17176",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17177",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17264",
+            "spessore": 2,
+            "lavorazione": "grezzo, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17970",
+            "spessore": 2,
+            "lavorazione": "grezzo, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18155",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18283",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALCITE AZZURRA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12167/2",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17664",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18224",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CALDIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14941/2",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15218",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CAMOUFLAGE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18029",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CARA GOLD",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12530",
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": null,
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18199",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18200",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CARDOSO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15970",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16325",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16326",
+            "spessore": 3,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16346",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16351",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16543",
+            "spessore": 3,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16544",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16545",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CEPPO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17136",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17137",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CEPPO CHAMPAGNE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18186",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18242",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CEPPO DI VIGNA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13657",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17550",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CEPPO LOMBARDO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17017",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17018",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17020",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17100",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CIPOLLINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16541/1",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16541/3",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CIPOLLINO BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16573",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "COFFEE SOUR",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18181",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18244",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "COVELANO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14479",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14707",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14708",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15397",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15403",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16038",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17222",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17224",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CREMO DELICATO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16071",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16299",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 263/9",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CREMO FUME’",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17241",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CREMO ONDULATO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16992",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CRISTALLO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17346",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "Il Magazzino",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17529",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17651",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18007",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18013",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CRISTALLO DI ROCCA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15426",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CRISTALLO MURANO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17779",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "CRISTALLO PINK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato, lucido",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17053",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17709",
+            "spessore": 2,
+            "lavorazione": "levigato, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18176",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "DAINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12579",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17592",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17594",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "DOLCE VITA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17989",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18031",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "Il Magazzino",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18145",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18187",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18188",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18280",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "EASY BROWN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12430",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "EMPERADOR",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 277/9",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "EMPERADOR LIGHT",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18041",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "EMPERADOR TURCO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11534",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "EVEREST WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo, lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11843",
+            "spessore": 2,
+            "lavorazione": "grezzo, lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "EXPLOSION BLUE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18225",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "FANTASTICO ARNI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16364",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16526",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16741",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "FANTASY VAGLI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16742",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "FIOR DI PESCO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "Il Magazzino",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "FOREST GREEN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "GR 31-9",
+            "spessore": 3,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "FOSSILE MARRONE",
-        "alias": []
-      },
-      {
-        "nome": "FOUR SEASON",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12464",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GIALLO NOCE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 10818",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 10825",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 10826",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 10829",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GIALLO SIENA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13418/1",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GRAND ANTIQUE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16861",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16872",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16904",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16911",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GREY SAN FLORENT",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11673",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GRIGIO CAMOUFLAGE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15050",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GRIGIO CARNICO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16788",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17570",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GRIGIO COLLEMANDINA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17944",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GRIGIO FIOR DI BOSCO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato",
+          "levigato, lucido",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14327",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17092",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17119",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17120",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17133",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18233",
+            "spessore": 2,
+            "lavorazione": "levigato, lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GRIGIO OROBICO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16981",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GRIGIO TEMPESTA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17663",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GRIGIO TIFLET",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13985",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13989",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "GRIGIO VALENTINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16594",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "HENRY IV",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14570",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ICE FLAKE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12030",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ICE ONYX",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17839",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ICEBERG BLUE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16685",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16910",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16915",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17832",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "JERISSA BROWN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 10614",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "LABRADORITE MADAGASCAR",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17564",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "LILAC",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15544",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16040",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "LIMESTONE GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11275",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "LONDON GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15046",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15054",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16926",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "LUCCICOSO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16993-2",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "LUCE BIANCA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "grezzo, lucido",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13513",
+            "spessore": 2,
+            "lavorazione": "grezzo, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13514",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13515",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "MAMBA GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14522",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "MICHELANGELO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR16457",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "MICHELANGELO NAMIBIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17382",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "MONCERVETTO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14158",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "MONET",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16051",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16405",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16491",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17057",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17386",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17462",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17604",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18284",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18299",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "NAICA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17896",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17999",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18254",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
+      },
+      {
+        "nome": "NAMIBIA SKY",
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17983",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "NERO MARQUINA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16011",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16939",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17131",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17270",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "NERO PRADO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12456",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "NOTRE DAME",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17434",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17503",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "OCEAN BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "spazzolato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16962",
+            "spessore": 2,
+            "lavorazione": "spazzolato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "OLIVE BROWN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12361",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "OLIVO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12891",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ONDA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14765",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ONICE ARANCIO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16852",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ONICE BIANCO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13549",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13658",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13660",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13661",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ONICE CHESTNUT",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 10379",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ONICE IVORY WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 8450",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ONICE NERO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12238",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ONICE TIGER",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "grezzo, lucido",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11315",
+            "spessore": 2,
+            "lavorazione": "grezzo, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 11316",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 11417",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "OPAL WHITE",
-        "alias": []
-      },
-      {
-        "nome": "ORIENTAL CEPPO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 212/9",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 213/9",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 215/9",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 224/9",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "OYSTER",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16202",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16436",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16551",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16637",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16642",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17781",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "OYSTER APUANO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16686",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16689",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PALISSANDRO BLUETTE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 6880",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PALISSANDRO BRONZO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11886",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PALISSANDRO CLASSICO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 10137/1",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 10909",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 11600",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 12193",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 12692",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 6375",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 9009-1",
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": null,
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          },
+          {
+            "numero": "GR 9867",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PALISSANDRO ONICIATO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12218",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PALISSANDRO TIGRATO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11175",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PAONAZZO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12244",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 12822",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PATAGONIA PINK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17875",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17895",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PERLINO BIANCO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16513",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PERLINO ROSA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16943",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16947",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16948",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PIETRA GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato",
+          "lucido",
+          "spazzolato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12869/2",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 12871",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 12971",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13202",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15752",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15986",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16238",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16296",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "16380",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16389",
+            "spessore": 3,
+            "lavorazione": "spazzolato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PINK RHINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato, lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18118",
+            "spessore": 2,
+            "lavorazione": "levigato, lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "POLAR ICE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16638",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18290",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18291",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "POLAR WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15166",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PORT LAURENT",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11272",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16687",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16688",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "PORTORO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 5078/1",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "QUARZITE LOTO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16323",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16404",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "QUARZITE MONTBLANC",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16367",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17446",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "QUARZITE ROSSA",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "GR 6354",
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "QUARZITE VERDE",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "ROSA PORTOGALLO",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "ROSA VENEZIA",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "ROSSO ETRUSCO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18100",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ROSSO LEPANTO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18289",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ROSSO LEVANTO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 10367",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14962",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16018",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18229",
+            "spessore": 2,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ROSSO MALAGA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo, lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18263",
+            "spessore": 2,
+            "lavorazione": "grezzo, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18301-1",
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ROSSO OROBICO",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
+      },
+      {
+        "nome": "ROSSO SENESE",
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "ROSSO VERONA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo, lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 6176/1",
+            "spessore": 2,
+            "lavorazione": "grezzo, lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ROYAL BEIGE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11745",
+            "spessore": 3,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 11747",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "SAHARA GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13493/1",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15882",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "SERPEGGIANTE G7",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "grezzo, lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12092",
+            "spessore": 2,
+            "lavorazione": "grezzo, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15642",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15797",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16409",
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "SILVER GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "SILVER ROOTS",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "SILVER WAVE",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "SKY FIRE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16789",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "STATUARIO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato, lucido",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16160",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17364",
+            "spessore": 2,
+            "lavorazione": "levigato, lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "STRIATO OLIMPO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13334",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "SUNGREY",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": "GR 15820",
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TAJ MAHAL",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato, lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16370",
+            "spessore": 3,
+            "lavorazione": "levigato, lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18016",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TARTARUGA",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "TERRA DI SIENA",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "THALA BEIGE",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": []
       },
       {
         "nome": "THALA GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13264",
+            "spessore": 3,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13272",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13285",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13287",
+            "spessore": 3,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TOBACCO BROWN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13209",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13541",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13671",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13955",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRANI ROSATA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 7088",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERONYX",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14285",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17242",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18192",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18245",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO ALABASTRINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17455",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO ASCOLANO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15652",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16083",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO CAMPO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18156",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO CLASSICO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11361",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14641",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15065",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17458",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17980",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18136",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18237-1",
+            "spessore": 2,
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO CREAM",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17927",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18025",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO GIALLO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 7684",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO NAVONA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14868",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15783",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16757",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17844-1",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18011",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO NOCE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "grezzo, levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16229",
+            "spessore": 2,
+            "lavorazione": "grezzo, levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17627",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO PICASSO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17866",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO PLATINUM",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13793",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17982",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO RIMINI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 11471",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO ROSSO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17629",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO SILVER",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13021",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13059",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 13937",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16064",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16461-1",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16464",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16597",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17854",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17855",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18008",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18021",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 18148",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO SUPER WHITE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14420/2",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16197",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17389",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO TITANIUM",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "grezzo, levigato",
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12807",
+            "spessore": 2,
+            "lavorazione": "grezzo, levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 12959",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16975",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17648",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TRAVERTINO TITANIUM GOLD",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14431",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TULIP GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato, lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17012",
+            "spessore": 2,
+            "lavorazione": "levigato, lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "TUNDRA GREY",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15587",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VEIRA GREEN",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17851",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VERDE ALPI",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12004",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VERDE ANTIGUA",
-        "alias": []
+        "alias": [],
+        "spessori": [],
+        "lavorazioni": [],
+        "blocchi": [
+          {
+            "numero": null,
+            "spessore": "",
+            "lavorazione": "",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VERDE AVER",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15066",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VERDE GUATEMALA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          3
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 9936",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 9954",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VERDE LEVANTO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 15956",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 15983",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16167",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16439-2",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VERDE LUANA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17483",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 17484",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VERDE PATAGONIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16853",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16854",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VERDE PATRIZIA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17838",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VERDE RAMEGGIATO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17567",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VERDE SAN DENISE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14117",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VERDE SELVA",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 18185",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VITTORIA FALLS",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 12070",
+            "spessore": 2,
+            "lavorazione": "levigato",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "VOLGA BLUE",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2,
+          3
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 16050",
+            "spessore": 3,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16576",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16577",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ZEBRINO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 14704",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 16700",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ZEBRINO BLACK",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo",
+          "lucido"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 13746",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14013",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14743",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14747",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14748",
+            "spessore": 2,
+            "lavorazione": "lucido",
+            "quantita": null
+          },
+          {
+            "numero": "GR 14802",
+            "spessore": 2,
+            "lavorazione": "grezzo",
+            "quantita": null
+          }
+        ]
       },
       {
         "nome": "ZECEVO",
-        "alias": []
+        "alias": [],
+        "spessori": [
+          2
+        ],
+        "lavorazioni": [
+          "grezzo, levigato"
+        ],
+        "blocchi": [
+          {
+            "numero": "GR 17148",
+            "spessore": 2,
+            "lavorazione": "grezzo, levigato",
+            "quantita": null
+          }
+        ]
       }
     ]
   },
